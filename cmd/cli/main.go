@@ -1,7 +1,11 @@
 package main
 
-import "tviso-scrapper/cmd"
+import (
+	"tviso-scrapper/pkg/cli"
+)
 
 func main() {
-	panic(cmd.Start())
+	if err := cli.Execute(); err != nil {
+		panic(err)
+	}
 }
