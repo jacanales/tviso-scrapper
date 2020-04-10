@@ -1,0 +1,3481 @@
+{
+  "results": {
+    "hasMore": true,
+    "count": {
+      "all": 544,
+      "mediaType": {
+        "series": 169,
+        "movies": 370,
+        "tv-shows": 5
+      },
+      "status": {
+        "pending": 157,
+        "following": 60,
+        "watched": 327
+      }
+    },
+    "collection": [
+    {
+      "idm": 3864,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt0808510",
+      "tags": [
+      {
+        "id": "Infantil",
+        "name": "Infantil",
+        "type": "category"
+      },
+      {
+        "id": "Familiar",
+        "name": "Familiar",
+        "type": "category"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Comedy",
+        "name": "Comedia",
+        "type": "genre"
+      },
+      {
+        "id": "googleplay",
+        "name": "Google Play",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 6.754872107186358,
+      "name": "Rompedientes",
+      "images": {
+        "backdrop": "/bf/a2/bfa2055ad6bcb3c66ccbd2155507b2ef.jpg",
+        "poster": "/bf/a2/bfa2055ad6bcb3c66ccbd2155507b2ef.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/bf/a2/bfa2055ad6bcb3c66ccbd2155507b2ef.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/bf/a2/bfa2055ad6bcb3c66ccbd2155507b2ef.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/bf/a2/bfa2055ad6bcb3c66ccbd2155507b2ef.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/bf/a2/bfa2055ad6bcb3c66ccbd2155507b2ef.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/bf/a2/bfa2055ad6bcb3c66ccbd2155507b2ef.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/bf/a2/bfa2055ad6bcb3c66ccbd2155507b2ef.jpg"
+        }
+      },
+      "year": 2010,
+      "runtime": 101,
+      "ageRating": 18,
+      "mainGenre": "Comedy",
+      "originalName": "Tooth Fairy",
+      "shortPlot": "Derek Thompson (Dwayne Johnson) un popular jugador de Hockey sobre hielo, c...",
+      "availability": {
+        "vodSummary": [
+          "googleplay",
+          "wuaki"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/Rompedientes?id=YPCVztHBsJw&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/rompedientes"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        },
+        {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/Rompedientes?id=YPCVztHBsJw&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "pending",
+        "addedAt": "2020-04-06T23:21:48+00:00"
+      }
+    },
+    {
+      "idm": 4289,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt0327850",
+      "tags": [
+      {
+        "id": "Familiar",
+        "name": "Familiar",
+        "type": "category"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "person-12158",
+        "name": "Rosario Dawson",
+        "type": "person"
+      },
+      {
+        "id": "Exploradores",
+        "name": "Exploradores",
+        "type": "category"
+      },
+      {
+        "id": "Jungla",
+        "name": "Jungla",
+        "type": "category"
+      },
+      {
+        "id": "Adventure",
+        "name": "Aventura",
+        "type": "genre"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "itunes",
+        "name": "iTunes",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 7.376802884615385,
+      "name": "El tesoro del Amazonas",
+      "images": {
+        "backdrop": "/75/a6/75a630525489313b9a3cbab99597f9f4.jpg",
+        "poster": "/75/a6/75a630525489313b9a3cbab99597f9f4.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/75/a6/75a630525489313b9a3cbab99597f9f4.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/75/a6/75a630525489313b9a3cbab99597f9f4.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/75/a6/75a630525489313b9a3cbab99597f9f4.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/75/a6/75a630525489313b9a3cbab99597f9f4.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/75/a6/75a630525489313b9a3cbab99597f9f4.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/75/a6/75a630525489313b9a3cbab99597f9f4.jpg"
+        }
+      },
+      "year": 2003,
+      "runtime": 104,
+      "ageRating": 18,
+      "mainGenre": "Action",
+      "originalName": "The Rundown",
+      "shortPlot": "Para pagar una deuda, un cazador de recompensas (The Rock) viaja a Helldora...",
+      "availability": {
+        "vodSummary": [
+          "wuaki",
+          "itunes"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/el-tesoro-del-amazonas"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 2.99
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/el-tesoro-del-amazonas"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 2.99
+        },
+        {
+          "providerId": "itunes",
+          "url": {
+            "embed": null,
+            "native": "itmss://itunes.apple.com/es/movie/tesoro-del-amazonas/id444062589?v0=WWW-EUES-ITSTOP100-MOVIES&l=es&ign-mpt=uo%3D4",
+            "web": "https://itunes.apple.com/es/movie/tesoro-del-amazonas/id444062589"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "pending",
+        "addedAt": "2020-04-06T23:21:10+00:00"
+      }
+    },
+    {
+      "idm": 12927,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt0492956",
+      "tags": [
+      {
+        "id": "WaltDisney",
+        "name": "Walt Disney",
+        "type": "category"
+      },
+      {
+        "id": "Familiar",
+        "name": "Familiar",
+        "type": "category"
+      },
+      {
+        "id": "Adolescentes",
+        "name": "Adolescentes",
+        "type": "category"
+      },
+      {
+        "id": "FutbolAmericano",
+        "name": "Fútbol Americano",
+        "type": "category"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Comedy",
+        "name": "Comedia",
+        "type": "genre"
+      },
+      {
+        "id": "googleplay",
+        "name": "Google Play",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 7.158597902600201,
+      "name": "Papá por sorpresa",
+      "images": {
+        "backdrop": "/02/da/02da54bbf8acbc831a86ac8fd2de3d50.jpg",
+        "poster": "/02/da/02da54bbf8acbc831a86ac8fd2de3d50.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/02/da/02da54bbf8acbc831a86ac8fd2de3d50.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/02/da/02da54bbf8acbc831a86ac8fd2de3d50.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/02/da/02da54bbf8acbc831a86ac8fd2de3d50.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/02/da/02da54bbf8acbc831a86ac8fd2de3d50.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/02/da/02da54bbf8acbc831a86ac8fd2de3d50.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/02/da/02da54bbf8acbc831a86ac8fd2de3d50.jpg"
+        }
+      },
+      "year": 2007,
+      "runtime": 110,
+      "ageRating": 13,
+      "mainGenre": "Comedy",
+      "originalName": "The Game Plan",
+      "shortPlot": "Joe Kingman, jugador de fútbol americano, es un hombre soltero, famoso y mi...",
+      "availability": {
+        "vodSummary": [
+          "googleplay",
+          "wuaki"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/Papá_Por_Sorpresa?id=yNKOfVFHAj4&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 1.99
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/papa-por-sorpresa"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 1.99
+        },
+        {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/Papá_Por_Sorpresa?id=yNKOfVFHAj4&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 1.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "watched",
+        "addedAt": "2020-04-06T23:21:01+00:00"
+      }
+    },
+    {
+      "idm": 1101,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt0419706",
+      "tags": [
+      {
+        "id": "Extraterrestres",
+        "name": "Extraterrestres",
+        "type": "category"
+      },
+      {
+        "id": "Videojuegos",
+        "name": "Videojuegos",
+        "type": "category"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "person-185",
+        "name": "Rosamund Pike",
+        "type": "person"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "itunes",
+        "name": "iTunes",
+        "type": "provider"
+      },
+      {
+        "id": "googleplay",
+        "name": "Google Play",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 6.496306555863343,
+      "name": "Doom",
+      "images": {
+        "backdrop": "/43/51/43516e62130fc20acba49077f59d4bf1.jpg",
+        "poster": "/43/51/43516e62130fc20acba49077f59d4bf1.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/43/51/43516e62130fc20acba49077f59d4bf1.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/43/51/43516e62130fc20acba49077f59d4bf1.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/43/51/43516e62130fc20acba49077f59d4bf1.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/43/51/43516e62130fc20acba49077f59d4bf1.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/43/51/43516e62130fc20acba49077f59d4bf1.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/43/51/43516e62130fc20acba49077f59d4bf1.jpg"
+        }
+      },
+      "year": 2005,
+      "runtime": 105,
+      "ageRating": 18,
+      "mainGenre": "Action",
+      "originalName": "Doom",
+      "shortPlot": "Año 2145. Un escuadrón especial acude a la llamada de un laboratorio en el...",
+      "availability": {
+        "vodSummary": [
+          "itunes",
+          "googleplay"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/Doom?id=ksAJNbB6bNc&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 2.99
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/Doom?id=ksAJNbB6bNc&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 2.99
+        },
+        {
+          "providerId": "itunes",
+          "url": {
+            "embed": null,
+            "native": "itmss://itunes.apple.com/es/movie/doom/id682711000?v0=WWW-EUES-ITSTOP100-MOVIES&l=es&ign-mpt=uo%3D4",
+            "web": "https://itunes.apple.com/es/movie/doom/id682711000"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "watched",
+        "addedAt": "2020-04-06T23:20:59+00:00"
+      }
+    },
+    {
+      "idm": 372562,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt0882977",
+      "tags": [
+      {
+        "id": "Freeforme",
+        "name": "Gratis para mí",
+        "type": "freeForMe"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "person-2138",
+        "name": "Jon Bernthal",
+        "type": "person"
+      },
+      {
+        "id": "Infiltrados",
+        "name": "Infiltración",
+        "type": "category"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "netflix_es",
+        "name": "Netflix",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 7.46785456296653,
+      "name": "El mensajero",
+      "images": {
+        "backdrop": "/77/dd/77dd492f0ce18c38858b2ddd2b2e8e93.jpg",
+        "poster": "/77/dd/77dd492f0ce18c38858b2ddd2b2e8e93.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/77/dd/77dd492f0ce18c38858b2ddd2b2e8e93.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/77/dd/77dd492f0ce18c38858b2ddd2b2e8e93.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/77/dd/77dd492f0ce18c38858b2ddd2b2e8e93.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/77/dd/77dd492f0ce18c38858b2ddd2b2e8e93.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/77/dd/77dd492f0ce18c38858b2ddd2b2e8e93.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/77/dd/77dd492f0ce18c38858b2ddd2b2e8e93.jpg"
+        }
+      },
+      "year": 2013,
+      "runtime": 112,
+      "ageRating": 18,
+      "mainGenre": "Action",
+      "originalName": "Snitch",
+      "shortPlot": "Arrestado con cargos de distribución de drogas después de recoger un paquet...",
+      "availability": {
+        "vodSummary": [
+          "wuaki",
+          "netflix_es"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "netflix_es",
+          "url": {
+            "embed": null,
+            "native": "nflx://www.netflix.com/Browse?q=action%3Dplay%26movieid%3D$70241758",
+            "web": "https://www.netflix.com/watch/70241758"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "netflix_es",
+          "url": {
+            "embed": null,
+            "native": "nflx://www.netflix.com/Browse?q=action%3Dplay%26movieid%3D$70241758",
+            "web": "https://www.netflix.com/watch/70241758"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/el-mensajero"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 2.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "pending",
+        "addedAt": "2020-04-06T23:20:45+00:00"
+      }
+    },
+    {
+      "idm": 492704,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt1267297",
+      "tags": [
+      {
+        "id": "Freeforme",
+        "name": "Gratis para mí",
+        "type": "freeForMe"
+      },
+      {
+        "id": "Superheroes",
+        "name": "Superpoderes",
+        "type": "category"
+      },
+      {
+        "id": "BasadasEnLibros",
+        "name": "Basadas en Libros",
+        "type": "category"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "EdadMedia",
+        "name": "Edad Media",
+        "type": "category"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "amazon",
+        "name": "Amazon",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 6.732201515595017,
+      "name": "Hércules",
+      "images": {
+        "backdrop": "/83/14/8314561e35c40eda53d7999e0b016994.jpg",
+        "poster": "/83/14/8314561e35c40eda53d7999e0b016994.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/83/14/8314561e35c40eda53d7999e0b016994.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/83/14/8314561e35c40eda53d7999e0b016994.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/83/14/8314561e35c40eda53d7999e0b016994.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/83/14/8314561e35c40eda53d7999e0b016994.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/83/14/8314561e35c40eda53d7999e0b016994.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/83/14/8314561e35c40eda53d7999e0b016994.jpg"
+        }
+      },
+      "year": 2014,
+      "runtime": 98,
+      "ageRating": 18,
+      "mainGenre": "Action",
+      "originalName": "Hercules",
+      "shortPlot": "Hércules, como todos los héroes griegos, es un semidios. Tras realizar los...",
+      "availability": {
+        "vodSummary": [
+          "googleplay",
+          "amazon"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "amazon",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://www.primevideo.com/detail/0NLRQC2EWI67ZHRIJ5PO14RDLV"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "amazon",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://www.primevideo.com/detail/0NLRQC2EWI67ZHRIJ5PO14RDLV"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/Hércules_Version_Extendida_VE?id=DgGJjACIhjw&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 17.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "watched",
+        "addedAt": "2020-04-06T23:20:32+00:00"
+      }
+    },
+    {
+      "idm": 1489434,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt2126355",
+      "tags": [
+      {
+        "id": "Freeforme",
+        "name": "Gratis para mí",
+        "type": "freeForMe"
+      },
+      {
+        "id": "FinDelMundo",
+        "name": "Fin del mundo",
+        "type": "category"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "Terremotos",
+        "name": "Terremotos",
+        "type": "category"
+      },
+      {
+        "id": "RelacionPadreHijo",
+        "name": "Relación padre-hijo",
+        "type": "category"
+      },
+      {
+        "id": "person-35912",
+        "name": "Alexandra Daddario",
+        "type": "person"
+      },
+      {
+        "id": "Tsunami",
+        "name": "Tsunami",
+        "type": "category"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "netflix_es",
+        "name": "Netflix",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 6.322533849129594,
+      "name": "San Andrés",
+      "images": {
+        "poster": "/92/58/92581f14e5ffbed308f7f968468414ad.jpg",
+        "backdrop": "/92/58/92581f14e5ffbed308f7f968468414ad.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/92/58/92581f14e5ffbed308f7f968468414ad.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/92/58/92581f14e5ffbed308f7f968468414ad.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/92/58/92581f14e5ffbed308f7f968468414ad.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/92/58/92581f14e5ffbed308f7f968468414ad.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/92/58/92581f14e5ffbed308f7f968468414ad.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/92/58/92581f14e5ffbed308f7f968468414ad.jpg"
+        }
+      },
+      "year": 2015,
+      "runtime": 114,
+      "ageRating": 18,
+      "mainGenre": "Action",
+      "originalName": "San Andreas",
+      "shortPlot": "La Costa de California es un lugar tranquilo en el que los días transcurren...",
+      "availability": {
+        "vodSummary": [
+          "itunes",
+          "netflix_es",
+          "googleplay",
+          "wuaki",
+          "yomvi"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "netflix_es",
+          "url": {
+            "embed": null,
+            "native": "nflx://www.netflix.com/Browse?q=action%3Dplay%26movieid%3D$80027980",
+            "web": "https://www.netflix.com/watch/80027980"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "netflix_es",
+          "url": {
+            "embed": null,
+            "native": "nflx://www.netflix.com/Browse?q=action%3Dplay%26movieid%3D$80027980",
+            "web": "https://www.netflix.com/watch/80027980"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/san-andres"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 1.99
+        },
+        {
+          "providerId": "itunes",
+          "url": {
+            "embed": null,
+            "native": "itmss://itunes.apple.com/es/movie/san-andrés/id994407231?v0=WWW-EUES-ITSTOP100-MOVIES&l=es&ign-mpt=uo%3D4",
+            "web": "https://itunes.apple.com/es/movie/san-andrés/id994407231"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 1.99
+        },
+        {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/San_Andrés?id=F935jShNmNo&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        },
+        {
+          "providerId": "yomvi",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "http://ver.movistarplus.es/ficha/san-andres/?id=1217017"
+          },
+          "subscriptionRequiredForUser": true,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        }
+        ]
+      },
+      "userData": {
+        "status": "watched",
+        "addedAt": "2020-04-06T23:20:29+00:00"
+      }
+    },
+    {
+      "idm": 1595453,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt1489889",
+      "tags": [
+      {
+        "id": "Freeforme",
+        "name": "Gratis para mí",
+        "type": "freeForMe"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "BuddyMovies",
+        "name": "Buddy movies",
+        "type": "category"
+      },
+      {
+        "id": "person-1237",
+        "name": "Aaron Paul",
+        "type": "person"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "netflix_es",
+        "name": "Netflix",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 6.6118508655126496,
+      "name": "Un espía y medio",
+      "images": {
+        "backdrop": "/2f/a6/2fa69192cda6c27334c2668ae856c83e.jpg",
+        "poster": "/2f/a6/2fa69192cda6c27334c2668ae856c83e.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/2f/a6/2fa69192cda6c27334c2668ae856c83e.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/2f/a6/2fa69192cda6c27334c2668ae856c83e.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/2f/a6/2fa69192cda6c27334c2668ae856c83e.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/2f/a6/2fa69192cda6c27334c2668ae856c83e.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/2f/a6/2fa69192cda6c27334c2668ae856c83e.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/2f/a6/2fa69192cda6c27334c2668ae856c83e.jpg"
+        }
+      },
+      "year": 2016,
+      "runtime": 107,
+      "ageRating": 18,
+      "mainGenre": "Action",
+      "originalName": "Central Intelligence",
+      "shortPlot": "Un letal agente del la CIA (Johnson), víctima de acoso escolar en su adoles...",
+      "availability": {
+        "vodSummary": [
+          "itunes",
+          "googleplay",
+          "netflix_es",
+          "wuaki"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "netflix_es",
+          "url": {
+            "embed": null,
+            "native": "nflx://www.netflix.com/Browse?q=action%3Dplay%26movieid%3D$80094318",
+            "web": "https://www.netflix.com/watch/80094318"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "netflix_es",
+          "url": {
+            "embed": null,
+            "native": "nflx://www.netflix.com/Browse?q=action%3Dplay%26movieid%3D$80094318",
+            "web": "https://www.netflix.com/watch/80094318"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/un-espia-y-medio"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 2.99
+        },
+        {
+          "providerId": "itunes",
+          "url": {
+            "embed": null,
+            "native": "itmss://itunes.apple.com/es/movie/un-espía-y-medio/id1116350600?v0=WWW-EUES-ITSTOP100-MOVIES&l=es&ign-mpt=uo%3D4",
+            "web": "https://itunes.apple.com/es/movie/un-espía-y-medio/id1116350600"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        },
+        {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/Un_espía_y_medio?id=hrVUOwtTpZU&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "pending",
+        "addedAt": "2020-04-06T23:20:26+00:00"
+      }
+    },
+    {
+      "idm": 5614,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt1433108",
+      "tags": [
+      {
+        "id": "Freeforme",
+        "name": "Gratis para mí",
+        "type": "freeForMe"
+      },
+      {
+        "id": "Crimenes",
+        "name": "Crímenes",
+        "type": "category"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "Talleres",
+        "name": "Talleres",
+        "type": "category"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "hbo",
+        "name": "HBO",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 7.608716707021792,
+      "name": "Sed de venganza",
+      "images": {
+        "poster": "/b1/49/b149db8bbbfa47cd84aa56a799d63a00.jpg",
+        "backdrop": "/b1/49/b149db8bbbfa47cd84aa56a799d63a00.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/b1/49/b149db8bbbfa47cd84aa56a799d63a00.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/b1/49/b149db8bbbfa47cd84aa56a799d63a00.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/b1/49/b149db8bbbfa47cd84aa56a799d63a00.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/b1/49/b149db8bbbfa47cd84aa56a799d63a00.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/b1/49/b149db8bbbfa47cd84aa56a799d63a00.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/b1/49/b149db8bbbfa47cd84aa56a799d63a00.jpg"
+        }
+      },
+      "year": 2010,
+      "runtime": 98,
+      "ageRating": 18,
+      "mainGenre": "Action",
+      "originalName": "Faster",
+      "shortPlot": "Un ex presidiario (Dwayne Johnson) quiere vengar la muerte de su hermano, o...",
+      "availability": {
+        "vodSummary": [
+          "googleplay",
+          "wuaki",
+          "itunes",
+          "hbo"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "hbo",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.hboespana.com/movies/faster/3b1f95c-011f5939690/play"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "hbo",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.hboespana.com/movies/faster/3b1f95c-011f5939690/play"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/sed-de-venganza"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 1.99
+        },
+        {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/Sed_De_Venganza?id=aw9UxLgbPsU&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 1.99
+        },
+        {
+          "providerId": "itunes",
+          "url": {
+            "embed": null,
+            "native": "itmss://itunes.apple.com/es/movie/sed-de-venganza/id540042990?v0=WWW-EUES-ITSTOP100-MOVIES&l=es&ign-mpt=uo%3D4",
+            "web": "https://itunes.apple.com/es/movie/sed-de-venganza/id540042990"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "pending",
+        "addedAt": "2020-04-06T23:20:17+00:00"
+      }
+    },
+    {
+      "idm": 2681,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt0209163",
+      "tags": [
+      {
+        "id": "Sagas",
+        "name": "Sagas",
+        "type": "category"
+      },
+      {
+        "id": "Familiar",
+        "name": "Familiar",
+        "type": "category"
+      },
+      {
+        "id": "Magia",
+        "name": "Magia",
+        "type": "category"
+      },
+      {
+        "id": "Remake",
+        "name": "Remake",
+        "type": "category"
+      },
+      {
+        "id": "Momias",
+        "name": "Momias",
+        "type": "category"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "Londres",
+        "name": "Londres",
+        "type": "category"
+      },
+      {
+        "id": "person-39682",
+        "name": "Rachel Weisz",
+        "type": "person"
+      },
+      {
+        "id": "Arqueologia",
+        "name": "Arqueología",
+        "type": "category"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "itunes",
+        "name": "iTunes",
+        "type": "provider"
+      },
+      {
+        "id": "googleplay",
+        "name": "Google Play",
+        "type": "provider"
+      },
+      {
+        "id": "MasDeDosHoras",
+        "name": "Más de dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 7.513359636418119,
+      "name": "El regreso de la momia",
+      "images": {
+        "backdrop": "/72/00/72007e957e7ba3d0e56f3cfbc9157a6e.jpg",
+        "poster": "/72/00/72007e957e7ba3d0e56f3cfbc9157a6e.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/72/00/72007e957e7ba3d0e56f3cfbc9157a6e.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/72/00/72007e957e7ba3d0e56f3cfbc9157a6e.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/72/00/72007e957e7ba3d0e56f3cfbc9157a6e.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/72/00/72007e957e7ba3d0e56f3cfbc9157a6e.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/72/00/72007e957e7ba3d0e56f3cfbc9157a6e.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/72/00/72007e957e7ba3d0e56f3cfbc9157a6e.jpg"
+        }
+      },
+      "year": 2001,
+      "runtime": 130,
+      "ageRating": 18,
+      "mainGenre": "Action",
+      "originalName": "The Mummy Returns",
+      "shortPlot": "Han pasado diez años, Rick O'Connell (Brendan Fraser) se ha casado con Evel...",
+      "availability": {
+        "vodSummary": [
+          "itunes",
+          "googleplay",
+          "wuaki",
+          "yomvi"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/El_regreso_de_la_momia?id=ocNgQZYMYkI&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 2.99
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/el-regreso-de-la-momia"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 2.99
+        },
+        {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/El_regreso_de_la_momia?id=ocNgQZYMYkI&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 2.99
+        },
+        {
+          "providerId": "itunes",
+          "url": {
+            "embed": null,
+            "native": "itmss://itunes.apple.com/es/movie/el-regreso-de-la-momia/id390004785?v0=WWW-EUES-ITSTOP100-MOVIES&l=es&ign-mpt=uo%3D4",
+            "web": "https://itunes.apple.com/es/movie/el-regreso-de-la-momia/id390004785"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        },
+        {
+          "providerId": "yomvi",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "http://ver.movistarplus.es/ficha/el-regreso-de-la-momia/?id=251967"
+          },
+          "subscriptionRequiredForUser": true,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        }
+        ]
+      },
+      "userData": {
+        "status": "watched",
+        "addedAt": "2020-04-06T23:20:08+00:00"
+      }
+    },
+    {
+      "idm": 2830,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt0421206",
+      "tags": [
+      {
+        "id": "Freeforme",
+        "name": "Gratis para mí",
+        "type": "freeForMe"
+      },
+      {
+        "id": "BasadoEnHechosReales",
+        "name": "Basado en hechos reales",
+        "type": "category"
+      },
+      {
+        "id": "FutbolAmericano",
+        "name": "Fútbol Americano",
+        "type": "category"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Crime",
+        "name": "Crimen",
+        "type": "genre"
+      },
+      {
+        "id": "netflix_es",
+        "name": "Netflix",
+        "type": "provider"
+      },
+      {
+        "id": "MasDeDosHoras",
+        "name": "Más de dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 8.442977933594555,
+      "name": "La vida en juego",
+      "images": {
+        "poster": "/b7/1a/b71a51c886a6ec0569f01406d767a2b2.jpg",
+        "backdrop": "/b7/1a/b71a51c886a6ec0569f01406d767a2b2.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/b7/1a/b71a51c886a6ec0569f01406d767a2b2.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/b7/1a/b71a51c886a6ec0569f01406d767a2b2.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/b7/1a/b71a51c886a6ec0569f01406d767a2b2.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/b7/1a/b71a51c886a6ec0569f01406d767a2b2.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/b7/1a/b71a51c886a6ec0569f01406d767a2b2.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/b7/1a/b71a51c886a6ec0569f01406d767a2b2.jpg"
+        }
+      },
+      "year": 2006,
+      "runtime": 125,
+      "ageRating": 18,
+      "mainGenre": "Crime",
+      "originalName": "Gridiron Gang",
+      "shortPlot": "En el centro de detención para menores Kilpatrick, el supervisor y ex jugad...",
+      "availability": {
+        "vodSummary": [
+          "itunes",
+          "wuaki",
+          "googleplay",
+          "netflix_es"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "netflix_es",
+          "url": {
+            "embed": null,
+            "native": "nflx://www.netflix.com/Browse?q=action%3Dplay%26movieid%3D$70044599",
+            "web": "https://www.netflix.com/watch/70044599"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "netflix_es",
+          "url": {
+            "embed": null,
+            "native": "nflx://www.netflix.com/Browse?q=action%3Dplay%26movieid%3D$70044599",
+            "web": "https://www.netflix.com/watch/70044599"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/La_Vida_En_Juego?id=NRy9lBMVgEA&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 1.99
+        },
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/la-vida-en-juego"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 2.99
+        },
+        {
+          "providerId": "itunes",
+          "url": {
+            "embed": null,
+            "native": "itmss://itunes.apple.com/es/movie/la-vida-en-juego/id533407155?v0=WWW-EUES-ITSTOP100-MOVIES&l=es&ign-mpt=uo%3D4",
+            "web": "https://itunes.apple.com/es/movie/la-vida-en-juego/id533407155"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "pending",
+        "addedAt": "2020-04-06T23:20:05+00:00"
+      }
+    },
+    {
+      "idm": 1650227,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt1469304",
+      "tags": [
+      {
+        "id": "Freeforme",
+        "name": "Gratis para mí",
+        "type": "freeForMe"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "Remake",
+        "name": "Remake",
+        "type": "category"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "Playa",
+        "name": "Playa",
+        "type": "category"
+      },
+      {
+        "id": "person-9151",
+        "name": "Zac Efron",
+        "type": "person"
+      },
+      {
+        "id": "person-35912",
+        "name": "Alexandra Daddario",
+        "type": "person"
+      },
+      {
+        "id": "person-149091",
+        "name": "Kelly Rohrbach",
+        "type": "person"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "netflix_es",
+        "name": "Netflix",
+        "type": "provider"
+      },
+      {
+        "id": "amazon",
+        "name": "Amazon",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 5.900337024554646,
+      "name": "Baywatch: Los vigilantes de la playa",
+      "images": {
+        "backdrop": "/2e/af/2eaf61d4fc67f37bcbd5e20f89176951.jpg",
+        "poster": "/2e/af/2eaf61d4fc67f37bcbd5e20f89176951.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/2e/af/2eaf61d4fc67f37bcbd5e20f89176951.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/2e/af/2eaf61d4fc67f37bcbd5e20f89176951.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/2e/af/2eaf61d4fc67f37bcbd5e20f89176951.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/2e/af/2eaf61d4fc67f37bcbd5e20f89176951.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/2e/af/2eaf61d4fc67f37bcbd5e20f89176951.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/2e/af/2eaf61d4fc67f37bcbd5e20f89176951.jpg"
+        }
+      },
+      "year": 2017,
+      "runtime": 116,
+      "ageRating": 17,
+      "mainGenre": "Action",
+      "originalName": "Baywatch",
+      "shortPlot": "Mitch Buchannon (Dwayne Johnson), un estricto y esforzado socorrista de la...",
+      "availability": {
+        "vodSummary": [
+          "itunes",
+          "googleplay",
+          "wuaki",
+          "netflix_es",
+          "amazon"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "netflix_es",
+          "url": {
+            "embed": null,
+            "native": "nflx://www.netflix.com/Browse?q=action%3Dplay%26movieid%3D$80158583",
+            "web": "https://www.netflix.com/watch/80158583"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "netflix_es",
+          "url": {
+            "embed": null,
+            "native": "nflx://www.netflix.com/Browse?q=action%3Dplay%26movieid%3D$80158583",
+            "web": "https://www.netflix.com/watch/80158583"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        {
+          "providerId": "amazon",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://www.primevideo.com/detail/0MAUQZBQ3X060ODT4PINIYQ322"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/baywatch-los-vigilantes-de-la-playa"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 1.99
+        },
+        {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/Baywatch_Los_vigilantes_de_la_playa_Versión_extend?id=QSy-YIKVf0o&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 2.99
+        },
+        {
+          "providerId": "itunes",
+          "url": {
+            "embed": null,
+            "native": "itmss://itunes.apple.com/es/movie/los-vigilantes-de-la-playa-versión-extendida/id1238327472?v0=WWW-EUES-ITSTOP100-MOVIES&l=es&ign-mpt=uo%3D4",
+            "web": "https://itunes.apple.com/es/movie/los-vigilantes-de-la-playa-versión-extendida/id1238327472"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "watched",
+        "addedAt": "2020-04-06T23:19:53+00:00"
+      }
+    },
+    {
+      "idm": 370090,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt1397514",
+      "tags": [
+      {
+        "id": "Freeforme",
+        "name": "Gratis para mí",
+        "type": "freeForMe"
+      },
+      {
+        "id": "Dinosaurios",
+        "name": "Dinosaurios",
+        "type": "category"
+      },
+      {
+        "id": "BasadasEnLibros",
+        "name": "Basadas en Libros",
+        "type": "category"
+      },
+      {
+        "id": "Islas",
+        "name": "Islas",
+        "type": "category"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "person-635",
+        "name": "Michael Caine",
+        "type": "person"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "hbo",
+        "name": "HBO",
+        "type": "provider"
+      },
+      {
+        "id": "netflix_es",
+        "name": "Netflix",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 7.126628267611874,
+      "name": "Viaje al centro de la Tierra 2: La isla misteriosa",
+      "images": {
+        "poster": "/84/fd/84fd646ce7b40496397fde9254b44ae9.jpg",
+        "backdrop": "/84/fd/84fd646ce7b40496397fde9254b44ae9.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/84/fd/84fd646ce7b40496397fde9254b44ae9.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/84/fd/84fd646ce7b40496397fde9254b44ae9.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/84/fd/84fd646ce7b40496397fde9254b44ae9.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/84/fd/84fd646ce7b40496397fde9254b44ae9.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/84/fd/84fd646ce7b40496397fde9254b44ae9.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/84/fd/84fd646ce7b40496397fde9254b44ae9.jpg"
+        }
+      },
+      "year": 2012,
+      "runtime": 94,
+      "ageRating": 18,
+      "mainGenre": "Action",
+      "originalName": "Journey 2: The Mysterious Island",
+      "shortPlot": "Sean (Hutcherson) recibe una llamada de socorro desde una misteriosa isla,...",
+      "availability": {
+        "vodSummary": [
+          "itunes",
+          "googleplay",
+          "wuaki",
+          "hbo",
+          "netflix_es"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "netflix_es",
+          "url": {
+            "embed": null,
+            "native": "nflx://www.netflix.com/Browse?q=action%3Dplay%26movieid%3D$70178621",
+            "web": "https://www.netflix.com/watch/70178621"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "netflix_es",
+          "url": {
+            "embed": null,
+            "native": "nflx://www.netflix.com/Browse?q=action%3Dplay%26movieid%3D$70178621",
+            "web": "https://www.netflix.com/watch/70178621"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        {
+          "providerId": "hbo",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.hboespana.com/movies/viaje-al-centro-de-la-tierra-2-la-isla-misteriosa/3b1f95c-010020f5b3b/play"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/viaje-al-centro-de-la-tierra-2-la-isla-misteriosa"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        },
+        {
+          "providerId": "itunes",
+          "url": {
+            "embed": null,
+            "native": "itmss://itunes.apple.com/es/movie/viaje-al-centro-de-la-tierra-2-la-isla-misteriosa/id533658871?v0=WWW-EUES-ITSTOP100-MOVIES&l=es&ign-mpt=uo%3D4",
+            "web": "https://itunes.apple.com/es/movie/viaje-al-centro-de-la-tierra-2-la-isla-misteriosa/id533658871"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        },
+        {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/Viaje_2_La_Isla_Misteriosa?id=D19bBUmpnyc&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "pending",
+        "addedAt": "2020-04-06T23:19:41+00:00"
+      }
+    },
+    {
+      "idm": 1619,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt0277296",
+      "tags": [
+      {
+        "id": "Sagas",
+        "name": "Sagas",
+        "type": "category"
+      },
+      {
+        "id": "Familiar",
+        "name": "Familiar",
+        "type": "category"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "Exploradores",
+        "name": "Exploradores",
+        "type": "category"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "googleplay",
+        "name": "Google Play",
+        "type": "provider"
+      },
+      {
+        "id": "itunes",
+        "name": "iTunes",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 6.717810174329697,
+      "name": "El Rey Escorpión",
+      "images": {
+        "poster": "/1e/07/1e072edc291d903f37f92b9341fab859.jpg",
+        "backdrop": "/1e/07/1e072edc291d903f37f92b9341fab859.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/1e/07/1e072edc291d903f37f92b9341fab859.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/1e/07/1e072edc291d903f37f92b9341fab859.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/1e/07/1e072edc291d903f37f92b9341fab859.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/1e/07/1e072edc291d903f37f92b9341fab859.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/1e/07/1e072edc291d903f37f92b9341fab859.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/1e/07/1e072edc291d903f37f92b9341fab859.jpg"
+        }
+      },
+      "year": 2002,
+      "runtime": 92,
+      "ageRating": 18,
+      "mainGenre": "Action",
+      "originalName": "The Scorpion King",
+      "shortPlot": "La historia se sitúa hace 5000 años en la célebre ciudad de Gomorrah, en la...",
+      "availability": {
+        "vodSummary": [
+          "googleplay",
+          "wuaki",
+          "itunes"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/El_Rey_Escorpión?id=5hsBcdYUCtQ&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 2.99
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/el-rey-escorpion"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 2.99
+        },
+        {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/El_Rey_Escorpión?id=5hsBcdYUCtQ&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 2.99
+        },
+        {
+          "providerId": "itunes",
+          "url": {
+            "embed": null,
+            "native": "itmss://itunes.apple.com/es/movie/el-rey-escorpión-the-scorpion-king/id679497799?v0=WWW-EUES-ITSTOP100-MOVIES&l=es&ign-mpt=uo%3D4",
+            "web": "https://itunes.apple.com/es/movie/el-rey-escorpión-the-scorpion-king/id679497799"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "watched",
+        "addedAt": "2020-04-06T23:19:19+00:00"
+      }
+    },
+    {
+      "idm": 3652,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt0762125",
+      "tags": [
+      {
+        "id": "Freeforme",
+        "name": "Gratis para mí",
+        "type": "freeForMe"
+      },
+      {
+        "id": "Extraterrestres",
+        "name": "Extraterrestres",
+        "type": "category"
+      },
+      {
+        "id": "Infantil",
+        "name": "Infantil",
+        "type": "category"
+      },
+      {
+        "id": "Familiar",
+        "name": "Familiar",
+        "type": "category"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "DibujosAnimados",
+        "name": "Dibujos animados",
+        "type": "category"
+      },
+      {
+        "id": "person-2934",
+        "name": "Gary Oldman",
+        "type": "person"
+      },
+      {
+        "id": "person-27245",
+        "name": "Jessica Biel",
+        "type": "person"
+      },
+      {
+        "id": "CineEspanol",
+        "name": "Cine español",
+        "type": "category"
+      },
+      {
+        "id": "Grecia",
+        "name": "Grecia",
+        "type": "category"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Animation",
+        "name": "Animación",
+        "type": "genre"
+      },
+      {
+        "id": "netflix_es",
+        "name": "Netflix",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 6.968861664114344,
+      "name": "Planet 51",
+      "images": {
+        "backdrop": "/95/71/9571d4add4a518e49c9bd2693959465b.jpg",
+        "poster": "/95/71/9571d4add4a518e49c9bd2693959465b.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/95/71/9571d4add4a518e49c9bd2693959465b.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/95/71/9571d4add4a518e49c9bd2693959465b.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/95/71/9571d4add4a518e49c9bd2693959465b.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/95/71/9571d4add4a518e49c9bd2693959465b.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/95/71/9571d4add4a518e49c9bd2693959465b.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/95/71/9571d4add4a518e49c9bd2693959465b.jpg"
+        }
+      },
+      "year": 2009,
+      "runtime": 91,
+      "ageRating": 18,
+      "mainGenre": "Animation",
+      "originalName": "Planète 51",
+      "shortPlot": "Planet 51 es la historia de una familia de extraterrestres que vive tranqui...",
+      "availability": {
+        "vodSummary": [
+          "netflix_es",
+          "googleplay"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "netflix_es",
+          "url": {
+            "embed": null,
+            "native": "nflx://www.netflix.com/Browse?q=action%3Dplay%26movieid%3D$70109891",
+            "web": "https://www.netflix.com/watch/70109891"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "netflix_es",
+          "url": {
+            "embed": null,
+            "native": "nflx://www.netflix.com/Browse?q=action%3Dplay%26movieid%3D$70109891",
+            "web": "https://www.netflix.com/watch/70109891"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/Planet_51_VE?id=dGfnV7YthqA&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 2.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "watched",
+        "addedAt": "2020-04-06T23:19:09+00:00"
+      }
+    },
+    {
+      "idm": 2684,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt1075417",
+      "tags": [
+      {
+        "id": "Extraterrestres",
+        "name": "Extraterrestres",
+        "type": "category"
+      },
+      {
+        "id": "WaltDisney",
+        "name": "Walt Disney",
+        "type": "category"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "DibujosAnimados",
+        "name": "Dibujos animados",
+        "type": "category"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 6.725428238815899,
+      "name": "La montaña embrujada",
+      "images": {
+        "backdrop": "/40/d0/40d06514d653316bb61b6b91ac9e7662.jpg",
+        "poster": "/40/d0/40d06514d653316bb61b6b91ac9e7662.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/40/d0/40d06514d653316bb61b6b91ac9e7662.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/40/d0/40d06514d653316bb61b6b91ac9e7662.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/40/d0/40d06514d653316bb61b6b91ac9e7662.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/40/d0/40d06514d653316bb61b6b91ac9e7662.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/40/d0/40d06514d653316bb61b6b91ac9e7662.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/40/d0/40d06514d653316bb61b6b91ac9e7662.jpg"
+        }
+      },
+      "year": 2009,
+      "runtime": 98,
+      "ageRating": 13,
+      "mainGenre": "Action",
+      "originalName": "Race to Witch Mountain",
+      "shortPlot": "Remake de \"La montaña embrujada\"(1975). Durante años han circulado extrañas...",
+      "availability": {
+        "vodSummary": [
+          "wuaki"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/la-montana-embrujada-e3389cf9-f52e-4bba-be2c-2c1fc3f1f6ef"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 1.99
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/la-montana-embrujada-e3389cf9-f52e-4bba-be2c-2c1fc3f1f6ef"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 1.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "watched",
+        "addedAt": "2020-04-06T23:19:03+00:00"
+      }
+    },
+    {
+      "idm": 2013473,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt6513120",
+      "tags": [
+      {
+        "id": "Freeforme",
+        "name": "Gratis para mí",
+        "type": "freeForMe"
+      },
+      {
+        "id": "person-1552",
+        "name": "Vince Vaughn",
+        "type": "person"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "Familia",
+        "name": "Relaciones de Familia",
+        "type": "category"
+      },
+      {
+        "id": "LuchaLibre",
+        "name": "Lucha Libre",
+        "type": "category"
+      },
+      {
+        "id": "Superacion",
+        "name": "Superación",
+        "type": "category"
+      },
+      {
+        "id": "Hermanos",
+        "name": "Hermanos",
+        "type": "category"
+      },
+      {
+        "id": "Entrenamiento",
+        "name": "Entrenamiento",
+        "type": "category"
+      },
+      {
+        "id": "Celebrities",
+        "name": "Fama",
+        "type": "category"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Biography",
+        "name": "Biografía",
+        "type": "genre"
+      },
+      {
+        "id": "amazon",
+        "name": "Amazon",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 6.669491525423729,
+      "name": "Peleando en familia",
+      "images": {
+        "poster": "/26/40/264011baa404d70aad85d249230df73f.jpg",
+        "backdrop": "/26/40/264011baa404d70aad85d249230df73f.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/26/40/264011baa404d70aad85d249230df73f.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/26/40/264011baa404d70aad85d249230df73f.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/26/40/264011baa404d70aad85d249230df73f.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/26/40/264011baa404d70aad85d249230df73f.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/26/40/264011baa404d70aad85d249230df73f.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/26/40/264011baa404d70aad85d249230df73f.jpg"
+        }
+      },
+      "year": 2019,
+      "runtime": 108,
+      "ageRating": 18,
+      "mainGenre": "Biography",
+      "originalName": "Fighting with My Family",
+      "shortPlot": "Un antiguo luchador de lucha libre y su familia se ganan la vida actuando a...",
+      "availability": {
+        "vodSummary": [
+          "wuaki",
+          "amazon"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "amazon",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://www.primevideo.com/detail/0HX6AG9UB87J181XWQ1WBIT24A"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "amazon",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://www.primevideo.com/detail/0HX6AG9UB87J181XWQ1WBIT24A"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/peleando-en-familia"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 11.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "pending",
+        "addedAt": "2020-04-06T23:18:46+00:00"
+      }
+    },
+    {
+      "idm": 2072220,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt5758778",
+      "tags": [
+      {
+        "id": "Freeforme",
+        "name": "Gratis para mí",
+        "type": "freeForMe"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "Secuestros",
+        "name": "Secuestros",
+        "type": "category"
+      },
+      {
+        "id": "Catastrofes",
+        "name": "Catástrofes",
+        "type": "category"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "amazon",
+        "name": "Amazon",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 6.2766190998902305,
+      "name": "El rascacielos",
+      "images": {
+        "backdrop": "/75/64/7564d19e3482101e56df9abf0cccaff5.jpg",
+        "poster": "/75/64/7564d19e3482101e56df9abf0cccaff5.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/75/64/7564d19e3482101e56df9abf0cccaff5.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/75/64/7564d19e3482101e56df9abf0cccaff5.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/75/64/7564d19e3482101e56df9abf0cccaff5.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/75/64/7564d19e3482101e56df9abf0cccaff5.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/75/64/7564d19e3482101e56df9abf0cccaff5.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/75/64/7564d19e3482101e56df9abf0cccaff5.jpg"
+        }
+      },
+      "year": 2018,
+      "runtime": 102,
+      "ageRating": 13,
+      "mainGenre": "Action",
+      "originalName": "Skyscraper",
+      "shortPlot": "Will Ford es un antiguo líder del Equipo de Rescate de Rehenes del FBI y ve...",
+      "availability": {
+        "vodSummary": [
+          "itunes",
+          "googleplay",
+          "wuaki",
+          "amazon"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "amazon",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://www.primevideo.com/detail/0PDPT2GOF7P68FSG602W6VYO8X"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "amazon",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://www.primevideo.com/detail/0PDPT2GOF7P68FSG602W6VYO8X"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        {
+          "providerId": "itunes",
+          "url": {
+            "embed": null,
+            "native": "itmss://itunes.apple.com/es/movie/el-rascacielos/id1405809745?v0=WWW-EUES-ITSTOP100-MOVIES&l=es&ign-mpt=uo%3D4",
+            "web": "https://itunes.apple.com/es/movie/el-rascacielos/id1405809745"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 7.99
+        },
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/el-rascacielos"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 8.49
+        },
+        {
+          "providerId": "googleplay",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://play.google.com/store/movies/details/El_Rascacielos?id=WjkO9xptHR0&hl=es&gl=es"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 9.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "pending",
+        "addedAt": "2020-04-06T23:18:24+00:00"
+      }
+    },
+    {
+      "idm": 1603977,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt2283362",
+      "tags": [
+      {
+        "id": "Freeforme",
+        "name": "Gratis para mí",
+        "type": "freeForMe"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "person-38842",
+        "name": "Bobby Cannavale",
+        "type": "person"
+      },
+      {
+        "id": "person-2611",
+        "name": "Karen Gillan",
+        "type": "person"
+      },
+      {
+        "id": "Remake",
+        "name": "Remake",
+        "type": "category"
+      },
+      {
+        "id": "Videojuegos",
+        "name": "Videojuegos",
+        "type": "category"
+      },
+      {
+        "id": "Naturaleza",
+        "name": "Naturaleza",
+        "type": "category"
+      },
+      {
+        "id": "Animales",
+        "name": "Animales",
+        "type": "category"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "netflix_es",
+        "name": "Netflix",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 6.581019332161687,
+      "name": "Jumanji: Bienvenidos a la jungla",
+      "images": {
+        "backdrop": "/84/2d/842d613244eafcdd960bc0a61b7a0108.jpg",
+        "poster": "/84/2d/842d613244eafcdd960bc0a61b7a0108.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/84/2d/842d613244eafcdd960bc0a61b7a0108.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/84/2d/842d613244eafcdd960bc0a61b7a0108.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/84/2d/842d613244eafcdd960bc0a61b7a0108.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/84/2d/842d613244eafcdd960bc0a61b7a0108.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/84/2d/842d613244eafcdd960bc0a61b7a0108.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/84/2d/842d613244eafcdd960bc0a61b7a0108.jpg"
+        }
+      },
+      "year": 2017,
+      "runtime": 119,
+      "ageRating": 13,
+      "mainGenre": "Action",
+      "originalName": "Jumanji: Welcome to the Jungle",
+      "shortPlot": "Cuatro adolescentes son absorbidos por un videojuego, en el que se conviert...",
+      "availability": {
+        "vodSummary": [
+          "wuaki",
+          "itunes",
+          "netflix_es"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "netflix_es",
+          "url": {
+            "embed": null,
+            "native": "nflx://www.netflix.com/Browse?q=action%3Dplay%26movieid%3D$80192646",
+            "web": "https://www.netflix.com/watch/80192646"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "netflix_es",
+          "url": {
+            "embed": null,
+            "native": "nflx://www.netflix.com/Browse?q=action%3Dplay%26movieid%3D$80192646",
+            "web": "https://www.netflix.com/watch/80192646"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/jumanji-bienvenidos-a-la-jungla"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 7.99
+        },
+        {
+          "providerId": "itunes",
+          "url": {
+            "embed": null,
+            "native": "itmss://itunes.apple.com/es/movie/jumanji-bienvenidos-a-la-jungla/id1315255745?v0=WWW-EUES-ITSTOP100-MOVIES&l=es&ign-mpt=uo%3D4",
+            "web": "https://itunes.apple.com/es/movie/jumanji-bienvenidos-a-la-jungla/id1315255745"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 7.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "watched",
+        "addedAt": "2020-04-06T23:18:17+00:00"
+      }
+    },
+    {
+      "idm": 2097696,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt7975244",
+      "tags": [
+      {
+        "id": "person-2611",
+        "name": "Karen Gillan",
+        "type": "person"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "itunes",
+        "name": "iTunes",
+        "type": "provider"
+      },
+      {
+        "id": "DosHoras",
+        "name": "Dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 6.57979797979798,
+      "name": "Jumanji: Siguiente nivel",
+      "images": {
+        "poster": "/51/1b/511b8fa317fba192dfef38ada9d341da.jpg",
+        "backdrop": "/51/1b/511b8fa317fba192dfef38ada9d341da.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/51/1b/511b8fa317fba192dfef38ada9d341da.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/51/1b/511b8fa317fba192dfef38ada9d341da.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/51/1b/511b8fa317fba192dfef38ada9d341da.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/51/1b/511b8fa317fba192dfef38ada9d341da.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/51/1b/511b8fa317fba192dfef38ada9d341da.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/51/1b/511b8fa317fba192dfef38ada9d341da.jpg"
+        }
+      },
+      "year": 2019,
+      "runtime": 114,
+      "ageRating": 18,
+      "mainGenre": "Action",
+      "originalName": "Jumanji: The Next Level",
+      "shortPlot": "En esta ocasión, los 'jugadores' vuelven al juego, pero sus personajes se h...",
+      "availability": {
+        "vodSummary": [
+          "wuaki",
+          "itunes"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "itunes",
+          "url": {
+            "embed": null,
+            "native": "itmss://itunes.apple.com/es/movie/jumanji-siguiente-nivel/id1488964698?v0=WWW-EUES-ITSTOP100-MOVIES&l=es&ign-mpt=uo%3D4",
+            "web": "https://itunes.apple.com/es/movie/jumanji-siguiente-nivel/id1488964698"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/jumanji-siguiente-nivel"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        },
+        {
+          "providerId": "itunes",
+          "url": {
+            "embed": null,
+            "native": "itmss://itunes.apple.com/es/movie/jumanji-siguiente-nivel/id1488964698?v0=WWW-EUES-ITSTOP100-MOVIES&l=es&ign-mpt=uo%3D4",
+            "web": "https://itunes.apple.com/es/movie/jumanji-siguiente-nivel/id1488964698"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 3.99
+        }
+        ]
+      },
+      "userData": {
+        "status": "pending",
+        "addedAt": "2020-04-06T23:18:09+00:00"
+      }
+    },
+    {
+      "idm": 2212391,
+      "mediaType": 2,
+      "mediaStyle": null,
+      "imdb": "tt6806448",
+      "tags": [
+      {
+        "id": "person-1352",
+        "name": "Jason Statham",
+        "type": "person"
+      },
+      {
+        "id": "person-2683",
+        "name": "Dwayne Johnson",
+        "type": "person"
+      },
+      {
+        "id": "person-5556",
+        "name": "Idris Elba",
+        "type": "person"
+      },
+      {
+        "id": "person-72571",
+        "name": "Eiza González",
+        "type": "person"
+      },
+      {
+        "id": "Adrenalina",
+        "name": "Adrenalina",
+        "type": "category"
+      },
+      {
+        "id": "FastFurious",
+        "name": "Fast & Furious",
+        "type": "category"
+      },
+      {
+        "id": "FinDelMundo",
+        "name": "Fin del mundo",
+        "type": "category"
+      },
+      {
+        "id": "Coches",
+        "name": "Coches",
+        "type": "category"
+      },
+      {
+        "id": "Superheroes",
+        "name": "Superpoderes",
+        "type": "category"
+      },
+      {
+        "id": "Tiroteo",
+        "name": "Tiroteo",
+        "type": "category"
+      },
+      {
+        "id": "Badass",
+        "name": "Badass",
+        "type": "category"
+      },
+      {
+        "id": "FuerzasEspeciales",
+        "name": "Fuerzas especiales",
+        "type": "category"
+      },
+      {
+        "id": "Mediatype2",
+        "name": "Película",
+        "type": "mediaType"
+      },
+      {
+        "id": "Action",
+        "name": "Acción",
+        "type": "genre"
+      },
+      {
+        "id": "MasDeDosHoras",
+        "name": "Más de dos horas",
+        "type": "duration"
+      }
+      ],
+      "rating": 6.741421568627451,
+      "name": "Fast & Furious: Hobbs & Shaw",
+      "images": {
+        "poster": "/c9/69/c9695e57ad203b4ba573b8b295822366.jpg",
+        "backdrop": "/c9/69/c9695e57ad203b4ba573b8b295822366.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/c9/69/c9695e57ad203b4ba573b8b295822366.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/c9/69/c9695e57ad203b4ba573b8b295822366.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/c9/69/c9695e57ad203b4ba573b8b295822366.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/c9/69/c9695e57ad203b4ba573b8b295822366.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/c9/69/c9695e57ad203b4ba573b8b295822366.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/c9/69/c9695e57ad203b4ba573b8b295822366.jpg"
+        }
+      },
+      "year": 2019,
+      "runtime": 135,
+      "ageRating": 18,
+      "mainGenre": "Action",
+      "originalName": "Fast & Furious Presents: Hobbs & Shaw",
+      "shortPlot": "Desde que en Fast & Furious 7 (2015) se cruzaron los caminos del imponente...",
+      "availability": {
+        "vodSummary": [
+          "wuaki",
+          "yomvi"
+        ],
+        "scheduleSummary": null,
+        "inTheaters": false,
+        "vodBestOffer": {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/fast-furious-hobbs-shaw"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 11.99
+        },
+        "vodUserOffers": [
+        {
+          "providerId": "wuaki",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "https://es.rakuten.tv/streams/movie/fast-furious-hobbs-shaw"
+          },
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": true,
+          "currency": "EUR",
+          "minPrice": 11.99
+        },
+        {
+          "providerId": "yomvi",
+          "url": {
+            "embed": null,
+            "native": null,
+            "web": "http://ver.movistarplus.es/ficha/fast-furious-hobbs-shaw/?id=1652686"
+          },
+          "subscriptionRequiredForUser": true,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        }
+        ]
+      },
+      "userData": {
+        "status": "watched",
+        "myRating": 4.5,
+        "addedAt": "2020-04-06T23:17:46+00:00"
+      }
+    },
+    {
+      "idm": 1390353,
+      "mediaType": 1,
+      "mediaStyle": "chained",
+      "imdb": "tt3148266",
+      "tags": [
+      {
+        "id": "Freeforme",
+        "name": "Gratis para mí",
+        "type": "freeForMe"
+      },
+      {
+        "id": "FinDelMundo",
+        "name": "Fin del mundo",
+        "type": "category"
+      },
+      {
+        "id": "ViajesEnElTiempo",
+        "name": "Viajes en el tiempo",
+        "type": "category"
+      },
+      {
+        "id": "Pandemias",
+        "name": "Pandemías",
+        "type": "category"
+      },
+      {
+        "id": "NuevaYork",
+        "name": "Nueva York",
+        "type": "category"
+      },
+      {
+        "id": "Mediatype1",
+        "name": "Serie",
+        "type": "mediaType"
+      },
+      {
+        "id": "Adventure",
+        "name": "Aventura",
+        "type": "genre"
+      },
+      {
+        "id": "netflix_es",
+        "name": "Netflix",
+        "type": "provider"
+      },
+      {
+        "id": "UnaHora",
+        "name": "Una hora",
+        "type": "duration"
+      }
+      ],
+      "rating": 7.542395693135935,
+      "name": "12 Monos",
+      "images": {
+        "backdrop": "/fe/8c/fe8c42ba54ec11e06764db92998039c3.jpg",
+        "poster": "/fe/8c/fe8c42ba54ec11e06764db92998039c3.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/fe/8c/fe8c42ba54ec11e06764db92998039c3.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/fe/8c/fe8c42ba54ec11e06764db92998039c3.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/fe/8c/fe8c42ba54ec11e06764db92998039c3.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/fe/8c/fe8c42ba54ec11e06764db92998039c3.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/fe/8c/fe8c42ba54ec11e06764db92998039c3.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/fe/8c/fe8c42ba54ec11e06764db92998039c3.jpg"
+        }
+      },
+      "year": 2015,
+      "runtime": 42,
+      "ageRating": 18,
+      "mainGenre": "Adventure",
+      "originalName": "12 Monkeys",
+      "shortPlot": "Sigue la aventura de un viajero en el tiempo desde el futuro post-apocalípt...",
+      "numEpisodes": 47,
+      "numSeasons": 4,
+      "availability": {
+        "vodSummary": [
+          "netflix_es"
+        ],
+        "scheduleSummary": null,
+        "vodBestOffer": {
+          "providerId": "netflix_es",
+          "url": null,
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        "vodUserOffers": []
+      },
+      "userData": {
+        "status": "pending",
+        "addedAt": "2020-04-06T17:43:29+00:00"
+      }
+    },
+    {
+      "idm": 177,
+      "mediaType": 1,
+      "mediaStyle": "chained",
+      "imdb": "tt0436992",
+      "tags": [
+      {
+        "id": "Freeforme",
+        "name": "Gratis para mí",
+        "type": "freeForMe"
+      },
+      {
+        "id": "ViajesEnElTiempo",
+        "name": "Viajes en el tiempo",
+        "type": "category"
+      },
+      {
+        "id": "Extraterrestres",
+        "name": "Extraterrestres",
+        "type": "category"
+      },
+      {
+        "id": "SeriesBritanicas",
+        "name": "Series Británicas",
+        "type": "category"
+      },
+      {
+        "id": "DoctorWho",
+        "name": "Doctor Who",
+        "type": "category"
+      },
+      {
+        "id": "Paranormal",
+        "name": "Paranormal",
+        "type": "category"
+      },
+      {
+        "id": "Londres",
+        "name": "Londres",
+        "type": "category"
+      },
+      {
+        "id": "Sci-fi",
+        "name": "Ciencia Ficción",
+        "type": "genre"
+      },
+      {
+        "id": "person-942",
+        "name": "David Tennant",
+        "type": "person"
+      },
+      {
+        "id": "person-2611",
+        "name": "Karen Gillan",
+        "type": "person"
+      },
+      {
+        "id": "person-183",
+        "name": "Maisie Williams",
+        "type": "person"
+      },
+      {
+        "id": "person-438",
+        "name": "Michael Sheen",
+        "type": "person"
+      },
+      {
+        "id": "person-5769",
+        "name": "Andrew Garfield",
+        "type": "person"
+      },
+      {
+        "id": "person-722",
+        "name": "Felicity Jones",
+        "type": "person"
+      },
+      {
+        "id": "RealidadesParalelas",
+        "name": "Realidades paralelas",
+        "type": "category"
+      },
+      {
+        "id": "NavesEspaciales",
+        "name": "Naves espaciales",
+        "type": "category"
+      },
+      {
+        "id": "Mediatype1",
+        "name": "Serie",
+        "type": "mediaType"
+      },
+      {
+        "id": "Adventure",
+        "name": "Aventura",
+        "type": "genre"
+      },
+      {
+        "id": "amazon",
+        "name": "Amazon",
+        "type": "provider"
+      },
+      {
+        "id": "UnaHora",
+        "name": "Una hora",
+        "type": "duration"
+      }
+      ],
+      "rating": 9.211842018360743,
+      "name": "Doctor Who",
+      "images": {
+        "backdrop": "/71/9a/719a0ae37dcd667ddc01b294e5170359.jpg",
+        "poster": "/71/9a/719a0ae37dcd667ddc01b294e5170359.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/71/9a/719a0ae37dcd667ddc01b294e5170359.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/71/9a/719a0ae37dcd667ddc01b294e5170359.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/71/9a/719a0ae37dcd667ddc01b294e5170359.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/71/9a/719a0ae37dcd667ddc01b294e5170359.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/71/9a/719a0ae37dcd667ddc01b294e5170359.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/71/9a/719a0ae37dcd667ddc01b294e5170359.jpg"
+        }
+      },
+      "year": 2005,
+      "runtime": 45,
+      "ageRating": 18,
+      "mainGenre": "Adventure",
+      "originalName": "Doctor Who",
+      "shortPlot": "Doctor Who es una serie de televisión británica de ciencia ficción producid...",
+      "numEpisodes": 165,
+      "numSeasons": 12,
+      "availability": {
+        "vodSummary": [
+          "amazon"
+        ],
+        "scheduleSummary": null,
+        "vodBestOffer": {
+          "providerId": "amazon",
+          "url": null,
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        "vodUserOffers": []
+      },
+      "userData": {
+        "status": "watched",
+        "addedAt": "2020-04-06T17:43:02+00:00"
+      }
+    },
+    {
+      "idm": 549453,
+      "mediaType": 1,
+      "mediaStyle": "chained",
+      "imdb": "tt3006802",
+      "tags": [
+      {
+        "id": "Freeforme",
+        "name": "Gratis para mí",
+        "type": "freeForMe"
+      },
+      {
+        "id": "ViajesEnElTiempo",
+        "name": "Viajes en el tiempo",
+        "type": "category"
+      },
+      {
+        "id": "BasadasEnLibros",
+        "name": "Basadas en Libros",
+        "type": "category"
+      },
+      {
+        "id": "Epoca",
+        "name": "Época",
+        "type": "category"
+      },
+      {
+        "id": "SigloXviii",
+        "name": "Siglo XVIII",
+        "type": "category"
+      },
+      {
+        "id": "Miniserie",
+        "name": "Miniserie",
+        "type": "category"
+      },
+      {
+        "id": "Mediatype1",
+        "name": "Serie",
+        "type": "mediaType"
+      },
+      {
+        "id": "Drama",
+        "name": "Drama",
+        "type": "genre"
+      },
+      {
+        "id": "netflix_es",
+        "name": "Netflix",
+        "type": "provider"
+      },
+      {
+        "id": "HoraYMedia",
+        "name": "Hora y media",
+        "type": "duration"
+      }
+      ],
+      "rating": 8.611720294804961,
+      "name": "Outlander",
+      "images": {
+        "poster": "/07/47/074708d2756d4c5d61fe393ccf714598.jpg",
+        "backdrop": "/07/47/074708d2756d4c5d61fe393ccf714598.jpg",
+        "country": "ES"
+      },
+      "artwork": {
+        "backdrops": {
+          "original": "https://img.tviso.com/ES/backdrop/original/07/47/074708d2756d4c5d61fe393ccf714598.jpg",
+          "large": "https://img.tviso.com/ES/backdrop/w600/07/47/074708d2756d4c5d61fe393ccf714598.jpg",
+          "small": "https://img.tviso.com/ES/backdrop/w300/07/47/074708d2756d4c5d61fe393ccf714598.jpg"
+        },
+        "posters": {
+          "original": "https://img.tviso.com/ES/poster/original/07/47/074708d2756d4c5d61fe393ccf714598.jpg",
+          "large": "https://img.tviso.com/ES/poster/w430/07/47/074708d2756d4c5d61fe393ccf714598.jpg",
+          "small": "https://img.tviso.com/ES/poster/w200/07/47/074708d2756d4c5d61fe393ccf714598.jpg"
+        }
+      },
+      "year": 2014,
+      "runtime": 64,
+      "ageRating": 18,
+      "mainGenre": "Drama",
+      "originalName": "Outlander",
+      "shortPlot": "Sigue la historia de Claire Randall, una enfermera de combate casada en los...",
+      "numEpisodes": 67,
+      "numSeasons": 5,
+      "availability": {
+        "vodSummary": [
+          "yomvi",
+          "netflix_es"
+        ],
+        "scheduleSummary": null,
+        "vodBestOffer": {
+          "providerId": "netflix_es",
+          "url": null,
+          "subscriptionRequiredForUser": false,
+          "registerRequiredForUser": false,
+          "ppvRequiredForUser": false,
+          "currency": "EUR"
+        },
+        "vodUserOffers": []
+      },
+      "userData": {
+        "status": "pending",
+        "addedAt": "2020-04-06T17:42:42+00:00"
+      }
+    }
+    ]
+  }
+}

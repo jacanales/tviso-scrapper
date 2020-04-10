@@ -1,24 +1,27 @@
 package cli
 
 import (
-	"fmt"
 	"github.com/spf13/cobra"
+
+	`tviso-scrapper/pkg/tviso`
+	"tviso-scrapper/pkg/tviso/repository"
 )
 
 func InitCollectionListCmd() *cobra.Command {
 	collectionListCmd := &cobra.Command{
-		Use: "list",
+		Use:   "list",
 		Short: "List user collection",
-		Run: getCollectionListFn(),
+		RunE:  getCollectionListFn(),
 	}
-
-	collectionListCmd.Flags().StringP("writer", "w", "csv", "Select writer")
 
 	return collectionListCmd
 }
 
-func getCollectionListFn() CobraFn {
-	return func(cmd *cobra.Command, args []string) {
-		fmt.Println("list collection")
+func getCollectionListFn() CobraFnE {
+	return func(cmd *cobra.Command, args []string) error {
+		return tviso.GetUserCollection(
+			repository.NewTvisoAPI(),
+			repository.NewStdOut(),
+		)
 	}
 }

@@ -7,7 +7,6 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - "./testdata/stubs:/home/wiremock"
+      - "./tests/stubs:/home/wiremock"
       - "./var/wiremock:/var/wiremock/extensions"
     command: --jetty-acceptor-threads 8 --extensions com.opentable.extension.BodyTransformer --verbose
-  volumes:
