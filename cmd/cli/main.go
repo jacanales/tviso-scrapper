@@ -1,7 +1,23 @@
 package main
 
-import "tviso-scrapper/cmd"
+import (
+	`fmt`
+
+	"github.com/joho/godotenv"
+
+	"tviso-scrapper/pkg/cli"
+)
 
 func main() {
-	panic(cmd.Start())
+	if err := godotenv.Load(".env"); err != nil {
+		fmt.Println(err)
+
+		return
+	}
+
+	if err := cli.Execute(); err != nil {
+		fmt.Println(err)
+
+		return
+	}
 }

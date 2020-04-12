@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/media/full_info?idm=3864&mediaType=2&liveAvailability=true"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "tviso-full-media-info-movie.json",
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Connection": "keep-alive",
+      "Vary": "Accept-Encoding"
+    }
+  }
+}

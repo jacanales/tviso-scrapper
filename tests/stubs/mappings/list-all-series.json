@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/media/browse?order=trending&page=1&limit=48&mediaType=1&page=0"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "tviso-list-all-series.json",
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Connection": "keep-alive",
+      "Vary": "Accept-Encoding"
+    }
+  }
+}
