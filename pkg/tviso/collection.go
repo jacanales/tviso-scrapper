@@ -7,6 +7,7 @@ type MediaType int32
 const (
 	SeriesMediaType MediaType = 1
 	MoviesMediaType MediaType = 2
+	EpisodeMediatype MediaType = 5
 )
 
 type ReadRepository interface {
@@ -61,10 +62,73 @@ type Media struct {
 	MainGenre    string       `json:"mainGenre"`
 	OriginalName string       `json:"originalName"`
 	ShortPlot    string       `json:"shortPlot"`
-	NumEpisodes  int          `json:"numEpisodes,omitempty"`
-	NumSeasons   int          `json:"numSeasons,omitempty"`
 	Availability Availability `json:"availability"`
 	UserData     UserData     `json:"userData"`
+
+	// Only for Series
+	NumEpisodes int `json:"numEpisodes,omitempty"`
+	NumSeasons  int `json:"numSeasons,omitempty"`
+
+	// Only Full info
+	Plot        string      `json:"plot,omitempty"`
+	Cast        []Cast      `json:"cast,omitempty"`
+	Genres      []string    `json:"genres,omitempty"`
+	Distributor string      `json:"distributor,omitempty"`
+	Producers   []Producers `json:"producers,omitempty"`
+	Writers     []Writers   `json:"writers,omitempty"`
+	Directors   []Directors `json:"directors,omitempty"`
+	Composer    Person      `json:"composer"`
+	Countries   []string    `json:"countries,omitempty"`
+	Status      int         `json:"status,omitempty"`
+	StatusMedia string      `json:"statusMedia,omitempty"`
+
+	// Only for Series Full info
+	SeasonsBlocked []int    `json:"seasonsBlocked,omitempty"`
+	Seasons        []Season `json:"seasons"`
+}
+
+type Season struct {
+	SeasonNum int     `json:"seasonNum"`
+	Episodes  []Media `json:"episodes"`
+}
+
+type Episode struct {
+	ID           int           `json:"idm"`
+	MediaType    MediaType     `json:"mediaType"`
+	Name         string        `json:"name"`
+	Plot         string        `json:"plot,omitempty"`
+	Images       Images        `json:"images"`
+	Runtime      int           `json:"runtime"`
+	Artwork      Artworks      `json:"artwork"`
+	SeasonNum    int           `json:"seasonNum"`
+	EpisodeNum   int           `json:"episodeNum"`
+	ReleaseDates []ReleaseDate `json:"releaseDates"`
+	Availability Availability  `json:"availability"`
+}
+
+type ReleaseDate struct {
+	Country string    `json:"country"`
+	Date    time.Time `json:"date"`
+}
+
+type Person struct {
+}
+
+type Cast struct {
+	Person
+	Role string `json:"role"`
+}
+
+type Producers struct {
+	Person
+}
+
+type Writers struct {
+	Person
+}
+
+type Directors struct {
+	Person
 }
 
 type Tag struct {
@@ -99,19 +163,32 @@ type Posters struct {
 type Availability struct {
 	VODSummary      []string      `json:"vodSummary"`
 	ScheduleSummary string        `json:"scheduleSummary,omitempty"`
+	Schedule        string        `json:"schedule,omitempty"`
 	InTheaters      bool          `json:"inTheaters"`
+	VOD             []VODProvider `json:"vod,omitempty"`
 	VODBestOffer    VODProvider   `json:"vodBestOffer"`
 	VODUserOffers   []VODProvider `json:"vodUserOffers"`
 }
 
 type VODProvider struct {
-	ProviderID                  string  `json:"providerId"`
-	URL                         VODUrl  `json:"url"`
-	SubscriptionRequiredForUser bool    `json:"subscriptionRequiredForUser"`
-	RegisterRequiredForUser     bool    `json:"registerRequiredForUser"`
-	PpvRequiredForUser          bool    `json:"ppvRequiredForUser"`
-	Currency                    string  `json:"currency"`
-	MinPrice                    float64 `json:"minPrice,omitempty"`
+	ProviderID                  string   `json:"providerId"`
+	Languages                   []string `json:"languages,omitempty"`
+	Quality                     []string `json:"quality,omitempty"`
+	URL                         VODUrl   `json:"url"`
+	SubscriptionRequiredForUser bool     `json:"subscriptionRequiredForUser"`
+	RegisterRequiredForUser     bool     `json:"registerRequiredForUser"`
+	PpvRequiredForUser          bool     `json:"ppvRequiredForUser"`
+	Currency                    string   `json:"currency"`
+	MinPrice                    float64  `json:"minPrice,omitempty"`
+}
+
+type VODPricing struct {
+	Free              bool               `json:"free"`
+	FreeForRegistered bool               `json:"freeForRegistered"`
+	Subscription      bool               `json:"subscription"`
+	PayPerView        bool               `json:"payPerView"`
+	Prices            map[string]float64 `json:"prices"`
+	Currency          string             `json:"currency"`
 }
 
 type VODUrl struct {
