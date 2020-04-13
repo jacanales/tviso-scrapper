@@ -1,0 +1,27 @@
+{
+  "id" : "b4e4c70e-1343-4bec-9b2f-7dee451ede1f",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=426711&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":426711,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt2404738\",\"tags\":[{\"id\":\"Brujeria\",\"name\":\"Brujer\\u00eda\",\"type\":\"category\"},{\"id\":\"ComediaNegra\",\"name\":\"Comedia negra\",\"type\":\"category\"},{\"id\":\"person-33284\",\"name\":\"Mario Casas\",\"type\":\"person\"},{\"id\":\"person-19619\",\"name\":\"Santiago Segura\",\"type\":\"person\"},{\"id\":\"ComediaDeTerror\",\"name\":\"Comedia de terror\",\"type\":\"category\"},{\"id\":\"person-37626\",\"name\":\"\\u00c1lex de la Iglesia\",\"type\":\"person\"},{\"id\":\"CineEspanol\",\"name\":\"Cine espa\\u00f1ol\",\"type\":\"category\"},{\"id\":\"person-1437\",\"name\":\"Hugo Silva\",\"type\":\"person\"},{\"id\":\"PremiosGoya\",\"name\":\"Premios Goya\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Comedy\",\"name\":\"Comedia\",\"type\":\"genre\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":6.73,\"name\":\"Las brujas de Zugarramurdi\",\"images\":{\"backdrop\":\"\\/98\\/98\\/98985eb245dbb5843193e41b64c5befb.jpg\",\"poster\":\"\\/98\\/98\\/98985eb245dbb5843193e41b64c5befb.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/98\\/98\\/98985eb245dbb5843193e41b64c5befb.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/98\\/98\\/98985eb245dbb5843193e41b64c5befb.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/98\\/98\\/98985eb245dbb5843193e41b64c5befb.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/98\\/98\\/98985eb245dbb5843193e41b64c5befb.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/98\\/98\\/98985eb245dbb5843193e41b64c5befb.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/98\\/98\\/98985eb245dbb5843193e41b64c5befb.jpg\"}},\"year\":2013,\"runtime\":110,\"ageRating\":18,\"mainGenre\":\"Comedy\",\"originalName\":\"Witching and Bitching\",\"shortPlot\":\"Dos parados (Mario Casas y Hugo Silva) cometen un atraco y huyen perseguido...\",\"plot\":\"Dos parados (Mario Casas y Hugo Silva) cometen un atraco y huyen perseguidos por la polic\\u00eda (Pep\\u00f3n Nieto y Secun de la Rosa) y por la ex mujer de uno de ellos (Macarena G\\u00f3mez). Se adentran en los bosques impenetrables de la Navarra profunda cayendo en las garras de una horda de mujeres enloquecidas que se alimentan de carne humana.\",\"cast\":[{\"name\":\"Hugo Silva\",\"role\":\"Jos\\u00e9\",\"images\":{\"face\":\"\\/16\\/2c\\/162c44992e74f13a74859230ed424145.jpg\"},\"id\":1437},{\"name\":\"Mario Casas\",\"role\":\"Antonio\",\"images\":{\"face\":\"\\/a0\\/cf\\/a0cfe03224985b5bd16abf003a7d6b65.jpg\"},\"id\":33284},{\"name\":\"Pep\\u00f3n Nieto\",\"role\":\"Calvo\",\"images\":null,\"id\":154880},{\"name\":\"Carolina Bang\",\"role\":\"Eva\",\"images\":null,\"id\":84974},{\"name\":\"Terele P\\u00e1vez\",\"role\":\"Maritxu\",\"images\":null,\"id\":64003},{\"name\":\"Jaime Ord\\u00f3\\u00f1ez\",\"role\":\"Manuel\",\"images\":null,\"id\":164871},{\"name\":\"Gabriel \\u00c1ngel Delgado\",\"role\":\"Sergio\",\"images\":null},{\"name\":\"Santiago Segura\",\"role\":\"Miren\",\"images\":{\"face\":\"\\/9d\\/1b\\/9d1bad4d690e5a5b46285ead784e00f9.jpg\"},\"id\":19619},{\"name\":\"Macarena G\\u00f3mez\",\"role\":\"Silvia\",\"images\":{\"face\":\"\\/ea\\/61\\/ea61b60b490b141778a60ff09114df5f.jpg\"},\"id\":31705},{\"name\":\"Secun de la Rosa\",\"role\":\"Pacheco\",\"images\":null,\"id\":42879}],\"genres\":[\"Comedy\",\"Horror\"],\"distributor\":null,\"numInteractions\":272177,\"numRatings\":54541,\"ratingHistogram\":{\"1\":2649,\"2\":4187,\"3\":16388,\"4\":21190,\"5\":10127},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Enrique Cerezo Producciones Cinematogr\\u00e1ficas S.A.\",\"images\":null},{\"name\":\"La Ferme! Productions\",\"images\":null},{\"name\":\"Arte France Cin\\u00e9ma\",\"images\":null}],\"writers\":[{\"name\":\"Jorge Guerricaechevarr\\u00eda\",\"images\":null,\"id\":37628},{\"name\":\"\\u00c1lex de la Iglesia\",\"images\":null,\"id\":37626}],\"countries\":[\"ES\",\"FR\"],\"directors\":[{\"name\":\"\\u00c1lex de la Iglesia\",\"images\":null,\"id\":37626}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:54:55 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"1ef68e63d7b44a3436c5a503fe76e488\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws1",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "58370e19486aff70-MAD"
+    }
+  },
+  "uuid" : "b4e4c70e-1343-4bec-9b2f-7dee451ede1f",
+  "persistent" : true,
+  "insertionIndex" : 910
+}

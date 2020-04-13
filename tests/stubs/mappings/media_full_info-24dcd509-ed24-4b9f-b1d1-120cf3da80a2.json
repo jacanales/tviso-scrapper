@@ -1,0 +1,27 @@
+{
+  "id" : "24dcd509-ed24-4b9f-b1d1-120cf3da80a2",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=5135&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":5135,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0377713\",\"tags\":[{\"id\":\"Sagas\",\"name\":\"Sagas\",\"type\":\"category\"},{\"id\":\"Mindfuck\",\"name\":\"Sorprendentes\",\"type\":\"category\"},{\"id\":\"ParaPensar\",\"name\":\"Para pensar\",\"type\":\"category\"},{\"id\":\"Gore\",\"name\":\"Gore\",\"type\":\"category\"},{\"id\":\"ThrillerPsicologico\",\"name\":\"Thriller psicol\\u00f3gico\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Mystery\",\"name\":\"Misterio\",\"type\":\"genre\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":6.83,\"name\":\"Cube Zero\",\"images\":{\"poster\":\"\\/1b\\/ee\\/1beef61fe12b000746971f59c87f46e7.jpg\",\"backdrop\":\"\\/1b\\/ee\\/1beef61fe12b000746971f59c87f46e7.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/1b\\/ee\\/1beef61fe12b000746971f59c87f46e7.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/1b\\/ee\\/1beef61fe12b000746971f59c87f46e7.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/1b\\/ee\\/1beef61fe12b000746971f59c87f46e7.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/1b\\/ee\\/1beef61fe12b000746971f59c87f46e7.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/1b\\/ee\\/1beef61fe12b000746971f59c87f46e7.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/1b\\/ee\\/1beef61fe12b000746971f59c87f46e7.jpg\"}},\"year\":2004,\"runtime\":97,\"ageRating\":18,\"mainGenre\":\"Mystery\",\"originalName\":\"Cube Zero\",\"shortPlot\":\"Precuela de \\\"Cube\\\". Rains se despierta en un laberinto de habitaciones perf...\",\"plot\":\"Precuela de \\\"Cube\\\". Rains se despierta en un laberinto de habitaciones perfectamente c\\u00fabicas. Lleva un extra\\u00f1o uniforme gris y un c\\u00f3digo de barras tatuado en su mano. No recuerda nada, ni su nombre. Pronto encontrar\\u00e1 otros prisioneros del laberinto que est\\u00e1n en su misma situaci\\u00f3n. A medida que se van desplazando por los cubos, ir\\u00e1n muriendo uno a uno en las trampas que ir\\u00e1n encontrando. Rains tiene un admirador secreto. Se trata de Wynn y forma parte del grupo de observadores cuyo trabajo es controlar al grupo de prisioneros. Se siente atraido por ella e intentar\\u00e1 hacer alguna cosa para ayudarla. En el universo del cubo, nadie est\\u00e1 a salvo. Los observadores son observados y los prisioneros huyen en busca de una salida que no saben donde les llevar\\u00e1.\",\"cast\":[{\"name\":\"Zachary Bennett\",\"role\":\"Eric Wynn\",\"images\":null,\"id\":191582},{\"name\":\"David Huband\",\"role\":\"Dodd\",\"images\":null,\"id\":109399},{\"name\":\"Stephanie Moore\",\"role\":\"Cassandra Rains\",\"images\":null},{\"name\":\"Martin Roach\",\"role\":\"Robert P. Haskell\",\"images\":null},{\"name\":\"Terri Hawkes\",\"role\":\"Jellico\",\"images\":null,\"id\":126829},{\"name\":\"Richard McMillan\",\"role\":\"Bartok\",\"images\":null},{\"name\":\"Mike 'Nug' Nahrgang\",\"role\":\"Meyerhold\",\"images\":null},{\"name\":\"Tony Munch\",\"role\":\"Owen\",\"images\":null},{\"name\":\"Michael Riley\",\"role\":\"Jax\",\"images\":null,\"id\":43505},{\"name\":\"Joshua Peace\",\"role\":\"Finn\",\"images\":null,\"id\":173064}],\"genres\":[\"Mystery\",\"Sci-fi\",\"Thriller\"],\"distributor\":null,\"numInteractions\":42039,\"numRatings\":7043,\"ratingHistogram\":{\"1\":245,\"2\":502,\"3\":2396,\"4\":2441,\"5\":1459},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Mad Circus Films\",\"images\":null},{\"name\":\"Lions Gate Entertainment\",\"images\":null},{\"name\":\"Mr. X\",\"images\":null}],\"writers\":[{\"name\":\"Ernie Barbarash\",\"images\":null,\"id\":55168}],\"countries\":[\"CA\",\"US\"],\"directors\":[{\"name\":\"Ernie Barbarash\",\"images\":null,\"id\":55168}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:51:30 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"160e0ff97c959b33ded531eabbce1718\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "58370915cc71ff70-MAD"
+    }
+  },
+  "uuid" : "24dcd509-ed24-4b9f-b1d1-120cf3da80a2",
+  "persistent" : true,
+  "insertionIndex" : 326
+}

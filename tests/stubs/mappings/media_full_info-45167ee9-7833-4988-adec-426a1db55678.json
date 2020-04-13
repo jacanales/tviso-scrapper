@@ -1,0 +1,27 @@
+{
+  "id" : "45167ee9-7833-4988-adec-426a1db55678",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=2962491&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":2962491,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt5725570\",\"tags\":[{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Drama\",\"name\":\"Drama\",\"type\":\"genre\"}],\"rating\":null,\"name\":\"La vida secreta de Cleopatra\",\"artwork\":{\"backdrops\":{\"original\":null,\"large\":null,\"small\":null},\"posters\":{\"original\":null,\"large\":null,\"small\":null}},\"year\":2016,\"runtime\":null,\"ageRating\":18,\"images\":{\"poster\":\"EXTERNAL#pelis\\/485903454627627\",\"backdrop\":null,\"country\":null},\"mainGenre\":\"Drama\",\"originalName\":\"Cleopatra: Mother, Mistress, Murderer, Queen\",\"shortPlot\":\"Cleopatra: la \\u00faltima reina egipcia y una de las mujeres m\\u00e1s legendarias de...\",\"plot\":\"Cleopatra: la \\u00faltima reina egipcia y una de las mujeres m\\u00e1s legendarias de la historia. Una hermosa seductora que utiliz\\u00f3 su sex appeal para manipular a los hombres m\\u00e1s poderosos del Imperio Romano. Esta pel\\u00edcula revela la verdad detr\\u00e1s de la leyenda.\",\"composer\":null,\"cast\":[{\"name\":\"Ellie Goffe\",\"role\":\"Cleopatra\",\"images\":null},{\"name\":\"Gabriel Lo Giudice\",\"role\":\"Octavian\",\"images\":null},{\"name\":\"Terry Scotchmer\",\"role\":\"Mark Antony\",\"images\":null},{\"name\":\"Rim Tounssi\",\"role\":\"Hand maiden\",\"images\":null},{\"name\":\"Alex Walker\",\"role\":\"Julius Caesar\",\"images\":null}],\"genres\":[\"Drama\"],\"distributor\":null,\"numInteractions\":0,\"seasonsBlocked\":[],\"numRatings\":null,\"ratingHistogram\":null,\"producers\":[],\"writers\":[{\"name\":\"Ben Reid\",\"images\":null}],\"countries\":[\"GB\"],\"directors\":[{\"name\":\"Ben Reid\",\"images\":null}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:50:56 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"9b51b21042f519d1a5b1ee6a456e26e3\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "583708431c90ff70-MAD"
+    }
+  },
+  "uuid" : "45167ee9-7833-4988-adec-426a1db55678",
+  "persistent" : true,
+  "insertionIndex" : 226
+}

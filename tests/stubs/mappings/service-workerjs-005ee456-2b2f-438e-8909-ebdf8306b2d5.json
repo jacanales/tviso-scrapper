@@ -1,0 +1,26 @@
+{
+  "id" : "005ee456-2b2f-438e-8909-ebdf8306b2d5",
+  "name" : "service-workerjs",
+  "request" : {
+    "url" : "/service-worker.js",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 404,
+    "body" : "\u0013�\u0000\u0000��֕$D6�.D���ه�Ɂ˟�\u0002\r,�v�,��9\u0016�ſ\f\u001EE���D���cb\u001C��!��\u0013f趗!\u0002�#��v�\u0014���u���=�\u0016\u0004�\u0004",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:49:18 GMT",
+      "Content-Type" : "text/html",
+      "Set-Cookie" : "__cfduid=df0cb473d3ed0144d13be59893245d5a91586800158; expires=Wed, 13-May-20 17:49:18 GMT; path=/; domain=.tviso.com; HttpOnly; SameSite=Lax",
+      "Cache-Control" : "max-age=432000",
+      "CF-Cache-Status" : "EXPIRED",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Vary" : "Accept-Encoding",
+      "Server" : "cloudflare",
+      "CF-RAY" : "583705dd2ed0ff70-MAD"
+    }
+  },
+  "uuid" : "005ee456-2b2f-438e-8909-ebdf8306b2d5",
+  "persistent" : true,
+  "insertionIndex" : 50
+}

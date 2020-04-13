@@ -1,0 +1,27 @@
+{
+  "id" : "11cf9be3-0e97-4366-87b2-52adc52d31f7",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1332585&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1332585,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt2911666\",\"tags\":[{\"id\":\"Perros\",\"name\":\"Perros\",\"type\":\"category\"},{\"id\":\"JohnWick\",\"name\":\"John Wick\",\"type\":\"category\"},{\"id\":\"Violencia\",\"name\":\"Violencia\",\"type\":\"category\"},{\"id\":\"person-616\",\"name\":\"Keanu Reeves\",\"type\":\"person\"},{\"id\":\"person-625\",\"name\":\"Willem Dafoe\",\"type\":\"person\"},{\"id\":\"Tiroteo\",\"name\":\"Tiroteo\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":7.6,\"name\":\"John Wick (Otro d\\u00eda para matar)\",\"images\":{\"backdrop\":\"\\/bf\\/d3\\/bfd3f77149985f9804a0e9aec3a47c27.jpg\",\"poster\":\"\\/bf\\/d3\\/bfd3f77149985f9804a0e9aec3a47c27.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/bf\\/d3\\/bfd3f77149985f9804a0e9aec3a47c27.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/bf\\/d3\\/bfd3f77149985f9804a0e9aec3a47c27.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/bf\\/d3\\/bfd3f77149985f9804a0e9aec3a47c27.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/bf\\/d3\\/bfd3f77149985f9804a0e9aec3a47c27.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/bf\\/d3\\/bfd3f77149985f9804a0e9aec3a47c27.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/bf\\/d3\\/bfd3f77149985f9804a0e9aec3a47c27.jpg\"}},\"year\":2014,\"runtime\":101,\"ageRating\":17,\"mainGenre\":\"Action\",\"originalName\":\"John Wick\",\"shortPlot\":\"En Nueva York, John Wick, un asesino a sueldo retirado, vuelve otra vez a l...\",\"plot\":\"En Nueva York, John Wick, un asesino a sueldo retirado, vuelve otra vez a la acci\\u00f3n para vengarse de los g\\u00e1ngsters que le quitaron todo.\",\"cast\":[{\"name\":\"Keanu Reeves\",\"role\":\"John Wick\",\"images\":{\"face\":\"\\/93\\/03\\/9303a71cf3a9a7828978b3aed2940f63.jpg\"},\"id\":616},{\"name\":\"Michael Nyqvist\",\"role\":\"Viggo Tarasov\",\"images\":{\"face\":\"\\/f0\\/7c\\/f07c1fb9baa5245beab387981df1ada6.jpg\"},\"id\":5568},{\"name\":\"Alfie Allen\",\"role\":\"Iosef Tarasov\",\"images\":{\"face\":\"\\/e6\\/a9\\/e6a9d4ac475df715585e08684e78ded4.jpg\"},\"id\":638},{\"name\":\"Willem Dafoe\",\"role\":\"Marcus\",\"images\":{\"face\":\"\\/35\\/a4\\/35a43387dd1c154d8e260b148a7ab046.jpg\"},\"id\":625},{\"name\":\"Dean Winters\",\"role\":\"Avi\",\"images\":{\"face\":\"\\/5f\\/cf\\/5fcf76768a0a49f990435b7200a0136d.jpg\"},\"id\":5276},{\"name\":\"Adrianne Palicki\",\"role\":\"Ms. Perkins\",\"images\":{\"face\":\"\\/40\\/87\\/4087126f6dce052e27f4200d24f98a40.jpg\"},\"id\":619},{\"name\":\"Omer Barnea\",\"role\":\"Gregori\",\"images\":null,\"id\":46019},{\"name\":\"Toby Leonard Moore\",\"role\":\"Victor\",\"images\":null,\"id\":73549},{\"name\":\"Daniel Bernhardt\",\"role\":\"Kirill\",\"images\":null,\"id\":98866},{\"name\":\"Bridget Moynahan\",\"role\":\"Helen\",\"images\":{\"face\":\"\\/0a\\/bc\\/0abc83891324211ee038ddcfd13c7036.jpg\"},\"id\":630}],\"composer\":{\"name\":\"Tyler Bates\",\"images\":{\"face\":\"\\/8a\\/7c\\/8a7cf09299582f91dcbc21c35edd17b8.jpg\"},\"id\":7663},\"genres\":[\"Action\",\"Crime\",\"Thriller\"],\"distributor\":null,\"numInteractions\":27152,\"numRatings\":4141,\"ratingHistogram\":{\"1\":38,\"2\":78,\"3\":737,\"4\":2294,\"5\":994},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Thunder Road Pictures\",\"images\":null},{\"name\":\"87Eleven\",\"images\":null},{\"name\":\"MJW Films\",\"images\":null}],\"writers\":[{\"name\":\"Derek Kolstad\",\"images\":null,\"id\":143263}],\"countries\":[\"US\",\"CN\"],\"directors\":[{\"name\":\"Chad Stahelski\",\"images\":null,\"id\":651},{\"name\":\"David Leitch\",\"images\":{\"face\":\"\\/2c\\/6f\\/2c6fc87097b4e89da814e10ae0eb8fce.jpg\"},\"id\":645}],\"releaseDates\":[{\"country\":\"AR\",\"date\":\"2015-01-08T20:00:00+00:00\"},{\"country\":\"DE\",\"date\":\"2015-01-29T20:00:00+00:00\"},{\"country\":\"FR\",\"date\":\"2014-10-29T20:00:00+00:00\"},{\"country\":\"GB\",\"date\":\"2015-04-10T19:00:00+00:00\"},{\"country\":\"IT\",\"date\":\"2015-01-22T20:00:00+00:00\"},{\"country\":\"MX\",\"date\":\"2014-10-30T20:00:00+00:00\"},{\"country\":\"US\",\"date\":\"2014-10-24T19:00:00+00:00\"},{\"country\":\"XX\",\"date\":\"2015-01-29T20:00:00+00:00\"}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:51:03 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"22b46c85296dbf44e6652aec19cb7950\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "5837086eff69ff70-MAD"
+    }
+  },
+  "uuid" : "11cf9be3-0e97-4366-87b2-52adc52d31f7",
+  "persistent" : true,
+  "insertionIndex" : 247
+}

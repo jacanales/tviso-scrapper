@@ -1,0 +1,27 @@
+{
+  "id" : "5df56805-2ed9-4008-9e68-9741af5fd599",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1609007&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1609007,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":null,\"tags\":[{\"id\":\"Freeforme\",\"name\":\"Gratis para m\\u00ed\",\"type\":\"freeForMe\"},{\"id\":\"Anime\",\"name\":\"Anime\",\"type\":\"category\"},{\"id\":\"FuturoPostapocaliptico\",\"name\":\"Futuro postapocal\\u00edptico\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Animation\",\"name\":\"Animaci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"youtube\",\"name\":\"Youtube\",\"type\":\"provider\"},{\"id\":\"MediaHora\",\"name\":\"Media hora\",\"type\":\"duration\"}],\"rating\":8.14,\"name\":\"Ataque a los Titanes: El diario de Ilse\",\"images\":{\"backdrop\":\"\\/8c\\/ef\\/8cefabd878e8dcb3e54fbcf2746d707b.jpg\",\"poster\":\"\\/8c\\/ef\\/8cefabd878e8dcb3e54fbcf2746d707b.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/8c\\/ef\\/8cefabd878e8dcb3e54fbcf2746d707b.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/8c\\/ef\\/8cefabd878e8dcb3e54fbcf2746d707b.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/8c\\/ef\\/8cefabd878e8dcb3e54fbcf2746d707b.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/8c\\/ef\\/8cefabd878e8dcb3e54fbcf2746d707b.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/8c\\/ef\\/8cefabd878e8dcb3e54fbcf2746d707b.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/8c\\/ef\\/8cefabd878e8dcb3e54fbcf2746d707b.jpg\"}},\"year\":2013,\"runtime\":23,\"ageRating\":18,\"mainGenre\":\"Animation\",\"originalName\":\"Shingeki no Kyojin: Ilse no Tech\\u00f4 - Aru Ch\\u00f4sa Heidan-in no Shuki\",\"shortPlot\":\"El Cuaderno de Ilse: Memorias de un Miembro de la Legi\\u00f3n de Reconocimiento...\",\"plot\":\"El Cuaderno de Ilse: Memorias de un Miembro de la Legi\\u00f3n de Reconocimiento es el primer OVA del anime Shingeki no Kyojin.\",\"cast\":[{\"name\":\"Animacion\",\"role\":\"Animacion\",\"images\":null}],\"distributor\":null,\"numInteractions\":628,\"numRatings\":153,\"ratingHistogram\":{\"1\":1,\"2\":0,\"3\":20,\"4\":70,\"5\":62},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Production I.G,\",\"images\":null},{\"name\":\"Wit Studio\",\"images\":null}],\"writers\":[{\"name\":\"Manga: Hajime Isayama\",\"images\":null},{\"name\":\"Hiroshi Seko\",\"images\":null}],\"countries\":null,\"directors\":[{\"name\":\"Tetsuro Araki\",\"images\":null}],\"composer\":null,\"genres\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":[\"youtube\"],\"scheduleSummary\":null,\"vod\":[{\"providerId\":\"youtube\",\"languages\":[\"es\"],\"quality\":[\"sd\"],\"url\":{\"embed\":\"https:\\/\\/www.youtube.com\\/embed\\/jtc9OqlzoqU?autoplay=1\",\"native\":\"https:\\/\\/www.youtube.com\\/watch?v=jtc9OqlzoqU\",\"web\":\"https:\\/\\/www.youtube.com\\/watch?v=jtc9OqlzoqU\"},\"pricing\":{\"free\":true,\"freeForRegistered\":false,\"subscription\":false,\"payPerView\":false,\"prices\":null,\"currency\":null}}],\"schedule\":[],\"vodBestOffer\":{\"providerId\":\"youtube\",\"url\":{\"embed\":\"https:\\/\\/www.youtube.com\\/embed\\/jtc9OqlzoqU?autoplay=1\",\"native\":\"https:\\/\\/www.youtube.com\\/watch?v=jtc9OqlzoqU\",\"web\":\"https:\\/\\/www.youtube.com\\/watch?v=jtc9OqlzoqU\"},\"subscriptionRequiredForUser\":false,\"registerRequiredForUser\":false,\"ppvRequiredForUser\":false,\"currency\":\"EUR\"},\"vodUserOffers\":[{\"providerId\":\"youtube\",\"url\":{\"embed\":\"https:\\/\\/www.youtube.com\\/embed\\/jtc9OqlzoqU?autoplay=1\",\"native\":\"https:\\/\\/www.youtube.com\\/watch?v=jtc9OqlzoqU\",\"web\":\"https:\\/\\/www.youtube.com\\/watch?v=jtc9OqlzoqU\"},\"subscriptionRequiredForUser\":false,\"registerRequiredForUser\":false,\"ppvRequiredForUser\":false,\"currency\":\"EUR\"}]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:50:26 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"c953857cf0f18069348ba4961462b7b5\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "583707881aa5ff70-MAD"
+    }
+  },
+  "uuid" : "5df56805-2ed9-4008-9e68-9741af5fd599",
+  "persistent" : true,
+  "insertionIndex" : 139
+}

@@ -1,0 +1,27 @@
+{
+  "id" : "a6e2119d-5820-410b-9877-26ba3159b3b8",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1714&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1714,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0460492\",\"tags\":[{\"id\":\"SegundaGuerraMundial\",\"name\":\"Segunda Guerra Mundial\",\"type\":\"category\"},{\"id\":\"Trenes\",\"name\":\"Trenes\",\"type\":\"category\"},{\"id\":\"Berlin\",\"name\":\"Berl\\u00edn\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Drama\",\"name\":\"Drama\",\"type\":\"genre\"}],\"rating\":7.62,\"name\":\"El \\u00faltimo tren a Auschwitz\",\"images\":{\"poster\":\"\\/5d\\/f4\\/5df4b85bb79bffb7d86dded40cc01f6b.jpg\",\"backdrop\":\"\\/5d\\/f4\\/5df4b85bb79bffb7d86dded40cc01f6b.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/5d\\/f4\\/5df4b85bb79bffb7d86dded40cc01f6b.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/5d\\/f4\\/5df4b85bb79bffb7d86dded40cc01f6b.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/5d\\/f4\\/5df4b85bb79bffb7d86dded40cc01f6b.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/5d\\/f4\\/5df4b85bb79bffb7d86dded40cc01f6b.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/5d\\/f4\\/5df4b85bb79bffb7d86dded40cc01f6b.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/5d\\/f4\\/5df4b85bb79bffb7d86dded40cc01f6b.jpg\"}},\"year\":2006,\"runtime\":null,\"ageRating\":18,\"mainGenre\":\"Drama\",\"originalName\":\"Der letzte Zug\",\"shortPlot\":\"Alemania, 1943. Los nazis se proponen eliminar definitivamente a todos los...\",\"plot\":\"Alemania, 1943. Los nazis se proponen eliminar definitivamente a todos los jud\\u00edos de Berl\\u00edn. M\\u00e1s de 70.000 ya han sido deportados. En abril de 1943 sale de la estaci\\u00f3n de Grunewald hacia Auschwitz un tren con 688 jud\\u00edos. Durante seis d\\u00edas, los pasajeros tendr\\u00e1n que sufrir calor, hambre y sed. En su desesperaci\\u00f3n, algunos intentan huir; entre ellos, Henry (Gedeon Burkhard), Lea (Lale Yavas) y Ruth (Sibel Kekilli). Pero el tiempo apremia porque Auschwitz est\\u00e1 cada vez m\\u00e1s cerca.\",\"cast\":[{\"name\":\"Gedeon Burkhard\",\"role\":\"Henry Neumann\",\"images\":{\"face\":\"\\/b5\\/30\\/b530b0d61a2c3e2ba76caa0b2f8c5cec.jpg\"},\"id\":475},{\"name\":\"Lale Yavas\",\"role\":\"Lea Neumann\",\"images\":null},{\"name\":\"Lena Beyerling\",\"role\":\"Nina Neumann\",\"images\":null},{\"name\":\"Sibel Kekilli\",\"role\":\"Ruth Zilbermann\",\"images\":null,\"id\":225427},{\"name\":\"Roman Roth\",\"role\":\"Albert Rosen\",\"images\":null},{\"name\":\"Brigitte Grothum\",\"role\":\"Gabrielle Hellmann\",\"images\":null},{\"name\":\"Hans-J\\u00fcrgen Silbermann\",\"role\":\"Jakob Noschik\",\"images\":null},{\"name\":\"Sharon Brauner\",\"role\":\"Erika Friedlich\",\"images\":null,\"id\":110587},{\"name\":\"Juraj Kukura\",\"role\":\"Dr. Friedlich\",\"images\":null,\"id\":212184},{\"name\":\"Ludwig Blochberger\",\"role\":\"Crewes\",\"images\":null,\"id\":3430}],\"genres\":[\"Drama\",\"War\"],\"distributor\":null,\"numInteractions\":21288,\"numRatings\":2410,\"ratingHistogram\":{\"1\":56,\"2\":61,\"3\":415,\"4\":1148,\"5\":730},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Central Cinema Company Film (CCC)\",\"images\":null},{\"name\":\"Diamant Film\",\"images\":null},{\"name\":\"Perathon Film-und Fernsehproduktions GmbH\",\"images\":null}],\"writers\":[{\"name\":\"Artur Brauner\",\"images\":null,\"id\":52642},{\"name\":\"Stephen Glantz\",\"images\":null}],\"countries\":[\"DE\",\"CZ\"],\"directors\":[{\"name\":\"Joseph Vilsmaier\",\"images\":null,\"id\":21315},{\"name\":\"Dana V\\u00e1vrov\\u00e1\",\"images\":null,\"id\":135612}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:51:10 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"eaa0a9ca27a9af0b3fb994715d0505b3\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "583708972dd2ff70-MAD"
+    }
+  },
+  "uuid" : "a6e2119d-5820-410b-9877-26ba3159b3b8",
+  "persistent" : true,
+  "insertionIndex" : 266
+}

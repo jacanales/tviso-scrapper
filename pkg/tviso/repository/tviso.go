@@ -12,7 +12,7 @@ import (
 
 const (
 	ListCollectionEndpoint = "/user/collection?mediaType=&status=&sortType=date&sortDirection=normal"
-	FullInfoEndpoint = "/media/full_info?mediaType=1&liveAvailability=true"
+	FullInfoEndpoint = "/media/full_info?liveAvailability=true"
 )
 
 
@@ -66,7 +66,7 @@ func getCollectionForUserPage(serverURL string, cookie string, page int) (tviso.
 }
 
 func (t TvisoAPI) GetMediaInfo(m *tviso.Media) error {
-	url := fmt.Sprintf("%v%v&idm=%v", t.Config.APIAddr, FullInfoEndpoint, m.ID)
+	url := fmt.Sprintf("%v%v&idm=%v&mediaType=%v", t.Config.APIAddr, FullInfoEndpoint, m.ID, m.MediaType)
 
 	content, err := readURL(url, t.Config.Cookie)
 	if err != nil {

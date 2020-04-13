@@ -1,0 +1,27 @@
+{
+  "id" : "5d7da24f-09d0-4b02-85cd-fed9b689b05a",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=8775&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":8775,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0108255\",\"tags\":[{\"id\":\"Videojuegos\",\"name\":\"Videojuegos\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Adventure\",\"name\":\"Aventura\",\"type\":\"genre\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":5.81,\"name\":\"Super Mario Bros.\",\"images\":{\"backdrop\":\"\\/b6\\/76\\/b676f84f3cad4ce9b29987df726cc419.jpg\",\"poster\":\"\\/b6\\/76\\/b676f84f3cad4ce9b29987df726cc419.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/b6\\/76\\/b676f84f3cad4ce9b29987df726cc419.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/b6\\/76\\/b676f84f3cad4ce9b29987df726cc419.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/b6\\/76\\/b676f84f3cad4ce9b29987df726cc419.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/b6\\/76\\/b676f84f3cad4ce9b29987df726cc419.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/b6\\/76\\/b676f84f3cad4ce9b29987df726cc419.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/b6\\/76\\/b676f84f3cad4ce9b29987df726cc419.jpg\"}},\"year\":1993,\"runtime\":104,\"ageRating\":18,\"mainGenre\":\"Adventure\",\"originalName\":\"Super Mario Bros.\",\"shortPlot\":\"Basada en el famoso videojuego de la compa\\u00f1\\u00eda Nintendo. Dos hermanos fontan...\",\"plot\":\"Basada en el famoso videojuego de la compa\\u00f1\\u00eda Nintendo. Dos hermanos fontaneros se adentran en un mundo paralelo para salvar a la princesa Daisy de las garras del rey Koopa y su ej\\u00e9rcito de reptiles.\",\"cast\":[{\"name\":\"Bob Hoskins\",\"role\":\"Mario Mario\",\"images\":{\"face\":\"\\/af\\/0f\\/af0f3f70d00171ee58cafdf9da4b6640.jpg\"},\"id\":30493},{\"name\":\"John Leguizamo\",\"role\":\"Luigi Mario\",\"images\":{\"face\":\"\\/87\\/4b\\/874ba2d67b57b2b916362c41e90f8db8.jpg\"},\"id\":3016},{\"name\":\"Dennis Hopper\",\"role\":\"King Koopa\",\"images\":{\"face\":\"\\/3b\\/88\\/3b881455ee31954c5ba69685ee96e398.jpg\"},\"id\":14288},{\"name\":\"Samantha Mathis\",\"role\":\"Daisy\",\"images\":null,\"id\":87118},{\"name\":\"Fisher Stevens\",\"role\":\"Iggy\",\"images\":null,\"id\":63269},{\"name\":\"Richard Edson\",\"role\":\"Spike\",\"images\":null,\"id\":81093},{\"name\":\"Fiona Shaw\",\"role\":\"Lena\",\"images\":null,\"id\":64800},{\"name\":\"Dana Kaminski\",\"role\":\"Daniella\",\"images\":null},{\"name\":\"Mojo Nixon\",\"role\":\"Toad\",\"images\":null},{\"name\":\"Gianni Russo\",\"role\":\"Scapelli\",\"images\":{\"face\":\"\\/2d\\/99\\/2d99071f4f844ad01072ced2ce768b3f.jpg\"},\"id\":1393}],\"genres\":[\"Adventure\",\"Comedy\",\"Family\",\"Fantasy\",\"Sci-fi\"],\"distributor\":null,\"numInteractions\":11333,\"numRatings\":2759,\"ratingHistogram\":{\"1\":386,\"2\":422,\"3\":982,\"4\":433,\"5\":536},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Allied Filmmakers\",\"images\":null},{\"name\":\"Cinergi Pictures Entertainment\",\"images\":null},{\"name\":\"Hollywood Pictures\",\"images\":null}],\"writers\":[{\"name\":\"Parker Bennett\",\"images\":null},{\"name\":\"Terry Runte\",\"images\":null}],\"countries\":[\"GB\",\"US\"],\"directors\":[{\"name\":\"Annabel Jankel\",\"images\":null},{\"name\":\"Rocky Morton\",\"images\":null}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:50:14 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"b48a79d8f5395becb783669d4d80ae6b\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "5837073db9ffff70-MAD"
+    }
+  },
+  "uuid" : "5d7da24f-09d0-4b02-85cd-fed9b689b05a",
+  "persistent" : true,
+  "insertionIndex" : 103
+}

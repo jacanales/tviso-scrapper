@@ -1,0 +1,27 @@
+{
+  "id" : "570f1e71-f105-483f-a2bf-e54cae396e3f",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1945292&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1945292,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt5776468\",\"tags\":[{\"id\":\"Videojuegos\",\"name\":\"Videojuegos\",\"type\":\"category\"},{\"id\":\"person-646\",\"name\":\"Jake Gyllenhaal\",\"type\":\"person\"},{\"id\":\"person-481\",\"name\":\"Jessica Chastain\",\"type\":\"person\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"}],\"rating\":null,\"name\":\"The Division\",\"images\":{\"backdrop\":\"\\/1d\\/ff\\/1dffe88b318f4e88ff28d5aba16529d8.jpg\",\"poster\":\"\\/1d\\/ff\\/1dffe88b318f4e88ff28d5aba16529d8.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/1d\\/ff\\/1dffe88b318f4e88ff28d5aba16529d8.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/1d\\/ff\\/1dffe88b318f4e88ff28d5aba16529d8.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/1d\\/ff\\/1dffe88b318f4e88ff28d5aba16529d8.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/1d\\/ff\\/1dffe88b318f4e88ff28d5aba16529d8.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/1d\\/ff\\/1dffe88b318f4e88ff28d5aba16529d8.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/1d\\/ff\\/1dffe88b318f4e88ff28d5aba16529d8.jpg\"}},\"year\":2020,\"runtime\":null,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"The Division\",\"shortPlot\":\"Un grupo de bioterroristas liberan una cepa modificada del virus de la viru...\",\"plot\":\"Un grupo de bioterroristas liberan una cepa modificada del virus de la viruela en la ciudad de Nueva York. La enfermedad se propaga r\\u00e1pidamente as\\u00ed que el Gobierno activa la Divisi\\u00f3n Estrat\\u00e9gica Nacional antes de que la metr\\u00f3poli se derrumbe. El principal objetivo de este grupo de fuerzas especiales es mantener la paz y restablecer el orden ante la amenaza de varios grupos rebeldes que quieren tomar el control de la poblaci\\u00f3n.\\n\\nThe Division es una pel\\u00edcula basada en el videojuego de Ubisoft que lleva el mismo nombre.\",\"cast\":[{\"name\":\"Jessica Chastain\",\"role\":\"-\",\"images\":{\"face\":\"\\/2d\\/01\\/2d01b5ec335823d914d1dad99a0223c9.jpg\"},\"id\":481},{\"name\":\"Jake Gyllenhaal\",\"role\":\"-\",\"images\":{\"face\":\"\\/ce\\/e8\\/cee8a917b3ff283d8a57a9f486b36a6f.jpg\"},\"id\":646},{\"name\":\"Luislasvegas\",\"role\":\"Rogue agent\",\"images\":null},{\"name\":\"Masterlxe\",\"role\":\"Rogue agent\",\"images\":null}],\"composer\":null,\"genres\":[\"Action\",\"Adventure\",\"Fantasy\",\"Mystery\",\"Sci-fi\"],\"distributor\":null,\"numInteractions\":97,\"seasonsBlocked\":[],\"numRatings\":null,\"ratingHistogram\":null,\"producers\":[{\"name\":\"Freckle Films\",\"images\":null},{\"name\":\"Nine Stories Productions\",\"images\":null},{\"name\":\"Ubisoft Motion Pictures\",\"images\":null}],\"writers\":[{\"name\":\"Tom Clancy\",\"images\":null,\"id\":97325},{\"name\":\"Stephen Gaghan\",\"images\":null,\"id\":37292}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Stephen Gaghan\",\"images\":null,\"id\":37292}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:50:14 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"ecbe3476284f731ae39aaa391568bbf1\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "5837073bdc42ff70-MAD"
+    }
+  },
+  "uuid" : "570f1e71-f105-483f-a2bf-e54cae396e3f",
+  "persistent" : true,
+  "insertionIndex" : 102
+}

@@ -1,0 +1,27 @@
+{
+  "id" : "5362aa94-6d67-40bf-9173-bf7a155662e0",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=5173&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":5173,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0351977\",\"tags\":[{\"id\":\"Mafia\",\"name\":\"Mafia\",\"type\":\"category\"},{\"id\":\"Crimenes\",\"name\":\"Cr\\u00edmenes\",\"type\":\"category\"},{\"id\":\"person-2683\",\"name\":\"Dwayne Johnson\",\"type\":\"person\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"HoraYMedia\",\"name\":\"Hora y media\",\"type\":\"duration\"}],\"rating\":7.6,\"name\":\"Pisando Fuerte\",\"images\":{\"poster\":\"\\/c9\\/cb\\/c9cb4296367b134653cb835baa542773.jpg\",\"backdrop\":\"\\/c9\\/cb\\/c9cb4296367b134653cb835baa542773.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/c9\\/cb\\/c9cb4296367b134653cb835baa542773.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/c9\\/cb\\/c9cb4296367b134653cb835baa542773.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/c9\\/cb\\/c9cb4296367b134653cb835baa542773.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/c9\\/cb\\/c9cb4296367b134653cb835baa542773.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/c9\\/cb\\/c9cb4296367b134653cb835baa542773.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/c9\\/cb\\/c9cb4296367b134653cb835baa542773.jpg\"}},\"year\":2004,\"runtime\":86,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Walking Tall\",\"shortPlot\":\"Chris Vaughn (The Rock) es un soldado retirado de las fuerzas especiales de...\",\"plot\":\"Chris Vaughn (The Rock) es un soldado retirado de las fuerzas especiales del ej\\u00e9rcito americano que vuelve a su hogar natal para volver a empezar de nuevo. Pero mientras \\u00e9l estuvo fuera, su ciudad se convirti\\u00f3 en un sitio peligroso y con mucha criminalidad. Uno de los culpables de ese cambio es el acaudalado Jay Hamilton (Neal McDonough), su rival en el instituto. A Chris, que regresaba con la intenci\\u00f3n de recuperar sus viejas relaciones y construir una nueva vida, lo que se encuentra no es lo que recordaba y luchar\\u00e1, bate en mano, para poner las cosas en su sitio.\",\"cast\":[{\"name\":\"Michael Bowen\",\"role\":\"Sheriff Stan Watkins\",\"images\":{\"face\":\"\\/cb\\/4d\\/cb4df06d5367dad985e3e5287c53cd5e.jpg\"},\"id\":2687},{\"name\":\"Johnny Knoxville\",\"role\":\"Ray Templeton\",\"images\":{\"face\":\"\\/ed\\/b4\\/edb4c5afe3fff5c465717fa04cec994a.jpg\"},\"id\":2684},{\"name\":\"Dwayne Johnson\",\"role\":\"Chris Vaughn\",\"images\":{\"face\":\"\\/57\\/7e\\/577eadb7e8a7a3e6ce825b3e4f27f292.jpg\"},\"id\":2683},{\"name\":\"Neal McDonough\",\"role\":\"Jay Hamilton\",\"images\":{\"face\":\"\\/58\\/5a\\/585a3cde2c56f27e6aa48cd94c1cc9da.jpg\"},\"id\":49},{\"name\":\"Ashley Scott\",\"role\":\"Deni\",\"images\":{\"face\":\"\\/05\\/4d\\/054de4db077a91f498e5632d99cd4099.jpg\"},\"id\":2688},{\"name\":\"John Beasley\",\"role\":\"Chris Vaughn Sr.\",\"images\":{\"face\":\"\\/11\\/a5\\/11a5a85c65ce1a41b6af8bd29fba8643.jpg\"},\"id\":2689},{\"name\":\"Barbara Tarbuck\",\"role\":\"Connie Vaughn\",\"images\":{\"face\":\"\\/12\\/e4\\/12e456b44f7269d4fffe27d6150c171d.jpg\"},\"id\":2690},{\"name\":\"Kristen Wilson\",\"role\":\"Michelle Vaughn\",\"images\":{\"face\":\"\\/06\\/6f\\/066fc6bab8c63bd926be38ec8556c9b0.jpg\"},\"id\":2685},{\"name\":\"Khleo Thomas\",\"role\":\"Pete Vaughn\",\"images\":{\"face\":\"\\/3e\\/b1\\/3eb1f0d1d40b16b01d71381185edbd2c.jpg\"},\"id\":2691},{\"name\":\"Kevin Durand\",\"role\":\"Booth\",\"images\":{\"face\":\"\\/a9\\/01\\/a9012307a3ccfc1c1dcd440c96ae6539.jpg\"},\"id\":2692}],\"genres\":[\"Action\",\"Crime\"],\"distributor\":null,\"numInteractions\":19868,\"numRatings\":4196,\"ratingHistogram\":{\"1\":44,\"2\":107,\"3\":898,\"4\":1950,\"5\":1197},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Metro-Goldwyn-Mayer (MGM)\",\"images\":null},{\"name\":\"Hyde Park Entertainment\",\"images\":null},{\"name\":\"Mandeville Films\",\"images\":null}],\"writers\":[{\"name\":\"Mort Briskin\",\"images\":null,\"id\":126161},{\"name\":\"David Klass\",\"images\":null,\"id\":200927}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Kevin Bray\",\"images\":null,\"id\":188473}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:51:27 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"892ab219493629227a7a2d466930f732\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "58370904feb7ff70-MAD"
+    }
+  },
+  "uuid" : "5362aa94-6d67-40bf-9173-bf7a155662e0",
+  "persistent" : true,
+  "insertionIndex" : 318
+}
