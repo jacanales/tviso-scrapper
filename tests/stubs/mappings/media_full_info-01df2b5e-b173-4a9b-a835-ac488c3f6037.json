@@ -1,0 +1,27 @@
+{
+  "id" : "01df2b5e-b173-4a9b-a835-ac488c3f6037",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=665&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":665,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0103923\",\"tags\":[{\"id\":\"Superheroes\",\"name\":\"Superpoderes\",\"type\":\"category\"},{\"id\":\"Comics\",\"name\":\"C\\u00f3mics\",\"type\":\"category\"},{\"id\":\"CapitanAmerica\",\"name\":\"Capit\\u00e1n Am\\u00e9rica\",\"type\":\"category\"},{\"id\":\"Marvel\",\"name\":\"Marvel\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":6.65,\"name\":\"Capit\\u00e1n Am\\u00e9rica\",\"images\":{\"backdrop\":\"\\/2b\\/e2\\/2be296dc07e8a7f6e2c09efd1102708e.jpg\",\"poster\":\"\\/2b\\/e2\\/2be296dc07e8a7f6e2c09efd1102708e.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/2b\\/e2\\/2be296dc07e8a7f6e2c09efd1102708e.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/2b\\/e2\\/2be296dc07e8a7f6e2c09efd1102708e.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/2b\\/e2\\/2be296dc07e8a7f6e2c09efd1102708e.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/2b\\/e2\\/2be296dc07e8a7f6e2c09efd1102708e.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/2b\\/e2\\/2be296dc07e8a7f6e2c09efd1102708e.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/2b\\/e2\\/2be296dc07e8a7f6e2c09efd1102708e.jpg\"}},\"year\":1990,\"runtime\":97,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Captain America\",\"shortPlot\":\"Portovenere (Italia), 1936: tras presenciar la matanza de su familia, Tadzi...\",\"plot\":\"Portovenere (Italia), 1936: tras presenciar la matanza de su familia, Tadzio De Santis, un ni\\u00f1o-prodigio, es sometido a crueles experimentos por los cient\\u00edficos de Hitler y Mussolini. La Dra. Vaselli, que participaba en esos experimentos, decide desertar y huir a Am\\u00e9rica... California (USA), 1943: Steve Rogers, un joven con polio, se presenta como voluntario para un experimento militar que le convertir\\u00e1 en el primero de un ej\\u00e9rcito de super-soldados. Despu\\u00e9s de que la Dra. Vaselli (quien dirig\\u00eda este proyecto americano) sea asesinada por un esp\\u00eda nazi, Steve Rogers adoptar\\u00e1 la identidad del Capit\\u00e1n Am\\u00e9rica y viajar\\u00e1 a la Europa ocupada por el Eje. Ah\\u00ed no solo deber\\u00e1 combatir a los nazis y sus nuevas armas secretas, sino que enfrentar\\u00e1 al antiguo Tadzio De Santis, hoy convertido en un super-soldado fascista: se trata de su diab\\u00f3lica n\\u00e9mesis, el agente nazi Craneo Rojo.\",\"cast\":[{\"name\":\"Matt Salinger\",\"role\":\"Steve Rogers \\/              Captain America\",\"images\":null,\"id\":82123},{\"name\":\"Ronny Cox\",\"role\":\"Tom Kimball\",\"images\":{\"face\":\"\\/6f\\/e6\\/6fe65660ae9d99af0e3e731f117aea4e.jpg\"},\"id\":35095},{\"name\":\"Ned Beatty\",\"role\":\"Sam Kolawetz\",\"images\":null,\"id\":37574},{\"name\":\"Darren McGavin\",\"role\":\"General Fleming\",\"images\":null,\"id\":51626},{\"name\":\"Michael Nouri\",\"role\":\"Lt. Colonel Louis\",\"images\":null,\"id\":60591},{\"name\":\"Scott Paulin\",\"role\":\"Red Skull \\/              Army Doctor\",\"images\":null,\"id\":50735},{\"name\":\"Kim Gillingham\",\"role\":\"Bernice Stewart \\/              Sharon\",\"images\":null,\"id\":211272},{\"name\":\"Melinda Dillon\",\"role\":\"Mrs. Rogers\",\"images\":null,\"id\":41634},{\"name\":\"Bill Mumy\",\"role\":\"Young General Fleming\",\"images\":null,\"id\":72417},{\"name\":\"Francesca Neri\",\"role\":\"Valentina de Santis\",\"images\":{\"face\":\"\\/cf\\/83\\/cf8323d8bc10281740872010d9731356.jpg\"},\"id\":32876}],\"genres\":[\"Action\",\"Sci-fi\",\"Thriller\",\"War\"],\"distributor\":null,\"numInteractions\":9926,\"numRatings\":1725,\"ratingHistogram\":{\"1\":109,\"2\":165,\"3\":547,\"4\":518,\"5\":386},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"21st Century Film Corporation\",\"images\":null},{\"name\":\"Marvel Enterprises\",\"images\":null},{\"name\":\"Jadran Film\",\"images\":null}],\"writers\":[{\"name\":\"Joe Simon\",\"images\":null,\"id\":33326},{\"name\":\"Jack Kirby\",\"images\":{\"face\":\"\\/59\\/e6\\/59e69fdc2694a36449ee6d0462634d1b.jpg\"},\"id\":8317}],\"countries\":[\"US\",\"YU\"],\"directors\":[{\"name\":\"Albert Pyun\",\"images\":null,\"id\":128493}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:53:09 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"eb8d5cbce494c027cd802f1d0374871d\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws1",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "58370b83fff7ff70-MAD"
+    }
+  },
+  "uuid" : "01df2b5e-b173-4a9b-a835-ac488c3f6037",
+  "persistent" : true,
+  "insertionIndex" : 617
+}

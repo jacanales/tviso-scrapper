@@ -1,0 +1,27 @@
+{
+  "id" : "38f73540-e2ec-4f55-9397-6bf978dd2c84",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=466899&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":466899,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt2055789\",\"tags\":[{\"id\":\"FastFurious\",\"name\":\"Fast & Furious\",\"type\":\"category\"},{\"id\":\"Coches\",\"name\":\"Coches\",\"type\":\"category\"},{\"id\":\"Phoenix\",\"name\":\"Phoenix\",\"type\":\"category\"},{\"id\":\"Talleres\",\"name\":\"Talleres\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Short\",\"name\":\"Cortometraje\",\"type\":\"genre\"}],\"rating\":7.68,\"name\":\"A todo gas 1.5: Turbo-Charge Prelude\",\"images\":{\"backdrop\":\"\\/75\\/a2\\/75a2508923a05584fef71e871b9ac88c.jpg\",\"poster\":\"\\/75\\/a2\\/75a2508923a05584fef71e871b9ac88c.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/75\\/a2\\/75a2508923a05584fef71e871b9ac88c.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/75\\/a2\\/75a2508923a05584fef71e871b9ac88c.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/75\\/a2\\/75a2508923a05584fef71e871b9ac88c.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/75\\/a2\\/75a2508923a05584fef71e871b9ac88c.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/75\\/a2\\/75a2508923a05584fef71e871b9ac88c.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/75\\/a2\\/75a2508923a05584fef71e871b9ac88c.jpg\"}},\"year\":2003,\"runtime\":null,\"ageRating\":18,\"mainGenre\":\"Short\",\"originalName\":\"Turbo Charged Prelude to 2 Fast 2 Furious\",\"shortPlot\":\"Brian O'Conner (Paul Walker) recuerda c\\u00f3mo hab\\u00eda dejado que Dominic Toretto...\",\"plot\":\"Brian O'Conner (Paul Walker) recuerda c\\u00f3mo hab\\u00eda dejado que Dominic Toretto (Vin Diesel) escapara de las autoridades, luego empaca sus maletas y sale de su casa en su nuevo auto modificado Mitsubishi 3000 GT VR-4 . Poco despu\\u00e9s, la Polic\\u00eda de Los Angeles llega a su casa, pero no lo encuentra. Uno de los oficiales encuentra la insignia de Brian, revelando que \\u00e9l renunci\\u00f3 a la fuerza. El FBI, al conocer los hechos, lanza un pedido de captura nacional sobre \\u00e9l. NOTA: En el cortometraje no hay di\\u00e1logos y solo dura 6 minutos.\",\"cast\":[{\"name\":\"Paul Walker\",\"role\":\"Brian O'Conner\",\"photo\":\"http:\\/\\/ia.media-imdb.com\\/images\\/M\\/MV5BMjIwODc0OTk2Nl5BMl5BanBnXkFtZTcwOTQ5MDA0Mg@@._V1.jpg\",\"images\":{\"face\":\"\\/0e\\/ff\\/0eff8b7da76d991f29c8456e5665eadd.jpg\"},\"id\":8016},{\"name\":\"Minka Kelly\",\"role\":\"Girl \",\"photo\":\"http:\\/\\/ia.media-imdb.com\\/images\\/M\\/MV5BMjAxNjQxMjQwNl5BMl5BanBnXkFtZTcwNTQ4NTM5NA@@._V1.jpg\",\"images\":{\"face\":\"\\/2d\\/33\\/2d33ef2f130a1860edc5b2e95c82ae30.jpg\"},\"id\":21311},{\"name\":\"Rodney Neil\",\"role\":\"Police Officer \",\"images\":null}],\"genres\":[\"Short\",\"Action\"],\"distributor\":null,\"numInteractions\":13981,\"numRatings\":2119,\"ratingHistogram\":{\"1\":75,\"2\":57,\"3\":409,\"4\":779,\"5\":799},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Neal H. Moritz\",\"role\":\"producer  \",\"images\":{\"face\":\"\\/2b\\/e0\\/2be08b2c2aa2cc882bf5306de5b6596a.jpg\"},\"id\":4997}],\"writers\":[{\"name\":\"Keith Dinielli\",\"role\":null,\"images\":null}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Philip G. Atwell\",\"role\":null,\"images\":null}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:52:54 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"20d6880a981b815fc1c7e981eb3bc67f\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws1",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "58370b21aa2dff70-MAD"
+    }
+  },
+  "uuid" : "38f73540-e2ec-4f55-9397-6bf978dd2c84",
+  "persistent" : true,
+  "insertionIndex" : 572
+}

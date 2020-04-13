@@ -1,0 +1,27 @@
+{
+  "id" : "b5b1ada6-a768-43ec-967f-1e1be07d4cb8",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=2702145&mediaType=1",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":2702145,\"mediaType\":1,\"mediaStyle\":\"chained\",\"imdb\":null,\"tags\":[{\"id\":\"Mediatype1\",\"name\":\"Serie\",\"type\":\"mediaType\"},{\"id\":\"Animation\",\"name\":\"Animaci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"MediaHora\",\"name\":\"Media hora\",\"type\":\"duration\"}],\"rating\":8.5,\"name\":\"Ataque a los Titanes: Sin lamentos\",\"images\":{\"poster\":\"\\/df\\/2b\\/df2b615fa41e5b5479cb293c3ee61236.jpg\",\"backdrop\":\"\\/df\\/2b\\/df2b615fa41e5b5479cb293c3ee61236.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/df\\/2b\\/df2b615fa41e5b5479cb293c3ee61236.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/df\\/2b\\/df2b615fa41e5b5479cb293c3ee61236.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/df\\/2b\\/df2b615fa41e5b5479cb293c3ee61236.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/df\\/2b\\/df2b615fa41e5b5479cb293c3ee61236.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/df\\/2b\\/df2b615fa41e5b5479cb293c3ee61236.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/df\\/2b\\/df2b615fa41e5b5479cb293c3ee61236.jpg\"}},\"year\":2014,\"runtime\":24,\"ageRating\":18,\"mainGenre\":\"Animation\",\"originalName\":\"Shingeki no Kyojin: Kuinaki Sentaku\",\"shortPlot\":\"Este spin-off de dos cap\\u00edtulos nos cuenta el pasado de Levi y de c\\u00f3mo lleg\\u00f3...\",\"numEpisodes\":2,\"numSeasons\":1,\"plot\":\"Este spin-off de dos cap\\u00edtulos nos cuenta el pasado de Levi y de c\\u00f3mo lleg\\u00f3 a pertenecer a las tropas de reconocimiento y sus primeras exploraciones fuera de la muralla.\",\"broadcast\":\"finalized\",\"composer\":null,\"cast\":[{\"name\":\"Hiroshi Kamiya\",\"role\":\"Levi\",\"images\":null,\"id\":23202},{\"name\":\"Daisuke Ono\",\"role\":\"Erwin Smith \",\"images\":{\"face\":\"\\/af\\/10\\/af10e67d993e928c3db9b98d21b66b29.jpg\"},\"id\":4800},{\"name\":\"Mariya Ise\",\"role\":\"Isabel Magnolia\",\"images\":null}],\"distributor\":null,\"numInteractions\":25,\"numRatings\":6,\"ratingHistogram\":{\"1\":0,\"2\":0,\"3\":1,\"4\":2,\"5\":3},\"seasonsBlocked\":[],\"producers\":[],\"writers\":[],\"countries\":[\"JP\"],\"directors\":[{\"name\":\"Masashi Koizuka\",\"images\":null},{\"name\":\"Tetsuro Naraki \",\"images\":null}],\"genres\":null,\"seasons\":[{\"seasonNum\":1,\"episodes\":[{\"idm\":2702147,\"mediaType\":5,\"name\":\"A Choice with No Regrets (Part 1)\",\"plot\":null,\"images\":null,\"runtime\":null,\"artwork\":{\"backdrops\":{\"original\":null,\"large\":null,\"small\":null},\"posters\":{\"original\":null,\"large\":null,\"small\":null}},\"seasonNum\":1,\"episodeNum\":1,\"availability\":{\"vodSummary\":null,\"vod\":null,\"scheduleSummary\":null,\"schedule\":null,\"vodBestOffer\":null,\"vodUserOffers\":[]},\"watched\":false},{\"idm\":2702150,\"mediaType\":5,\"name\":\"A Choice with No Regrets (Part 2)\",\"plot\":null,\"images\":null,\"runtime\":null,\"artwork\":{\"backdrops\":{\"original\":null,\"large\":null,\"small\":null},\"posters\":{\"original\":null,\"large\":null,\"small\":null}},\"seasonNum\":1,\"episodeNum\":2,\"releaseDates\":[{\"country\":\"XX\",\"date\":\"2015-04-09T19:00:00+00:00\"}],\"availability\":{\"vodSummary\":null,\"vod\":null,\"scheduleSummary\":null,\"schedule\":null,\"vodBestOffer\":null,\"vodUserOffers\":[]},\"watched\":false}]}],\"availability\":{\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"following\"}",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:50:25 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"af51efc73702612fa1ecf0a81d5d2d6b\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "5837077fa843ff70-MAD"
+    }
+  },
+  "uuid" : "b5b1ada6-a768-43ec-967f-1e1be07d4cb8",
+  "persistent" : true,
+  "insertionIndex" : 135
+}

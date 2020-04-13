@@ -1,0 +1,27 @@
+{
+  "id" : "e6020f21-36ee-4860-b1b8-8e17223f93a9",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=377&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":377,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0072901\",\"tags\":[{\"id\":\"Comics\",\"name\":\"C\\u00f3mics\",\"type\":\"category\"},{\"id\":\"Infantil\",\"name\":\"Infantil\",\"type\":\"category\"},{\"id\":\"Asterix\",\"name\":\"Ast\\u00e9rix\",\"type\":\"category\"},{\"id\":\"DibujosAnimados\",\"name\":\"Dibujos animados\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Animation\",\"name\":\"Animaci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"HoraYMedia\",\"name\":\"Hora y media\",\"type\":\"duration\"}],\"rating\":8.39,\"name\":\"Ast\\u00e9rix: Las doce pruebas de Ast\\u00e9rix\",\"images\":{\"backdrop\":\"\\/46\\/c5\\/46c591d2a6ce9aac65e4239af6673b3c.jpg\",\"poster\":\"\\/46\\/c5\\/46c591d2a6ce9aac65e4239af6673b3c.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/46\\/c5\\/46c591d2a6ce9aac65e4239af6673b3c.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/46\\/c5\\/46c591d2a6ce9aac65e4239af6673b3c.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/46\\/c5\\/46c591d2a6ce9aac65e4239af6673b3c.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/46\\/c5\\/46c591d2a6ce9aac65e4239af6673b3c.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/46\\/c5\\/46c591d2a6ce9aac65e4239af6673b3c.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/46\\/c5\\/46c591d2a6ce9aac65e4239af6673b3c.jpg\"}},\"year\":1976,\"runtime\":82,\"ageRating\":18,\"mainGenre\":\"Animation\",\"originalName\":\"The Twelve Tasks of Asterix\",\"shortPlot\":\"Corre el a\\u00f1o 50 A.C. En la Galia, ocupada por los romanos, un peque\\u00f1o pobla...\",\"plot\":\"Corre el a\\u00f1o 50 A.C. En la Galia, ocupada por los romanos, un peque\\u00f1o poblado galo resiste de forma victoriosa a los insistentes ataques de los invasores. C\\u00e9sar sabe que hay que hacer algo para evitar verse humillado y ridiculizado. Por ello obliga a los habitantes del poblado a que elijan dos representantes que deber\\u00e1n superar doce pruebas que s\\u00f3lo los dioses podr\\u00edan resistir. Lo que no sabe C\\u00e9sar es que los dos galos elegidos: Ast\\u00e9rix, el guerrero, y Ob\\u00e9lix, el portador de menhires, cuentan con la ayuda de la poci\\u00f3n m\\u00e1gica cuya f\\u00f3rmula secreta solamente conoce el druida Panor\\u00e1mix.\",\"cast\":[{\"name\":\"Roger Carel\",\"role\":\"Ast\\u00e9rix\",\"images\":{\"face\":\"\\/8f\\/08\\/8f08af36e12243db1af058fe0d9fba42.jpg\"},\"id\":7095},{\"name\":\"Jacques Morel\",\"role\":\"Ob\\u00e9lix\",\"images\":null},{\"name\":\"Pierre Tornade\",\"role\":\"Abraracourcix\",\"images\":null,\"id\":39990},{\"name\":\"Henri Labussi\\u00e8re\",\"role\":\"Le r\\u00e9ceptionniste\",\"images\":null},{\"name\":\"Jean Martinelli\",\"role\":\"C\\u00e9sar\",\"images\":null,\"id\":134316},{\"name\":\"Pascal Mazzotti\",\"role\":\"-\",\"images\":null,\"id\":183075},{\"name\":\"Lawrence Riesner\",\"role\":\"-\",\"images\":null},{\"name\":\"Claude Dasset\",\"role\":\"-\",\"images\":null},{\"name\":\"Roger Lumont\",\"role\":\"Cylindrique le Germain, prof de karat\\u00e9 allemand\",\"images\":null,\"id\":177802},{\"name\":\"G\\u00e9rard Hernandez\",\"role\":\"Le v\\u00e9n\\u00e9rable du sommet\",\"images\":null,\"id\":76469}],\"composer\":{\"name\":\"G\\u00e9rard Calvi\",\"images\":null,\"id\":105687},\"genres\":[\"Animation\",\"Action\",\"Adventure\",\"Comedy\",\"Family\",\"Fantasy\"],\"distributor\":\"Club Super 3\",\"numInteractions\":34257,\"numRatings\":7449,\"ratingHistogram\":{\"1\":53,\"2\":92,\"3\":803,\"4\":2765,\"5\":3736},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Dargaud Films\",\"images\":null},{\"name\":\"Les Productions Ren\\u00e9 Goscinny\",\"images\":null},{\"name\":\"Studios Idefix\",\"images\":null,\"id\":106637}],\"writers\":[{\"name\":\"Ren\\u00e9 Goscinny\",\"images\":null,\"id\":77609},{\"name\":\"Albert Uderzo\",\"images\":null,\"id\":77611}],\"countries\":[\"FR\",\"GB\"],\"directors\":[{\"name\":\"Ren\\u00e9 Goscinny\",\"images\":null,\"id\":77609},{\"name\":\"Henri Gruel\",\"images\":null,\"id\":229218}],\"releaseDates\":[{\"country\":\"XX\",\"date\":\"1976-12-19T20:00:00+00:00\"},{\"country\":\"GB\",\"date\":\"1976-12-19T20:00:00+00:00\"}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:50:22 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"5197ac53119b9492e1585941e6593d82\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "583707709f72ff70-MAD"
+    }
+  },
+  "uuid" : "e6020f21-36ee-4860-b1b8-8e17223f93a9",
+  "persistent" : true,
+  "insertionIndex" : 128
+}

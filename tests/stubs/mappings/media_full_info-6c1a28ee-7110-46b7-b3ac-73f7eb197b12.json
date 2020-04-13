@@ -1,0 +1,27 @@
+{
+  "id" : "6c1a28ee-7110-46b7-b3ac-73f7eb197b12",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=405194&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":405194,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt1145157\",\"tags\":[{\"id\":\"ComediaRomantica\",\"name\":\"Comedia rom\\u00e1ntica\",\"type\":\"category\"},{\"id\":\"Musica\",\"name\":\"M\\u00fasica\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Comedy\",\"name\":\"Comedia\",\"type\":\"genre\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":6.94,\"name\":\"The Jerk Theory\",\"images\":{\"backdrop\":\"\\/93\\/28\\/93288c01a35b81f822ca5999ff9a704f.jpg\",\"poster\":\"\\/93\\/28\\/93288c01a35b81f822ca5999ff9a704f.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/93\\/28\\/93288c01a35b81f822ca5999ff9a704f.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/93\\/28\\/93288c01a35b81f822ca5999ff9a704f.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/93\\/28\\/93288c01a35b81f822ca5999ff9a704f.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/93\\/28\\/93288c01a35b81f822ca5999ff9a704f.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/93\\/28\\/93288c01a35b81f822ca5999ff9a704f.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/93\\/28\\/93288c01a35b81f822ca5999ff9a704f.jpg\"}},\"year\":2009,\"runtime\":93,\"ageRating\":13,\"mainGenre\":\"Comedy\",\"originalName\":\"The Jerk Theory\",\"shortPlot\":\"Adam es un joven quien aspira en ser cantante, su vida amorosa cambia por u...\",\"plot\":\"Adam es un joven quien aspira en ser cantante, su vida amorosa cambia por una mala experiencia vivida, desde all\\u00ed piensa que si las mujeres no responden a un buen tipo como responder\\u00edan a un idiota? por lo que se convierte en ello \\u201cun idiota\\u201d teniendo \\u00e9xito completo en las relaciones, pero todo cambiar\\u00e1 cuando conoce a Molly, se enamora de ella por lo que deber\\u00eda de cambiar su filosof\\u00eda\",\"cast\":[{\"name\":\"Josh Henderson\",\"role\":\"Adam Dynes\",\"images\":null,\"id\":51332},{\"name\":\"Jenna Dewan Tatum\",\"role\":\"Molly Taylor\",\"images\":{\"face\":\"\\/6c\\/4b\\/6c4b2e658d4b285d170a7dda8c268c85.jpg\"},\"id\":33260},{\"name\":\"Lauren Storm\",\"role\":\"Amy\",\"images\":null},{\"name\":\"Derek Lee Nixon\",\"role\":\"Chester\",\"images\":null},{\"name\":\"Jesse Heiman\",\"role\":\"Clinton\",\"images\":null,\"id\":188393},{\"name\":\"Anthony Gaskins\",\"role\":\"Dudley\",\"images\":null},{\"name\":\"Abraham Taylor\",\"role\":\"Marc Dixon\",\"images\":null},{\"name\":\"Jaci Twiss\",\"role\":\"Cynthia Swensen\",\"images\":null},{\"name\":\"Danny Bonaduce\",\"role\":\"Himself\",\"images\":null,\"id\":151422},{\"name\":\"Tom Arnold\",\"role\":\"Father Bailey\",\"images\":{\"face\":\"\\/e5\\/c6\\/e5c639bb5ea5b7a8a22f721523222dc4.jpg\"},\"id\":1290}],\"composer\":{\"name\":\"Josh Aker\",\"images\":null},\"genres\":[\"Comedy\",\"Music\",\"Romance\"],\"distributor\":null,\"numInteractions\":665,\"numRatings\":141,\"ratingHistogram\":{\"1\":6,\"2\":12,\"3\":45,\"4\":39,\"5\":39},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"PolarStar Entertainment\",\"images\":null},{\"name\":\"Polarstar Pictures\",\"images\":null}],\"writers\":[{\"name\":\"Scott S. Anderson\",\"images\":null},{\"name\":\"Abraham Taylor\",\"images\":null}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Scott S. Anderson\",\"images\":null}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:54:25 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"05178b9d9ef5678b2fd325d9af803101\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "58370d5f7b7fff70-MAD"
+    }
+  },
+  "uuid" : "6c1a28ee-7110-46b7-b3ac-73f7eb197b12",
+  "persistent" : true,
+  "insertionIndex" : 825
+}

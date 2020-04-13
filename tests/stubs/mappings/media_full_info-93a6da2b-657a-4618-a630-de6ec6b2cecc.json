@@ -1,0 +1,27 @@
+{
+  "id" : "93a6da2b-657a-4618-a630-de6ec6b2cecc",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=2042054&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":2042054,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt7126948\",\"tags\":[{\"id\":\"person-54\",\"name\":\"Gal Gadot\",\"type\":\"person\"},{\"id\":\"UniversoDc\",\"name\":\"Universo DC\",\"type\":\"category\"},{\"id\":\"MujeresProtagonistas\",\"name\":\"Mujeres protagonistas\",\"type\":\"category\"},{\"id\":\"Superheroes\",\"name\":\"Superpoderes\",\"type\":\"category\"},{\"id\":\"LigaDeLaJusticia\",\"name\":\"Liga de la justicia\",\"type\":\"category\"},{\"id\":\"Anos80\",\"name\":\"A\\u00f1os 80\",\"type\":\"category\"},{\"id\":\"person-233\",\"name\":\"Chris Pine\",\"type\":\"person\"},{\"id\":\"person-34443\",\"name\":\"Robin Wright\",\"type\":\"person\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"}],\"rating\":7.72,\"name\":\"Wonder Woman 1984\",\"images\":{\"backdrop\":\"\\/53\\/87\\/5387de7e43593344e3470aa7de1e1c6c.jpg\",\"poster\":\"\\/53\\/87\\/5387de7e43593344e3470aa7de1e1c6c.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/53\\/87\\/5387de7e43593344e3470aa7de1e1c6c.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/53\\/87\\/5387de7e43593344e3470aa7de1e1c6c.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/53\\/87\\/5387de7e43593344e3470aa7de1e1c6c.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/53\\/87\\/5387de7e43593344e3470aa7de1e1c6c.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/53\\/87\\/5387de7e43593344e3470aa7de1e1c6c.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/53\\/87\\/5387de7e43593344e3470aa7de1e1c6c.jpg\"}},\"year\":2020,\"runtime\":null,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Wonder Woman 1984\",\"shortPlot\":null,\"plot\":\"Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah.\",\"cast\":[{\"name\":\"Pedro Pascal\",\"role\":\"Max Lord\",\"images\":{\"face\":\"\\/bc\\/b4\\/bcb44f9e81cf5859bd1f7a68615acd69.jpg\"},\"id\":27690},{\"name\":\"Gal Gadot\",\"role\":\"Diana Prince \\/  \\n            Wonder Woman\",\"images\":{\"face\":\"\\/d5\\/6a\\/d56a4bf88a73b2cfdfd14c58e99ae898.jpg\"},\"id\":54},{\"name\":\"Kristen Wiig\",\"role\":\"Barbara Minerva \\/  \\n            Cheetah\",\"images\":{\"face\":\"\\/3b\\/03\\/3b03326ad1abb0ab914d44940af0aa44.jpg\"},\"id\":2988},{\"name\":\"Chris Pine\",\"role\":\"Steve Trevor\",\"images\":{\"face\":\"\\/86\\/a7\\/86a70cb37951d171af3d106ca57bbd70.jpg\"},\"id\":233},{\"name\":\"Connie Nielsen\",\"role\":\"Hippolyta\",\"images\":{\"face\":\"\\/05\\/d2\\/05d2d82e63cd08a01d1fe3ba35b069ee.jpg\"},\"id\":2894},{\"name\":\"Robin Wright\",\"role\":\"Antiope\",\"images\":{\"face\":\"\\/3e\\/e8\\/3ee88f78e0c8f246f224066f20a836ba.jpg\"},\"id\":34443},{\"name\":\"Gabriella Wilde\",\"role\":\"-\",\"images\":null,\"id\":63221},{\"name\":\"Kristoffer Polaha\",\"role\":\"-\",\"images\":null,\"id\":60257},{\"name\":\"Manoj Anand\",\"role\":\"Christmas Market Vendor\",\"images\":null},{\"name\":\"Natasha Rothwell\",\"role\":\"-\",\"images\":null,\"id\":219109}],\"composer\":{\"name\":\"Hans Zimmer\",\"images\":null,\"id\":63555},\"genres\":[\"Action\",\"Adventure\",\"Fantasy\"],\"distributor\":\"Warner Bros.\",\"numInteractions\":632,\"numRatings\":25,\"ratingHistogram\":{\"1\":0,\"2\":0,\"3\":6,\"4\":10,\"5\":8},\"seasonsBlocked\":[],\"producers\":[],\"writers\":[{\"name\":\"Geoff Johns\",\"images\":null,\"id\":36506},{\"name\":\"Patty Jenkins\",\"images\":null,\"id\":57730},{\"name\":\"Dave Callaham\",\"images\":null,\"id\":66182},{\"name\":\"Geoff Johns\",\"images\":null,\"id\":36506},{\"name\":\"Patty Jenkins\",\"images\":null,\"id\":57730},{\"name\":\"William Moulton Marston\",\"images\":null}],\"countries\":[\"US\",\"GB\",\"CA\",\"MX\",\"ES\"],\"directors\":[{\"name\":\"Patty Jenkins\",\"images\":null,\"id\":57730}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:52:59 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"371138f6be66121adc1cdee95a081cb7\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "58370b464d32ff70-MAD"
+    }
+  },
+  "uuid" : "93a6da2b-657a-4618-a630-de6ec6b2cecc",
+  "persistent" : true,
+  "insertionIndex" : 589
+}

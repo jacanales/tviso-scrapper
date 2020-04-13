@@ -1,0 +1,27 @@
+{
+  "id" : "4ae3e5b5-7165-4aab-8968-8542641a763a",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1775851&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1775851,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt2819130\",\"tags\":[{\"id\":\"Robots\",\"name\":\"Robots\",\"type\":\"category\"},{\"id\":\"InteligenciaArtificial\",\"name\":\"Inteligencia Artificial\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"filmin\",\"name\":\"Filmin\",\"type\":\"provider\"},{\"id\":\"HoraYMedia\",\"name\":\"Hora y media\",\"type\":\"duration\"}],\"rating\":null,\"name\":\"OMG, I'm a Robot!\",\"images\":{\"poster\":\"\\/c5\\/ff\\/c5ff7e60c91b2984da7bca8a0e00ed52.jpg\",\"backdrop\":\"\\/c5\\/ff\\/c5ff7e60c91b2984da7bca8a0e00ed52.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/c5\\/ff\\/c5ff7e60c91b2984da7bca8a0e00ed52.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/c5\\/ff\\/c5ff7e60c91b2984da7bca8a0e00ed52.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/c5\\/ff\\/c5ff7e60c91b2984da7bca8a0e00ed52.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/c5\\/ff\\/c5ff7e60c91b2984da7bca8a0e00ed52.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/c5\\/ff\\/c5ff7e60c91b2984da7bca8a0e00ed52.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/c5\\/ff\\/c5ff7e60c91b2984da7bca8a0e00ed52.jpg\"}},\"year\":2015,\"runtime\":75,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"OMG, I'm a Robot!\",\"shortPlot\":\"Danny es un chico emotivo, tan emotivo que incluso llora con el final de So...\",\"plot\":\"Danny es un chico emotivo, tan emotivo que incluso llora con el final de Solo en casa. Adem\\u00e1s, est\\u00e1 hundido: su novia le ha dejado y no sabe por qu\\u00e9. Para poner fin a su agon\\u00eda, intenta cortarse las venas, y en ese preciso instante descubre que de humano tiene m\\u00e1s bien poco y que en realidad es un robot. Para colmo, su exnovia ha desaparecido; claro que, ahora, Danny sabe que puede usar sus poderes rob\\u00f3ticos para recuperarla.\",\"cast\":[{\"name\":\"Yotam Ishay\",\"role\":\"Danny Bernstein\",\"images\":null,\"id\":54970},{\"name\":\"Hili Yalon\",\"role\":\"Noa\",\"images\":null},{\"name\":\"Tzahi Grad\",\"role\":\"-\",\"images\":null,\"id\":177818},{\"name\":\"Dror Keren\",\"role\":\"-\",\"images\":null},{\"name\":\"Inna Bakelman\",\"role\":\"Maya\",\"images\":null},{\"name\":\"Rob Schneider\",\"role\":\"Robo Joseph\",\"images\":{\"face\":\"\\/b8\\/09\\/b8091ff9e24755243cf394c2984f1bc4.jpg\"},\"id\":11041},{\"name\":\"Nelly Tagar\",\"role\":\"Netta\",\"images\":null,\"id\":220415},{\"name\":\"David Kigler\",\"role\":\"-\",\"images\":null},{\"name\":\"Ori Yaniv\",\"role\":\"Yossi\",\"images\":null},{\"name\":\"Yossi Marshek\",\"role\":\"Herzl\",\"images\":null,\"id\":220793}],\"composer\":{\"name\":\"Omri Behr\",\"images\":null},\"genres\":[\"Action\",\"Comedy\",\"Sci-fi\"],\"distributor\":null,\"numInteractions\":13,\"seasonsBlocked\":[],\"numRatings\":null,\"ratingHistogram\":null,\"producers\":[],\"writers\":[{\"name\":\"Tal Goldberg\",\"images\":null},{\"name\":\"Gal Zelezniak\",\"images\":null}],\"countries\":[\"IL\"],\"directors\":[{\"name\":\"Tal Goldberg\",\"images\":null},{\"name\":\"Gal Zelezniak\",\"images\":null}],\"availability\":{\"inTheaters\":false,\"vodSummary\":[\"filmin\"],\"scheduleSummary\":null,\"vod\":[{\"providerId\":\"filmin\",\"languages\":[\"es\"],\"quality\":[\"hd\"],\"url\":{\"embed\":null,\"native\":null,\"web\":\"https:\\/\\/www.filmin.es\\/pelicula\\/omg-im-a-robot\"},\"pricing\":{\"free\":false,\"freeForRegistered\":false,\"subscription\":true,\"payPerView\":true,\"prices\":{\"hd\":2.95},\"currency\":\"EUR\"}}],\"schedule\":[],\"vodBestOffer\":{\"providerId\":\"filmin\",\"url\":{\"embed\":null,\"native\":null,\"web\":\"https:\\/\\/www.filmin.es\\/pelicula\\/omg-im-a-robot\"},\"subscriptionRequiredForUser\":true,\"registerRequiredForUser\":false,\"ppvRequiredForUser\":true,\"currency\":\"EUR\",\"minPrice\":2.95},\"vodUserOffers\":[{\"providerId\":\"filmin\",\"url\":{\"embed\":null,\"native\":null,\"web\":\"https:\\/\\/www.filmin.es\\/pelicula\\/omg-im-a-robot\"},\"subscriptionRequiredForUser\":true,\"registerRequiredForUser\":false,\"ppvRequiredForUser\":true,\"currency\":\"EUR\",\"minPrice\":2.95}]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Mon, 13 Apr 2020 17:50:34 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"4337727fe1701cea750f4b75b56809b7\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws1",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "583707b5ff90ff70-MAD"
+    }
+  },
+  "uuid" : "4ae3e5b5-7165-4aab-8968-8542641a763a",
+  "persistent" : true,
+  "insertionIndex" : 160
+}
