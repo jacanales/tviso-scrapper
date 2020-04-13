@@ -5,13 +5,14 @@ import "time"
 type MediaType int32
 
 const (
-	SeriesMediaType MediaType = 1
-	MoviesMediaType MediaType = 2
+	SeriesMediaType  MediaType = 1
+	MoviesMediaType  MediaType = 2
 	EpisodeMediatype MediaType = 5
 )
 
 type ReadRepository interface {
 	GetUserCollection() ([]Media, error)
+	GetMediaInfo(*Media) error
 }
 
 type WriteRepository interface {
@@ -48,12 +49,12 @@ type StatusCount struct {
 
 type Media struct {
 	ID           int          `json:"idm"`
+	Name         string       `json:"name"`
 	MediaType    MediaType    `json:"mediaType"`
 	MediaStyle   string       `json:"mediaStyle"`
 	IMDB         string       `json:"imdb"`
 	Tags         []Tag        `json:"tags"`
 	Rating       float64      `json:"rating"`
-	Name         string       `json:"name"`
 	Images       Images       `json:"images"`
 	Artwork      Artworks     `json:"artwork"`
 	Year         int          `json:"year"`
@@ -79,8 +80,8 @@ type Media struct {
 	Directors   []Directors `json:"directors,omitempty"`
 	Composer    Person      `json:"composer"`
 	Countries   []string    `json:"countries,omitempty"`
-	Status      int         `json:"status,omitempty"`
-	StatusMedia string      `json:"statusMedia,omitempty"`
+	Status      int         `json:"status"`
+	StatusMedia string      `json:"statusMedia"`
 
 	// Only for Series Full info
 	SeasonsBlocked []int    `json:"seasonsBlocked,omitempty"`
@@ -88,8 +89,8 @@ type Media struct {
 }
 
 type Season struct {
-	SeasonNum int     `json:"seasonNum"`
-	Episodes  []Media `json:"episodes"`
+	SeasonNum int       `json:"seasonNum"`
+	Episodes  []Episode `json:"episodes"`
 }
 
 type Episode struct {
@@ -112,6 +113,9 @@ type ReleaseDate struct {
 }
 
 type Person struct {
+	ID     int               `json:"id"`
+	Name   string            `json:"name"`
+	Images map[string]string `json:"images"`
 }
 
 type Cast struct {
@@ -163,7 +167,7 @@ type Posters struct {
 type Availability struct {
 	VODSummary      []string      `json:"vodSummary"`
 	ScheduleSummary string        `json:"scheduleSummary,omitempty"`
-	Schedule        string        `json:"schedule,omitempty"`
+	Schedule        []string      `json:"schedule"`
 	InTheaters      bool          `json:"inTheaters"`
 	VOD             []VODProvider `json:"vod,omitempty"`
 	VODBestOffer    VODProvider   `json:"vodBestOffer"`

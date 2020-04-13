@@ -6,5 +6,9 @@ func GetUserCollection(read ReadRepository, write WriteRepository) error {
 		return err
 	}
 
+	for _, m := range collection {
+		_ = read.GetMediaInfo(&m)
+	}
+
 	return write.StoreCollection(collection)
 }

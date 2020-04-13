@@ -9,4 +9,5 @@ services:
     volumes:
       - "./tests/stubs:/home/wiremock"
       - "./var/wiremock:/var/wiremock/extensions"
-    command: --jetty-acceptor-threads 8 --extensions com.opentable.extension.BodyTransformer --verbose
+    command: --jetty-acceptor-threads 8 --verbose
+    #command: --jetty-acceptor-threads 8 --extensions com.opentable.extension.BodyTransformer --verbose

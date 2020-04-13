@@ -1,7 +1,18 @@
 {
   "request": {
     "method": "GET",
-    "url": "/media/full_info?idm=3864&mediaType=2&liveAvailability=true"
+    "urlPath": "/media/full_info",
+    "queryParameters" : {
+      "idm": {
+        "matches": "^([0-9]*)$"
+      },
+      "mediaType" : {
+        "equalTo" : "2"
+      },
+      "liveAvailability": {
+        "equalTo": "true"
+      }
+    }
   },
   "response": {
     "status": 200,
