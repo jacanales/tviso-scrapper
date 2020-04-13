@@ -32,7 +32,7 @@ func (t TvisoAPI) GetUserCollection() ([]tviso.Media, error) {
 	collection := []tviso.Media{}
 
 	for hasMore {
-		cr, err := getCollectionForUserPage(t.Config.APIAddr, page)
+		cr, err := getCollectionForUserPage(t.Config.APIAddr, t.Config.Cookie, page)
 		if err != nil {
 			return nil, err
 		}
@@ -46,10 +46,10 @@ func (t TvisoAPI) GetUserCollection() ([]tviso.Media, error) {
 	return collection, nil
 }
 
-func getCollectionForUserPage(serverURL string, page int) (tviso.Results, error) {
+func getCollectionForUserPage(serverURL string, cookie string, page int) (tviso.Results, error) {
 	url := fmt.Sprintf("%v%v&page=%v", serverURL, ListCollectionEndpoint, page)
 
-	contents, err := readURL(url)
+	contents, err := readURL(url, cookie)
 	if err != nil {
 		return tviso.Results{}, err
 	}
@@ -68,7 +68,7 @@ func getCollectionForUserPage(serverURL string, page int) (tviso.Results, error)
 func (t TvisoAPI) GetMediaInfo(m *tviso.Media) error {
 	url := fmt.Sprintf("%v%v&idm=%v", t.Config.APIAddr, FullInfoEndpoint, m.ID)
 
-	content, err := readURL(url)
+	content, err := readURL(url, t.Config.Cookie)
 	if err != nil {
 		return err
 	}
@@ -83,8 +83,13 @@ func (t TvisoAPI) GetMediaInfo(m *tviso.Media) error {
 	return nil
 }
 
-func readURL(url string) ([]byte, error) {
-	r, err := http.Get(url)
+func readURL(url string, cookie string) ([]byte, error) {
+	req, err := http.NewRequest(http.MethodGet, url, nil)
+	req.Header.Add("Cookie", cookie)
+
+	client := http.DefaultClient
+
+	r, err := client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -96,7 +101,7 @@ func readURL(url string) ([]byte, error) {
 	}()
 
 	if err := checkStatusCode(r); err != nil {
-		return nil, err
+		return readURL(url, cookie)
 	}
 
 	contents, err := ioutil.ReadAll(r.Body)
@@ -109,7 +114,7 @@ func readURL(url string) ([]byte, error) {
 
 func checkStatusCode(r *http.Response) error {
 	if r.StatusCode != http.StatusOK {
-		return fmt.Errorf("error: %v", r.StatusCode)
+		return fmt.Errorf("invalid status code: %v, message: %v", r.StatusCode, r.Body)
 	}
 
 	return nil
