@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPath": "/media/full_info",
+    "urlPath": "/test/media/full_info",
     "queryParameters" : {
       "idm": {
         "matches": "^([0-9]*)$"
