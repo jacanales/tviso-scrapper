@@ -21,7 +21,10 @@ up:
 down:
 	docker-compose down
 
-download-wiremock: ## Download wiremock extensions to run tests
+download-wiremock: ## Download WireMock extensions to run tests
 	@echo "downloading wiremock extensions ..."
 	etc/bin/wiremock_extension.sh
 	@echo "... done"
+
+generate:
+	go generate ./...

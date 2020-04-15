@@ -1,3 +1,5 @@
+//go:generate mockgen -destination=mocks/collection_mock.go -package=mocks . ReadRepository,WriteRepository
+
 package tviso
 
 import "time"
