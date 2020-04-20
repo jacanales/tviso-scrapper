@@ -29,7 +29,8 @@ func NewTvisoAPI() tviso.ReadRepository {
 func (t TvisoAPI) GetUserCollection() ([]tviso.Media, error) {
 	page := 0
 	hasMore := true
-	collection := []tviso.Media{}
+
+	var collection []tviso.Media
 
 	for hasMore {
 		cr, err := getCollectionForUserPage(t.Config.APIAddr, t.Config.Cookie, page)
@@ -85,19 +86,21 @@ func (t TvisoAPI) GetMediaInfo(m *tviso.Media) error {
 
 func readURL(url string, cookie string) ([]byte, error) {
 	req, err := http.NewRequest(http.MethodGet, url, nil)
+	if err != nil {
+		return nil, fmt.Errorf("error creating request: %w", err)
+	}
+
 	req.Header.Add("Cookie", cookie)
 
 	client := http.DefaultClient
 
 	r, err := client.Do(req)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("request error: %w", err)
 	}
 
 	defer func() {
-		if bErr := r.Body.Close(); bErr != nil {
-			fmt.Printf("error closing body: %v", bErr)
-		}
+		_ = r.Body.Close()
 	}()
 
 	if err := checkStatusCode(r); err != nil {
@@ -114,7 +117,7 @@ func readURL(url string, cookie string) ([]byte, error) {
 
 func checkStatusCode(r *http.Response) error {
 	if r.StatusCode != http.StatusOK {
-		return fmt.Errorf("invalid status code: %v, message: %v", r.StatusCode, r.Body)
+		return fmt.Errorf("invalid status code: %v, message: %v, error: %w", r.StatusCode, r.Body, tviso.ErrRequestError)
 	}
 
 	return nil

@@ -1,10 +1,15 @@
 package mocks
 
 import (
+	`errors`
+
 	`github.com/golang/mock/gomock`
 
 	`tviso-scrapper/pkg/tviso`
 )
+
+var ErrGetUserCollectionError = errors.New("error in get user collection")
+var ErrGetMediaInfoError = errors.New("error in get media info")
 
 func HavingReadRepository(ctrl *gomock.Controller) *MockReadRepository {
 	return NewMockReadRepository(ctrl)
@@ -20,6 +25,14 @@ func (m *MockReadRepository) ArrangeReturnCollection(col []tviso.Media) *gomock.
 
 func (m *MockReadRepository) ArrangeGetMediaInfo(c tviso.Media) *gomock.Call {
 	return m.EXPECT().GetMediaInfo(&c).Times(1).Return(nil)
+}
+
+func (m *MockReadRepository) ArrangeGetUserCollectionError() *gomock.Call {
+	return m.EXPECT().GetUserCollection().Return(nil, ErrGetUserCollectionError)
+}
+
+func (m *MockReadRepository) ArrangeGetMediaInfoError(c tviso.Media) *gomock.Call {
+	return m.EXPECT().GetMediaInfo(&c).Return(ErrGetMediaInfoError)
 }
 
 func HavingWriteRepository(ctrl *gomock.Controller) *MockWriteRepository {

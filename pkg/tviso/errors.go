@@ -1,6 +1,11 @@
 package tviso
 
-import `bytes`
+import (
+	`bytes`
+	`errors`
+)
+
+var ErrRequestError = errors.New("request error")
 
 type ErrGettingMediaInfo struct {
 	error

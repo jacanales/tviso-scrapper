@@ -1,9 +1,11 @@
 package tviso
 
+import `fmt`
+
 func GetUserCollection(read ReadRepository, write WriteRepository) error {
 	collection, err := read.GetUserCollection()
 	if err != nil {
-		return err
+		return fmt.Errorf("could not get user collection: %w", err)
 	}
 
 	if len(collection) == 0 {
@@ -14,7 +16,7 @@ func GetUserCollection(read ReadRepository, write WriteRepository) error {
 	for _, m := range collection {
 		err := read.GetMediaInfo(&m)
 		if err != nil {
-			errors = append(errors, err)
+			errors = append(errors, fmt.Errorf("media: %v, error: %w", m.ID, err))
 		}
 	}
 
