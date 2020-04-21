@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	jsoniter "github.com/json-iterator/go"
+	"github.com/json-iterator/go"
 
 	"tviso-scrapper/pkg/tviso"
 )
@@ -14,7 +14,6 @@ const (
 	ListCollectionEndpoint = "/user/collection?mediaType=&status=&sortType=date&sortDirection=normal"
 	FullInfoEndpoint = "/media/full_info?liveAvailability=true"
 )
-
 
 type TvisoAPI struct {
 	Config Config
