@@ -1,8 +1,8 @@
 package tviso
 
 import (
-	`bytes`
-	`errors`
+	"bytes"
+	"errors"
 )
 
 var ErrRequestError = errors.New("request error")
@@ -13,7 +13,7 @@ type ErrGettingMediaInfo struct {
 }
 
 func NewErrGettingMediaInfo(err []error) error {
-	return ErrGettingMediaInfo{errors:err}
+	return ErrGettingMediaInfo{errors: err}
 }
 
 func (e ErrGettingMediaInfo) Error() string {

@@ -3,7 +3,7 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
-	`tviso-scrapper/pkg/tviso`
+	"tviso-scrapper/pkg/tviso"
 	"tviso-scrapper/pkg/tviso/repository"
 )
 

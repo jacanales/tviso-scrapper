@@ -1,14 +1,14 @@
 package tviso_test
 
 import (
-	`fmt`
-	`testing`
+	"fmt"
+	"testing"
 
-	`github.com/golang/mock/gomock`
-	`github.com/stretchr/testify/assert`
+	"github.com/golang/mock/gomock"
+	"github.com/stretchr/testify/assert"
 
-	`tviso-scrapper/pkg/tviso`
-	`tviso-scrapper/pkg/tviso/mocks`
+	"tviso-scrapper/pkg/tviso"
+	"tviso-scrapper/pkg/tviso/mocks"
 )
 
 func TestGetUserCollection_EmptyCollection(t *testing.T) {
@@ -29,11 +29,15 @@ func TestGetUserCollection_ReturnCollection(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()
 
-	m := tviso.Media{ID: 1, Name:"test",}
+	m := tviso.Media{
+		ID:   1,
+		Name: "test",
+	}
+
 	mc := havingAMediaCollectionWith(m)
 	rr := mocks.HavingReadRepository(ctrl)
 	rr.ArrangeReturnCollection(mc)
-	rr.ArrangeGetMediaInfo(m)
+	rr.ArrangeGetMediaInfo(&m)
 
 	wr := mocks.HavingWriteRepository(ctrl)
 	wr.ArrangeStoreCollectionIsCalledWith(mc)
@@ -59,13 +63,13 @@ func TestGetUserCollection_FailsGettingMediaInfo(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()
 
-	m := tviso.Media{ID: 1, Name:"test",}
-	m2 := tviso.Media{ID: 2, Name:"test2",}
+	m := tviso.Media{ID: 1, Name: "test"}
+	m2 := tviso.Media{ID: 2, Name: "test2"}
 	mc := havingAMediaCollectionWith(m, m2)
 	rr := mocks.HavingReadRepository(ctrl)
 	rr.ArrangeReturnCollection(mc)
-	rr.ArrangeGetMediaInfoError(m)
-	rr.ArrangeGetMediaInfoError(m2)
+	rr.ArrangeGetMediaInfoError(&m)
+	rr.ArrangeGetMediaInfoError(&m2)
 
 	wr := mocks.HavingWriteRepository(ctrl)
 
@@ -76,7 +80,7 @@ func TestGetUserCollection_FailsGettingMediaInfo(t *testing.T) {
 		mocks.ErrGetMediaInfoError.Error(),
 		2,
 		mocks.ErrGetMediaInfoError.Error(),
-		),
+	),
 	)
 }
 
