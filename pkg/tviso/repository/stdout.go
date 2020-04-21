@@ -1,12 +1,12 @@
 package repository
 
 import (
-	`fmt`
+	"fmt"
 
-	`tviso-scrapper/pkg/tviso`
+	"tviso-scrapper/pkg/tviso"
 )
 
-type StdOut struct {}
+type StdOut struct{}
 
 func NewStdOut() tviso.WriteRepository {
 	return StdOut{}

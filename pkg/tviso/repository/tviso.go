@@ -5,14 +5,14 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/json-iterator/go"
+	jsoniter "github.com/json-iterator/go"
 
 	"tviso-scrapper/pkg/tviso"
 )
 
 const (
 	ListCollectionEndpoint = "/user/collection?mediaType=&status=&sortType=date&sortDirection=normal"
-	FullInfoEndpoint = "/media/full_info?liveAvailability=true"
+	FullInfoEndpoint       = "/media/full_info?liveAvailability=true"
 )
 
 type TvisoAPI struct {
@@ -21,7 +21,7 @@ type TvisoAPI struct {
 
 func NewTvisoAPI() tviso.ReadRepository {
 	return TvisoAPI{
-		Config:NewConfig(),
+		Config: NewConfig(),
 	}
 }
 
@@ -46,7 +46,7 @@ func (t TvisoAPI) GetUserCollection() ([]tviso.Media, error) {
 	return collection, nil
 }
 
-func getCollectionForUserPage(serverURL string, cookie string, page int) (tviso.Results, error) {
+func getCollectionForUserPage(serverURL, cookie string, page int) (tviso.Results, error) {
 	url := fmt.Sprintf("%v%v&page=%v", serverURL, ListCollectionEndpoint, page)
 
 	contents, err := readURL(url, cookie)
@@ -58,6 +58,7 @@ func getCollectionForUserPage(serverURL string, cookie string, page int) (tviso.
 
 	cr := tviso.Results{}
 	err = json.Unmarshal(contents, &cr)
+
 	if err != nil {
 		return tviso.Results{}, fmt.Errorf("unmarshal error: %w", err)
 	}
@@ -83,7 +84,7 @@ func (t TvisoAPI) GetMediaInfo(m *tviso.Media) error {
 	return nil
 }
 
-func readURL(url string, cookie string) ([]byte, error) {
+func readURL(url, cookie string) ([]byte, error) {
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
 		return nil, fmt.Errorf("error creating request: %w", err)
@@ -102,7 +103,7 @@ func readURL(url string, cookie string) ([]byte, error) {
 		_ = r.Body.Close()
 	}()
 
-	if err := checkStatusCode(r); err != nil {
+	if err = checkStatusCode(r); err != nil {
 		return readURL(url, cookie)
 	}
 

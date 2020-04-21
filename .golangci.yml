@@ -21,11 +21,13 @@ linters-settings:
       - performance
       - style
       - experimental
-    disabled-checks: ~
+    disabled-checks:
+      - rangeValCopy
 
 linters: # List of available linters: https://github.com/golangci/golangci-lint#enabled-by-default-linters
   enable-all: true
-  disable: ~
+  disable:
+    - scopelint
 
 issues:
   exclude-rules:

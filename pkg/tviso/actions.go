@@ -1,6 +1,6 @@
 package tviso
 
-import `fmt`
+import "fmt"
 
 func GetUserCollection(read ReadRepository, write WriteRepository) error {
 	collection, err := read.GetUserCollection()
@@ -13,6 +13,7 @@ func GetUserCollection(read ReadRepository, write WriteRepository) error {
 	}
 
 	var errors []error
+
 	for _, m := range collection {
 		err := read.GetMediaInfo(&m)
 		if err != nil {

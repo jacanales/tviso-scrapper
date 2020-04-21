@@ -1,2 +1,3 @@
 /var/wiremock/
 /var/log/
+coverage.out
