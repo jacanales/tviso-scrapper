@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/test/media/full_info",
+    "queryParameters" : {
+      "idm": {
+        "matches": "^([0-9]*)$"
+      },
+      "mediaType" : {
+        "equalTo" : "4"
+      },
+      "liveAvailability": {
+        "equalTo": "true"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "tviso-full-media-info-tvshow.json",
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Connection": "keep-alive",
+      "Vary": "Accept-Encoding"
+    }
+  }
+}

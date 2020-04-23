@@ -13,9 +13,15 @@ func NewStdOut() tviso.WriteRepository {
 }
 
 func (r StdOut) StoreCollection(collection []tviso.Media) error {
+	i := 0
+
 	for _, c := range collection {
+		i++
+
 		fmt.Println(c.Name)
 	}
+
+	fmt.Println(fmt.Sprintf("Total processed: %v\n", i))
 
 	return nil
 }
