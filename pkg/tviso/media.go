@@ -1,4 +1,4 @@
-//go:generate mockgen -destination=mocks/collection_mock.go -package=mocks . ReadRepository,WriteRepository
+//go:generate mockgen -destination=mocks/media_mock.go -package=mocks . ReadRepository,WriteRepository
 
 package tviso
 
@@ -9,6 +9,7 @@ type MediaType int32
 const (
 	SeriesMediaType  MediaType = 1
 	MoviesMediaType  MediaType = 2
+	TVShowMediaType  MediaType = 4
 	EpisodeMediatype MediaType = 5
 )
 
@@ -91,12 +92,17 @@ type Media struct {
 }
 
 type Season struct {
-	SeasonNum int       `json:"seasonNum"`
-	Episodes  []Episode `json:"episodes"`
+	Limit        int       `json:"limit,omitempty"`
+	TotalResults int       `json:"totalResults,omitempty"`
+	HasMore      bool      `json:"hasMore,omitempty"`
+	Page         int       `json:"page,omitempty"`
+	SeasonName   string    `json:"seasonName,omitempty"`
+	SeasonNum    int       `json:"seasonNum"`
+	Episodes     []Episode `json:"episodes"`
 }
 
 type Episode struct {
-	ID           int           `json:"idm"`
+	ID           interface{}   `json:"idm"`
 	MediaType    MediaType     `json:"mediaType"`
 	Name         string        `json:"name"`
 	Plot         string        `json:"plot,omitempty"`
@@ -107,6 +113,7 @@ type Episode struct {
 	EpisodeNum   int           `json:"episodeNum"`
 	ReleaseDates []ReleaseDate `json:"releaseDates"`
 	Availability Availability  `json:"availability"`
+	SeasonName   string        `json:"seasonName,omitempty"`
 }
 
 type ReleaseDate struct {
