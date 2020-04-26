@@ -1,9 +1,13 @@
+//go:generate mockgen -destination=mocks/tviso_mock.go -package=mocks . HTTPClient
+
 package repository
 
 import (
 	"fmt"
 	"io/ioutil"
+	"net"
 	"net/http"
+	"time"
 
 	jsoniter "github.com/json-iterator/go"
 
@@ -13,15 +17,36 @@ import (
 const (
 	ListCollectionEndpoint = "/user/collection?mediaType=&status=&sortType=date&sortDirection=normal"
 	FullInfoEndpoint       = "/media/full_info?liveAvailability=true"
+	ClientKeepAlive        = 5
+	ConnectionTimeout      = 3
 )
+
+type HTTPClient interface {
+	Do(req *http.Request) (*http.Response, error)
+}
+
+func NewHTTPClient() HTTPClient {
+	httpClient := &http.Client{
+		Transport: &http.Transport{
+			DialContext: (&net.Dialer{
+				KeepAlive: ClientKeepAlive * time.Second,
+			}).DialContext,
+			IdleConnTimeout: ConnectionTimeout * time.Second,
+		},
+	}
+
+	return httpClient
+}
 
 type TvisoAPI struct {
 	Config Config
+	Client HTTPClient
 }
 
-func NewTvisoAPI() tviso.ReadRepository {
+func NewTvisoAPI(cli HTTPClient, cfg Config) tviso.ReadRepository {
 	return TvisoAPI{
-		Config: NewConfig(),
+		Config: cfg,
+		Client: cli,
 	}
 }
 
@@ -32,7 +57,7 @@ func (t TvisoAPI) GetUserCollection() ([]tviso.Media, error) {
 	var collection []tviso.Media
 
 	for hasMore {
-		cr, err := getCollectionForUserPage(t.Config.APIAddr, t.Config.Cookie, page)
+		cr, err := t.getCollectionForUserPage(t.Config.APIAddr, t.Config.Cookie, page)
 		if err != nil {
 			return nil, err
 		}
@@ -46,10 +71,28 @@ func (t TvisoAPI) GetUserCollection() ([]tviso.Media, error) {
 	return collection, nil
 }
 
-func getCollectionForUserPage(serverURL, cookie string, page int) (tviso.Results, error) {
+func (t TvisoAPI) GetMediaInfo(m *tviso.Media) error {
+	url := fmt.Sprintf("%v%v&idm=%v&mediaType=%v", t.Config.APIAddr, FullInfoEndpoint, m.ID, m.MediaType)
+
+	content, err := t.readURL(url, t.Config.Cookie)
+	if err != nil {
+		return err
+	}
+
+	var json = jsoniter.ConfigCompatibleWithStandardLibrary
+
+	err = json.Unmarshal(content, m)
+	if err != nil {
+		return fmt.Errorf("unmarshal error: %w", err)
+	}
+
+	return nil
+}
+
+func (t TvisoAPI) getCollectionForUserPage(serverURL, cookie string, page int) (tviso.Results, error) {
 	url := fmt.Sprintf("%v%v&page=%v", serverURL, ListCollectionEndpoint, page)
 
-	contents, err := readURL(url, cookie)
+	contents, err := t.readURL(url, cookie)
 	if err != nil {
 		return tviso.Results{}, err
 	}
@@ -66,25 +109,7 @@ func getCollectionForUserPage(serverURL, cookie string, page int) (tviso.Results
 	return cr, nil
 }
 
-func (t TvisoAPI) GetMediaInfo(m *tviso.Media) error {
-	url := fmt.Sprintf("%v%v&idm=%v&mediaType=%v", t.Config.APIAddr, FullInfoEndpoint, m.ID, m.MediaType)
-
-	content, err := readURL(url, t.Config.Cookie)
-	if err != nil {
-		return err
-	}
-
-	var json = jsoniter.ConfigCompatibleWithStandardLibrary
-
-	err = json.Unmarshal(content, m)
-	if err != nil {
-		return fmt.Errorf("unmarshal error: %w", err)
-	}
-
-	return nil
-}
-
-func readURL(url, cookie string) ([]byte, error) {
+func (t TvisoAPI) readURL(url, cookie string) ([]byte, error) {
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
 		return nil, fmt.Errorf("error creating request: %w", err)
@@ -92,9 +117,8 @@ func readURL(url, cookie string) ([]byte, error) {
 
 	req.Header.Add("Cookie", cookie)
 
-	client := http.DefaultClient
+	r, err := t.Client.Do(req)
 
-	r, err := client.Do(req)
 	if err != nil {
 		return nil, fmt.Errorf("request error: %w", err)
 	}
@@ -104,7 +128,7 @@ func readURL(url, cookie string) ([]byte, error) {
 	}()
 
 	if err = checkStatusCode(r); err != nil {
-		return readURL(url, cookie)
+		return t.readURL(url, cookie)
 	}
 
 	contents, err := ioutil.ReadAll(r.Body)
