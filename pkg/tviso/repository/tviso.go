@@ -43,9 +43,9 @@ type TvisoAPI struct {
 	Client HTTPClient
 }
 
-func NewTvisoAPI(cli HTTPClient) tviso.ReadRepository {
+func NewTvisoAPI(cli HTTPClient, cfg Config) tviso.ReadRepository {
 	return TvisoAPI{
-		Config: NewConfig(),
+		Config: cfg,
 		Client: cli,
 	}
 }
@@ -117,9 +117,8 @@ func (t TvisoAPI) readURL(url, cookie string) ([]byte, error) {
 
 	req.Header.Add("Cookie", cookie)
 
-	client := http.DefaultClient
+	r, err := t.Client.Do(req)
 
-	r, err := client.Do(req)
 	if err != nil {
 		return nil, fmt.Errorf("request error: %w", err)
 	}

@@ -20,7 +20,7 @@ func InitCollectionListCmd() *cobra.Command {
 func getCollectionListFn() CobraFnE {
 	return func(cmd *cobra.Command, args []string) error {
 		return tviso.GetUserCollection(
-			repository.NewTvisoAPI(repository.NewHTTPClient()),
+			repository.NewTvisoAPI(repository.NewHTTPClient(), repository.NewConfig()),
 			repository.NewStdOut(),
 		)
 	}
