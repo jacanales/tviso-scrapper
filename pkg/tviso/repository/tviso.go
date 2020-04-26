@@ -1,3 +1,5 @@
+//go:generate mockgen -destination=mocks/tviso_mock.go -package=mocks . HTTPClient
+
 package repository
 
 import (

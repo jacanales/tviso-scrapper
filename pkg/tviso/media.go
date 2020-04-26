@@ -10,7 +10,7 @@ const (
 	SeriesMediaType  MediaType = 1
 	MoviesMediaType  MediaType = 2
 	TVShowMediaType  MediaType = 4
-	EpisodeMediatype MediaType = 5
+	EpisodeMediaType MediaType = 5
 )
 
 type ReadRepository interface {
