@@ -15,6 +15,8 @@ import (
 const (
 	ListCollectionEndpoint = "/user/collection?mediaType=&status=&sortType=date&sortDirection=normal"
 	FullInfoEndpoint       = "/media/full_info?liveAvailability=true"
+	ClientKeepAlive        = 5
+	ConnectionTimeout      = 3
 )
 
 type HTTPClient interface {
@@ -25,9 +27,9 @@ func NewHTTPClient() HTTPClient {
 	httpClient := &http.Client{
 		Transport: &http.Transport{
 			DialContext: (&net.Dialer{
-				KeepAlive: 5 * time.Second,
+				KeepAlive: ClientKeepAlive * time.Second,
 			}).DialContext,
-			IdleConnTimeout: 3 * time.Second,
+			IdleConnTimeout: ConnectionTimeout * time.Second,
 		},
 	}
 
@@ -67,6 +69,24 @@ func (t TvisoAPI) GetUserCollection() ([]tviso.Media, error) {
 	return collection, nil
 }
 
+func (t TvisoAPI) GetMediaInfo(m *tviso.Media) error {
+	url := fmt.Sprintf("%v%v&idm=%v&mediaType=%v", t.Config.APIAddr, FullInfoEndpoint, m.ID, m.MediaType)
+
+	content, err := t.readURL(url, t.Config.Cookie)
+	if err != nil {
+		return err
+	}
+
+	var json = jsoniter.ConfigCompatibleWithStandardLibrary
+
+	err = json.Unmarshal(content, m)
+	if err != nil {
+		return fmt.Errorf("unmarshal error: %w", err)
+	}
+
+	return nil
+}
+
 func (t TvisoAPI) getCollectionForUserPage(serverURL, cookie string, page int) (tviso.Results, error) {
 	url := fmt.Sprintf("%v%v&page=%v", serverURL, ListCollectionEndpoint, page)
 
@@ -85,24 +105,6 @@ func (t TvisoAPI) getCollectionForUserPage(serverURL, cookie string, page int) (
 	}
 
 	return cr, nil
-}
-
-func (t TvisoAPI) GetMediaInfo(m *tviso.Media) error {
-	url := fmt.Sprintf("%v%v&idm=%v&mediaType=%v", t.Config.APIAddr, FullInfoEndpoint, m.ID, m.MediaType)
-
-	content, err := t.readURL(url, t.Config.Cookie)
-	if err != nil {
-		return err
-	}
-
-	var json = jsoniter.ConfigCompatibleWithStandardLibrary
-
-	err = json.Unmarshal(content, m)
-	if err != nil {
-		return fmt.Errorf("unmarshal error: %w", err)
-	}
-
-	return nil
 }
 
 func (t TvisoAPI) readURL(url, cookie string) ([]byte, error) {

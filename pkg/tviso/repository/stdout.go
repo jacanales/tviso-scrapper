@@ -21,7 +21,7 @@ func (r StdOut) StoreCollection(collection []tviso.Media) error {
 		fmt.Println(c.Name)
 	}
 
-	fmt.Println(fmt.Sprintf("Total processed: %v\n", i))
+	fmt.Printf("Total processed: %v\n", i)
 
 	return nil
 }

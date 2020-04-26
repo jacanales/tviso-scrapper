@@ -34,7 +34,7 @@ func TestStdOut_StoreCollection(t *testing.T) {
 		assert.NoError(t, err)
 	})
 
-	assert.Equal(t, "testMedia\nTotal processed: 1\n\n", output)
+	assert.Equal(t, "testMedia\nTotal processed: 1\n", output)
 }
 
 func captureOutput(f func()) string {
