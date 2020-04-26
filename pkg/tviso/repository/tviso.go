@@ -3,7 +3,9 @@ package repository
 import (
 	"fmt"
 	"io/ioutil"
+	"net"
 	"net/http"
+	"time"
 
 	jsoniter "github.com/json-iterator/go"
 
@@ -15,13 +17,32 @@ const (
 	FullInfoEndpoint       = "/media/full_info?liveAvailability=true"
 )
 
-type TvisoAPI struct {
-	Config Config
+type HTTPClient interface {
+	Do(req *http.Request) (*http.Response, error)
 }
 
-func NewTvisoAPI() tviso.ReadRepository {
+func NewHTTPClient() HTTPClient {
+	httpClient := &http.Client{
+		Transport: &http.Transport{
+			DialContext: (&net.Dialer{
+				KeepAlive: 5 * time.Second,
+			}).DialContext,
+			IdleConnTimeout: 3 * time.Second,
+		},
+	}
+
+	return httpClient
+}
+
+type TvisoAPI struct {
+	Config Config
+	Client HTTPClient
+}
+
+func NewTvisoAPI(cli HTTPClient) tviso.ReadRepository {
 	return TvisoAPI{
 		Config: NewConfig(),
+		Client: cli,
 	}
 }
 
@@ -32,7 +53,7 @@ func (t TvisoAPI) GetUserCollection() ([]tviso.Media, error) {
 	var collection []tviso.Media
 
 	for hasMore {
-		cr, err := getCollectionForUserPage(t.Config.APIAddr, t.Config.Cookie, page)
+		cr, err := t.getCollectionForUserPage(t.Config.APIAddr, t.Config.Cookie, page)
 		if err != nil {
 			return nil, err
 		}
@@ -46,10 +67,10 @@ func (t TvisoAPI) GetUserCollection() ([]tviso.Media, error) {
 	return collection, nil
 }
 
-func getCollectionForUserPage(serverURL, cookie string, page int) (tviso.Results, error) {
+func (t TvisoAPI) getCollectionForUserPage(serverURL, cookie string, page int) (tviso.Results, error) {
 	url := fmt.Sprintf("%v%v&page=%v", serverURL, ListCollectionEndpoint, page)
 
-	contents, err := readURL(url, cookie)
+	contents, err := t.readURL(url, cookie)
 	if err != nil {
 		return tviso.Results{}, err
 	}
@@ -69,7 +90,7 @@ func getCollectionForUserPage(serverURL, cookie string, page int) (tviso.Results
 func (t TvisoAPI) GetMediaInfo(m *tviso.Media) error {
 	url := fmt.Sprintf("%v%v&idm=%v&mediaType=%v", t.Config.APIAddr, FullInfoEndpoint, m.ID, m.MediaType)
 
-	content, err := readURL(url, t.Config.Cookie)
+	content, err := t.readURL(url, t.Config.Cookie)
 	if err != nil {
 		return err
 	}
@@ -84,7 +105,7 @@ func (t TvisoAPI) GetMediaInfo(m *tviso.Media) error {
 	return nil
 }
 
-func readURL(url, cookie string) ([]byte, error) {
+func (t TvisoAPI) readURL(url, cookie string) ([]byte, error) {
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
 		return nil, fmt.Errorf("error creating request: %w", err)
@@ -104,7 +125,7 @@ func readURL(url, cookie string) ([]byte, error) {
 	}()
 
 	if err = checkStatusCode(r); err != nil {
-		return readURL(url, cookie)
+		return t.readURL(url, cookie)
 	}
 
 	contents, err := ioutil.ReadAll(r.Body)
