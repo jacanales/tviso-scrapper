@@ -3,12 +3,14 @@ package repository_test
 import (
 	"errors"
 	"fmt"
+	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"testing"
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 
 	"tviso-scrapper/pkg/tviso"
 	"tviso-scrapper/pkg/tviso/repository"
@@ -25,7 +27,6 @@ func TestNewHTTPClient(t *testing.T) {
 	assert.Implements(t, (*repository.HTTPClient)(nil), cli)
 	assert.IsType(t, &http.Client{}, cli)
 }
-
 
 func TestNewTvisoAPI(t *testing.T) {
 	ctrl := gomock.NewController(t)
@@ -55,21 +56,21 @@ func TestTvisoAPI_GetUserCollection_DoRequestError(t *testing.T) {
 }
 
 func TestTvisoAPI_GetUserCollection(t *testing.T) {
-	t.Skip("pending")
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()
 
 	cfg := repository.Config{}
 
-	cli := mocks.NewMockHTTPClient(ctrl)
+	json, err := ioutil.ReadFile("stubs/user_collection_empty.json")
+	require.NoError(t, err)
 
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		w.WriteHeader(http.StatusNotFound)
+		_, _ = w.Write(json)
 	}))
 
 	cfg.APIAddr = server.URL
 
-	repo := repository.NewTvisoAPI(cli, repository.Config{})
+	repo := repository.NewTvisoAPI(http.DefaultClient, cfg)
 
 	collection, err := repo.GetUserCollection()
 
