@@ -12,3 +12,6 @@ Total: ~31920
 https://es.tviso.com/play/api/media/browse?order=trending&limit=48&mediaType=2&page=4255
 
 Total: ~204240
+
+Tasks:
+Add Benchmark for json marshaller: https://github.com/stayforlong/metas-edge/pull/120
