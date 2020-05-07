@@ -28,3 +28,6 @@ download-wiremock: ## Download WireMock extensions to run tests
 
 generate:
 	go generate ./...
+
+check-style: ## Run golangci check
+	golangci-lint run ./...
