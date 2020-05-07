@@ -121,3 +121,32 @@ func TestTvisoAPI_GetUserCollection(t *testing.T) {
 	assert.NoError(t, err)
 	assert.Empty(t, collection)
 }
+
+func TestTvisoAPI_GetMediaInfo(t *testing.T) {
+	ctrl := gomock.NewController(t)
+	defer ctrl.Finish()
+
+	cfg := repository.Config{}
+
+	json, err := ioutil.ReadFile("stubs/media_file_movie.json")
+	require.NoError(t, err)
+
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		_, _ = w.Write(json)
+	}))
+
+	cfg.APIAddr = server.URL
+
+	repo := repository.NewTvisoAPI(http.DefaultClient, cfg)
+
+	media := tviso.Media{
+		ID:        3864,
+		MediaType: tviso.MoviesMediaType,
+	}
+
+	err = repo.GetMediaInfo(&media)
+
+	assert.NoError(t, err)
+	assert.Equal(t, media.IMDB, "tt0808510")
+	assert.Equal(t, tviso.Pending.String(), media.StatusMedia)
+}
