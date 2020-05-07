@@ -31,3 +31,6 @@ generate:
 
 check-style: ## Run golangci check
 	golangci-lint run ./...
+
+coverage:
+	go test -v -covermode=count -coverprofile=coverage.out ./...
