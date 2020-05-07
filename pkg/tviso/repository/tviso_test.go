@@ -55,6 +55,50 @@ func TestTvisoAPI_GetUserCollection_DoRequestError(t *testing.T) {
 	assert.Empty(t, collection)
 }
 
+func TestTvisoAPI_GetUserCollection_UnmarshalErr(t *testing.T) {
+	ctrl := gomock.NewController(t)
+	defer ctrl.Finish()
+
+	cfg := repository.Config{}
+
+	json, err := ioutil.ReadFile("stubs/user_collection_invalid.json")
+	require.NoError(t, err)
+
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		_, _ = w.Write(json)
+	}))
+
+	cfg.APIAddr = server.URL
+
+	repo := repository.NewTvisoAPI(http.DefaultClient, cfg)
+
+	collection, err := repo.GetUserCollection()
+
+	assert.Error(t, err)
+	assert.Contains(t, err.Error(), "unmarshal error")
+	assert.Empty(t, collection)
+}
+
+func TestTvisoAPI_GetUserCollection_RetryError(t *testing.T) {
+	ctrl := gomock.NewController(t)
+	defer ctrl.Finish()
+
+	cfg := repository.Config{}
+
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.WriteHeader(http.StatusNotFound)
+	}))
+
+	cfg.APIAddr = server.URL
+
+	repo := repository.NewTvisoAPI(http.DefaultClient, cfg)
+
+	collection, err := repo.GetUserCollection()
+
+	assert.EqualError(t, err, tviso.ErrRequestError.Error())
+	assert.Empty(t, collection)
+}
+
 func TestTvisoAPI_GetUserCollection(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()

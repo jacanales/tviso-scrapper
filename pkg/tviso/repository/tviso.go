@@ -19,6 +19,7 @@ const (
 	FullInfoEndpoint       = "/media/full_info?liveAvailability=true"
 	ClientKeepAlive        = 5
 	ConnectionTimeout      = 3
+	MaxRetries             = 3
 )
 
 type HTTPClient interface {
@@ -41,12 +42,14 @@ func NewHTTPClient() HTTPClient {
 type TvisoAPI struct {
 	Config Config
 	Client HTTPClient
+	Retry  int
 }
 
 func NewTvisoAPI(cli HTTPClient, cfg Config) tviso.ReadRepository {
 	return TvisoAPI{
 		Config: cfg,
 		Client: cli,
+		Retry:  0,
 	}
 }
 
@@ -110,6 +113,8 @@ func (t TvisoAPI) getCollectionForUserPage(serverURL, cookie string, page int) (
 }
 
 func (t TvisoAPI) readURL(url, cookie string) ([]byte, error) {
+	t.Retry++
+
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
 		return nil, fmt.Errorf("error creating request: %w", err)
@@ -128,6 +133,10 @@ func (t TvisoAPI) readURL(url, cookie string) ([]byte, error) {
 	}()
 
 	if err = checkStatusCode(r); err != nil {
+		if t.Retry >= MaxRetries {
+			return nil, tviso.ErrRequestError
+		}
+
 		return t.readURL(url, cookie)
 	}
 
