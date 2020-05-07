@@ -4,27 +4,8 @@ on:
   push:
     branches:
       - master
-  pull_request:
-    branches:
-      - master
 
 jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Install Go
-        uses: actions/setup-go@v1
-        with:
-          go-version: 1.14.x
-      - name: Checkout code
-        uses: actions/checkout@v1
-      - name: Install golangci-lint
-        run: |
-          go get github.com/golangci/golangci-lint/cmd/golangci-lint
-      - name: Run linters
-        run: |
-          export PATH=$PATH:$(go env GOPATH)/bin
-          golangci-lint run ./...
   test:
     strategy:
       matrix:
@@ -43,6 +24,7 @@ jobs:
         run: go test -v -covermode=count ./...
   coverage:
     runs-on: ubuntu-latest
+    needs: [test]
     steps:
       - name: Install Go
         if: success()
@@ -64,3 +46,24 @@ jobs:
           flags: tests
           name: codecov-umbrella
           fail_ci_if_error: true
+  build:
+    runs-on: ubuntu-latest
+    needs: [test]
+    steps:
+      - name: Install Go
+        uses: actions/setup-go@v1
+        with:
+          go-version: 1.14.x
+      - name: Checkout code
+        uses: actions/checkout@v1
+      - name: build
+        run: |
+          export GO111MODULE=on
+          GOOS=windows GOARCH=amd64 go build -o bin/ci-test-windows-amd64.exe ./cmd/cli/
+          GOOS=linux   GOARCH=amd64 go build -o bin/ci-test-linux-amd64 ./cmd/cli/
+          GOOS=darwin   GOARCH=amd64 go build -o bin/ci-test-osx-amd64 ./cmd/cli/
+      - name: upload artifacts
+        uses: actions/upload-artifact@master
+        with:
+          name: binaries
+          path: bin/
