@@ -5,6 +5,7 @@ package tviso
 import "time"
 
 type MediaType int32
+type MediaStatus int
 
 const (
 	SeriesMediaType  MediaType = 1
@@ -12,6 +13,16 @@ const (
 	TVShowMediaType  MediaType = 4
 	EpisodeMediaType MediaType = 5
 )
+
+const (
+	Watched MediaStatus = iota
+	Pending
+	Following
+)
+
+func (s MediaStatus) String() string {
+	return [...]string{"watched", "pending", "following"}[s]
+}
 
 type ReadRepository interface {
 	GetUserCollection() ([]Media, error)
