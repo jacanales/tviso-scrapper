@@ -44,6 +44,7 @@ func TestGetUserCollection_ReturnCollection(t *testing.T) {
 
 	err := tviso.GetUserCollection(rr, wr)
 	assert.NoError(t, err)
+	assert.Equal(t, "parsed media", mc[0].Plot)
 }
 
 func TestGetUserCollection_FailsReadingCollection(t *testing.T) {

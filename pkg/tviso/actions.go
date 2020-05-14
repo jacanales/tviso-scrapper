@@ -14,11 +14,15 @@ func GetUserCollection(read ReadRepository, write WriteRepository) error {
 
 	var errors []error
 
-	for _, m := range collection {
-		err := read.GetMediaInfo(&m)
+	for i, m := range collection {
+		media := m
+		err := read.GetMediaInfo(&media)
+
 		if err != nil {
 			errors = append(errors, fmt.Errorf("media: %v, error: %w", m.ID, err))
 		}
+
+		collection[i] = media
 	}
 
 	if len(errors) > 0 {
