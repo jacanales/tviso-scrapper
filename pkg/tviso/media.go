@@ -62,85 +62,85 @@ type StatusCount struct {
 }
 
 type Media struct {
-	ID           int          `json:"idm"`
-	Name         string       `json:"name"`
-	MediaType    MediaType    `json:"mediaType"`
-	MediaStyle   string       `json:"mediaStyle"`
-	IMDB         string       `json:"imdb"`
-	Tags         []Tag        `json:"tags"`
-	Rating       float64      `json:"rating"`
-	Images       Images       `json:"images"`
-	Artwork      Artworks     `json:"artwork"`
-	Year         int          `json:"year"`
-	Runtime      int          `json:"runtime"`
-	AgeRating    int          `json:"ageRating"`
-	MainGenre    string       `json:"mainGenre"`
-	OriginalName string       `json:"originalName"`
-	ShortPlot    string       `json:"shortPlot"`
-	Availability Availability `json:"availability"`
-	UserData     UserData     `json:"userData"`
+	ID           int          `json:"idm" bson:"tviso_id"`
+	Name         string       `json:"name" bson:"name"`
+	MediaType    MediaType    `json:"mediaType" bson:"media_type"`
+	MediaStyle   string       `json:"mediaStyle" bson:"media_style"`
+	IMDB         string       `json:"imdb" bson:"imdb"`
+	Tags         []Tag        `json:"tags" bson:"tags"`
+	Rating       float64      `json:"rating" bson:"rating"`
+	Images       Images       `json:"images" bson:"images"`
+	Artwork      Artworks     `json:"artwork" bson:"artwork"`
+	Year         int          `json:"year" bson:"year"`
+	Runtime      int          `json:"runtime" bson:"runtime"`
+	AgeRating    int          `json:"ageRating" bson:"age_rating"`
+	MainGenre    string       `json:"mainGenre" bson:"main_genre"`
+	OriginalName string       `json:"originalName" bson:"original_name"`
+	ShortPlot    string       `json:"shortPlot" bson:"short_plot"`
+	Availability Availability `json:"availability" bson:"availability"`
+	UserData     UserData     `json:"userData" bson:"user_data"`
 
 	// Only for Series
-	NumEpisodes int `json:"numEpisodes,omitempty"`
-	NumSeasons  int `json:"numSeasons,omitempty"`
+	NumEpisodes int `json:"numEpisodes,omitempty" bson:"num_episodes,omitempty"`
+	NumSeasons  int `json:"numSeasons,omitempty" bson:"num_seasons,omitempty"`
 
 	// Only Full info
-	Plot        string      `json:"plot,omitempty"`
-	Cast        []Cast      `json:"cast,omitempty"`
-	Genres      []string    `json:"genres,omitempty"`
-	Distributor string      `json:"distributor,omitempty"`
-	Producers   []Producers `json:"producers,omitempty"`
-	Writers     []Writers   `json:"writers,omitempty"`
-	Directors   []Directors `json:"directors,omitempty"`
-	Composer    Person      `json:"composer"`
-	Countries   []string    `json:"countries,omitempty"`
-	Status      int         `json:"status"`
-	StatusMedia string      `json:"statusMedia"`
+	Plot        string      `json:"plot,omitempty" bson:"plot,omitempty"`
+	Cast        []Cast      `json:"cast,omitempty" bson:"cast,omitempty"`
+	Genres      []string    `json:"genres,omitempty" bson:"genres,omitempty"`
+	Distributor string      `json:"distributor,omitempty" bson:"distributor,omitempty"`
+	Producers   []Producers `json:"producers,omitempty" bson:"producers,omitempty"`
+	Writers     []Writers   `json:"writers,omitempty" bson:"writers,omitempty"`
+	Directors   []Directors `json:"directors,omitempty" bson:"directors,omitempty"`
+	Composer    Person      `json:"composer" bson:"composer"`
+	Countries   []string    `json:"countries,omitempty" bson:"countries,omitempty"`
+	Status      int         `json:"status" bson:"status"`
+	StatusMedia string      `json:"statusMedia" bson:"status_media"`
 
 	// Only for Series Full info
-	SeasonsBlocked []int    `json:"seasonsBlocked,omitempty"`
-	Seasons        []Season `json:"seasons"`
+	SeasonsBlocked []int    `json:"seasonsBlocked,omitempty" bson:"seasons_blocked,omitempty"`
+	Seasons        []Season `json:"seasons" bson:"seasons"`
 }
 
 type Season struct {
-	Limit        int       `json:"limit,omitempty"`
-	TotalResults int       `json:"totalResults,omitempty"`
-	HasMore      bool      `json:"hasMore,omitempty"`
-	Page         int       `json:"page,omitempty"`
-	SeasonName   string    `json:"seasonName,omitempty"`
-	SeasonNum    int       `json:"seasonNum"`
-	Episodes     []Episode `json:"episodes"`
+	Limit        int       `json:"limit,omitempty" bson:"limit,omitempty"`
+	TotalResults int       `json:"totalResults,omitempty" bson:"total_results,omitempty"`
+	HasMore      bool      `json:"hasMore,omitempty" bson:"has_more,omitempty"`
+	Page         int       `json:"page,omitempty" bson:"page,omitempty"`
+	SeasonName   string    `json:"seasonName,omitempty" bson:"season_name,omitempty"`
+	SeasonNum    int       `json:"seasonNum" bson:"season_num"`
+	Episodes     []Episode `json:"episodes" bson:"episodes"`
 }
 
 type Episode struct {
-	ID           interface{}   `json:"idm"`
-	MediaType    MediaType     `json:"mediaType"`
-	Name         string        `json:"name"`
-	Plot         string        `json:"plot,omitempty"`
-	Images       Images        `json:"images"`
-	Runtime      int           `json:"runtime"`
-	Artwork      Artworks      `json:"artwork"`
-	SeasonNum    int           `json:"seasonNum"`
-	EpisodeNum   int           `json:"episodeNum"`
-	ReleaseDates []ReleaseDate `json:"releaseDates"`
-	Availability Availability  `json:"availability"`
-	SeasonName   string        `json:"seasonName,omitempty"`
+	ID           interface{}   `json:"idm" bson:"idm"`
+	MediaType    MediaType     `json:"mediaType" bson:"media_type"`
+	Name         string        `json:"name" bson:"name"`
+	Plot         string        `json:"plot,omitempty" bson:"plot,omitempty"`
+	Images       Images        `json:"images" bson:"images"`
+	Runtime      int           `json:"runtime" bson:"runtime"`
+	Artwork      Artworks      `json:"artwork" bson:"artwork"`
+	SeasonNum    int           `json:"seasonNum" bson:"season_num"`
+	EpisodeNum   int           `json:"episodeNum" bson:"episode_num"`
+	ReleaseDates []ReleaseDate `json:"releaseDates" bson:"release_dates"`
+	Availability Availability  `json:"availability" bson:"availability"`
+	SeasonName   string        `json:"seasonName,omitempty" bson:"season_name,omitempty"`
 }
 
 type ReleaseDate struct {
-	Country string    `json:"country"`
-	Date    time.Time `json:"date"`
+	Country string    `json:"country" bson:"country"`
+	Date    time.Time `json:"date" bson:"date"`
 }
 
 type Person struct {
-	ID     int               `json:"id"`
-	Name   string            `json:"name"`
-	Images map[string]string `json:"images"`
+	ID     int               `json:"id" bson:"id"`
+	Name   string            `json:"name" bson:"name"`
+	Images map[string]string `json:"images" bson:"images"`
 }
 
 type Cast struct {
 	Person
-	Role string `json:"role"`
+	Role string `json:"role" bson:"role"`
 }
 
 type Producers struct {
@@ -156,25 +156,25 @@ type Directors struct {
 }
 
 type Tag struct {
-	ID   string `json:"id"`
-	Name string `json:"name"`
-	Type string `json:"type"`
+	ID   string `json:"id" bson:"id"`
+	Name string `json:"name" bson:"name"`
+	Type string `json:"type" bson:"type"`
 }
 
 type Images struct {
-	Poster   string `json:"poster"`
-	Backdrop string `json:"backdrop"`
-	Country  string `json:"country"`
+	Poster   string `json:"poster" bson:"poster"`
+	Backdrop string `json:"backdrop" bson:"backdrop"`
+	Country  string `json:"country" bson:"country"`
 }
 
 type Artworks struct {
-	Backdrops Backdrops `json:"backdrops"`
-	Posters   Posters   `json:"posters"`
+	Backdrops Backdrops `json:"backdrops" bson:"backdrops"`
+	Posters   Posters   `json:"posters" bson:"posters"`
 }
 type Artwork struct {
-	Original string `json:"original"`
-	Large    string `json:"large"`
-	Small    string `json:"small"`
+	Original string `json:"original" bson:"original"`
+	Large    string `json:"large" bson:"large"`
+	Small    string `json:"small" bson:"small"`
 }
 
 type Backdrops struct {
@@ -185,43 +185,43 @@ type Posters struct {
 }
 
 type Availability struct {
-	VODSummary      []string      `json:"vodSummary"`
-	ScheduleSummary string        `json:"scheduleSummary,omitempty"`
-	Schedule        []string      `json:"schedule"`
-	InTheaters      bool          `json:"inTheaters"`
-	VOD             []VODProvider `json:"vod,omitempty"`
-	VODBestOffer    VODProvider   `json:"vodBestOffer"`
-	VODUserOffers   []VODProvider `json:"vodUserOffers"`
+	VODSummary      []string      `json:"vodSummary" bson:"vod_summary"`
+	ScheduleSummary string        `json:"scheduleSummary,omitempty" bson:"schedule_summary,omitempty"`
+	Schedule        []string      `json:"schedule" bson:"schedule"`
+	InTheaters      bool          `json:"inTheaters" bson:"in_theaters"`
+	VOD             []VODProvider `json:"vod,omitempty" bson:"vod,omitempty"`
+	VODBestOffer    VODProvider   `json:"vodBestOffer" bson:"vod_best_offer"`
+	VODUserOffers   []VODProvider `json:"vodUserOffers" bson:"vod_user_offers"`
 }
 
 type VODProvider struct {
-	ProviderID                  string   `json:"providerId"`
-	Languages                   []string `json:"languages,omitempty"`
-	Quality                     []string `json:"quality,omitempty"`
-	URL                         VODUrl   `json:"url"`
-	SubscriptionRequiredForUser bool     `json:"subscriptionRequiredForUser"`
-	RegisterRequiredForUser     bool     `json:"registerRequiredForUser"`
-	PpvRequiredForUser          bool     `json:"ppvRequiredForUser"`
-	Currency                    string   `json:"currency"`
-	MinPrice                    float64  `json:"minPrice,omitempty"`
+	ProviderID                  string   `json:"providerId" bson:"provider_id"`
+	Languages                   []string `json:"languages,omitempty" bson:"languages,omitempty"`
+	Quality                     []string `json:"quality,omitempty" bson:"quality,omitempty"`
+	URL                         VODUrl   `json:"url" bson:"url"`
+	SubscriptionRequiredForUser bool     `json:"subscriptionRequiredForUser" bson:"subscription_required_for_user"`
+	RegisterRequiredForUser     bool     `json:"registerRequiredForUser" bson:"register_required_for_user"`
+	PpvRequiredForUser          bool     `json:"ppvRequiredForUser" bson:"ppv_required_for_user"`
+	Currency                    string   `json:"currency" bson:"currency"`
+	MinPrice                    float64  `json:"minPrice,omitempty" bson:"min_price,omitempty"`
 }
 
 type VODPricing struct {
-	Free              bool               `json:"free"`
-	FreeForRegistered bool               `json:"freeForRegistered"`
-	Subscription      bool               `json:"subscription"`
-	PayPerView        bool               `json:"payPerView"`
-	Prices            map[string]float64 `json:"prices"`
-	Currency          string             `json:"currency"`
+	Free              bool               `json:"free" bson:"free"`
+	FreeForRegistered bool               `json:"freeForRegistered" bson:"free_for_registered"`
+	Subscription      bool               `json:"subscription" bson:"subscription"`
+	PayPerView        bool               `json:"payPerView" bson:"pay_per_view"`
+	Prices            map[string]float64 `json:"prices" bson:"prices"`
+	Currency          string             `json:"currency" bson:"currency"`
 }
 
 type VODUrl struct {
-	Embed  string `json:"embed"`
-	Native string `json:"native"`
-	Web    string `json:"web"`
+	Embed  string `json:"embed" bson:"embed"`
+	Native string `json:"native" bson:"native"`
+	Web    string `json:"web" bson:"web"`
 }
 
 type UserData struct {
-	Status  string    `json:"status"`
-	AddedAt time.Time `json:"addedAt"`
+	Status  string    `json:"status" bson:"status"`
+	AddedAt time.Time `json:"addedAt" bson:"added_at"`
 }
