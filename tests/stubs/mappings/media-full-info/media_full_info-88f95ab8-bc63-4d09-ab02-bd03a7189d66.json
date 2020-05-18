@@ -1,0 +1,28 @@
+{
+  "id" : "88f95ab8-bc63-4d09-ab02-bd03a7189d66",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=3812&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":3812,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0120804\",\"tags\":[{\"id\":\"Zombies\",\"name\":\"Zombies\",\"type\":\"category\"},{\"id\":\"Superheroes\",\"name\":\"Superpoderes\",\"type\":\"category\"},{\"id\":\"FinDelMundo\",\"name\":\"Fin del mundo\",\"type\":\"category\"},{\"id\":\"Sagas\",\"name\":\"Sagas\",\"type\":\"category\"},{\"id\":\"ResidentEvil\",\"name\":\"Resident Evil\",\"type\":\"category\"},{\"id\":\"Videojuegos\",\"name\":\"Videojuegos\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":7.87,\"name\":\"Resident Evil\",\"images\":{\"poster\":\"\\/5d\\/21\\/5d213bfb0a6a0a489a2bd29204f7605f.jpg\",\"backdrop\":\"\\/5d\\/21\\/5d213bfb0a6a0a489a2bd29204f7605f.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/5d\\/21\\/5d213bfb0a6a0a489a2bd29204f7605f.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/5d\\/21\\/5d213bfb0a6a0a489a2bd29204f7605f.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/5d\\/21\\/5d213bfb0a6a0a489a2bd29204f7605f.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/5d\\/21\\/5d213bfb0a6a0a489a2bd29204f7605f.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/5d\\/21\\/5d213bfb0a6a0a489a2bd29204f7605f.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/5d\\/21\\/5d213bfb0a6a0a489a2bd29204f7605f.jpg\"}},\"year\":2002,\"runtime\":100,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Resident Evil\",\"shortPlot\":\"En un centro clandestino de investigaci\\u00f3n gen\\u00e9tica -con fines militares- de...\",\"plot\":\"En un centro clandestino de investigaci\\u00f3n gen\\u00e9tica -con fines militares- de una poderosa multinacional se produce un brote v\\u00edrico que contamina todo el edificio. Para contener la fuga el ordenador que controla el centro sella toda la instalaci\\u00f3n y, en un principio se cree que mueren todos los empleados, pero en realidad se han convertido en feroces zombis...\",\"cast\":[{\"name\":\"Ryan McCluskey\",\"role\":\"Mr. Grey\",\"images\":{\"face\":\"\\/23\\/ea\\/23ea8f1fe26c76ff24fb5abdae932b07.jpg\"},\"id\":12227},{\"name\":\"Oscar Pearce\",\"role\":\"Mr. Red\",\"images\":null},{\"name\":\"Indra Ov\\u00e9\",\"role\":\"Ms. Black\",\"images\":null,\"id\":194194},{\"name\":\"Anna Bolt\",\"role\":\"Dr. Green\",\"images\":null,\"id\":59681},{\"name\":\"Joseph May\",\"role\":\"Dr. Blue\",\"images\":null,\"id\":177662},{\"name\":\"Robert Tannion\",\"role\":\"Dr. Brown\",\"images\":null},{\"name\":\"Heike Makatsch\",\"role\":\"Lisa\",\"images\":{\"face\":\"\\/11\\/90\\/1190dad85b2fa4c0ae57a85cf0108f24.jpg\"},\"id\":7474},{\"name\":\"Jaymes Butler\",\"role\":\"Clarence\",\"images\":null,\"id\":184421},{\"name\":\"Stephen Billington\",\"role\":\"Mr. White\",\"images\":null,\"id\":68450},{\"name\":\"Fiona Glascott\",\"role\":\"Ms. Gold\",\"images\":null,\"id\":57526}],\"genres\":[\"Action\",\"Horror\",\"Sci-fi\"],\"distributor\":null,\"numInteractions\":97679,\"numRatings\":25241,\"ratingHistogram\":{\"1\":329,\"2\":587,\"3\":4100,\"4\":11246,\"5\":8979},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Constantin Film Produktion\",\"images\":null},{\"name\":\"Davis-Films\",\"images\":null},{\"name\":\"Impact Pictures\",\"images\":null}],\"writers\":[{\"name\":\"Paul W.S. Anderson\",\"images\":null,\"id\":59687}],\"countries\":[\"GB\",\"DE\",\"FR\",\"US\"],\"directors\":[{\"name\":\"Paul W.S. Anderson\",\"images\":null,\"id\":59687}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:15:29 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"7045a95beb3fa5fd7a8014cdaf3f73c7\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c93d8398dd661-MAD",
+      "cf-request-id" : "02c3babb260000d66193bee200000001"
+    }
+  },
+  "uuid" : "88f95ab8-bc63-4d09-ab02-bd03a7189d66",
+  "persistent" : true,
+  "insertionIndex" : 1389
+}

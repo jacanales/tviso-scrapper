@@ -1,0 +1,28 @@
+{
+  "id" : "f203cb2f-37ff-4333-be00-639beb3df11c",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=2075556&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":2075556,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt4986098\",\"tags\":[{\"id\":\"Distopia\",\"name\":\"Distopia\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Sci-fi\",\"name\":\"Ciencia Ficci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":5.1,\"name\":\"The Titan\",\"images\":{\"backdrop\":\"\\/ce\\/b2\\/ceb22aa5a7ef4372e823396a174a1571.jpg\",\"poster\":\"\\/ce\\/b2\\/ceb22aa5a7ef4372e823396a174a1571.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/ce\\/b2\\/ceb22aa5a7ef4372e823396a174a1571.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/ce\\/b2\\/ceb22aa5a7ef4372e823396a174a1571.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/ce\\/b2\\/ceb22aa5a7ef4372e823396a174a1571.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/ce\\/b2\\/ceb22aa5a7ef4372e823396a174a1571.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/ce\\/b2\\/ceb22aa5a7ef4372e823396a174a1571.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/ce\\/b2\\/ceb22aa5a7ef4372e823396a174a1571.jpg\"}},\"year\":2018,\"runtime\":97,\"ageRating\":18,\"mainGenre\":\"Sci-fi\",\"originalName\":\"The Titan\",\"shortPlot\":\"En un futuro cercano, una familia de militares decide tomar parte en un rev...\",\"plot\":\"En un futuro cercano, una familia de militares decide tomar parte en un revolucionario experimento de evoluci\\u00f3n gen\\u00e9tica y exploraci\\u00f3n espacial que trata de acelerar el desarrollo gen\\u00e9tico del ser humano con un objetivo: poder relocalizar a la humanidad en otro planeta y as\\u00ed evitar su extinci\\u00f3n.\",\"cast\":[{\"name\":\"Sam Worthington\",\"role\":\"Lt. Rick Janssen\",\"images\":{\"face\":\"\\/e1\\/f5\\/e1f53c40feee46b6a423e8dc8d00a0e8.jpg\"},\"id\":5},{\"name\":\"Taylor Schilling\",\"role\":\"Dr. Abi Janssen\",\"images\":{\"face\":\"\\/80\\/92\\/8092c704d87d5d1a9ab6eb2fdf2141e4.jpg\"},\"id\":2289},{\"name\":\"Tom Wilkinson\",\"role\":\"Prof. Martin Collingwood\",\"images\":{\"face\":\"\\/96\\/05\\/960522c65150c79bdd378ae915b972ff.jpg\"},\"id\":16061},{\"name\":\"Agyness Deyn\",\"role\":\"Dr. Freya Upton\",\"images\":null},{\"name\":\"Nathalie Emmanuel\",\"role\":\"W.O. Tally Rutherford\",\"images\":{\"face\":\"\\/ec\\/4e\\/ec4edd7cbc12d44cc34a7e65543eb804.jpg\"},\"id\":17611},{\"name\":\"Noah Jupe\",\"role\":\"Lucas Janssen\",\"images\":null},{\"name\":\"Corey Johnson\",\"role\":\"Cl. Jim Peterson\",\"images\":{\"face\":\"\\/d1\\/8c\\/d18cdee791ae8c8e2ab1ca3c079c1fb5.jpg\"},\"id\":16099},{\"name\":\"Aleksandar Jovanovic\",\"role\":\"Sgt. Anton Werner\",\"images\":null},{\"name\":\"Diego Boneta\",\"role\":\"Dr. Luis Hernandez\",\"images\":{\"face\":\"\\/9d\\/ec\\/9dec666bc06e052e5be5c4e470ec4489.jpg\"},\"id\":3264},{\"name\":\"Aaron Heffernan\",\"role\":\"Cpl. Zane Gorski\",\"images\":null}],\"composer\":{\"name\":\"Fil Eisler\",\"images\":null},\"genres\":[\"Sci-fi\",\"Thriller\"],\"distributor\":null,\"numInteractions\":304,\"numRatings\":104,\"ratingHistogram\":{\"1\":8,\"2\":27,\"3\":51,\"4\":14,\"5\":4},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"42\",\"images\":null},{\"name\":\"Amel Company, The\",\"images\":null},{\"name\":\"Motion Picture Capital\",\"images\":null}],\"writers\":[{\"name\":\"Max Hurwitz\",\"images\":null},{\"name\":\"Arash Amel\",\"images\":null,\"id\":192054}],\"countries\":[\"GB\",\"ES\",\"US\"],\"directors\":[{\"name\":\"Lennart Ruff\",\"images\":null}],\"releaseDates\":[{\"country\":\"XX\",\"date\":\"2018-03-30T01:00:00+00:00\"},{\"country\":\"US\",\"date\":\"2018-03-30T01:00:00+00:00\"}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:14:53 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"1ff21fc6d6b8463bae9aff843eef2fde\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c92f63b13d661-MAD",
+      "cf-request-id" : "02c3ba2de60000d6619386e200000001"
+    }
+  },
+  "uuid" : "f203cb2f-37ff-4333-be00-639beb3df11c",
+  "persistent" : true,
+  "insertionIndex" : 1160
+}

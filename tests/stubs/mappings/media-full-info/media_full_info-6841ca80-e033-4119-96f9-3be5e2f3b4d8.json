@@ -1,0 +1,28 @@
+{
+  "id" : "6841ca80-e033-4119-96f9-3be5e2f3b4d8",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=20126&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":20126,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0077904\",\"tags\":[{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Horror\",\"name\":\"Terror\",\"type\":\"genre\"},{\"id\":\"filmin\",\"name\":\"Filmin\",\"type\":\"provider\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":6.8,\"name\":\"Retorno desde la quinta dimensi\\u00f3n\",\"images\":{\"backdrop\":\"\\/29\\/bb\\/29bb2099271f3c287bd60420e3bdf16a.jpg\",\"poster\":\"\\/29\\/bb\\/29bb2099271f3c287bd60420e3bdf16a.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/29\\/bb\\/29bb2099271f3c287bd60420e3bdf16a.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/29\\/bb\\/29bb2099271f3c287bd60420e3bdf16a.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/29\\/bb\\/29bb2099271f3c287bd60420e3bdf16a.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/29\\/bb\\/29bb2099271f3c287bd60420e3bdf16a.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/29\\/bb\\/29bb2099271f3c287bd60420e3bdf16a.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/29\\/bb\\/29bb2099271f3c287bd60420e3bdf16a.jpg\"}},\"year\":1978,\"runtime\":104,\"ageRating\":18,\"mainGenre\":\"Horror\",\"originalName\":\"The Manitou\",\"shortPlot\":\"Karen es una joven mujer que sufre de un tumor en el cuello, y es atendida...\",\"plot\":\"Karen es una joven mujer que sufre de un tumor en el cuello, y es atendida en un hospital de San Francisco. Despu\\u00e9s de una serie de pruebas los m\\u00e9dicos comienzan a sospechar de que el extra\\u00f1o tumor parece ser un feto humano. Karen pronto sabr\\u00e1 de que el tumor que no deja de crecer en su espalda, no solo tiene vida, sino que tambi\\u00e9n contiene el diab\\u00f3lico esp\\u00edritu de un antiguo hechicero indio: El Manitou....\",\"cast\":[{\"name\":\"Tony Curtis\",\"role\":\"Harry Erskine\",\"images\":{\"face\":\"\\/c7\\/98\\/c7982a2171cf42dc0354aec0586883be.jpg\"},\"id\":11343},{\"name\":\"Michael Ansara\",\"role\":\"John Singing Rock\",\"images\":{\"face\":\"\\/34\\/fc\\/34fc910fb352d07f6639955de29e425a.jpg\"},\"id\":35035},{\"name\":\"Susan Strasberg\",\"role\":\"Karen Tandy\",\"images\":null,\"id\":50563},{\"name\":\"Stella Stevens\",\"role\":\"Amelia Crusoe\",\"images\":null,\"id\":37220},{\"name\":\"Jon Cedar\",\"role\":\"Dr. Jack Hughes\",\"images\":null,\"id\":50565},{\"name\":\"Ann Sothern\",\"role\":\"Mrs. Karmann\",\"images\":null,\"id\":50567},{\"name\":\"Burgess Meredith\",\"role\":\"Dr. Snow\",\"images\":null,\"id\":50569},{\"name\":\"Paul Mantee\",\"role\":\"Dr. McEvoy\",\"images\":null,\"id\":50571},{\"name\":\"Jeanette Nolan\",\"role\":\"Mrs. Winconis\",\"images\":null,\"id\":50573},{\"name\":\"Lurene Tuttle\",\"role\":\"Mrs. Herz\",\"images\":null,\"id\":50575}],\"genres\":[\"Horror\"],\"distributor\":null,\"numInteractions\":64,\"numRatings\":10,\"ratingHistogram\":{\"1\":0,\"2\":1,\"3\":4,\"4\":3,\"5\":2},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Mid-America Pictures\",\"images\":null},{\"name\":\"Simon Productions\",\"images\":null},{\"name\":\"Manitou Productions Ltd.\",\"images\":null}],\"writers\":[{\"name\":\"Graham Masterton\",\"images\":null,\"id\":121604},{\"name\":\"William Girdler\",\"images\":null,\"id\":121602}],\"countries\":[\"US\",\"CA\"],\"directors\":[{\"name\":\"William Girdler\",\"images\":null,\"id\":121602}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":[\"filmin\"],\"scheduleSummary\":null,\"vod\":[{\"providerId\":\"filmin\",\"languages\":[\"es\"],\"quality\":[\"hd\"],\"url\":{\"embed\":null,\"native\":null,\"web\":\"https:\\/\\/www.filmin.es\\/pelicula\\/retorno-desde-la-quinta-dimension\"},\"pricing\":{\"free\":false,\"freeForRegistered\":false,\"subscription\":true,\"payPerView\":true,\"prices\":{\"hd\":1.95},\"currency\":\"EUR\"}}],\"schedule\":[],\"vodBestOffer\":{\"providerId\":\"filmin\",\"url\":{\"embed\":null,\"native\":null,\"web\":\"https:\\/\\/www.filmin.es\\/pelicula\\/retorno-desde-la-quinta-dimension\"},\"subscriptionRequiredForUser\":true,\"registerRequiredForUser\":false,\"ppvRequiredForUser\":true,\"currency\":\"EUR\",\"minPrice\":1.95},\"vodUserOffers\":[{\"providerId\":\"filmin\",\"url\":{\"embed\":null,\"native\":null,\"web\":\"https:\\/\\/www.filmin.es\\/pelicula\\/retorno-desde-la-quinta-dimension\"},\"subscriptionRequiredForUser\":true,\"registerRequiredForUser\":false,\"ppvRequiredForUser\":true,\"currency\":\"EUR\",\"minPrice\":1.95}]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:17:30 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"fe67832399e9771b4130742403fe0480\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws1",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c96cc3a79ff5c-MAD",
+      "cf-request-id" : "02c3bc93a30000ff5c982eb200000001"
+    }
+  },
+  "uuid" : "6841ca80-e033-4119-96f9-3be5e2f3b4d8",
+  "persistent" : true,
+  "insertionIndex" : 2070
+}

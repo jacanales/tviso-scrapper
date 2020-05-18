@@ -1,0 +1,28 @@
+{
+  "id" : "2f0f5d54-90ff-442c-8e89-ff55e66ee54d",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1954876&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1954876,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt5433140\",\"tags\":[{\"id\":\"person-3187\",\"name\":\"Vin Diesel\",\"type\":\"person\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"}],\"rating\":8,\"name\":\"Fast & Furious 10\",\"images\":{\"backdrop\":\"\\/63\\/c2\\/63c2608cbd7f0c6f2a1704ae11987967.jpg\",\"poster\":\"\\/63\\/c2\\/63c2608cbd7f0c6f2a1704ae11987967.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/63\\/c2\\/63c2608cbd7f0c6f2a1704ae11987967.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/63\\/c2\\/63c2608cbd7f0c6f2a1704ae11987967.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/63\\/c2\\/63c2608cbd7f0c6f2a1704ae11987967.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/63\\/c2\\/63c2608cbd7f0c6f2a1704ae11987967.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/63\\/c2\\/63c2608cbd7f0c6f2a1704ae11987967.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/63\\/c2\\/63c2608cbd7f0c6f2a1704ae11987967.jpg\"}},\"year\":2021,\"runtime\":null,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Fast & Furious 10\",\"shortPlot\":null,\"plot\":\"Plot unknown. The tenth installment of the 'Fast and Furious' franchise.\",\"cast\":[{\"name\":\"Vin Diesel\",\"role\":\"Dominic Toretto\",\"images\":{\"face\":\"\\/0a\\/4a\\/0a4a7a9a0e63e8acd67f979e301a8158.jpg\"},\"id\":3187}],\"composer\":null,\"genres\":[\"Action\",\"Crime\",\"Thriller\"],\"distributor\":null,\"numInteractions\":189,\"numRatings\":4,\"ratingHistogram\":{\"1\":0,\"2\":0,\"3\":1,\"4\":2,\"5\":1},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Original Film\",\"images\":null,\"id\":191042}],\"writers\":[{\"name\":\"Gary Scott Thompson\",\"images\":null,\"id\":61247}],\"countries\":[\"US\"],\"directors\":[],\"releaseDates\":[{\"country\":\"XX\",\"date\":\"2021-04-01T22:00:00+00:00\"},{\"country\":\"ES\",\"date\":\"2021-04-01T22:00:00+00:00\"}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:15:20 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"348cbba7168b3710aeeb9a0bd6b8f1ec\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws1",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c93a0ee75d661-MAD",
+      "cf-request-id" : "02c3ba988e0000d661938ee200000001"
+    }
+  },
+  "uuid" : "2f0f5d54-90ff-442c-8e89-ff55e66ee54d",
+  "persistent" : true,
+  "insertionIndex" : 1333
+}

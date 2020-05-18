@@ -1,0 +1,28 @@
+{
+  "id" : "68408e8c-a1ca-4216-a333-38aee196845e",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=6026&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":6026,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0168122\",\"tags\":[{\"id\":\"BasadoEnHechosReales\",\"name\":\"Basado en hechos reales\",\"type\":\"category\"},{\"id\":\"Hackers\",\"name\":\"Hackers\",\"type\":\"category\"},{\"id\":\"Tecnologia\",\"name\":\"Tecnolog\\u00eda\",\"type\":\"category\"},{\"id\":\"SiliconValley\",\"name\":\"Silicon Valley\",\"type\":\"category\"},{\"id\":\"StartUps\",\"name\":\"Startups\",\"type\":\"category\"},{\"id\":\"Informatica\",\"name\":\"Inform\\u00e1tica\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Biography\",\"name\":\"Biograf\\u00eda\",\"type\":\"genre\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":7.77,\"name\":\"Piratas de Silicon Valley\",\"images\":{\"backdrop\":\"\\/73\\/41\\/734144735976cc5a434513c9c3fc95a2.jpg\",\"poster\":\"\\/73\\/41\\/734144735976cc5a434513c9c3fc95a2.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/73\\/41\\/734144735976cc5a434513c9c3fc95a2.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/73\\/41\\/734144735976cc5a434513c9c3fc95a2.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/73\\/41\\/734144735976cc5a434513c9c3fc95a2.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/73\\/41\\/734144735976cc5a434513c9c3fc95a2.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/73\\/41\\/734144735976cc5a434513c9c3fc95a2.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/73\\/41\\/734144735976cc5a434513c9c3fc95a2.jpg\"}},\"year\":1999,\"runtime\":95,\"ageRating\":18,\"mainGenre\":\"Biography\",\"originalName\":\"Pirates of Silicon Valley\",\"shortPlot\":\"Silicon Valley es una regi\\u00f3n de California donde se asientan, desde la d\\u00e9ca...\",\"plot\":\"Silicon Valley es una regi\\u00f3n de California donde se asientan, desde la d\\u00e9cada de los ochenta, muchas de las nuevas empresas relacionadas con la inform\\u00e1tica y las nuevas tecnolog\\u00edas. \\\"Pirates of Silicon Valley\\\" relata, con los nombres reales, los principios de las empresas Apple y Microsoft a trav\\u00e9s de sus fundadores: Steve Jobs y Steve Wozniak por parte de Apple, y Bill Gates y Paul Allen como fundadores de Microsoft. Creadores de dos de las mayores multinacionales del mundo de los ordenadores y el software de hoy en d\\u00eda, este entretenido telefilm muestra los comienzos de estos j\\u00f3venes con enorme talento pero no demasiado buen car\\u00e1cter. Adem\\u00e1s, esta historia de ficci\\u00f3n tuvo cierta pol\\u00e9mica en su estreno, pues afirma claramente que Gates y Allen (de Microsoft) copiaron de Macintosh para su sistema operativo Windows.\",\"cast\":[{\"name\":\"Noah Wyle\",\"role\":\"Steve Jobs\",\"images\":{\"face\":\"\\/60\\/9c\\/609cfa50d56ca47f75bad81fc9122de3.jpg\"},\"id\":4300},{\"name\":\"Joey Slotnick\",\"role\":\"Steve Wozniak\",\"images\":null,\"id\":43299},{\"name\":\"J.G. Hertzler\",\"role\":\"Ridley Scott\",\"images\":null,\"id\":83740},{\"name\":\"Anthony Michael Hall\",\"role\":\"Bill Gates\",\"images\":{\"face\":\"\\/78\\/10\\/7810145974c374fcd68a5f063d40a9da.jpg\"},\"id\":2939},{\"name\":\"Wayne P\\u00e9re\",\"role\":\"Captain Crunch\",\"images\":null,\"id\":40998},{\"name\":\"Sheila Shaw\",\"role\":\"Mrs. Wozniak\",\"images\":null,\"id\":83742},{\"name\":\"Gema Zamprogna\",\"role\":\"Arlene\",\"images\":null,\"id\":83744},{\"name\":\"John DiMaggio\",\"role\":\"Steve Ballmer\",\"images\":null,\"id\":41508},{\"name\":\"Josh Hopkins\",\"role\":\"Paul Allen\",\"images\":{\"face\":\"\\/91\\/47\\/91472b9032e11ec03ec849d5209031f0.jpg\"},\"id\":23153},{\"name\":\"Gailard Sartain\",\"role\":\"Ed Roberts\",\"images\":null,\"id\":83746}],\"genres\":[\"Biography\",\"Drama\"],\"distributor\":null,\"numInteractions\":32209,\"numRatings\":4822,\"ratingHistogram\":{\"1\":77,\"2\":109,\"3\":858,\"4\":2152,\"5\":1626},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Haft Entertainment\",\"images\":null},{\"name\":\"St. Nick Productions\",\"images\":null},{\"name\":\"Turner Network Television (TNT)\",\"images\":null}],\"writers\":[{\"name\":\"Paul Freiberger\",\"images\":null,\"id\":83764},{\"name\":\"Michael Swaine\",\"images\":null,\"id\":83766}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Martyn Burke\",\"images\":null,\"id\":83762}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:17:23 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"0478e48ca5d6c037a16095d01345da8a\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws1",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c96a09a00d661-MAD",
+      "cf-request-id" : "02c3bc785f0000d66193a9a200000001"
+    }
+  },
+  "uuid" : "68408e8c-a1ca-4216-a333-38aee196845e",
+  "persistent" : true,
+  "insertionIndex" : 2056
+}

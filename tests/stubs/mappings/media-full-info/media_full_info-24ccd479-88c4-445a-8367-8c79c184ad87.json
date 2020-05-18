@@ -1,0 +1,28 @@
+{
+  "id" : "24ccd479-88c4-445a-8367-8c79c184ad87",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=2004689&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":2004689,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt3951168\",\"tags\":[{\"id\":\"FuturoPostapocaliptico\",\"name\":\"Futuro postapocal\\u00edptico\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Animation\",\"name\":\"Animaci\\u00f3n\",\"type\":\"genre\"}],\"rating\":6.87,\"name\":\"Ataque a los titanes: Dificultades\",\"images\":{\"backdrop\":\"\\/fa\\/7c\\/fa7c897a8fa3b04bc9505de8ccec6a1d.jpg\",\"poster\":\"\\/fa\\/7c\\/fa7c897a8fa3b04bc9505de8ccec6a1d.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/fa\\/7c\\/fa7c897a8fa3b04bc9505de8ccec6a1d.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/fa\\/7c\\/fa7c897a8fa3b04bc9505de8ccec6a1d.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/fa\\/7c\\/fa7c897a8fa3b04bc9505de8ccec6a1d.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/fa\\/7c\\/fa7c897a8fa3b04bc9505de8ccec6a1d.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/fa\\/7c\\/fa7c897a8fa3b04bc9505de8ccec6a1d.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/fa\\/7c\\/fa7c897a8fa3b04bc9505de8ccec6a1d.jpg\"}},\"year\":2014,\"runtime\":null,\"ageRating\":18,\"mainGenre\":\"Animation\",\"originalName\":\"\\\"Attack on Titan\\\" OVA: Difficulty\",\"shortPlot\":\"La historia nos traslada a un mundo en el que la humanidad estuvo a punto d...\",\"plot\":\"La historia nos traslada a un mundo en el que la humanidad estuvo a punto de ser exterminada cientos de a\\u00f1os atr\\u00e1s por los gigantes. Los gigantes son enormes, parecen no ser inteligentes y devoran seres humanos. Lo peor es que parece que lo hacen por placer y no por alimentarse. Una peque\\u00f1a parte de la humanidad ha conseguido sobrevivir protegi\\u00e9ndose en una ciudad con unos alt\\u00edsimos muros, m\\u00e1s altos que el mayor de los gigantes. La ciudad vive su vida tranquila, y hace m\\u00e1s de 100 a\\u00f1os que ning\\u00fan gigante aparece por all\\u00ed. Eren y su hermana adoptiva Mikasa son todav\\u00eda unos adolescentes cuando ven algo horroroso: un gigante mucho mayor que todos los que la humanidad hab\\u00eda conocido hasta el momento est\\u00e1 destruyendo los muros de la ciudad. No pasa mucho tiempo hasta que los gigantes entran por el hueco abierto en el muro y comienzan a devorar a la gente.\",\"cast\":[{\"name\":\"Yuki Kaji\",\"role\":\"Eren Jaeger\",\"images\":{\"face\":\"\\/ea\\/e3\\/eae3ea65fc2ca94a2603397534cfaa53.jpg\"},\"id\":4784},{\"name\":\"Kish\\u00f4 Taniyama\",\"role\":\"Jean Kirschtein\",\"images\":null,\"id\":66042},{\"name\":\"Marina Inoue\",\"role\":\"Armin Arlert\",\"images\":null,\"id\":66038},{\"name\":\"Yui Ishikawa\",\"role\":\"Mikasa Ackermann\",\"images\":null},{\"name\":\"Yu Kobayashi\",\"role\":\"Sasha Braus\",\"images\":null},{\"name\":\"Hiro Shimono\",\"role\":\"Connie Springer\",\"images\":null},{\"name\":\"Tsuguo Mogami\",\"role\":\"Keith Shardis\",\"images\":null},{\"name\":\"Yoshimasa Hosoya\",\"role\":\"Reiner Braun\",\"images\":null},{\"name\":\"Yu Shimamura\",\"role\":\"Annie Leonhart\",\"images\":null},{\"name\":\"Shiori Mikami\",\"role\":\"Christa Lenz\",\"images\":null}],\"composer\":null,\"genres\":[\"Animation\",\"Action\",\"Adventure\",\"Drama\",\"Fantasy\",\"Horror\"],\"distributor\":null,\"numInteractions\":76,\"numRatings\":15,\"ratingHistogram\":{\"1\":0,\"2\":0,\"3\":8,\"4\":5,\"5\":2},\"seasonsBlocked\":[],\"producers\":[],\"writers\":[{\"name\":\"Noboru Takagi\",\"images\":null}],\"countries\":[\"JP\"],\"directors\":[{\"name\":\"Tetsur\\u00f4 Araki\",\"images\":null}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:14:56 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"3e3abf2bed84a3b6ac493c91d4b71111\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws1",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c930a6cdad661-MAD",
+      "cf-request-id" : "02c3ba3a7d0000d66193953200000001"
+    }
+  },
+  "uuid" : "24ccd479-88c4-445a-8367-8c79c184ad87",
+  "persistent" : true,
+  "insertionIndex" : 1177
+}

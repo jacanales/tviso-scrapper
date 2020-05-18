@@ -1,0 +1,28 @@
+{
+  "id" : "39917b5d-0057-47f1-8e9b-1dec1df7995d",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=15906&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":15906,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt1538503\",\"tags\":[{\"id\":\"FastFurious\",\"name\":\"Fast & Furious\",\"type\":\"category\"},{\"id\":\"person-3187\",\"name\":\"Vin Diesel\",\"type\":\"person\"},{\"id\":\"Cortometrajes\",\"name\":\"Cortometrajes\",\"type\":\"category\"},{\"id\":\"Coches\",\"name\":\"Coches\",\"type\":\"category\"},{\"id\":\"Talleres\",\"name\":\"Talleres\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Short\",\"name\":\"Cortometraje\",\"type\":\"genre\"},{\"id\":\"MediaHora\",\"name\":\"Media hora\",\"type\":\"duration\"}],\"rating\":6.62,\"name\":\"A todo gas: Los Bandoleros\",\"images\":{\"poster\":\"\\/e5\\/26\\/e526fd168aad0db76aae259f25f3ed03.jpg\",\"backdrop\":\"\\/e5\\/26\\/e526fd168aad0db76aae259f25f3ed03.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/e5\\/26\\/e526fd168aad0db76aae259f25f3ed03.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/e5\\/26\\/e526fd168aad0db76aae259f25f3ed03.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/e5\\/26\\/e526fd168aad0db76aae259f25f3ed03.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/e5\\/26\\/e526fd168aad0db76aae259f25f3ed03.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/e5\\/26\\/e526fd168aad0db76aae259f25f3ed03.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/e5\\/26\\/e526fd168aad0db76aae259f25f3ed03.jpg\"}},\"year\":2009,\"runtime\":20,\"ageRating\":18,\"mainGenre\":\"Short\",\"originalName\":\"Los Bandoleros\",\"shortPlot\":\"\\u201cLos Bandoleros\\u201d es una precuela de \\u201cFast and Furious\\u201d, filmada en Republic...\",\"plot\":\"\\u201cLos Bandoleros\\u201d es una precuela de \\u201cFast and Furious\\u201d, filmada en Republica Dominicana y dirigida-producida por Vin Diesel, donde los raperos Don Omar &amp; Tego Calderon vuelven a participar en una produci\\u00f3n del actor norteamericano.\",\"cast\":[{\"name\":\"Vin Diesel\",\"role\":\"Dominic Toretto\",\"images\":{\"face\":\"\\/0a\\/4a\\/0a4a7a9a0e63e8acd67f979e301a8158.jpg\"},\"id\":3187},{\"name\":\"Michelle Rodriguez\",\"role\":\"Letty Ortiz\",\"images\":{\"face\":\"\\/1f\\/50\\/1f50159c2263d7b08b0bded761bcabef.jpg\"},\"id\":3955},{\"name\":\"Sung Kang\",\"role\":\"Han Lue\",\"images\":{\"face\":\"\\/68\\/08\\/6808eaf58e56c550f6e7fd00728641a6.jpg\"},\"id\":8022},{\"name\":\"Tego Calderon\",\"role\":\"Tego Leo\",\"images\":null},{\"name\":\"Don Omar\",\"role\":\"Santos\",\"images\":null},{\"name\":\"F. Valentino Morales\",\"role\":\"Malo\",\"images\":null},{\"name\":\"Mirtha Michelle\",\"role\":\"Mirtha\",\"images\":null},{\"name\":\"Juan Fern\\u00e1ndez\",\"role\":\"Elvis\",\"images\":null,\"id\":107191},{\"name\":\"Celines Toribio\",\"role\":\"Elvis' Girlfriend\",\"images\":null},{\"name\":\"Adria Carrasco\",\"role\":\"T\\u00eda Rubia\",\"images\":null}],\"genres\":[\"Short\",\"Action\",\"Drama\"],\"distributor\":null,\"numInteractions\":43209,\"numRatings\":5215,\"ratingHistogram\":{\"1\":554,\"2\":487,\"3\":1446,\"4\":1193,\"5\":1535},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"One Race Productions\",\"images\":null},{\"name\":\"Terrero Films\",\"images\":null}],\"writers\":[{\"name\":\"Vin Diesel\",\"images\":{\"face\":\"\\/0a\\/4a\\/0a4a7a9a0e63e8acd67f979e301a8158.jpg\"},\"id\":3187},{\"name\":\"T.J. Mancini\",\"images\":null}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Vin Diesel\",\"images\":{\"face\":\"\\/0a\\/4a\\/0a4a7a9a0e63e8acd67f979e301a8158.jpg\"},\"id\":3187}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:16:07 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"d74a3d135bcb96e54dceafcd3c746288\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c94c65d3cd661-MAD",
+      "cf-request-id" : "02c3bb4ff30000d66193b38200000001"
+    }
+  },
+  "uuid" : "39917b5d-0057-47f1-8e9b-1dec1df7995d",
+  "persistent" : true,
+  "insertionIndex" : 1609
+}

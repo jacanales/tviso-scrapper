@@ -1,0 +1,28 @@
+{
+  "id" : "e3d020e0-4ea3-4645-8499-9fcfd9e3057e",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=5047&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":5047,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0798817\",\"tags\":[{\"id\":\"Crimenes\",\"name\":\"Cr\\u00edmenes\",\"type\":\"category\"},{\"id\":\"person-1352\",\"name\":\"Jason Statham\",\"type\":\"person\"},{\"id\":\"Muerte\",\"name\":\"Muerte\",\"type\":\"category\"},{\"id\":\"InvestigandoCrimenes\",\"name\":\"Investigando Cr\\u00edmenes\",\"type\":\"category\"},{\"id\":\"AsesinosEnSerie\",\"name\":\"Psic\\u00f3patas\",\"type\":\"category\"},{\"id\":\"Supervivencia\",\"name\":\"Supervivencia\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Drama\",\"name\":\"Drama\",\"type\":\"genre\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":7.06,\"name\":\"13\",\"images\":{\"backdrop\":\"\\/b1\\/d8\\/b1d8b05d75d57af350446f287d795f2e.jpg\",\"poster\":\"\\/b1\\/d8\\/b1d8b05d75d57af350446f287d795f2e.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/b1\\/d8\\/b1d8b05d75d57af350446f287d795f2e.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/b1\\/d8\\/b1d8b05d75d57af350446f287d795f2e.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/b1\\/d8\\/b1d8b05d75d57af350446f287d795f2e.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/b1\\/d8\\/b1d8b05d75d57af350446f287d795f2e.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/b1\\/d8\\/b1d8b05d75d57af350446f287d795f2e.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/b1\\/d8\\/b1d8b05d75d57af350446f287d795f2e.jpg\"}},\"year\":2010,\"runtime\":91,\"ageRating\":18,\"mainGenre\":\"Drama\",\"originalName\":\"13\",\"shortPlot\":\"Un hombre joven se encuentra inmerso en una competici\\u00f3n clandestina donde s...\",\"plot\":\"Un hombre joven se encuentra inmerso en una competici\\u00f3n clandestina donde se apuesta la vida de seres humanos. Un convicto en una prisi\\u00f3n mexicana es vendido en dicha competici\\u00f3n. Un competidor que ha salido de una instituci\\u00f3n mental. Un empleado que tiene que escoltar al convicto. Un hombre brit\\u00e1nico adinerado que apuesta en la competici\\u00f3n y tiene un peculiar inter\\u00e9s en uno de sus contrincantes. Y un polic\\u00eda que sigue la pista del juego ilegal.\",\"cast\":[{\"name\":\"Sam Riley\",\"role\":\"Vince Ferro\",\"images\":{\"face\":\"\\/81\\/63\\/81639676eb78448519e66b776009d224.jpg\"},\"id\":16156},{\"name\":\"Alice Barrett\",\"role\":\"Leanne Ferro\",\"images\":null},{\"name\":\"Gaby Hoffmann\",\"role\":\"Clara Ferro\",\"images\":{\"face\":\"\\/53\\/d1\\/53d115aa9f2e5d101ef741321b3c9007.jpg\"},\"id\":10321},{\"name\":\"Jason Statham\",\"role\":\"Jasper\",\"images\":{\"face\":\"\\/f3\\/54\\/f354e5d9b1321830a3dab7765fff7074.jpg\"},\"id\":1352},{\"name\":\"Stephen Beach\",\"role\":\"Nick Ferro\",\"images\":null},{\"name\":\"Mickey Rourke\",\"role\":\"Jefferson\",\"images\":{\"face\":\"\\/85\\/4c\\/854caa3a604dfc82afb0af4ecdde5a8f.jpg\"},\"id\":1546},{\"name\":\"Emmanuelle Chriqui\",\"role\":\"Aileen\",\"images\":null,\"id\":60503},{\"name\":\"Michael Berry Jr.\",\"role\":\"William\",\"images\":null,\"id\":132749},{\"name\":\"Mike D'Onofrio\",\"role\":\"Frank\",\"images\":null},{\"name\":\"Starla Benford\",\"role\":\"Dr. Anna Cummings\",\"images\":null,\"id\":182357}],\"genres\":[\"Drama\",\"Thriller\"],\"distributor\":null,\"numInteractions\":10919,\"numRatings\":1323,\"ratingHistogram\":{\"1\":26,\"2\":78,\"3\":416,\"4\":508,\"5\":295},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Overnight Films\",\"images\":null},{\"name\":\"Morabito Picture Company\",\"images\":null},{\"name\":\"Barbarian Films\",\"images\":null}],\"writers\":[],\"countries\":[\"US\"],\"directors\":[{\"name\":\"G\\u00e9la Babluani\",\"images\":null,\"id\":71206}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:15:21 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"77e447f53c14b12ccbc6e3c3553eec4b\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws1",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c93a68ce3d661-MAD",
+      "cf-request-id" : "02c3ba9c100000d6619392e200000001"
+    }
+  },
+  "uuid" : "e3d020e0-4ea3-4645-8499-9fcfd9e3057e",
+  "persistent" : true,
+  "insertionIndex" : 1340
+}

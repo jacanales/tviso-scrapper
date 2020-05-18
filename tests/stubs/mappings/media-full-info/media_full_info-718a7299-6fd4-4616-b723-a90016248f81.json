@@ -1,0 +1,28 @@
+{
+  "id" : "718a7299-6fd4-4616-b723-a90016248f81",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1477&mediaType=4",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1477,\"mediaType\":4,\"mediaStyle\":\"unchained\",\"imdb\":\"tt1051155\",\"tags\":[{\"id\":\"Espacio\",\"name\":\"Espacio\",\"type\":\"category\"},{\"id\":\"Universo\",\"name\":\"Universo\",\"type\":\"category\"},{\"id\":\"RealidadVirtual\",\"name\":\"Realidad virtual\",\"type\":\"category\"},{\"id\":\"Mediatype4\",\"name\":\"Programa de TV\",\"type\":\"mediaType\"},{\"id\":\"Documentary\",\"name\":\"Documental\",\"type\":\"genre\"},{\"id\":\"UnaHora\",\"name\":\"Una hora\",\"type\":\"duration\"}],\"rating\":8.32,\"name\":\"El universo\",\"images\":{\"backdrop\":\"\\/4f\\/76\\/4f769c7ab0756454a800877538bf6d7e.jpg\",\"poster\":\"\\/4f\\/76\\/4f769c7ab0756454a800877538bf6d7e.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/4f\\/76\\/4f769c7ab0756454a800877538bf6d7e.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/4f\\/76\\/4f769c7ab0756454a800877538bf6d7e.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/4f\\/76\\/4f769c7ab0756454a800877538bf6d7e.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/4f\\/76\\/4f769c7ab0756454a800877538bf6d7e.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/4f\\/76\\/4f769c7ab0756454a800877538bf6d7e.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/4f\\/76\\/4f769c7ab0756454a800877538bf6d7e.jpg\"}},\"year\":2007,\"runtime\":45,\"ageRating\":18,\"mainGenre\":\"Documentary\",\"originalName\":\"The Universe\",\"shortPlot\":\"El universo (nombre original The Universe) es una serie televisiva estadoun...\",\"plot\":\"El universo (nombre original The Universe) es una serie televisiva estadounidense del g\\u00e9nero documental que muestra im\\u00e1genes generadas por computadora y gr\\u00e1ficos de objetos astron\\u00f3micos del universo, y entrevistas con expertos que estudian los campos de la cosmolog\\u00eda, astronom\\u00eda y astrof\\u00edsica. El programa es producido por Flight 33 Productions y Workaholic Productions.\",\"broadcast\":\"online\",\"cast\":[{\"name\":\"Erik Thompson\",\"role\":\"Narrator         \\/ ...\",\"images\":null}],\"genres\":[\"Documentary\",\"History\"],\"distributor\":null,\"numInteractions\":5940,\"numRatings\":865,\"ratingHistogram\":{\"1\":28,\"2\":12,\"3\":78,\"4\":252,\"5\":494},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Flight 33 Productions\",\"images\":null}],\"writers\":[{\"name\":\"Robert Beemer\",\"images\":null},{\"name\":\"Colin Campbell\",\"images\":null},{\"name\":\"Douglas Cohen\",\"images\":null},{\"name\":\"Sam Dolan\",\"images\":null,\"id\":135248},{\"name\":\"Savas Georgalis\",\"images\":null},{\"name\":\"James Goldin\",\"images\":null},{\"name\":\"James Grant Goldin\",\"images\":null},{\"name\":\"Brittany Graham\",\"images\":null},{\"name\":\"Rebecca Graham\",\"images\":null},{\"name\":\"John Greenewald Jr.\",\"images\":null}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Laura Verklan\",\"images\":null},{\"name\":\"Colin Campbell\",\"images\":null},{\"name\":\"Tony Long\",\"images\":null},{\"name\":\"Darryl Rehr\",\"images\":null},{\"name\":\"Douglas Cohen\",\"images\":null},{\"name\":\"Amy Huggins\",\"images\":null},{\"name\":\"Andrew Nock\",\"images\":null},{\"name\":\"Robert Beemer\",\"images\":null},{\"name\":\"Daniel Snyder\",\"images\":null},{\"name\":\"Luke Ellis\",\"images\":null}],\"composer\":null,\"seasons\":[],\"availability\":{\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"following\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:16:29 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"d17c131db03e4bcdc75d77498ad1d903\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c954e5da3d661-MAD",
+      "cf-request-id" : "02c3bba4f50000d6619398e200000001"
+    }
+  },
+  "uuid" : "718a7299-6fd4-4616-b723-a90016248f81",
+  "persistent" : true,
+  "insertionIndex" : 1737
+}

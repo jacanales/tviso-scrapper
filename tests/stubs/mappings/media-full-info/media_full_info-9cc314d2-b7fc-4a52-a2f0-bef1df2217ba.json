@@ -1,0 +1,28 @@
+{
+  "id" : "9cc314d2-b7fc-4a52-a2f0-bef1df2217ba",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1782824&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1782824,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt5433138\",\"tags\":[{\"id\":\"person-3187\",\"name\":\"Vin Diesel\",\"type\":\"person\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"}],\"rating\":6.93,\"name\":\"Fast & Furious 9\",\"images\":{\"backdrop\":\"\\/a2\\/29\\/a229cf18ae5c9143e4ec6a6867c2c876.jpg\",\"poster\":\"\\/a2\\/29\\/a229cf18ae5c9143e4ec6a6867c2c876.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/a2\\/29\\/a229cf18ae5c9143e4ec6a6867c2c876.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/a2\\/29\\/a229cf18ae5c9143e4ec6a6867c2c876.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/a2\\/29\\/a229cf18ae5c9143e4ec6a6867c2c876.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/a2\\/29\\/a229cf18ae5c9143e4ec6a6867c2c876.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/a2\\/29\\/a229cf18ae5c9143e4ec6a6867c2c876.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/a2\\/29\\/a229cf18ae5c9143e4ec6a6867c2c876.jpg\"}},\"year\":2020,\"runtime\":null,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Fast & Furious 9\",\"shortPlot\":\"Novena secuela de Fast &amp; Furious\",\"plot\":\"Novena secuela de Fast &amp; Furious\",\"cast\":[{\"name\":\"Vin Diesel\",\"role\":\"Dominic Toretto\",\"images\":{\"face\":\"\\/0a\\/4a\\/0a4a7a9a0e63e8acd67f979e301a8158.jpg\"},\"id\":3187},{\"name\":\"John Cena\",\"role\":\"-\",\"images\":{\"face\":\"\\/a7\\/c0\\/a7c0068ff8046728a51a3fa7a22b9eea.jpg\"},\"id\":6643},{\"name\":\"Michelle Rodriguez\",\"role\":\"Letty Ortiz\",\"images\":{\"face\":\"\\/1f\\/50\\/1f50159c2263d7b08b0bded761bcabef.jpg\"},\"id\":3955},{\"name\":\"Lucas Black\",\"role\":\"Sean Boswell\",\"images\":{\"face\":\"\\/48\\/96\\/489614114ba4049316b87b584ff3381f.jpg\"},\"id\":1072},{\"name\":\"Jordana Brewster\",\"role\":\"Mia Toretto\",\"images\":{\"face\":\"\\/fb\\/cc\\/fbccfdda39a23c259e58cb63834127c1.jpg\"},\"id\":8020},{\"name\":\"Tyrese Gibson\",\"role\":\"Roman Pearce\",\"images\":{\"face\":\"\\/99\\/1f\\/991f5c609e48fd540d39ede786034898.jpg\"},\"id\":8017},{\"name\":\"Lex Elle\",\"role\":\"Sergeant Reyes\",\"images\":null},{\"name\":\"Krzysztof 'Kris' Mardula\",\"role\":\"Thug\",\"images\":null}],\"composer\":null,\"genres\":[\"Action\",\"Adventure\",\"Crime\",\"Thriller\"],\"distributor\":null,\"numInteractions\":656,\"numRatings\":27,\"ratingHistogram\":{\"1\":0,\"2\":1,\"3\":7,\"4\":16,\"5\":2},\"seasonsBlocked\":[],\"producers\":[],\"writers\":[{\"name\":\"Daniel Casey\",\"images\":null},{\"name\":\"Chris Morgan\",\"images\":null,\"id\":98162},{\"name\":\"Gary Scott Thompson\",\"images\":null,\"id\":61247}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Justin Lin\",\"images\":null,\"id\":129331}],\"releaseDates\":[{\"country\":\"DE\",\"date\":\"2019-04-18T19:00:00+00:00\"},{\"country\":\"US\",\"date\":\"2019-04-19T19:00:00+00:00\"},{\"country\":\"XX\",\"date\":\"2019-04-18T19:00:00+00:00\"}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:15:20 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"b22a7242d1a59cee17f836d423c107b5\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c93a17f9dd661-MAD",
+      "cf-request-id" : "02c3ba98eb0000d661938f6200000001"
+    }
+  },
+  "uuid" : "9cc314d2-b7fc-4a52-a2f0-bef1df2217ba",
+  "persistent" : true,
+  "insertionIndex" : 1334
+}

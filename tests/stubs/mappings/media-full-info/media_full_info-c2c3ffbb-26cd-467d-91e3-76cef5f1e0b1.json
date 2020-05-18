@@ -1,0 +1,28 @@
+{
+  "id" : "c2c3ffbb-26cd-467d-91e3-76cef5f1e0b1",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=2712428&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":2712428,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt9032400\",\"tags\":[{\"id\":\"person-1551\",\"name\":\"Angelina Jolie\",\"type\":\"person\"},{\"id\":\"person-16146\",\"name\":\"Salma Hayek\",\"type\":\"person\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"}],\"rating\":null,\"name\":\"Eternals\",\"images\":{\"poster\":\"\\/28\\/0f\\/280f425669b38dc1a38d7ca9bd9b40a0.jpg\",\"backdrop\":\"\\/28\\/0f\\/280f425669b38dc1a38d7ca9bd9b40a0.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/28\\/0f\\/280f425669b38dc1a38d7ca9bd9b40a0.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/28\\/0f\\/280f425669b38dc1a38d7ca9bd9b40a0.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/28\\/0f\\/280f425669b38dc1a38d7ca9bd9b40a0.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/28\\/0f\\/280f425669b38dc1a38d7ca9bd9b40a0.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/28\\/0f\\/280f425669b38dc1a38d7ca9bd9b40a0.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/28\\/0f\\/280f425669b38dc1a38d7ca9bd9b40a0.jpg\"}},\"year\":2020,\"runtime\":null,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Eternals\",\"shortPlot\":\"Los eternos son una raza ficticia de superhumanos. Han sido descritos como...\",\"plot\":\"Los eternos son una raza ficticia de superhumanos. Han sido descritos como una rama separada del proceso evolutivo que cre\\u00f3 la vida inteligente en la Tierra. Los instigadores originales de este proceso, la raza alien\\u00edgena de los celestiales, con la intenci\\u00f3n de que fuera los protectores de la Tierra, lo cual les lleva a la inevitable guerra contra sus hom\\u00f3logos destructivos, los desviantes. Los eternos fueron creados por Jack Kirby e hicieron su primera aparici\\u00f3n en Los eternos n.\\u00ba 1 en julio de 1976.\",\"composer\":{\"name\":\"Ramin Djawadi\",\"images\":null,\"id\":200157},\"cast\":[{\"name\":\"Angelina Jolie\",\"role\":\"Thena\",\"images\":{\"face\":\"\\/9e\\/8c\\/9e8c8449a39617fa62c8617b2d034e02.jpg\"},\"id\":1551},{\"name\":\"Richard Madden\",\"role\":\"Ikaris\",\"images\":null,\"id\":41644},{\"name\":\"Salma Hayek\",\"role\":\"Ajak\",\"images\":{\"face\":\"\\/ff\\/9d\\/ff9d43595fa7d6a660823a6db0fa70de.jpg\"},\"id\":16146},{\"name\":\"Kumail Nanjiani\",\"role\":\"Kingo\",\"images\":{\"face\":\"\\/3b\\/c0\\/3bc0e84a1d90eba300d39f003bc3bd7e.jpg\"},\"id\":1981},{\"name\":\"Gemma Chan\",\"role\":\"Sersi\",\"images\":null,\"id\":36646},{\"name\":\"Kit Harington\",\"role\":\"Dane Whitman\",\"images\":{\"face\":\"\\/67\\/1b\\/671bcbf3cc456f3d67bc32cd2b4819f2.jpg\"},\"id\":181},{\"name\":\"Barry Keoghan\",\"role\":\"Druig\",\"images\":null,\"id\":88732},{\"name\":\"Brian Tyree Henry\",\"role\":\"Phastos\",\"images\":null,\"id\":224993},{\"name\":\"Dong-seok Ma\",\"role\":\"Gilgamesh\",\"images\":{\"face\":\"\\/07\\/80\\/07804e64864ffb28245cda10424530cd.jpg\"},\"id\":18606},{\"name\":\"Lia McHugh\",\"role\":\"Sprite\",\"images\":null}],\"genres\":[\"Action\",\"Adventure\",\"Drama\",\"Fantasy\",\"Sci-fi\"],\"distributor\":null,\"numInteractions\":274,\"seasonsBlocked\":[],\"numRatings\":null,\"ratingHistogram\":null,\"producers\":[],\"writers\":[{\"name\":\"Matthew K. Firpo\",\"images\":null},{\"name\":\"Ryan Firpo\",\"images\":null,\"id\":142377},{\"name\":\"Jack Kirby\",\"images\":{\"face\":\"\\/59\\/e6\\/59e69fdc2694a36449ee6d0462634d1b.jpg\"},\"id\":8317}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Chlo\\u00e9 Zhao\",\"images\":null}],\"releaseDates\":[{\"country\":\"XX\",\"date\":\"2020-11-06T20:00:00+00:00\"}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:16:13 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"01a5e8f72719d671598b56e6d6e48007\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws1",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c94e93addd661-MAD",
+      "cf-request-id" : "02c3bb65c60000d661938ae200000001"
+    }
+  },
+  "uuid" : "c2c3ffbb-26cd-467d-91e3-76cef5f1e0b1",
+  "persistent" : true,
+  "insertionIndex" : 1645
+}

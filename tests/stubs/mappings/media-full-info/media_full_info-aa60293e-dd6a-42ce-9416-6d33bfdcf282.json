@@ -1,0 +1,28 @@
+{
+  "id" : "aa60293e-dd6a-42ce-9416-6d33bfdcf282",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1152280&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1152280,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0433977\",\"tags\":[{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Drama\",\"name\":\"Drama\",\"type\":\"genre\"}],\"rating\":4,\"name\":\"Despu\\u00e9s de la muerte\",\"artwork\":{\"backdrops\":{\"original\":null,\"large\":null,\"small\":null},\"posters\":{\"original\":null,\"large\":null,\"small\":null}},\"year\":2005,\"runtime\":null,\"ageRating\":18,\"images\":{\"poster\":\"EXTERNAL#pelis\\/WU6WKPXZ5A9HWNS\",\"backdrop\":null,\"country\":null},\"mainGenre\":\"Drama\",\"originalName\":\"Despu\\u00e9s de la muerte\",\"shortPlot\":null,\"plot\":null,\"cast\":[{\"name\":\"Pedro Armend\\u00e1riz Jr.\",\"role\":\"Don Julio\",\"images\":{\"face\":\"\\/b1\\/6b\\/b16bf34cc49c241fab9f94c8a08b0428.jpg\"},\"id\":9076},{\"name\":\"Alex Hank\",\"role\":\"Rufino\",\"images\":null},{\"name\":\"Roberto Roch\\u00edn Jr.\",\"role\":\"Julio\",\"images\":null},{\"name\":\"Miguel Rodarte\",\"role\":\"Isidro\",\"images\":null},{\"name\":\"Evangelina Sosa\",\"role\":\"Tomasa\",\"images\":null},{\"name\":\"Ana Claudia Talanc\\u00f3n\",\"role\":\"Cleotilde\",\"images\":null,\"id\":196907}],\"genres\":[\"Drama\"],\"distributor\":null,\"numInteractions\":8,\"numRatings\":1,\"ratingHistogram\":{\"1\":0,\"2\":1,\"3\":0,\"4\":0,\"5\":0},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Instituto Mexicano de Cinematograf\\u00eda (IMCINE)\",\"images\":null},{\"name\":\"Roca Motion Control\",\"images\":null}],\"writers\":[{\"name\":\"El\\u00edas Nahm\\u00edas\",\"images\":null},{\"name\":\"Roberto Roch\\u00edn\",\"images\":null}],\"countries\":[\"MX\"],\"directors\":[{\"name\":\"Roberto Roch\\u00edn\",\"images\":null}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:16:35 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"7e235ad6bc786f5a5dbf8933695060e8\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c9575aa12d661-MAD",
+      "cf-request-id" : "02c3bbbd840000d66193b62200000001"
+    }
+  },
+  "uuid" : "aa60293e-dd6a-42ce-9416-6d33bfdcf282",
+  "persistent" : true,
+  "insertionIndex" : 1777
+}

@@ -1,0 +1,28 @@
+{
+  "id" : "fbd6def7-c778-4ce0-8351-ea1cc57da6dd",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=9185&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":9185,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":null,\"tags\":[{\"id\":\"Videojuegos\",\"name\":\"Videojuegos\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Mystery\",\"name\":\"Misterio\",\"type\":\"genre\"}],\"rating\":6.9,\"name\":\"Half-Life: Beyond Black Mesa\",\"images\":{\"backdrop\":\"\\/d9\\/31\\/d931d63d8b6f85ca9b855ee44275388d.jpg\",\"poster\":\"\\/d9\\/31\\/d931d63d8b6f85ca9b855ee44275388d.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/d9\\/31\\/d931d63d8b6f85ca9b855ee44275388d.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/d9\\/31\\/d931d63d8b6f85ca9b855ee44275388d.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/d9\\/31\\/d931d63d8b6f85ca9b855ee44275388d.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/d9\\/31\\/d931d63d8b6f85ca9b855ee44275388d.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/d9\\/31\\/d931d63d8b6f85ca9b855ee44275388d.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/d9\\/31\\/d931d63d8b6f85ca9b855ee44275388d.jpg\"}},\"year\":0,\"runtime\":null,\"ageRating\":18,\"mainGenre\":\"Mystery\",\"originalName\":\"Half-Life: Beyond Black Mesa\",\"shortPlot\":\"Inspirado en la serie de videojuegos Half-Life, esta es una pel\\u00edcula llena...\",\"plot\":\"Inspirado en la serie de videojuegos Half-Life, esta es una pel\\u00edcula llena de acci\\u00f3n a corto centrado en torno a Adrian Shephard y una banda de luchadores de la resistencia que luchan por salir una advertencia acerca de la inminente invasi\\u00f3n.\",\"cast\":null,\"distributor\":null,\"numInteractions\":812,\"numRatings\":120,\"ratingHistogram\":{\"1\":11,\"2\":6,\"3\":31,\"4\":39,\"5\":33},\"seasonsBlocked\":[],\"producers\":[],\"writers\":[],\"countries\":null,\"directors\":[],\"composer\":null,\"genres\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:14:50 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"bb3a93fb7bc810a61e692e068420e551\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c92e5bd32d661-MAD",
+      "cf-request-id" : "02c3ba23920000d66193b74200000001"
+    }
+  },
+  "uuid" : "fbd6def7-c778-4ce0-8351-ea1cc57da6dd",
+  "persistent" : true,
+  "insertionIndex" : 1140
+}
