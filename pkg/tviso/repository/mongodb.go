@@ -22,7 +22,7 @@ type MongoDB struct {
 	encoder *bson.Encoder
 }
 
-func NewMongoDBRepository() tviso.WriteRepository {
+func NewMongoDBClient() *mongo.Client {
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
 	defer cancel()
 
@@ -30,6 +30,12 @@ func NewMongoDBRepository() tviso.WriteRepository {
 	if err != nil {
 		log.Panicf("cannot connect to mongodb")
 	}
+
+	return cli
+}
+
+func NewMongoDBRepository() tviso.WriteRepository {
+
 
 	got := make(bsonrw.SliceWriter, 0, 1024)
 	vw, err := bsonrw.NewBSONValueWriter(&got)

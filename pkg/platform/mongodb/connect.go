@@ -11,17 +11,33 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 )
 
+const (
+	connectionTimeout = 1*time.Second
+)
 type Client struct {
 	*mongo.Client
 }
 
 func NewClient(ctx context.Context) (*mongo.Client, error) {
-	clientContext, cancel := context.WithTimeout(ctx, 1*time.Second)
+	clientContext, cancel := context.WithTimeout(ctx, connectionTimeout)
 	defer cancel()
 
+	client, err := connect(clientContext)
+	if err != nil {
+		return nil, err
+	}
+
+	if err := ping(ctx, client); err != nil {
+		return nil, errors.Wrap(err, "ping to connection error")
+	}
+
+	return client, nil
+}
+
+func connect(ctx context.Context) (*mongo.Client, error) {
 	uri := fmt.Sprintf("%s://%s:%s@%s%s", "mongodb", "root", "tvisodb", "localhost:27017", "")
 
-	client, err := mongo.Connect(clientContext, options.Client().ApplyURI(uri))
+	client, err := mongo.Connect(ctx, options.Client().ApplyURI(uri))
 	if err != nil {
 		return nil, errors.Wrap(err, fmt.Sprintf("connection error: %s", uri))
 	}
