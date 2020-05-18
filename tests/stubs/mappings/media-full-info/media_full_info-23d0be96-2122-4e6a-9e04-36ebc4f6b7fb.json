@@ -1,0 +1,28 @@
+{
+  "id" : "23d0be96-2122-4e6a-9e04-36ebc4f6b7fb",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=2742284&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":2742284,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt8228288\",\"tags\":[{\"id\":\"Freeforme\",\"name\":\"Gratis para m\\u00ed\",\"type\":\"freeForMe\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Sci-fi\",\"name\":\"Ciencia Ficci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"netflix_es\",\"name\":\"Netflix\",\"type\":\"provider\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":7,\"name\":\"El Hoyo\",\"images\":{\"poster\":\"\\/4d\\/28\\/4d285a92c37e8b425f4b39002f0771d6.jpg\",\"backdrop\":\"\\/4d\\/28\\/4d285a92c37e8b425f4b39002f0771d6.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/4d\\/28\\/4d285a92c37e8b425f4b39002f0771d6.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/4d\\/28\\/4d285a92c37e8b425f4b39002f0771d6.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/4d\\/28\\/4d285a92c37e8b425f4b39002f0771d6.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/4d\\/28\\/4d285a92c37e8b425f4b39002f0771d6.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/4d\\/28\\/4d285a92c37e8b425f4b39002f0771d6.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/4d\\/28\\/4d285a92c37e8b425f4b39002f0771d6.jpg\"}},\"year\":2019,\"runtime\":94,\"ageRating\":18,\"mainGenre\":\"Sci-fi\",\"originalName\":\"The Platform\",\"shortPlot\":\"El futuro, en una distop\\u00eda. Dos personas por nivel. Un n\\u00famero desconocido d...\",\"plot\":\"El futuro, en una distop\\u00eda. Dos personas por nivel. Un n\\u00famero desconocido de niveles. Una plataforma con comida para todos ellos. \\u00bfEres de los que piensan demasiado cuando est\\u00e1n arriba? \\u00bfO de los que no tienen agallas cuando est\\u00e1n abajo? Si lo descubres demasiado tarde, no saldr\\u00e1s vivo del hoyo.\",\"composer\":{\"name\":\"Ar\\u00e1nzazu Calleja\",\"images\":null,\"id\":64504},\"cast\":[{\"name\":\"Ivan Massagu\\u00e9\",\"role\":\"Goreng\",\"images\":{\"face\":\"\\/05\\/e7\\/05e73cef4d5f78e1404f553dd79ba991.jpg\"},\"id\":33315},{\"name\":\"Zorion Eguileor\",\"role\":\"Trimagasi\",\"images\":null},{\"name\":\"Antonia San Juan\",\"role\":\"Imoguiri\",\"images\":null,\"id\":67508},{\"name\":\"Emilio Buale\",\"role\":\"Baharat\",\"images\":null},{\"name\":\"Alexandra Masangkay\",\"role\":\"Miharu\",\"images\":null},{\"name\":\"Zihara Llana\",\"role\":\"Mali\",\"images\":null},{\"name\":\"Mario Pardo\",\"role\":\"Amigo de Baharat\",\"images\":null,\"id\":86358},{\"name\":\"Algis Arlauskas\",\"role\":\"Preso\",\"images\":null},{\"name\":\"Txubio Fern\\u00e1ndez de J\\u00e1uregui\",\"role\":\"Jefe de Restaurante\",\"images\":null,\"id\":64496},{\"name\":\"Eric Goode\",\"role\":\"Sr. Brambang\",\"images\":null}],\"genres\":[\"Sci-fi\",\"Thriller\"],\"distributor\":null,\"numInteractions\":4866,\"numRatings\":1752,\"ratingHistogram\":{\"1\":39,\"2\":68,\"3\":420,\"4\":1016,\"5\":208},\"seasonsBlocked\":[],\"producers\":[],\"writers\":[{\"name\":\"David Desola\",\"images\":null},{\"name\":\"Pedro Rivero\",\"images\":null,\"id\":227234}],\"countries\":[\"ES\"],\"directors\":[{\"name\":\"Galder Gaztelu-Urrutia\",\"images\":null}],\"releaseDates\":[{\"country\":\"XX\",\"date\":\"2019-09-06T19:00:00+00:00\"},{\"country\":\"US\",\"date\":\"2019-09-06T19:00:00+00:00\"}],\"availability\":{\"inTheaters\":false,\"vodSummary\":[\"netflix_es\"],\"scheduleSummary\":null,\"vod\":[{\"providerId\":\"netflix_es\",\"languages\":[\"es\"],\"quality\":[\"sd\",\"hd\"],\"url\":{\"embed\":null,\"native\":\"nflx:\\/\\/www.netflix.com\\/Browse?q=action%3Dplay%26movieid%3D$81128579\",\"web\":\"https:\\/\\/www.netflix.com\\/watch\\/81128579\"},\"pricing\":{\"free\":false,\"freeForRegistered\":false,\"subscription\":true,\"payPerView\":false,\"prices\":null,\"currency\":null}}],\"schedule\":[],\"vodBestOffer\":{\"providerId\":\"netflix_es\",\"url\":{\"embed\":null,\"native\":\"nflx:\\/\\/www.netflix.com\\/Browse?q=action%3Dplay%26movieid%3D$81128579\",\"web\":\"https:\\/\\/www.netflix.com\\/watch\\/81128579\"},\"subscriptionRequiredForUser\":false,\"registerRequiredForUser\":false,\"ppvRequiredForUser\":false,\"currency\":\"EUR\"},\"vodUserOffers\":[{\"providerId\":\"netflix_es\",\"url\":{\"embed\":null,\"native\":\"nflx:\\/\\/www.netflix.com\\/Browse?q=action%3Dplay%26movieid%3D$81128579\",\"web\":\"https:\\/\\/www.netflix.com\\/watch\\/81128579\"},\"subscriptionRequiredForUser\":false,\"registerRequiredForUser\":false,\"ppvRequiredForUser\":false,\"currency\":\"EUR\"}]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:16:10 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"e35f66b6d06980074c3d4fc991de4deb\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c94d6dcf8d661-MAD",
+      "cf-request-id" : "02c3bb5a420000d66193bf0200000001"
+    }
+  },
+  "uuid" : "23d0be96-2122-4e6a-9e04-36ebc4f6b7fb",
+  "persistent" : true,
+  "insertionIndex" : 1624
+}

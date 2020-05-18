@@ -1,0 +1,28 @@
+{
+  "id" : "383657d1-b2dc-4194-bf8d-4ea875e136fe",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=2100521&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":2100521,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt4294052\",\"tags\":[{\"id\":\"Monstruos\",\"name\":\"Monstruos\",\"type\":\"category\"},{\"id\":\"Adolescentes\",\"name\":\"Adolescentes\",\"type\":\"category\"},{\"id\":\"Catastrofes\",\"name\":\"Cat\\u00e1strofes\",\"type\":\"category\"},{\"id\":\"FuturoPostapocaliptico\",\"name\":\"Futuro postapocal\\u00edptico\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"HoraYMedia\",\"name\":\"Hora y media\",\"type\":\"duration\"}],\"rating\":3.25,\"name\":\"Ataque a los titanes: El fin del mundo\",\"images\":{\"backdrop\":\"\\/f9\\/cf\\/f9cf1a08b4f86c1ce6b4d7ca01328a88.jpg\",\"poster\":\"\\/f9\\/cf\\/f9cf1a08b4f86c1ce6b4d7ca01328a88.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/f9\\/cf\\/f9cf1a08b4f86c1ce6b4d7ca01328a88.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/f9\\/cf\\/f9cf1a08b4f86c1ce6b4d7ca01328a88.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/f9\\/cf\\/f9cf1a08b4f86c1ce6b4d7ca01328a88.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/f9\\/cf\\/f9cf1a08b4f86c1ce6b4d7ca01328a88.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/f9\\/cf\\/f9cf1a08b4f86c1ce6b4d7ca01328a88.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/f9\\/cf\\/f9cf1a08b4f86c1ce6b4d7ca01328a88.jpg\"}},\"year\":2015,\"runtime\":87,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Attack on Titan: Part 2\",\"shortPlot\":\"Tras la aparici\\u00f3n repentina de unos gigantes can\\u00edbales que se apoderan del...\",\"plot\":\"Tras la aparici\\u00f3n repentina de unos gigantes can\\u00edbales que se apoderan del mundo y lo dominan, los hombres intentan protegerse construyendo enormes murallas y encerr\\u00e1ndose en su interior. De este modo, viven aislados y completamente privados de libertad.\",\"cast\":[{\"name\":\"Haruma Miura\",\"role\":\"-\",\"images\":{\"face\":\"\\/0b\\/ae\\/0baecda26b769061ac37b4f5bb9bdfa9.jpg\"},\"id\":16101},{\"name\":\"Hiroki Hasegawa\",\"role\":\"-\",\"images\":null,\"id\":43397},{\"name\":\"Kanata Hong\\u00f4\",\"role\":\"-\",\"images\":{\"face\":\"\\/70\\/81\\/7081c8d4b83b143c33f895ddc8ba9bef.jpg\"},\"id\":16787},{\"name\":\"Kiko Mizuhara\",\"role\":\"-\",\"images\":null,\"id\":38052},{\"name\":\"Takahiro Miura\",\"role\":\"-\",\"images\":null},{\"name\":\"Nanami Sakuraba\",\"role\":\"-\",\"images\":null,\"id\":38054},{\"name\":\"Satomi Ishihara\",\"role\":\"-\",\"images\":{\"face\":\"\\/c1\\/48\\/c148504ab7e9975716d5f7a10157284c.jpg\"},\"id\":16991},{\"name\":\"Pierre Taki\",\"role\":\"-\",\"images\":null,\"id\":119914},{\"name\":\"Jun Kunimura\",\"role\":\"-\",\"images\":null,\"id\":51209},{\"name\":\"Satoru Matsuo\",\"role\":\"-\",\"images\":null}],\"composer\":{\"name\":\"Shiro Sagisu\",\"images\":{\"face\":\"\\/9f\\/11\\/9f11d22c0cbc1fdc15c298824c371956.jpg\"},\"id\":35950},\"genres\":[\"Action\",\"Drama\",\"Fantasy\",\"Horror\",\"Sci-fi\"],\"distributor\":null,\"numInteractions\":36,\"numRatings\":8,\"ratingHistogram\":{\"1\":3,\"2\":4,\"3\":1,\"4\":0,\"5\":0},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"K\\u00f4dansha\",\"images\":null},{\"name\":\"Licri\",\"images\":null},{\"name\":\"Nikkatsu\",\"images\":null}],\"writers\":[{\"name\":\"Hajime Isayama\",\"images\":null},{\"name\":\"Tomohiro Machiyama\",\"images\":null}],\"countries\":[\"JP\"],\"directors\":[{\"name\":\"Shinji Higuchi\",\"images\":null}],\"availability\":{\"inTheaters\":false,\"vodSummary\":[\"wuaki\"],\"scheduleSummary\":null,\"vod\":[{\"providerId\":\"wuaki\",\"languages\":[\"es\"],\"quality\":[\"sd\",\"hd\"],\"url\":{\"embed\":null,\"native\":null,\"web\":\"https:\\/\\/es.rakuten.tv\\/streams\\/movie\\/ataque-a-los-titanes-2-el-fin-del-mundo\"},\"pricing\":{\"free\":false,\"freeForRegistered\":false,\"subscription\":false,\"payPerView\":true,\"prices\":{\"sd\":9.99,\"hd\":10.99},\"currency\":\"EUR\"}}],\"schedule\":[],\"vodBestOffer\":{\"providerId\":\"wuaki\",\"url\":{\"embed\":null,\"native\":null,\"web\":\"https:\\/\\/es.rakuten.tv\\/streams\\/movie\\/ataque-a-los-titanes-2-el-fin-del-mundo\"},\"subscriptionRequiredForUser\":false,\"registerRequiredForUser\":false,\"ppvRequiredForUser\":true,\"currency\":\"EUR\",\"minPrice\":9.99},\"vodUserOffers\":[{\"providerId\":\"wuaki\",\"url\":{\"embed\":null,\"native\":null,\"web\":\"https:\\/\\/es.rakuten.tv\\/streams\\/movie\\/ataque-a-los-titanes-2-el-fin-del-mundo\"},\"subscriptionRequiredForUser\":false,\"registerRequiredForUser\":false,\"ppvRequiredForUser\":true,\"currency\":\"EUR\",\"minPrice\":9.99}]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:14:55 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"f6239cc21e6b851c9233119c863b25f1\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c9305d900d661-MAD",
+      "cf-request-id" : "02c3ba37a30000d6619392e200000001"
+    }
+  },
+  "uuid" : "383657d1-b2dc-4194-bf8d-4ea875e136fe",
+  "persistent" : true,
+  "insertionIndex" : 1173
+}

@@ -1,0 +1,28 @@
+{
+  "id" : "a241a932-020a-4a48-bda0-0280c21c5198",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=12201&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":12201,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":null,\"tags\":[{\"id\":\"Budismo\",\"name\":\"Budismo\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Documentary\",\"name\":\"Documental\",\"type\":\"genre\"}],\"rating\":6.7,\"name\":\"El libro tibetano de los muertos\",\"artwork\":{\"backdrops\":{\"original\":null,\"large\":null,\"small\":null},\"posters\":{\"original\":null,\"large\":null,\"small\":null}},\"year\":2012,\"runtime\":null,\"ageRating\":18,\"images\":{\"poster\":\"EXTERNAL#pelis\\/9XSRXP793X\",\"backdrop\":null,\"country\":null},\"mainGenre\":\"Documentary\",\"originalName\":\"el libro tibetano de los muertos\",\"shortPlot\":\"Nombre Original: el libro tibetano de los muertosDirector: bruce leeActores...\",\"plot\":\"Nombre Original: el libro tibetano de los muertosDirector: bruce leeActores: bruce leeEl Libro Tibetano de los Muertos, tambi\\u00e9n llamado Bardo Thodol, es una gu\\u00eda de instrucciones para los muertos y los moribundos, pues se considera que la muerte dura 49 d\\u00edas y despu\\u00e9s de ello sobreviene un renacimiento en el ciclo de la reencarnaci\\u00f3n. Bas\\u00e1ndose en esta creencia, el libro da algunas recomendaciones a tener en cuenta durante ese per\\u00edodo intermedio del Bardo..\",\"cast\":null,\"distributor\":null,\"numInteractions\":491,\"numRatings\":44,\"ratingHistogram\":{\"1\":7,\"2\":0,\"3\":11,\"4\":12,\"5\":14},\"seasonsBlocked\":[],\"producers\":[],\"writers\":[],\"countries\":[null],\"directors\":[],\"composer\":null,\"genres\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:17:30 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"31d94243b7a585442cb485479e8ed923\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws1",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c96ca3da9ff5c-MAD",
+      "cf-request-id" : "02c3bc925f0000ff5c982d1200000001"
+    }
+  },
+  "uuid" : "a241a932-020a-4a48-bda0-0280c21c5198",
+  "persistent" : true,
+  "insertionIndex" : 2067
+}

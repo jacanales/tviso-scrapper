@@ -1,0 +1,28 @@
+{
+  "id" : "742acd62-6672-47dc-8c6f-17906b7250ba",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=365766&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":365766,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0491050\",\"tags\":[{\"id\":\"AgathaChristie\",\"name\":\"Agatha Christie\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Crime\",\"name\":\"Crimen\",\"type\":\"genre\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":7.6,\"name\":\"\\\"Agatha Christie's Marple\\\" The Sittaford Mystery\",\"images\":{\"backdrop\":\"\\/cb\\/87\\/cb879b53a932a677cef3fba7196f9685.jpg\",\"poster\":\"\\/cb\\/87\\/cb879b53a932a677cef3fba7196f9685.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/cb\\/87\\/cb879b53a932a677cef3fba7196f9685.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/cb\\/87\\/cb879b53a932a677cef3fba7196f9685.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/cb\\/87\\/cb879b53a932a677cef3fba7196f9685.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/cb\\/87\\/cb879b53a932a677cef3fba7196f9685.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/cb\\/87\\/cb879b53a932a677cef3fba7196f9685.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/cb\\/87\\/cb879b53a932a677cef3fba7196f9685.jpg\"}},\"year\":2006,\"runtime\":93,\"ageRating\":18,\"mainGenre\":\"Crime\",\"originalName\":\"\\\"Agatha Christie's Marple\\\" The Sittaford Mystery\",\"shortPlot\":\"Clive Trevelyan, miembro del parlamento brit\\u00e1nico, h\\u00e9roe de guerra y parien...\",\"plot\":\"Clive Trevelyan, miembro del parlamento brit\\u00e1nico, h\\u00e9roe de guerra y pariente de Winston Churchill, es asesinado despu\\u00e9s de que en el pasado descubriese una tumba egipcia. Marple investigar\\u00e1 el caso.\",\"cast\":[{\"name\":\"Geraldine McEwan\",\"role\":\"Miss Marple\",\"images\":null,\"id\":159941},{\"name\":\"Timothy Dalton\",\"role\":\"Clive Trevelyan\",\"images\":{\"face\":\"\\/e5\\/6c\\/e56c96e1525d4fd8acc8e3486c81785e.jpg\"},\"id\":9054},{\"name\":\"Robert Hickson\",\"role\":\"Arthur Hopkins\",\"images\":null},{\"name\":\"Robert Hardy\",\"role\":\"Winston Churchill\",\"images\":null,\"id\":102595},{\"name\":\"Laurence Fox\",\"role\":\"James Pearson\",\"images\":null,\"id\":172258},{\"name\":\"James Murray\",\"role\":\"Charles Burnaby\",\"images\":null},{\"name\":\"Ian Hallard\",\"role\":\"Reporter\",\"images\":null},{\"name\":\"Zoe Telford\",\"role\":\"Emily Trefusis\",\"images\":null,\"id\":80943},{\"name\":\"Jeffery Kissoon\",\"role\":\"Ahmed Ghali\",\"images\":null},{\"name\":\"Mel Smith\",\"role\":\"John Enderby\",\"images\":null,\"id\":116547}],\"composer\":{\"name\":\"Dominik Scherrer\",\"images\":null},\"genres\":[\"Crime\",\"Drama\",\"Mystery\"],\"distributor\":null,\"numInteractions\":434,\"numRatings\":60,\"ratingHistogram\":{\"1\":2,\"2\":3,\"3\":15,\"4\":15,\"5\":25},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Granada\",\"images\":null},{\"name\":\"WGBH Boston\",\"images\":null},{\"name\":\"Agatha Christie\",\"images\":null}],\"writers\":[{\"name\":\"Stephen Churchett\",\"images\":null},{\"name\":\"Agatha Christie\",\"images\":{\"face\":\"\\/e1\\/b2\\/e1b25a102223dc55e36830c70bee1a3b.jpg\"},\"id\":9136}],\"countries\":[\"GB\",\"US\"],\"directors\":[{\"name\":\"Paul Unwin\",\"images\":null}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:14:47 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"508d0659be9cdfd20a09d35a26458582\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c92d41eecd661-MAD",
+      "cf-request-id" : "02c3ba188d0000d66193a8f200000001"
+    }
+  },
+  "uuid" : "742acd62-6672-47dc-8c6f-17906b7250ba",
+  "persistent" : true,
+  "insertionIndex" : 1121
+}

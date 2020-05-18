@@ -1,0 +1,28 @@
+{
+  "id" : "02aa2d3a-96d4-4045-bd96-13850038deff",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=2159639&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":2159639,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt6255572\",\"tags\":[{\"id\":\"Tecnologia\",\"name\":\"Tecnolog\\u00eda\",\"type\":\"category\"},{\"id\":\"Videojuegos\",\"name\":\"Videojuegos\",\"type\":\"category\"},{\"id\":\"Adolescentes\",\"name\":\"Adolescentes\",\"type\":\"category\"},{\"id\":\"DocumentalDeportivo\",\"name\":\"Documental deportivo\",\"type\":\"category\"},{\"id\":\"Esports\",\"name\":\"eSports\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"HoraYMedia\",\"name\":\"Hora y media\",\"type\":\"duration\"}],\"rating\":5,\"name\":\"Gaming: La Revoluci\\u00f3n Digital\",\"images\":{\"backdrop\":\"\\/f7\\/a3\\/f7a3df92b4037e91c1f2d47944f4359e.jpg\",\"poster\":\"\\/f7\\/a3\\/f7a3df92b4037e91c1f2d47944f4359e.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/f7\\/a3\\/f7a3df92b4037e91c1f2d47944f4359e.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/f7\\/a3\\/f7a3df92b4037e91c1f2d47944f4359e.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/f7\\/a3\\/f7a3df92b4037e91c1f2d47944f4359e.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/f7\\/a3\\/f7a3df92b4037e91c1f2d47944f4359e.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/f7\\/a3\\/f7a3df92b4037e91c1f2d47944f4359e.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/f7\\/a3\\/f7a3df92b4037e91c1f2d47944f4359e.jpg\"}},\"year\":2014,\"runtime\":78,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Jeux Vid\\u00e9o: Les nouveaux ma\\u00eetres du monde\",\"shortPlot\":\"n\\/A\",\"plot\":\"n\\/A\",\"composer\":null,\"cast\":null,\"distributor\":null,\"numInteractions\":4,\"numRatings\":1,\"ratingHistogram\":{\"1\":0,\"2\":0,\"3\":1,\"4\":0,\"5\":0},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"ARTE France\",\"images\":null}],\"writers\":[],\"countries\":[\"FR\"],\"directors\":[{\"name\":\"J\\u00e9r\\u00f4me Fritel\",\"images\":null}],\"genres\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:14:49 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"110a827988c79f4202e67be3fa68262f\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c92e12becd661-MAD",
+      "cf-request-id" : "02c3ba20b80000d66193b33200000001"
+    }
+  },
+  "uuid" : "02aa2d3a-96d4-4045-bd96-13850038deff",
+  "persistent" : true,
+  "insertionIndex" : 1136
+}

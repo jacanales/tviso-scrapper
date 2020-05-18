@@ -1,0 +1,28 @@
+{
+  "id" : "e2bcbb3d-d1fd-47a6-8bbe-8e45a6ecbdd0",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1797007&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1797007,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt5263116\",\"tags\":[{\"id\":\"Anos40\",\"name\":\"A\\u00f1os 40\",\"type\":\"category\"},{\"id\":\"SegundaGuerraMundial\",\"name\":\"Segunda Guerra Mundial\",\"type\":\"category\"},{\"id\":\"Dramedia\",\"name\":\"Dramedia\",\"type\":\"category\"},{\"id\":\"ComediaRomantica\",\"name\":\"Comedia rom\\u00e1ntica\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Comedy\",\"name\":\"Comedia\",\"type\":\"genre\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":6.49,\"name\":\"Amor a la siciliana\",\"images\":{\"backdrop\":\"\\/c0\\/98\\/c098402c9bd205555eff0b59bb14d7a0.jpg\",\"poster\":\"\\/c0\\/98\\/c098402c9bd205555eff0b59bb14d7a0.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/c0\\/98\\/c098402c9bd205555eff0b59bb14d7a0.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/c0\\/98\\/c098402c9bd205555eff0b59bb14d7a0.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/c0\\/98\\/c098402c9bd205555eff0b59bb14d7a0.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/c0\\/98\\/c098402c9bd205555eff0b59bb14d7a0.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/c0\\/98\\/c098402c9bd205555eff0b59bb14d7a0.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/c0\\/98\\/c098402c9bd205555eff0b59bb14d7a0.jpg\"}},\"year\":2016,\"runtime\":99,\"ageRating\":18,\"mainGenre\":\"Comedy\",\"originalName\":\"In guerra per amore\",\"shortPlot\":\"Ambientada en la \\u00e9poca de la llegada de los americanos a Sicilia durante la...\",\"plot\":\"Ambientada en la \\u00e9poca de la llegada de los americanos a Sicilia durante la II Guerra Mundial, el personaje principal de la pel\\u00edcula, Arturo, tendr\\u00e1 que enlistarse en el ej\\u00e9rcito de Estados Unidos si quiere ganarse el coraz\\u00f3n de su amada Flora.\",\"cast\":[{\"name\":\"Pif\",\"role\":\"Arturo Giammaresi\",\"images\":null},{\"name\":\"Miriam Leone\",\"role\":\"Flora\",\"images\":null},{\"name\":\"Andrea Di Stefano\",\"role\":\"Philip Chiamparino\",\"images\":{\"face\":\"\\/4a\\/77\\/4a77738e5899217faa61a38a068e0631.jpg\"},\"id\":32809},{\"name\":\"Stella Egitto\",\"role\":\"Teresa\",\"images\":null},{\"name\":\"Vincent Riotta\",\"role\":\"James Maone\",\"images\":null},{\"name\":\"Maurizio Marchetti\",\"role\":\"Don Cal\\u00f2\",\"images\":null},{\"name\":\"Sergio Vespertino\",\"role\":\"Saro\",\"images\":null},{\"name\":\"Maurizio Bologna\",\"role\":\"Mimmo\",\"images\":null},{\"name\":\"Antonello Puglisi\",\"role\":\"Agostino\",\"images\":null},{\"name\":\"Samuele Segreto\",\"role\":\"Sebastiano\",\"images\":null}],\"composer\":{\"name\":\"Santi Pulvirenti\",\"images\":null},\"genres\":[\"Comedy\",\"Drama\",\"Romance\",\"War\"],\"distributor\":null,\"numInteractions\":144,\"numRatings\":35,\"ratingHistogram\":{\"1\":1,\"2\":1,\"3\":16,\"4\":13,\"5\":4},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Wildside\",\"images\":null},{\"name\":\"Rai Cinema\",\"images\":null},{\"name\":\"Ministero per i Beni e le Attivit\\u00e0 Culturali (MiBAC)\",\"images\":null,\"id\":148717}],\"writers\":[{\"name\":\"Pif\",\"images\":null},{\"name\":\"Michele Astori\",\"images\":null}],\"countries\":[\"IT\"],\"directors\":[{\"name\":\"Pif\",\"images\":null}],\"releaseDates\":[{\"country\":\"ES\",\"date\":\"2017-10-20T19:00:00+00:00\"},{\"country\":\"IT\",\"date\":\"2016-10-27T19:00:00+00:00\"},{\"country\":\"XX\",\"date\":\"2016-10-27T19:00:00+00:00\"}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:15:17 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"1bca019df59694749d576fe2636a71a0\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws2",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c938b6b83d661-MAD",
+      "cf-request-id" : "02c3ba8b250000d66193bd6200000001"
+    }
+  },
+  "uuid" : "e2bcbb3d-d1fd-47a6-8bbe-8e45a6ecbdd0",
+  "persistent" : true,
+  "insertionIndex" : 1312
+}

@@ -1,0 +1,28 @@
+{
+  "id" : "6508d5b5-69e5-4a4a-8943-5f36c75f903f",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=418290&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":418290,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0829176\",\"tags\":[{\"id\":\"Western\",\"name\":\"Western\",\"type\":\"genre\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"HoraYMedia\",\"name\":\"Hora y media\",\"type\":\"duration\"}],\"rating\":5.38,\"name\":\"Cazador de demonios\",\"images\":{\"backdrop\":\"\\/5e\\/7e\\/5e7e9fb161c5caea33bd0d5b469333c2.jpg\",\"poster\":\"\\/5e\\/7e\\/5e7e9fb161c5caea33bd0d5b469333c2.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/5e\\/7e\\/5e7e9fb161c5caea33bd0d5b469333c2.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/5e\\/7e\\/5e7e9fb161c5caea33bd0d5b469333c2.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/5e\\/7e\\/5e7e9fb161c5caea33bd0d5b469333c2.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/5e\\/7e\\/5e7e9fb161c5caea33bd0d5b469333c2.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/5e\\/7e\\/5e7e9fb161c5caea33bd0d5b469333c2.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/5e\\/7e\\/5e7e9fb161c5caea33bd0d5b469333c2.jpg\"}},\"year\":2012,\"runtime\":90,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Gallowwalkers\",\"shortPlot\":\"Un misterioso pistolero, Aman, es el hijo de una monja que rompe su pacto c...\",\"plot\":\"Un misterioso pistolero, Aman, es el hijo de una monja que rompe su pacto con Dios para asegurar su supervivencia. Este acto provoca que una maldici\\u00f3n caiga sobre Aman - todos los que mueren por su arma vuelven a la vida. Pronto, es perseguido por una banda de no-muertos, dirigida por el vicioso Kansa.\",\"cast\":[{\"name\":\"Wesley Snipes\",\"role\":\"Aman\",\"images\":{\"face\":\"\\/bf\\/91\\/bf914a7bc4c523c921fc5b8b50627138.jpg\"},\"id\":11675},{\"name\":\"Kevin Howarth\",\"role\":\"Kansa\",\"images\":null,\"id\":189172},{\"name\":\"Riley Smith\",\"role\":\"Fabulos\",\"images\":{\"face\":\"\\/ae\\/d6\\/aed61315a9ee6cab8a24fc1ba7e3dcbd.jpg\"},\"id\":6733},{\"name\":\"Tanit Phoenix\",\"role\":\"Angel\",\"images\":null,\"id\":84672},{\"name\":\"Simona Roman\",\"role\":\"Kisscut\",\"images\":null},{\"name\":\"Steven Elder\",\"role\":\"Apollo Jones\",\"images\":null,\"id\":45475},{\"name\":\"Patrick Bergin\",\"role\":\"Marshall Gaza\",\"images\":null,\"id\":90486},{\"name\":\"Jay Grant\",\"role\":\"Slip Knot\",\"images\":null},{\"name\":\"Hector Hugo\",\"role\":\"Hool\",\"images\":null},{\"name\":\"David De Beer\",\"role\":\"Apprentice Boy\",\"images\":null}],\"genres\":[\"Action\",\"Fantasy\",\"Horror\",\"Thriller\",\"Western\"],\"distributor\":null,\"numInteractions\":1904,\"numRatings\":409,\"ratingHistogram\":{\"1\":62,\"2\":89,\"3\":131,\"4\":72,\"5\":55},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Boundless Pictures\",\"images\":null},{\"name\":\"Jack Bowyer Productions\",\"images\":null}],\"writers\":[{\"name\":\"Andrew Goth\",\"images\":null},{\"name\":\"Joanne Reay\",\"images\":null}],\"countries\":[\"US\",\"GB\"],\"directors\":[{\"name\":\"Andrew Goth\",\"images\":null}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "Date" : "Sun, 17 May 2020 10:15:11 GMT",
+      "Content-Type" : "application/json",
+      "Vary" : "Accept-Encoding",
+      "Etag" : "\"b5dcf0f2811350a029b8fb9e8a0b415f\"",
+      "Cache-Control" : "public",
+      "X-Whom" : "ws1",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "594c9368befad661-MAD",
+      "cf-request-id" : "02c3ba75740000d66193a20200000001"
+    }
+  },
+  "uuid" : "6508d5b5-69e5-4a4a-8943-5f36c75f903f",
+  "persistent" : true,
+  "insertionIndex" : 1274
+}
