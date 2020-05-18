@@ -1,0 +1,18 @@
+{
+  "result": {
+    "hasMore": "false",
+    "count": {
+      "all": 0,
+      "mediaType": {
+        "series": 0,
+        "movies": 0,
+        "tv-shows": 0
+      },
+      "status": {
+        "pending": 0,
+        "following": 0,
+        "watched": 0
+      }
+    },
+  }
+}

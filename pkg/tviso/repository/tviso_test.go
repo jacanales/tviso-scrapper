@@ -150,3 +150,52 @@ func TestTvisoAPI_GetMediaInfo(t *testing.T) {
 	assert.Equal(t, media.IMDB, "tt0808510")
 	assert.Equal(t, tviso.Pending.String(), media.StatusMedia)
 }
+
+func TestTvisoAPI_GetMediaInfo_DoRequestError(t *testing.T) {
+	ctrl := gomock.NewController(t)
+	defer ctrl.Finish()
+
+	cfg := repository.Config{}
+
+	cli := mocks.NewMockHTTPClient(ctrl)
+	cli.EXPECT().Do(gomock.Any()).Return(nil, ErrClientRequest)
+
+	repo := repository.NewTvisoAPI(cli, cfg)
+
+	media := tviso.Media{
+		ID:        3864,
+		MediaType: tviso.MoviesMediaType,
+	}
+
+	err := repo.GetMediaInfo(&media)
+
+	assert.EqualError(t, err, fmt.Sprintf("request error: %v", ErrClientRequest.Error()))
+}
+
+func TestTvisoAPI_GetMediaInfo_UnmarshalError(t *testing.T) {
+	ctrl := gomock.NewController(t)
+	defer ctrl.Finish()
+
+	cfg := repository.Config{}
+
+	json, err := ioutil.ReadFile("stubs/media_file_invalid.json")
+	require.NoError(t, err)
+
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		_, _ = w.Write(json)
+	}))
+
+	cfg.APIAddr = server.URL
+
+	repo := repository.NewTvisoAPI(http.DefaultClient, cfg)
+
+	media := tviso.Media{
+		ID:        3864,
+		MediaType: tviso.MoviesMediaType,
+	}
+
+	err = repo.GetMediaInfo(&media)
+
+	assert.Error(t, err)
+	assert.Contains(t, err.Error(), "unmarshal error")
+}

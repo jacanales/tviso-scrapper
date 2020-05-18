@@ -20,6 +20,10 @@ const (
 	Following
 )
 
+func (s MediaType) String() string {
+	return [...]string{"unknown", "series", "movie", "unknown", "tv-show", "episode"}[s]
+}
+
 func (s MediaStatus) String() string {
 	return [...]string{"watched", "pending", "following"}[s]
 }
