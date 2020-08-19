@@ -3,7 +3,7 @@ module tviso-scrapper
 go 1.14
 
 require (
-	github.com/golang/mock v1.4.3
+	github.com/golang/mock v1.4.4
 	github.com/joho/godotenv v1.3.0
 	github.com/json-iterator/go v1.1.10
 	github.com/kelseyhightower/envconfig v1.4.0
