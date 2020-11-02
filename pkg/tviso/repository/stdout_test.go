@@ -7,11 +7,10 @@ import (
 	"os"
 	"sync"
 	"testing"
-
-	"github.com/stretchr/testify/assert"
-
 	"tviso-scrapper/pkg/tviso"
 	"tviso-scrapper/pkg/tviso/repository"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestNewStdOut(t *testing.T) {

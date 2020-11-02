@@ -5,14 +5,20 @@ import (
 )
 
 // CobraFn function definition of run cobra command.
-type CobraFnE func(cmd *cobra.Command, args []string) error
+type (
+	CobraFn  func(cmd *cobra.Command, args []string)
+	CobraFnE func(cmd *cobra.Command, args []string) error
+)
 
 func Execute() error {
-	var rootCmd = &cobra.Command{
-		Use: "tviso-cli",
+	rootCmd := &cobra.Command{
+		Use:           "tviso-cli",
+		SilenceUsage:  true,
+		SilenceErrors: true,
 	}
 
 	rootCmd.AddCommand(InitCollectionListCmd())
+	rootCmd.AddCommand(InitCreateMongoDatabaseCmd())
 
 	return rootCmd.Execute()
 }

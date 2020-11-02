@@ -1,19 +1,21 @@
 # golangci.com configuration
 # https://github.com/golangci/golangci/wiki/Configuration
 service:
-  golangci-lint-version: 1.24.x # use the fixed version to not introduce new linters unexpectedly
+  golangci-lint-version: 1.32.x # use the fixed version to not introduce new linters unexpectedly
 
 run:
+  tests: false
   skip-files:
     - ".*_mock\\.go$"
-
-  #modules-download-mode: vendor
+  skip-dirs:
+    - doc
 
 linters-settings:
   govet:
     check-shadowing: true
   golint:
     min-confidence: 0
+
   misspell:
     locale: US
   gocritic: # go-critic docs: https://go-critic.github.io/overview.html
@@ -21,16 +23,12 @@ linters-settings:
       - performance
       - style
       - experimental
-    disabled-checks:
-      - rangeValCopy
+  lll:
+    # Increased line length to support go-generate build lines
+    line-length: 180
 
 linters: # List of available linters: https://github.com/golangci/golangci-lint#enabled-by-default-linters
   enable-all: true
   disable:
-    - scopelint
-
-issues:
-  exclude-rules:
-    - text: "Potential HTTP request made with variable url"
-      linters:
-        - gosec
+    - exhaustivestruct
+    - wrapcheck

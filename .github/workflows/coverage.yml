@@ -9,42 +9,61 @@ on:
       - master
 
 jobs:
-  lint:
+  golangci:
+    name: lint
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Install Go
-        uses: actions/setup-go@v1
+        uses: actions/setup-go@v2
         with:
-          go-version: 1.14.x
-      - name: Checkout code
-        uses: actions/checkout@v1
-      - name: Install golangci-lint
+          go-version: 1.15
+      - name: Install dependencies and run code generation
         run: |
-          go get github.com/golangci/golangci-lint/cmd/golangci-lint
-      - name: Run linters
-        run: |
-          export PATH=$PATH:$(go env GOPATH)/bin
-          golangci-lint run ./...
+          make go-install-mockgen
+          go generate ./...
+      - name: golangci-lint
+        uses: golangci/golangci-lint-action@v2.3.0
+        with:
+          version: v1.32
   test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        go-version: [ 1.15.x ]
+        mongodb-version: [ 4.2 ]
     steps:
+      - name: Start MongoDB
+        uses: supercharge/mongodb-github-action@1.3.0
+        with:
+          mongodb-version: ${{ matrix.mongodb-version }}
+          mongodb-replica-set: tvisodb
       - name: Install Go
         if: success()
         uses: actions/setup-go@v1
         with:
-          go-version: 1.14.x
+          go-version: ${{ matrix.go-version }}
       - name: Checkout code
         uses: actions/checkout@v1
       - name: Run tests
         run: go test -v -race -covermode=atomic ./...
   coverage:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        go-version: [ 1.15.x ]
+        mongodb-version: [ 4.2 ]
     steps:
+      - name: Start MongoDB
+        uses: supercharge/mongodb-github-action@1.3.0
+        with:
+          mongodb-version: ${{ matrix.mongodb-version }}
+          mongodb-replica-set: tvisodb
       - name: Install Go
         if: success()
         uses: actions/setup-go@v1
         with:
-          go-version: 1.14.x
+          go-version: ${{ matrix.go-version }}
       - name: Checkout code
         uses: actions/checkout@v1
       - name: Calc coverage

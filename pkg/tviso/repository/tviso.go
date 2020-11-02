@@ -3,15 +3,15 @@
 package repository
 
 import (
+	"context"
 	"fmt"
 	"io/ioutil"
 	"net"
 	"net/http"
 	"time"
+	"tviso-scrapper/pkg/tviso"
 
 	jsoniter "github.com/json-iterator/go"
-
-	"tviso-scrapper/pkg/tviso"
 )
 
 const (
@@ -82,7 +82,7 @@ func (t TvisoAPI) GetMediaInfo(m *tviso.Media) error {
 		return err
 	}
 
-	var json = jsoniter.ConfigCompatibleWithStandardLibrary
+	json := jsoniter.ConfigCompatibleWithStandardLibrary
 
 	err = json.Unmarshal(content, m)
 	if err != nil {
@@ -100,7 +100,7 @@ func (t TvisoAPI) getCollectionForUserPage(serverURL, cookie string, page int) (
 		return tviso.Results{}, err
 	}
 
-	var json = jsoniter.ConfigCompatibleWithStandardLibrary
+	json := jsoniter.ConfigCompatibleWithStandardLibrary
 
 	cr := tviso.Results{}
 	err = json.Unmarshal(contents, &cr)
@@ -115,7 +115,7 @@ func (t TvisoAPI) getCollectionForUserPage(serverURL, cookie string, page int) (
 func (t TvisoAPI) readURL(url, cookie string) ([]byte, error) {
 	t.Retry++
 
-	req, err := http.NewRequest(http.MethodGet, url, nil)
+	req, err := http.NewRequestWithContext(context.Background(), http.MethodGet, url, nil)
 	if err != nil {
 		return nil, fmt.Errorf("error creating request: %w", err)
 	}
@@ -123,7 +123,6 @@ func (t TvisoAPI) readURL(url, cookie string) ([]byte, error) {
 	req.Header.Add("Cookie", cookie)
 
 	r, err := t.Client.Do(req)
-
 	if err != nil {
 		return nil, fmt.Errorf("request error: %w", err)
 	}

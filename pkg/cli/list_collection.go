@@ -1,10 +1,10 @@
 package cli
 
 import (
-	"github.com/spf13/cobra"
-
 	"tviso-scrapper/pkg/tviso"
 	"tviso-scrapper/pkg/tviso/repository"
+
+	"github.com/spf13/cobra"
 )
 
 func InitCollectionListCmd() *cobra.Command {
@@ -21,7 +21,7 @@ func getCollectionListFn() CobraFnE {
 	return func(cmd *cobra.Command, args []string) error {
 		return tviso.GetUserCollection(
 			repository.NewTvisoAPI(repository.NewHTTPClient(), repository.NewConfig()),
-			repository.NewStdOut(),
+			repository.NewMongoDBRepository(),
 		)
 	}
 }

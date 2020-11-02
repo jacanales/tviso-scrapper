@@ -2,7 +2,6 @@ package repository
 
 import (
 	"fmt"
-
 	"tviso-scrapper/pkg/tviso"
 )
 
@@ -13,15 +12,11 @@ func NewStdOut() tviso.WriteRepository {
 }
 
 func (r StdOut) StoreCollection(collection []tviso.Media) error {
-	i := 0
-
-	for _, c := range collection {
-		i++
-
-		fmt.Println(c.Name)
+	for i := range collection {
+		fmt.Println(collection[i].Name)
 	}
 
-	fmt.Printf("Total processed: %v\n", i)
+	fmt.Printf("Total processed: %v\n", len(collection))
 
 	return nil
 }
