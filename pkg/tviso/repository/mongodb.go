@@ -61,7 +61,9 @@ func (m MongoDB) StoreCollection(media []tviso.Media) error {
 
 	defer cancel()
 
-	for _, md := range media {
+	for i := range media {
+		md := media[i]
+
 		err := m.encoder.Encode(md)
 		if err != nil {
 			return err

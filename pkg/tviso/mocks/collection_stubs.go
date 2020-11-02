@@ -27,6 +27,7 @@ func (m *MockReadRepository) ArrangeReturnCollection(col []tviso.Media) *gomock.
 func (m *MockReadRepository) ArrangeGetMediaInfo(c *tviso.Media) *gomock.Call {
 	return m.EXPECT().GetMediaInfo(c).Times(1).DoAndReturn(func(c *tviso.Media) error {
 		c.Plot = "parsed media"
+
 		return nil
 	})
 }

@@ -13,6 +13,7 @@ import (
 
 const (
 	connectionTimeout = 1 * time.Second
+	superUserrole     = false
 )
 
 type Client struct {
@@ -36,7 +37,13 @@ func NewClient(ctx context.Context) (*mongo.Client, error) {
 }
 
 func connect(ctx context.Context) (*mongo.Client, error) {
-	uri := fmt.Sprintf("%s://%s:%s@%s%s", "mongodb", "root", "tvisodb", "localhost:27017", "")
+	uri := ""
+
+	if superUserrole {
+		uri = fmt.Sprintf("%s://%s:%s@%s:%s", "mongodb", "root", "tvisodb", "localhost", "27017")
+	} else {
+		uri = fmt.Sprintf("%s://%s:%s", "mongodb", "localhost", "27017")
+	}
 
 	client, err := mongo.Connect(ctx, options.Client().ApplyURI(uri))
 	if err != nil {

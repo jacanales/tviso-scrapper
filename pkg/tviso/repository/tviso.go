@@ -3,6 +3,7 @@
 package repository
 
 import (
+	"context"
 	"fmt"
 	"io/ioutil"
 	"net"
@@ -114,7 +115,7 @@ func (t TvisoAPI) getCollectionForUserPage(serverURL, cookie string, page int) (
 func (t TvisoAPI) readURL(url, cookie string) ([]byte, error) {
 	t.Retry++
 
-	req, err := http.NewRequest(http.MethodGet, url, nil)
+	req, err := http.NewRequestWithContext(context.Background(), http.MethodGet, url, nil)
 	if err != nil {
 		return nil, fmt.Errorf("error creating request: %w", err)
 	}

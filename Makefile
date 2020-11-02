@@ -34,3 +34,17 @@ check-style: ## Run golangci check
 
 coverage:
 	go test -v -covermode=count -coverprofile=coverage.out ./...
+
+go-install-golangci-lint: ## Install golangci-lint
+	GOFLAGS="" go get \
+    		github.com/golangci/golangci-lint/cmd/golangci-lint@'v1.32.0'
+
+go-install-mockgen: ## Install golangci-lint
+	GOFLAGS="" go get \
+    		github.com/golang/mock/mockgen@'v1.4.4'
+
+go-install-dev-vendors: go-install-golangci-lint ## Install modules for needed for development
+	GOFLAGS="" go get \
+		github.com/cespare/reflex \
+		gotest.tools/gotestsum@'v0.6.0' \
+		github.com/golang/mock/mockgen@'v1.4.4'
