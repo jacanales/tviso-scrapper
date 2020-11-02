@@ -35,7 +35,7 @@ func NewMongoDBClient() *mongo.Client {
 }
 
 func NewMongoDBRepository() tviso.WriteRepository {
-
+	cli := NewMongoDBClient()
 
 	got := make(bsonrw.SliceWriter, 0, 1024)
 	vw, err := bsonrw.NewBSONValueWriter(&got)

@@ -3,7 +3,7 @@ package tviso_test
 import (
 	`testing`
 
-	`github.com/magiconair/properties/assert`
+	"github.com/stretchr/testify/assert"
 
 	`tviso-scrapper/pkg/tviso`
 )
