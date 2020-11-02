@@ -3,12 +3,11 @@ package tviso_test
 import (
 	"fmt"
 	"testing"
+	"tviso-scrapper/pkg/tviso"
+	"tviso-scrapper/pkg/tviso/mocks"
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-
-	"tviso-scrapper/pkg/tviso"
-	"tviso-scrapper/pkg/tviso/mocks"
 )
 
 func TestGetUserCollection_EmptyCollection(t *testing.T) {

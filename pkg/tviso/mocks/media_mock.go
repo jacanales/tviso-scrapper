@@ -5,9 +5,10 @@
 package mocks
 
 import (
-	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 	tviso "tviso-scrapper/pkg/tviso"
+
+	gomock "github.com/golang/mock/gomock"
 )
 
 // MockReadRepository is a mock of ReadRepository interface

@@ -2,10 +2,9 @@ package repository_test
 
 import (
 	"testing"
+	"tviso-scrapper/pkg/tviso/repository"
 
 	"github.com/stretchr/testify/assert"
-
-	"tviso-scrapper/pkg/tviso/repository"
 )
 
 func TestNewConfig(t *testing.T) {

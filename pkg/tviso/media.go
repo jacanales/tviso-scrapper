@@ -4,8 +4,10 @@ package tviso
 
 import "time"
 
-type MediaType int32
-type MediaStatus int
+type (
+	MediaType   int32
+	MediaStatus int
+)
 
 const (
 	SeriesMediaType  MediaType = 1
@@ -175,6 +177,7 @@ type Artworks struct {
 	Backdrops Backdrops `json:"backdrops" bson:"backdrops"`
 	Posters   Posters   `json:"posters" bson:"posters"`
 }
+
 type Artwork struct {
 	Original string `json:"original" bson:"original"`
 	Large    string `json:"large" bson:"large"`
@@ -184,6 +187,7 @@ type Artwork struct {
 type Backdrops struct {
 	Artwork
 }
+
 type Posters struct {
 	Artwork
 }

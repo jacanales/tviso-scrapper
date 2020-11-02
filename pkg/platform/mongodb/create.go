@@ -5,5 +5,4 @@ import (
 )
 
 func CreateDatabase(client *mongo.Client) {
-
 }

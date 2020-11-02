@@ -2,14 +2,15 @@ package mocks
 
 import (
 	"errors"
+	"tviso-scrapper/pkg/tviso"
 
 	"github.com/golang/mock/gomock"
-
-	"tviso-scrapper/pkg/tviso"
 )
 
-var ErrGetUserCollectionError = errors.New("error in get user collection")
-var ErrGetMediaInfoError = errors.New("error in get media info")
+var (
+	ErrGetUserCollectionError = errors.New("error in get user collection")
+	ErrGetMediaInfoError      = errors.New("error in get media info")
+)
 
 func HavingReadRepository(ctrl *gomock.Controller) *MockReadRepository {
 	return NewMockReadRepository(ctrl)

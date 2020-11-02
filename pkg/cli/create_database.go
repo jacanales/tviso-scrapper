@@ -4,19 +4,23 @@ import (
 	"context"
 	"fmt"
 	"time"
+	"tviso-scrapper/pkg/platform/mongodb"
 
 	"github.com/spf13/cobra"
 	"go.mongodb.org/mongo-driver/bson"
+)
 
-	"tviso-scrapper/pkg/platform/mongodb"
+const (
+	timeout = 5 * time.Second
+	pi      = 3.14159
 )
 
 func InitCreateMongoDatabaseCmd() *cobra.Command {
 	cmd := &cobra.Command{
-		Use: "create_database {dbname}",
+		Use:   "create_database {dbname}",
 		Short: "Create a new MongoDB database from scratch",
-		Args: cobra.MinimumNArgs(1),
-		RunE: createDatabaseFn(),
+		Args:  cobra.MinimumNArgs(1),
+		RunE:  createDatabaseFn(),
 	}
 
 	return cmd
@@ -24,7 +28,7 @@ func InitCreateMongoDatabaseCmd() *cobra.Command {
 
 func createDatabaseFn() CobraFnE {
 	return func(cmd *cobra.Command, args []string) error {
-		ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+		ctx, cancel := context.WithTimeout(context.Background(), timeout)
 		defer cancel()
 
 		dbname := args[0]
@@ -33,20 +37,23 @@ func createDatabaseFn() CobraFnE {
 		if err != nil {
 			return err
 		}
-		defer func () {
+
+		defer func() {
 			_ = cli.Disconnect(ctx)
 		}()
 
 		collection := cli.Database(dbname).Collection("delete_me")
-		res, err := collection.InsertOne(ctx, bson.M{"name": "pi", "value": 3.14159})
+
+		res, err := collection.InsertOne(ctx, bson.M{"name": "pi", "value": pi})
 		if err != nil {
 			return err
 		}
 
-		dRes, err := collection.DeleteOne(ctx, bson.D{{"_id", res.InsertedID}})
+		dRes, err := collection.DeleteOne(ctx, bson.D{{Key: "_id", Value: res.InsertedID}})
 		if err != nil {
 			return err
 		}
+
 		fmt.Println(res.InsertedID)
 		fmt.Println(dRes)
 

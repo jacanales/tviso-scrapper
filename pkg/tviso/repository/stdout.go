@@ -2,7 +2,6 @@ package repository
 
 import (
 	"fmt"
-
 	"tviso-scrapper/pkg/tviso"
 )
 

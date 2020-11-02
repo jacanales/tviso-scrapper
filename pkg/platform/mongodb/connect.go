@@ -12,8 +12,9 @@ import (
 )
 
 const (
-	connectionTimeout = 1*time.Second
+	connectionTimeout = 1 * time.Second
 )
+
 type Client struct {
 	*mongo.Client
 }

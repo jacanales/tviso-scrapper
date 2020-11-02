@@ -7,19 +7,16 @@ import (
 	"net/http"
 	"net/http/httptest"
 	"testing"
+	"tviso-scrapper/pkg/tviso"
+	"tviso-scrapper/pkg/tviso/repository"
+	"tviso-scrapper/pkg/tviso/repository/mocks"
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-
-	"tviso-scrapper/pkg/tviso"
-	"tviso-scrapper/pkg/tviso/repository"
-	"tviso-scrapper/pkg/tviso/repository/mocks"
 )
 
-var (
-	ErrClientRequest = errors.New("client error")
-)
+var ErrClientRequest = errors.New("client error")
 
 func TestNewHTTPClient(t *testing.T) {
 	cli := repository.NewHTTPClient()

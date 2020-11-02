@@ -2,10 +2,9 @@ package main
 
 import (
 	"log"
+	"tviso-scrapper/pkg/cli"
 
 	"github.com/joho/godotenv"
-
-	"tviso-scrapper/pkg/cli"
 )
 
 func main() {

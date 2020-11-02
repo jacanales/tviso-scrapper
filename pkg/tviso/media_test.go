@@ -1,11 +1,10 @@
 package tviso_test
 
 import (
-	`testing`
+	"testing"
+	"tviso-scrapper/pkg/tviso"
 
 	"github.com/stretchr/testify/assert"
-
-	`tviso-scrapper/pkg/tviso`
 )
 
 func TestMediaType_String(t *testing.T) {
