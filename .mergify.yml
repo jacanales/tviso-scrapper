@@ -3,11 +3,23 @@ pull_request_rules:
     conditions:
       - "author=dependabot[bot]"
       - "base=master"
-        - check-success=lint
-        - check-success=test
-        - check-success=coverage
-        - check-success=codecov/project
-        - check-success=codecov/patch
+      - check-success=lint
+      - check-success~=^test*
+      - check-success~=^coverage*
+      - check-success=codecov/project
+      - check-success=codecov/patch
+    actions:
+      merge:
+        method: merge
+  - name: Automatic merge on mergify requests
+    conditions:
+      - "base=master"
+      - "head~=^mergify/"
+      - check-success=lint
+      - check-success~=^test*
+      - check-success~=^coverage*
+      - check-success=codecov/project
+      - check-success=codecov/patch
     actions:
       merge:
         method: merge
@@ -15,8 +27,8 @@ pull_request_rules:
     conditions:
       - "#approved-reviews-by>=1"
       - check-success=lint
-      - check-success=test
-      - check-success=coverage
+      - check-success~=^test*
+      - check-success~=^coverage*
       - check-success=codecov/project
       - check-success=codecov/patch
     actions:
