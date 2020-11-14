@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v2.1.3
         with:
           go-version: 1.15
       - name: Install dependencies and run code generation
@@ -40,7 +40,7 @@ jobs:
           mongodb-replica-set: tvisodb
       - name: Install Go
         if: success()
-        uses: actions/setup-go@v1
+        uses: actions/setup-go@v2.1.3
         with:
           go-version: ${{ matrix.go-version }}
       - name: Checkout code
@@ -61,7 +61,7 @@ jobs:
           mongodb-replica-set: tvisodb
       - name: Install Go
         if: success()
-        uses: actions/setup-go@v1
+        uses: actions/setup-go@v2.1.3
         with:
           go-version: ${{ matrix.go-version }}
       - name: Checkout code
