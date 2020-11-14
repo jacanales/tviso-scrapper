@@ -13,7 +13,7 @@ jobs:
     name: lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
       - name: Install Go
         uses: actions/setup-go@v2
         with:
@@ -44,7 +44,7 @@ jobs:
         with:
           go-version: ${{ matrix.go-version }}
       - name: Checkout code
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2.3.4
       - name: Run tests
         run: go test -v -race -covermode=atomic ./...
   coverage:
@@ -65,7 +65,7 @@ jobs:
         with:
           go-version: ${{ matrix.go-version }}
       - name: Checkout code
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2.3.4
       - name: Calc coverage
         run: |
           go test -v -covermode=count -coverprofile=coverage.out ./...
