@@ -5,6 +5,10 @@ updates:
   schedule:
     interval: daily
     time: "04:00"
+  commit-message:
+    prefix: "chore"
+    prefix-development: "chore"
+    include: "scope"
   open-pull-requests-limit: 10
   reviewers:
   - jacanales
@@ -15,6 +19,10 @@ updates:
   schedule:
     interval: "daily"
     time: "04:00"
+  commit-message:
+    prefix: "chore"
+    prefix-development: "chore"
+    include: "scope"
   open-pull-requests-limit: 10
   reviewers:
   - jacanales
