@@ -6,7 +6,7 @@ import (
 
 type Config struct {
 	APIAddr string `envconfig:"ENDPOINT" default:"localhost:8080"`
-	Cookie  string `envconfig:"COOKIE"`
+	Cookie  string `envconfig:"COOKIE" required:"true"`
 }
 
 func NewConfig() Config {
