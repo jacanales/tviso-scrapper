@@ -1,0 +1,24 @@
+{
+  "id" : "22dac9a0-0775-4f7b-8a5c-ca90863a3d7d",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=6083&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":6083,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0411951\",\"tags\":[{\"id\":\"ArtesMarciales\",\"name\":\"Artes marciales\",\"type\":\"category\"},{\"id\":\"Videojuegos\",\"name\":\"Videojuegos\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":6.24,\"name\":\"Tekken\",\"images\":{\"backdrop\":\"\\/08\\/cb\\/08cb6a3daed2fd4ab8f12ec75500afbb.jpg\",\"poster\":\"\\/08\\/cb\\/08cb6a3daed2fd4ab8f12ec75500afbb.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/08\\/cb\\/08cb6a3daed2fd4ab8f12ec75500afbb.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/08\\/cb\\/08cb6a3daed2fd4ab8f12ec75500afbb.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/08\\/cb\\/08cb6a3daed2fd4ab8f12ec75500afbb.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/08\\/cb\\/08cb6a3daed2fd4ab8f12ec75500afbb.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/08\\/cb\\/08cb6a3daed2fd4ab8f12ec75500afbb.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/08\\/cb\\/08cb6a3daed2fd4ab8f12ec75500afbb.jpg\"}},\"year\":2010,\"runtime\":91,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Tekken\",\"shortPlot\":\"En el a\\u00f1o 2039, el mundo est\\u00e1 dominado por grandes corporaciones. Una de el...\",\"plot\":\"En el a\\u00f1o 2039, el mundo est\\u00e1 dominado por grandes corporaciones. Una de ellas es la Mishima Zaibatsu, dirigida por Heihachi Mishima, que realiza peri\\u00f3dicamente el Iron First Tournament, un torneo de lucha a nivel mundial. El protagonista es el joven Jin Kazama, un luchador callejero que se apunta al torneo para vengar la muerte de su madre, asesinada por Heihachi. Acompa\\u00f1ado por su maestro Lucas, deber\\u00e1 hacer frente a varios desaf\\u00edos para llegar a la meta. Adaptaci\\u00f3n libre del videojuego de Namco \\\"Tekken\\\".\",\"cast\":[{\"name\":\"Jon Foo\",\"role\":\"Jin Kazama\",\"images\":null,\"id\":67020},{\"name\":\"Kelly Overton\",\"role\":\"Christie Monteiro\",\"images\":null,\"id\":50413},{\"name\":\"Cary-Hiroyuki Tagawa\",\"role\":\"Heihachi Mishima\",\"images\":{\"face\":\"\\/2c\\/48\\/2c48ef1c7415389af923ff16e68b6f14.jpg\"},\"id\":9082},{\"name\":\"Ian Anthony Dale\",\"role\":\"Kazuya Mishima\",\"images\":null,\"id\":60469},{\"name\":\"Cung Le\",\"role\":\"Marshall Law\",\"images\":null,\"id\":56794},{\"name\":\"Darrin Dewitt Henson\",\"role\":\"Raven\",\"images\":null,\"id\":41290},{\"name\":\"Luke Goss\",\"role\":\"Steve Fox\",\"images\":{\"face\":\"\\/07\\/47\\/0747def0ef38d51c6004a8976884d52b.jpg\"},\"id\":16234},{\"name\":\"Mircea Monroe\",\"role\":\"Kara\",\"images\":{\"face\":\"\\/d6\\/53\\/d6531e5fc6be149aa8d3850ca0ca5e52.jpg\"},\"id\":26321},{\"name\":\"Tamlyn Tomita\",\"role\":\"Jun Kazama\",\"images\":null,\"id\":67032},{\"name\":\"Candice Hillebrand\",\"role\":\"Nina Williams\",\"images\":null,\"id\":67036}],\"genres\":[\"Action\",\"Crime\",\"Drama\",\"Sci-fi\",\"Thriller\"],\"distributor\":null,\"numInteractions\":21462,\"numRatings\":4541,\"ratingHistogram\":{\"1\":363,\"2\":598,\"3\":1610,\"4\":1131,\"5\":839},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"CST Productions\",\"images\":null},{\"name\":\"Crystal Sky Pictures\",\"images\":{\"face\":\"\\/a2\\/8b\\/a28bcbfcf003ab9828858c9884253af7.jpg\"},\"id\":397},{\"name\":\"GAGA\",\"images\":null,\"id\":97559}],\"writers\":[],\"countries\":[\"JP\",\"US\"],\"directors\":[{\"name\":\"Dwight H. Little\",\"images\":null,\"id\":67064}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:53:47 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"f256a60aa9e9160b2f768a400420d997\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws1"
+    }
+  },
+  "uuid" : "22dac9a0-0775-4f7b-8a5c-ca90863a3d7d",
+  "persistent" : true,
+  "insertionIndex" : 1230
+}

@@ -1,0 +1,24 @@
+{
+  "id" : "89b50fa0-6ecb-4d81-b0af-5659f40d3fd7",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=2053975&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":2053975,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt6334354\",\"tags\":[{\"id\":\"person-16106\",\"name\":\"Margot Robbie\",\"type\":\"person\"},{\"id\":\"person-2683\",\"name\":\"Dwayne Johnson\",\"type\":\"person\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"}],\"rating\":null,\"name\":\"Suicide Squad 2\",\"images\":{\"backdrop\":\"\\/f4\\/24\\/f42451645870db17cdc1c57c493b5f8c.jpg\",\"poster\":\"\\/f4\\/24\\/f42451645870db17cdc1c57c493b5f8c.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/f4\\/24\\/f42451645870db17cdc1c57c493b5f8c.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/f4\\/24\\/f42451645870db17cdc1c57c493b5f8c.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/f4\\/24\\/f42451645870db17cdc1c57c493b5f8c.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/f4\\/24\\/f42451645870db17cdc1c57c493b5f8c.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/f4\\/24\\/f42451645870db17cdc1c57c493b5f8c.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/f4\\/24\\/f42451645870db17cdc1c57c493b5f8c.jpg\"}},\"year\":2019,\"runtime\":null,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Suicide Squad 2\",\"shortPlot\":\"Trae de vuelta a los miembros originales del escuadr\\u00f3n suicida junto a no p...\",\"plot\":\"Trae de vuelta a los miembros originales del escuadr\\u00f3n suicida junto a no pocas caras nuevas en una pel\\u00edcula que se supone rinde homenaje al origen del grupo.\",\"cast\":[{\"name\":\"Margot Robbie\",\"role\":\"Harley Quinn\",\"images\":{\"face\":\"\\/7c\\/47\\/7c478262dc8b0ed36d54e2cb8e7b5ef1.jpg\"},\"id\":16106},{\"name\":\"Dwayne Johnson\",\"role\":\"Black Adam\",\"images\":{\"face\":\"\\/57\\/7e\\/577eadb7e8a7a3e6ce825b3e4f27f292.jpg\"},\"id\":2683},{\"name\":\"Jared Leto\",\"role\":\"The Joker\",\"images\":{\"face\":\"\\/5e\\/57\\/5e57197fb4187def161e93fba5ffe36c.jpg\"},\"id\":3480},{\"name\":\"Joel Kinnaman\",\"role\":\"Rick Flag\",\"images\":{\"face\":\"\\/b2\\/0b\\/b20b767b36026f59e59b0c0e4cc40f26.jpg\"},\"id\":29987},{\"name\":\"Karen Fukuhara\",\"role\":\"Katana\",\"images\":null}],\"composer\":null,\"genres\":[\"Action\",\"Adventure\",\"Fantasy\",\"Mystery\",\"Sci-fi\"],\"distributor\":null,\"numInteractions\":278,\"seasonsBlocked\":[],\"numRatings\":null,\"ratingHistogram\":null,\"producers\":[{\"name\":\"Atlas Entertainment\",\"images\":null},{\"name\":\"DC Comics\",\"images\":null},{\"name\":\"DC Entertainment\",\"images\":null}],\"writers\":[{\"name\":\"Adam Cozad\",\"images\":null,\"id\":57158},{\"name\":\"Gavin O'Connor\",\"images\":null,\"id\":133205}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Gavin O'Connor\",\"images\":null,\"id\":133205}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:54:39 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"8cbbde1c5f87499d6e3e60d3a1be167d\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws2"
+    }
+  },
+  "uuid" : "89b50fa0-6ecb-4d81-b0af-5659f40d3fd7",
+  "persistent" : true,
+  "insertionIndex" : 1707
+}

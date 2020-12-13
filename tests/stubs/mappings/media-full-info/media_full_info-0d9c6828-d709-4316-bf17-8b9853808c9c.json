@@ -1,0 +1,24 @@
+{
+  "id" : "0d9c6828-d709-4316-bf17-8b9853808c9c",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=7013&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":7013,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0879223\",\"tags\":[{\"id\":\"Telefilm\",\"name\":\"Telefilm\",\"type\":\"category\"},{\"id\":\"Crimenes\",\"name\":\"Cr\\u00edmenes\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"}],\"rating\":8,\"name\":\"Lejos de la verdad\",\"images\":{\"backdrop\":\"\\/32\\/4d\\/324d7d31475e2b31a852ecc1f75fae91.jpg\",\"poster\":\"\\/32\\/4d\\/324d7d31475e2b31a852ecc1f75fae91.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/32\\/4d\\/324d7d31475e2b31a852ecc1f75fae91.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/32\\/4d\\/324d7d31475e2b31a852ecc1f75fae91.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/32\\/4d\\/324d7d31475e2b31a852ecc1f75fae91.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/32\\/4d\\/324d7d31475e2b31a852ecc1f75fae91.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/32\\/4d\\/324d7d31475e2b31a852ecc1f75fae91.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/32\\/4d\\/324d7d31475e2b31a852ecc1f75fae91.jpg\"}},\"year\":2007,\"runtime\":null,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Unthinkable\",\"shortPlot\":\"Jamie es una agente de polic\\u00eda, madre de un hijo de 20 a\\u00f1os que quiere cont...\",\"plot\":\"Jamie es una agente de polic\\u00eda, madre de un hijo de 20 a\\u00f1os que quiere contraer matrimonio a toda costa con una joven de su misma edad. Una noche, despu\\u00e9s de una terrible discusi\\u00f3n entre los dos j\\u00f3venes y Jamie, la casa de la chica arde en llamas, muriendo \\u00e9sta carbonizada sin que su novio pudiera evitarlo. Todas las sospechas recaen sobre un antiguo novio de la chica.\",\"cast\":[{\"name\":\"Michelle Forbes\",\"role\":\"Jamie McDowell\",\"images\":{\"face\":\"\\/18\\/53\\/18538f2deefce00ffd0d072ad1c0851f.jpg\"},\"id\":7288},{\"name\":\"Steven Grayhm\",\"role\":\"Peter McDowell\",\"images\":null},{\"name\":\"Rachel Hayward\",\"role\":\"Susan Shaw\",\"images\":null,\"id\":72777},{\"name\":\"Elyse Levesque\",\"role\":\"Kelly Shaw\",\"images\":null,\"id\":51189},{\"name\":\"Philip Granger\",\"role\":\"Glen Dasher\",\"images\":null,\"id\":118707},{\"name\":\"Jerry Wasserman\",\"role\":\"Ed Callahan\",\"images\":null,\"id\":51193},{\"name\":\"Barclay Hope\",\"role\":\"Dan Bell\",\"images\":null,\"id\":127029},{\"name\":\"Garry Chalk\",\"role\":\"Captain Laughlan\",\"images\":null,\"id\":41378},{\"name\":\"Graham Kosakoski\",\"role\":\"Ray Rankin\",\"images\":null},{\"name\":\"Judith Maxie\",\"role\":\"Judge Waller\",\"images\":null}],\"composer\":{\"name\":\"Harry Manfredini\",\"images\":null,\"id\":107215},\"genres\":[\"Action\",\"Crime\",\"Drama\"],\"distributor\":null,\"numInteractions\":951,\"numRatings\":114,\"ratingHistogram\":{\"1\":4,\"2\":1,\"3\":14,\"4\":47,\"5\":48},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Nasser Group\",\"images\":null},{\"name\":\"Nasser Entertainment Group\",\"images\":null},{\"name\":\"Nasser Entertainment\",\"images\":null}],\"writers\":[{\"name\":\"Richard Leder\",\"images\":null,\"id\":107211}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Keoni Waxman\",\"images\":null,\"id\":90533}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:55:22 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"a1ee8d9502e00df551021c1f97fe1a8e\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws1"
+    }
+  },
+  "uuid" : "0d9c6828-d709-4316-bf17-8b9853808c9c",
+  "persistent" : true,
+  "insertionIndex" : 2033
+}

@@ -1,0 +1,24 @@
+{
+  "id" : "f2fe3474-b21d-446e-80bc-beaa64adbdda",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1648277&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1648277,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt2854394\",\"tags\":[{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Comedy\",\"name\":\"Comedia\",\"type\":\"genre\"},{\"id\":\"HoraYMedia\",\"name\":\"Hora y media\",\"type\":\"duration\"}],\"rating\":4.23,\"name\":\"Hot Bot\",\"images\":{\"backdrop\":\"\\/83\\/4a\\/834aa354ff2de072e7e1352c42d8d787.jpg\",\"poster\":\"\\/83\\/4a\\/834aa354ff2de072e7e1352c42d8d787.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/83\\/4a\\/834aa354ff2de072e7e1352c42d8d787.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/83\\/4a\\/834aa354ff2de072e7e1352c42d8d787.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/83\\/4a\\/834aa354ff2de072e7e1352c42d8d787.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/83\\/4a\\/834aa354ff2de072e7e1352c42d8d787.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/83\\/4a\\/834aa354ff2de072e7e1352c42d8d787.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/83\\/4a\\/834aa354ff2de072e7e1352c42d8d787.jpg\"}},\"year\":2016,\"runtime\":86,\"ageRating\":18,\"mainGenre\":\"Comedy\",\"originalName\":\"Hot Bot\",\"shortPlot\":\"Cuando dos frikis adolescentes encuentran de casualidad a una muy atractiva...\",\"plot\":\"Cuando dos frikis adolescentes encuentran de casualidad a una muy atractiva y casi real humanoide, tendr\\u00e1n que arregl\\u00e1rselas para no devolv\\u00e9rsela a su due\\u00f1o.\",\"cast\":[{\"name\":\"Zack Pearlman\",\"role\":\"Leonard Stupenski\",\"images\":{\"face\":\"\\/44\\/c3\\/44c3455a3eeb72fb4b5602ff2a6c25e6.jpg\"},\"id\":1048},{\"name\":\"Doug Haley\",\"role\":\"Limus Huffington\",\"images\":null,\"id\":132887},{\"name\":\"Cynthia Kirchner\",\"role\":\"Bardot\",\"images\":null,\"id\":132889},{\"name\":\"David Shackelford\",\"role\":\"Benny\",\"images\":null,\"id\":132891},{\"name\":\"Anthony Anderson\",\"role\":\"Agent Frazier\",\"images\":{\"face\":\"\\/86\\/ab\\/86ab19f0b139c97fbc04357c5e56f4ac.jpg\"},\"id\":12964},{\"name\":\"Donald Faison\",\"role\":\"Mr. Huffington\",\"images\":{\"face\":\"\\/3b\\/13\\/3b132ce2dbcb7207fb9175046fd637d3.jpg\"},\"id\":4822},{\"name\":\"Danny Masterson\",\"role\":\"Agent Koontz\",\"images\":null,\"id\":69540},{\"name\":\"Larry Miller\",\"role\":\"Senator Biter\",\"images\":{\"face\":\"\\/b0\\/a3\\/b0a3c5a10e8d55dc34da191187f22c46.jpg\"},\"id\":33894},{\"name\":\"Angela Kinsey\",\"role\":\"Candy HUffington\",\"images\":{\"face\":\"\\/e3\\/04\\/e30421b695249270cd07c907ad6b54da.jpg\"},\"id\":3342},{\"name\":\"Kirby Bliss Blanton\",\"role\":\"Kassidy\",\"images\":null,\"id\":85120}],\"genres\":[\"Comedy\",\"Sci-fi\"],\"distributor\":null,\"numInteractions\":212,\"numRatings\":71,\"ratingHistogram\":{\"1\":16,\"2\":30,\"3\":17,\"4\":4,\"5\":4},\"seasonsBlocked\":[],\"producers\":[],\"writers\":[{\"name\":\"Mark Polish\",\"images\":null,\"id\":90703},{\"name\":\"Mark Polish\",\"images\":null,\"id\":90703}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Michael Polish\",\"images\":null,\"id\":90705}],\"composer\":null,\"releaseDates\":[{\"country\":\"XX\",\"date\":\"2016-03-01T02:00:00+00:00\"},{\"country\":\"US\",\"date\":\"2016-03-01T02:00:00+00:00\"}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:55:04 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"1e55e321a002d57ef2fb50489e240526\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws2"
+    }
+  },
+  "uuid" : "f2fe3474-b21d-446e-80bc-beaa64adbdda",
+  "persistent" : true,
+  "insertionIndex" : 1903
+}

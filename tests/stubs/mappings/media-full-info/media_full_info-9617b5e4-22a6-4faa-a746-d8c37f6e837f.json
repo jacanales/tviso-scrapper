@@ -1,0 +1,24 @@
+{
+  "id" : "9617b5e4-22a6-4faa-a746-d8c37f6e837f",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=14711&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":14711,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt1748197\",\"tags\":[{\"id\":\"person-1272\",\"name\":\"Bruce Willis\",\"type\":\"person\"},{\"id\":\"Mafia\",\"name\":\"Mafia\",\"type\":\"category\"},{\"id\":\"Crimenes\",\"name\":\"Cr\\u00edmenes\",\"type\":\"category\"},{\"id\":\"Venganza\",\"name\":\"Venganza\",\"type\":\"category\"},{\"id\":\"Atracos\",\"name\":\"Atracos\",\"type\":\"category\"},{\"id\":\"Fugitivos\",\"name\":\"Fugitivos\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"HoraYMedia\",\"name\":\"Hora y media\",\"type\":\"duration\"}],\"rating\":6.83,\"name\":\"Setup\",\"images\":{\"backdrop\":\"\\/fd\\/13\\/fd137b179a6e51421f51aeefddf09501.jpg\",\"poster\":\"\\/fd\\/13\\/fd137b179a6e51421f51aeefddf09501.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/fd\\/13\\/fd137b179a6e51421f51aeefddf09501.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/fd\\/13\\/fd137b179a6e51421f51aeefddf09501.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/fd\\/13\\/fd137b179a6e51421f51aeefddf09501.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/fd\\/13\\/fd137b179a6e51421f51aeefddf09501.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/fd\\/13\\/fd137b179a6e51421f51aeefddf09501.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/fd\\/13\\/fd137b179a6e51421f51aeefddf09501.jpg\"}},\"year\":2011,\"runtime\":85,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Setup\",\"shortPlot\":\"Un grupo de amigos planea un atraco minucioso que se vuelve mortal cuando u...\",\"plot\":\"Un grupo de amigos planea un atraco minucioso que se vuelve mortal cuando uno traiciona al grupo, huyendo con el bot\\u00edn. Sonny buscar\\u00e1 su venganza haciendo equipo con el jefe de la mafia m\\u00e1s peligroso de la ciudad para recuperar lo que es suyo por derecho. Cuando por fin se encuentra cara a cara con su amigo de toda la vida que se ver\\u00e1 obligado a tomar una decisi\\u00f3n que cambiar\\u00e1 su vida.\",\"cast\":[{\"name\":\"50 Cent\",\"role\":\"Sonny\",\"images\":null,\"id\":45789},{\"name\":\"Ryan Phillippe\",\"role\":\"Vincent Long\",\"images\":{\"face\":\"\\/9d\\/5f\\/9d5f46ab9a1d590b6b7ae8e3d2dbfef7.jpg\"},\"id\":319},{\"name\":\"Bruce Willis\",\"role\":\"Biggs\",\"images\":{\"face\":\"\\/b6\\/73\\/b6737ad7f7eddac132fa45078cf979e3.jpg\"},\"id\":1272},{\"name\":\"Rory Markham\",\"role\":\"Markus\",\"images\":null},{\"name\":\"Jenna Dewan Tatum\",\"role\":\"Mia\",\"images\":{\"face\":\"\\/6c\\/4b\\/6c4b2e658d4b285d170a7dda8c268c85.jpg\"},\"id\":33260},{\"name\":\"Brett Granstaff\",\"role\":\"Dave Hall\",\"images\":null},{\"name\":\"Randy Couture\",\"role\":\"Petey\",\"images\":{\"face\":\"\\/c5\\/ea\\/c5eaeac7ac741c4a1caf1a9cfe6352cb.jpg\"},\"id\":257},{\"name\":\"Susie Abromeit\",\"role\":\"Valerie\",\"images\":{\"face\":\"\\/ad\\/85\\/ad85db91e67c8e9b326d98ba737bff02.jpg\"},\"id\":10216},{\"name\":\"Ron Turner\",\"role\":\"Tony\",\"images\":null},{\"name\":\"James Remar\",\"role\":\"William Long\",\"images\":{\"face\":\"\\/d8\\/23\\/d823c88def989f2361fdbab017fb318c.jpg\"},\"id\":624}],\"genres\":[\"Action\",\"Crime\",\"Drama\"],\"distributor\":null,\"numInteractions\":36489,\"numRatings\":4743,\"ratingHistogram\":{\"1\":159,\"2\":341,\"3\":1546,\"4\":1731,\"5\":966},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Grindstone Entertainment Group\",\"images\":null},{\"name\":\"Cheetah Vision\",\"images\":null},{\"name\":\"Action Jackson Films\",\"images\":null}],\"writers\":[],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Mike Gunther\",\"images\":null,\"id\":66482}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:55:10 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"0cbb3915925684b13e2dcf271e3812a9\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws1"
+    }
+  },
+  "uuid" : "9617b5e4-22a6-4faa-a746-d8c37f6e837f",
+  "persistent" : true,
+  "insertionIndex" : 1943
+}

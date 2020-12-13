@@ -1,0 +1,24 @@
+{
+  "id" : "1e6b4bc2-d108-495f-b33c-fd6282e23e8a",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=680944&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":680944,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0425945\",\"tags\":[{\"id\":\"Mosqueteros\",\"name\":\"Mosqueteros\",\"type\":\"category\"},{\"id\":\"SigloXvii\",\"name\":\"Siglo XVII\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Adventure\",\"name\":\"Aventura\",\"type\":\"genre\"},{\"id\":\"MasDeDosHoras\",\"name\":\"M\\u00e1s de dos horas\",\"type\":\"duration\"}],\"rating\":6.7,\"name\":\"D'Artagnan y los tres mosqueteros\",\"images\":{\"backdrop\":\"\\/75\\/c3\\/75c3efd2162d747d0bf6af2a16af944a.jpg\",\"poster\":\"\\/75\\/c3\\/75c3efd2162d747d0bf6af2a16af944a.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/75\\/c3\\/75c3efd2162d747d0bf6af2a16af944a.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/75\\/c3\\/75c3efd2162d747d0bf6af2a16af944a.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/75\\/c3\\/75c3efd2162d747d0bf6af2a16af944a.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/75\\/c3\\/75c3efd2162d747d0bf6af2a16af944a.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/75\\/c3\\/75c3efd2162d747d0bf6af2a16af944a.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/75\\/c3\\/75c3efd2162d747d0bf6af2a16af944a.jpg\"}},\"year\":2005,\"runtime\":210,\"ageRating\":18,\"mainGenre\":\"Adventure\",\"originalName\":\"The 4 Musketeers\",\"shortPlot\":\"D'Artagnan inicia su viaje a Par\\u00eds para unirse a los mosqueteros durante el...\",\"plot\":\"D'Artagnan inicia su viaje a Par\\u00eds para unirse a los mosqueteros durante el reinado de Luis XIII.\",\"cast\":[{\"name\":\"Vincent Elbaz\",\"role\":\"D'Artagnan\",\"images\":null,\"id\":39924},{\"name\":\"Emmanuelle B\\u00e9art\",\"role\":\"Milady Winter\",\"images\":null,\"id\":148621},{\"name\":\"Tch\\u00e9ky Karyo\",\"role\":\"Le cardinal de Richelieu\",\"images\":{\"face\":\"\\/8a\\/03\\/8a03d6bd8bdb4726c0cc55ebf2077d79.jpg\"},\"id\":2847},{\"name\":\"Heino Ferch\",\"role\":\"Athos\",\"images\":null,\"id\":48097},{\"name\":\"Gr\\u00e9gori Derang\\u00e8re\",\"role\":\"Aramis\",\"images\":null,\"id\":61123},{\"name\":\"Gr\\u00e9gory Gadebois\",\"role\":\"Porthos\",\"images\":null,\"id\":89677},{\"name\":\"Stefania Rocca\",\"role\":\"Anne D'Autriche\",\"images\":null,\"id\":54116},{\"name\":\"Diana Amft\",\"role\":\"Constance Bonacieux\",\"images\":{\"face\":\"\\/ab\\/38\\/ab387691322bfaf97c8231b57e62c936.jpg\"},\"id\":5388},{\"name\":\"Jacques Spiesser\",\"role\":\"Bonacieux\",\"images\":null,\"id\":39614},{\"name\":\"Trist\\u00e1n Ulloa\",\"role\":\"Louis XIII\",\"images\":{\"face\":\"\\/bc\\/0e\\/bc0ec495289c4e4a5e8ae95f44fbd764.jpg\"},\"id\":2756}],\"genres\":[\"Adventure\"],\"distributor\":null,\"numInteractions\":41,\"numRatings\":10,\"ratingHistogram\":{\"1\":1,\"2\":0,\"3\":3,\"4\":4,\"5\":2},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"D'Artagnan Productions\",\"images\":null},{\"name\":\"GMT Productions\",\"images\":null},{\"name\":\"Okko Productions\",\"images\":null}],\"writers\":[{\"name\":\"Pierre Aknine\",\"images\":null,\"id\":83262},{\"name\":\"Alexandre Dumas p\\u00e8re\",\"images\":null,\"id\":103733}],\"countries\":[\"FR\",\"CA\",\"GB\",\"CZ\"],\"directors\":[{\"name\":\"Pierre Aknine\",\"images\":null,\"id\":83262}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:53:51 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"930573090cee5b87f1d7a0000f9db43b\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws2"
+    }
+  },
+  "uuid" : "1e6b4bc2-d108-495f-b33c-fd6282e23e8a",
+  "persistent" : true,
+  "insertionIndex" : 1262
+}

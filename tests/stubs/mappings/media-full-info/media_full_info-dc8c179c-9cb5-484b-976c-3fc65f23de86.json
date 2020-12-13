@@ -1,0 +1,24 @@
+{
+  "id" : "dc8c179c-9cb5-484b-976c-3fc65f23de86",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=878&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":878,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt1121931\",\"tags\":[{\"id\":\"Mafia\",\"name\":\"Mafia\",\"type\":\"category\"},{\"id\":\"Sagas\",\"name\":\"Sagas\",\"type\":\"category\"},{\"id\":\"Crimenes\",\"name\":\"Cr\\u00edmenes\",\"type\":\"category\"},{\"id\":\"person-1352\",\"name\":\"Jason Statham\",\"type\":\"person\"},{\"id\":\"Badass\",\"name\":\"Badass\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":7.34,\"name\":\"Crank: Alto voltaje\",\"images\":{\"poster\":\"\\/08\\/8b\\/088b60542de584ea17a988a2e34759b7.jpg\",\"backdrop\":\"\\/08\\/8b\\/088b60542de584ea17a988a2e34759b7.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/08\\/8b\\/088b60542de584ea17a988a2e34759b7.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/08\\/8b\\/088b60542de584ea17a988a2e34759b7.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/08\\/8b\\/088b60542de584ea17a988a2e34759b7.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/08\\/8b\\/088b60542de584ea17a988a2e34759b7.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/08\\/8b\\/088b60542de584ea17a988a2e34759b7.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/08\\/8b\\/088b60542de584ea17a988a2e34759b7.jpg\"}},\"year\":2009,\"runtime\":96,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Crank: High Voltage\",\"shortPlot\":\"Chev Chelios (Jason Statham) se salva de la muerte cuando el jefe mafioso c...\",\"plot\":\"Chev Chelios (Jason Statham) se salva de la muerte cuando el jefe mafioso chino cambia su coraz\\u00f3n por una potente bater\\u00eda que le mantiene vivo. El \\u00fanico problema es que requiere descargas el\\u00e9ctricas para seguir funcionando.\",\"cast\":[{\"name\":\"Jason Statham\",\"role\":\"Chev Chelios\",\"images\":{\"face\":\"\\/f3\\/54\\/f354e5d9b1321830a3dab7765fff7074.jpg\"},\"id\":1352},{\"name\":\"Amy Smart\",\"role\":\"Eve\",\"images\":null,\"id\":44255},{\"name\":\"Dwight Yoakam\",\"role\":\"Doc Miles\",\"images\":{\"face\":\"\\/eb\\/b1\\/ebb1391e22aa9101236d130529af2dfa.jpg\"},\"id\":3279},{\"name\":\"Efren Ramirez\",\"role\":\"Venus\",\"images\":null,\"id\":68412},{\"name\":\"Julanne Chidi Hill\",\"role\":\"Dark Chocolate\",\"images\":null,\"id\":210332},{\"name\":\"Jose Pablo Cantillo\",\"role\":\"Ricky Verona\",\"images\":null,\"id\":41544},{\"name\":\"Reno Wilson\",\"role\":\"Orlando\",\"images\":{\"face\":\"\\/7d\\/0d\\/7d0d57946f6226ccc3d648c7dfd7c5ce.jpg\"},\"id\":19038},{\"name\":\"Keone Young\",\"role\":\"Don Kim\",\"images\":{\"face\":\"\\/ab\\/06\\/ab062703d86f0c8ca5abfed422e2d2a4.jpg\"},\"id\":2983},{\"name\":\"Art Hsu\",\"role\":\"Johnny Vang\",\"images\":null,\"id\":210334},{\"name\":\"Joseph Julian Soria\",\"role\":\"Chico\",\"images\":{\"face\":\"\\/78\\/01\\/7801497e0264424022278dacf4e64ec4.jpg\"},\"id\":24885}],\"genres\":[\"Action\",\"Crime\",\"Sci-fi\",\"Thriller\"],\"distributor\":null,\"numInteractions\":87191,\"numRatings\":17457,\"ratingHistogram\":{\"1\":549,\"2\":914,\"3\":4083,\"4\":6774,\"5\":5137},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Lionsgate\",\"images\":null},{\"name\":\"Lakeshore Entertainment\",\"images\":null},{\"name\":\"Radical Media\",\"images\":null}],\"writers\":[{\"name\":\"Mark Neveldine\",\"images\":null,\"id\":205792},{\"name\":\"Brian Taylor\",\"images\":null,\"id\":205794}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Mark Neveldine\",\"images\":null,\"id\":205792},{\"name\":\"Brian Taylor\",\"images\":null,\"id\":205794}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:54:09 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"43c80ae13d1abb73cf03eeb85dd75140\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws1"
+    }
+  },
+  "uuid" : "dc8c179c-9cb5-484b-976c-3fc65f23de86",
+  "persistent" : true,
+  "insertionIndex" : 1425
+}

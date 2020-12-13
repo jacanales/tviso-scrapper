@@ -1,0 +1,24 @@
+{
+  "id" : "4247df11-781f-4516-b5d8-50f0cc508f5a",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=682&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":682,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0082158\",\"tags\":[{\"id\":\"Oscarizadas\",\"name\":\"Oscarizadas\",\"type\":\"category\"},{\"id\":\"Londres\",\"name\":\"Londres\",\"type\":\"category\"},{\"id\":\"JuegosOlimpicos\",\"name\":\"Juegos Ol\\u00edmpicos\",\"type\":\"category\"},{\"id\":\"Atletismo\",\"name\":\"Atletismo\",\"type\":\"category\"},{\"id\":\"Bandas\",\"name\":\"Bandas\",\"type\":\"category\"},{\"id\":\"Anos20\",\"name\":\"A\\u00f1os 20\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Biography\",\"name\":\"Biograf\\u00eda\",\"type\":\"genre\"},{\"id\":\"MasDeDosHoras\",\"name\":\"M\\u00e1s de dos horas\",\"type\":\"duration\"}],\"rating\":7.72,\"name\":\"Carros de fuego\",\"images\":{\"backdrop\":\"\\/e0\\/fb\\/e0fbdcda0a4ebe7602448139cfa87180.jpg\",\"poster\":\"\\/e0\\/fb\\/e0fbdcda0a4ebe7602448139cfa87180.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/e0\\/fb\\/e0fbdcda0a4ebe7602448139cfa87180.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/e0\\/fb\\/e0fbdcda0a4ebe7602448139cfa87180.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/e0\\/fb\\/e0fbdcda0a4ebe7602448139cfa87180.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/e0\\/fb\\/e0fbdcda0a4ebe7602448139cfa87180.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/e0\\/fb\\/e0fbdcda0a4ebe7602448139cfa87180.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/e0\\/fb\\/e0fbdcda0a4ebe7602448139cfa87180.jpg\"}},\"year\":1981,\"runtime\":125,\"ageRating\":18,\"mainGenre\":\"Biography\",\"originalName\":\"Chariots of Fire\",\"shortPlot\":\"En 1920, Gran Breta\\u00f1a contaba con dos atletas excepcionales: Harold Abraham...\",\"plot\":\"En 1920, Gran Breta\\u00f1a contaba con dos atletas excepcionales: Harold Abrahams y Eric Lidell. Las razones que los mov\\u00edan a correr era tan diferentes como sus vidas: pertenec\\u00edan a mundos distintos, cada uno ten\\u00eda sus propias creencias y su propio concepto del triunfo.\",\"cast\":[{\"name\":\"Nicholas Farrell\",\"role\":\"Aubrey Montague\",\"images\":null,\"id\":44315},{\"name\":\"Nigel Havers\",\"role\":\"Lord Andrew Lindsay\",\"images\":{\"face\":\"\\/53\\/a2\\/53a29429c121cf3edd1059c2182c837b.jpg\"},\"id\":19089},{\"name\":\"Ian Charleson\",\"role\":\"Eric Liddell\",\"images\":null,\"id\":132335},{\"name\":\"Ben Cross\",\"role\":\"Harold Abrahams\",\"images\":null,\"id\":63567},{\"name\":\"Daniel Gerroll\",\"role\":\"Henry Stallard\",\"images\":null,\"id\":55220},{\"name\":\"Ian Holm\",\"role\":\"Sam Mussabini\",\"images\":{\"face\":\"\\/38\\/cb\\/38cb2ee3ff649968c4da47d896aa0221.jpg\"},\"id\":7350},{\"name\":\"John Gielgud\",\"role\":\"Master of Trinity\",\"images\":{\"face\":\"\\/e9\\/e8\\/e9e8d76532cee667610797b7d64db166.jpg\"},\"id\":159},{\"name\":\"Lindsay Anderson\",\"role\":\"Master of Caius\",\"images\":null,\"id\":132339},{\"name\":\"Nigel Davenport\",\"role\":\"Lord Birkenhead\",\"images\":null,\"id\":78753},{\"name\":\"Cheryl Campbell\",\"role\":\"Jennie Liddell\",\"images\":null,\"id\":132337}],\"genres\":[\"Biography\",\"Drama\",\"Sport\"],\"distributor\":null,\"numInteractions\":22140,\"numRatings\":2650,\"ratingHistogram\":{\"1\":37,\"2\":53,\"3\":440,\"4\":1311,\"5\":809},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Twentieth Century Fox Film Corporation\",\"images\":null,\"id\":78503},{\"name\":\"Allied Stars Ltd.\",\"images\":null},{\"name\":\"Enigma Productions\",\"images\":null}],\"writers\":[{\"name\":\"Colin Welland\",\"images\":null,\"id\":102561}],\"countries\":[\"GB\"],\"directors\":[{\"name\":\"Hugh Hudson\",\"images\":null,\"id\":82897}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:55:16 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"6252d065c57dde7253a86591aca62054\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws2"
+    }
+  },
+  "uuid" : "4247df11-781f-4516-b5d8-50f0cc508f5a",
+  "persistent" : true,
+  "insertionIndex" : 1983
+}

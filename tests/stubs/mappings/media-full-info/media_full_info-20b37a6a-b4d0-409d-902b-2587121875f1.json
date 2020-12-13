@@ -1,0 +1,24 @@
+{
+  "id" : "20b37a6a-b4d0-409d-902b-2587121875f1",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=364929&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":364929,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt1800741\",\"tags\":[{\"id\":\"Sagas\",\"name\":\"Sagas\",\"type\":\"category\"},{\"id\":\"Musicales\",\"name\":\"Musicales\",\"type\":\"category\"},{\"id\":\"Baile\",\"name\":\"Baile\",\"type\":\"category\"},{\"id\":\"ComediaRomantica\",\"name\":\"Comedia rom\\u00e1ntica\",\"type\":\"category\"},{\"id\":\"Adolescentes\",\"name\":\"Adolescentes\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Drama\",\"name\":\"Drama\",\"type\":\"genre\"},{\"id\":\"DosHoras\",\"name\":\"Dos horas\",\"type\":\"duration\"}],\"rating\":8.04,\"name\":\"Step Up Revolution\",\"images\":{\"backdrop\":\"\\/c8\\/fc\\/c8fc86b92811d14ab33308b227b30216.jpg\",\"poster\":\"\\/c8\\/fc\\/c8fc86b92811d14ab33308b227b30216.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/c8\\/fc\\/c8fc86b92811d14ab33308b227b30216.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/c8\\/fc\\/c8fc86b92811d14ab33308b227b30216.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/c8\\/fc\\/c8fc86b92811d14ab33308b227b30216.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/c8\\/fc\\/c8fc86b92811d14ab33308b227b30216.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/c8\\/fc\\/c8fc86b92811d14ab33308b227b30216.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/c8\\/fc\\/c8fc86b92811d14ab33308b227b30216.jpg\"}},\"year\":2012,\"runtime\":99,\"ageRating\":18,\"mainGenre\":\"Drama\",\"originalName\":\"Step Up Revolution\",\"shortPlot\":\"La historia se centra en una joven \\\"ni\\u00f1a de pap\\u00e1\\\", que se enamora del l\\u00edder...\",\"plot\":\"La historia se centra en una joven \\\"ni\\u00f1a de pap\\u00e1\\\", que se enamora del l\\u00edder de un grupo de baile que organiza flashmobs por amor al arte. Cuando el padre de \\u00e9sta quiere demoler el barrio donde viven los bailarines, la chica insta sus compa\\u00f1eros de baile a que utilicen los flashmobs para reivindicar. Nueva entrega de la saga Step Up.\",\"cast\":[{\"name\":\"Kathryn McCormick\",\"role\":\"Emily\",\"images\":null,\"id\":50669},{\"name\":\"Cleopatra Coleman\",\"role\":\"Penelope\",\"images\":{\"face\":\"\\/1d\\/b5\\/1db5c4b0f403720bd13b0cbff0035abb.jpg\"},\"id\":753},{\"name\":\"Ryan Guzman\",\"role\":\"Sean\",\"images\":{\"face\":\"\\/98\\/5a\\/985af3851650bde95a0ac2ce9eb2777c.jpg\"},\"id\":7552},{\"name\":\"Misha Gabriel Hamilton\",\"role\":\"Eddy\",\"images\":null,\"id\":154964},{\"name\":\"Michael 'Xeno' Langebeck\",\"role\":\"Mercury\",\"images\":null},{\"name\":\"Stephen Boss\",\"role\":\"Jason\",\"images\":null},{\"name\":\"Claudio Pinto\",\"role\":\"Francisco\",\"images\":null},{\"name\":\"Nicole Dabeau\",\"role\":\"Newscaster\",\"images\":null},{\"name\":\"Chris Charles Herbert\",\"role\":\"Lamborghini Driver\",\"images\":null},{\"name\":\"Katie Peterson\",\"role\":\"People by the Ocean\",\"images\":null}],\"composer\":{\"name\":\"Aaron Zigman\",\"images\":{\"face\":\"\\/59\\/c7\\/59c70e9a27d41354fc94b05ff190144b.jpg\"},\"id\":9744},\"genres\":[\"Drama\",\"Music\",\"Romance\"],\"distributor\":null,\"numInteractions\":165069,\"numRatings\":29847,\"ratingHistogram\":{\"1\":584,\"2\":855,\"3\":4495,\"4\":10351,\"5\":13562},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Offspring Entertainment\",\"images\":null},{\"name\":\"Summit Entertainment\",\"images\":null}],\"writers\":[{\"name\":\"Amanda Brody\",\"images\":null},{\"name\":\"Duane Adler\",\"images\":null,\"id\":155308}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Scott Speer\",\"images\":null}],\"releaseDates\":[{\"country\":\"ES\",\"date\":\"2012-09-07T19:00:00+00:00\"},{\"country\":\"GB\",\"date\":\"2012-08-10T19:00:00+00:00\"},{\"country\":\"XX\",\"date\":\"2012-09-07T19:00:00+00:00\"}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:55:09 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"f9ab39292ab592b2be3ef361d4847684\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws1"
+    }
+  },
+  "uuid" : "20b37a6a-b4d0-409d-902b-2587121875f1",
+  "persistent" : true,
+  "insertionIndex" : 1937
+}

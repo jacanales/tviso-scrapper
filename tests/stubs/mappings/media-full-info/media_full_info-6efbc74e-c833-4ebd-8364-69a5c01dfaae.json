@@ -1,0 +1,24 @@
+{
+  "id" : "6efbc74e-c833-4ebd-8364-69a5c01dfaae",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=418290&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":418290,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0829176\",\"tags\":[{\"id\":\"Western\",\"name\":\"Western\",\"type\":\"genre\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"HoraYMedia\",\"name\":\"Hora y media\",\"type\":\"duration\"}],\"rating\":5.36,\"name\":\"Cazador de demonios\",\"images\":{\"backdrop\":\"\\/5e\\/7e\\/5e7e9fb161c5caea33bd0d5b469333c2.jpg\",\"poster\":\"\\/5e\\/7e\\/5e7e9fb161c5caea33bd0d5b469333c2.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/5e\\/7e\\/5e7e9fb161c5caea33bd0d5b469333c2.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/5e\\/7e\\/5e7e9fb161c5caea33bd0d5b469333c2.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/5e\\/7e\\/5e7e9fb161c5caea33bd0d5b469333c2.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/5e\\/7e\\/5e7e9fb161c5caea33bd0d5b469333c2.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/5e\\/7e\\/5e7e9fb161c5caea33bd0d5b469333c2.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/5e\\/7e\\/5e7e9fb161c5caea33bd0d5b469333c2.jpg\"}},\"year\":2012,\"runtime\":90,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Gallowwalkers\",\"shortPlot\":\"Un misterioso pistolero, Aman, es el hijo de una monja que rompe su pacto c...\",\"plot\":\"Un misterioso pistolero, Aman, es el hijo de una monja que rompe su pacto con Dios para asegurar su supervivencia. Este acto provoca que una maldici\\u00f3n caiga sobre Aman - todos los que mueren por su arma vuelven a la vida. Pronto, es perseguido por una banda de no-muertos, dirigida por el vicioso Kansa.\",\"cast\":[{\"name\":\"Wesley Snipes\",\"role\":\"Aman\",\"images\":{\"face\":\"\\/bf\\/91\\/bf914a7bc4c523c921fc5b8b50627138.jpg\"},\"id\":11675},{\"name\":\"Kevin Howarth\",\"role\":\"Kansa\",\"images\":null,\"id\":189172},{\"name\":\"Riley Smith\",\"role\":\"Fabulos\",\"images\":{\"face\":\"\\/ae\\/d6\\/aed61315a9ee6cab8a24fc1ba7e3dcbd.jpg\"},\"id\":6733},{\"name\":\"Tanit Phoenix\",\"role\":\"Angel\",\"images\":null,\"id\":84672},{\"name\":\"Simona Roman\",\"role\":\"Kisscut\",\"images\":null},{\"name\":\"Steven Elder\",\"role\":\"Apollo Jones\",\"images\":null,\"id\":45475},{\"name\":\"Patrick Bergin\",\"role\":\"Marshall Gaza\",\"images\":null,\"id\":90486},{\"name\":\"Jay Grant\",\"role\":\"Slip Knot\",\"images\":null},{\"name\":\"Hector Hugo\",\"role\":\"Hool\",\"images\":null},{\"name\":\"David De Beer\",\"role\":\"Apprentice Boy\",\"images\":null}],\"genres\":[\"Action\",\"Fantasy\",\"Horror\",\"Thriller\",\"Western\"],\"distributor\":null,\"numInteractions\":1912,\"numRatings\":414,\"ratingHistogram\":{\"1\":64,\"2\":91,\"3\":132,\"4\":72,\"5\":55},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Boundless Pictures\",\"images\":null},{\"name\":\"Jack Bowyer Productions\",\"images\":null}],\"writers\":[{\"name\":\"Andrew Goth\",\"images\":null},{\"name\":\"Joanne Reay\",\"images\":null}],\"countries\":[\"US\",\"GB\"],\"directors\":[{\"name\":\"Andrew Goth\",\"images\":null}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:54:02 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"fb1c8acc5590a1999891ec3cc12b8da7\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws2"
+    }
+  },
+  "uuid" : "6efbc74e-c833-4ebd-8364-69a5c01dfaae",
+  "persistent" : true,
+  "insertionIndex" : 1355
+}

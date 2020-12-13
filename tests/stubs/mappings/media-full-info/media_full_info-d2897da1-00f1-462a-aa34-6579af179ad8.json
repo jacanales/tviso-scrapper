@@ -1,0 +1,24 @@
+{
+  "id" : "d2897da1-00f1-462a-aa34-6579af179ad8",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1728949&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1728949,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt3480822\",\"tags\":[{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"}],\"rating\":null,\"name\":\"Viuda Negra\",\"images\":{\"backdrop\":\"\\/a1\\/da\\/a1daf33bb1d37e86bbbde3c14bef51c2.jpg\",\"poster\":\"\\/a1\\/da\\/a1daf33bb1d37e86bbbde3c14bef51c2.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/a1\\/da\\/a1daf33bb1d37e86bbbde3c14bef51c2.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/a1\\/da\\/a1daf33bb1d37e86bbbde3c14bef51c2.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/a1\\/da\\/a1daf33bb1d37e86bbbde3c14bef51c2.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/a1\\/da\\/a1daf33bb1d37e86bbbde3c14bef51c2.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/a1\\/da\\/a1daf33bb1d37e86bbbde3c14bef51c2.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/a1\\/da\\/a1daf33bb1d37e86bbbde3c14bef51c2.jpg\"}},\"year\":2020,\"runtime\":null,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Black Widow\",\"shortPlot\":\"Al nacer, Natasha Romanoff se entrega a la KGB, que la prepara para convert...\",\"plot\":\"Al nacer, Natasha Romanoff se entrega a la KGB, que la prepara para convertirse en su principal agente. Cuando los Estados Unidos se separan, el gobierno trata de matarla mientras la acci\\u00f3n act\\u00faa.\",\"cast\":[{\"name\":\"Scarlett Johansson\",\"role\":\"Natasha Romanoff \\/  \\n            Black Widow\",\"images\":{\"face\":\"\\/f1\\/4d\\/f14d984a63bfe65480afaa4fb14ee50f.jpg\"},\"id\":2695},{\"name\":\"Florence Pugh\",\"role\":\"Yelena Belova\",\"images\":null},{\"name\":\"Robert Downey Jr.\",\"role\":\"Tony Stark\",\"images\":{\"face\":\"\\/c9\\/6d\\/c96dfe7a0c70c72b0b47dd46d7a44c0d.jpg\"},\"id\":322},{\"name\":\"Rachel Weisz\",\"role\":\"Melina Vostokoff\",\"images\":null,\"id\":39682},{\"name\":\"David Harbour\",\"role\":\"Alexei Shostakov \\/  \\n            Red Guardian\",\"images\":null,\"id\":80538},{\"name\":\"William Hurt\",\"role\":\"Thaddeus Ross\",\"images\":{\"face\":\"\\/0e\\/24\\/0e24796d685fc441b2a456a7392075ca.jpg\"},\"id\":7682},{\"name\":\"Ray Winstone\",\"role\":\"-\",\"images\":{\"face\":\"\\/06\\/7e\\/067e00de3d6d19570e4cc4f3c27bc32d.jpg\"},\"id\":2306},{\"name\":\"O-T Fagbenle\",\"role\":\"Mason\",\"images\":null},{\"name\":\"Michelle Lee\",\"role\":\"-\",\"images\":null},{\"name\":\"Olivier Richters\",\"role\":\"Muscular Gulag Inmate\",\"images\":null}],\"composer\":null,\"genres\":[\"Action\",\"Adventure\",\"Sci-fi\"],\"distributor\":null,\"numInteractions\":819,\"seasonsBlocked\":[],\"numRatings\":null,\"ratingHistogram\":null,\"producers\":[],\"writers\":[{\"name\":\"Ned Benson\",\"images\":null,\"id\":148081},{\"name\":\"Don Heck\",\"images\":null},{\"name\":\"Stan Lee\",\"images\":{\"face\":\"\\/32\\/7b\\/327b09a2ac4011367880c3f555c5b26a.jpg\"},\"id\":3521},{\"name\":\"Stan Lee\",\"images\":{\"face\":\"\\/32\\/7b\\/327b09a2ac4011367880c3f555c5b26a.jpg\"},\"id\":3521},{\"name\":\"Don Rico\",\"images\":null},{\"name\":\"Jac Schaeffer\",\"images\":null}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Cate Shortland\",\"images\":null,\"id\":171550}],\"releaseDates\":[{\"country\":\"XX\",\"date\":\"2020-11-06T20:00:00+00:00\"},{\"country\":\"US\",\"date\":\"2016-07-05T19:00:00+00:00\"}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:54:41 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"86be65318d2e1cf852b1b4feb61c96aa\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws1"
+    }
+  },
+  "uuid" : "d2897da1-00f1-462a-aa34-6579af179ad8",
+  "persistent" : true,
+  "insertionIndex" : 1725
+}

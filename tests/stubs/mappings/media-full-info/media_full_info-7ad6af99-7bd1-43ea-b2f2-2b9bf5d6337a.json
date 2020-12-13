@@ -1,0 +1,24 @@
+{
+  "id" : "7ad6af99-7bd1-43ea-b2f2-2b9bf5d6337a",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1967426&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1967426,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt6612630\",\"tags\":[{\"id\":\"Cortometrajes\",\"name\":\"Cortometrajes\",\"type\":\"category\"},{\"id\":\"Marvel\",\"name\":\"Marvel\",\"type\":\"category\"},{\"id\":\"Superheroes\",\"name\":\"Superpoderes\",\"type\":\"category\"},{\"id\":\"person-16993\",\"name\":\"Ryan Reynolds\",\"type\":\"person\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Short\",\"name\":\"Cortometraje\",\"type\":\"genre\"},{\"id\":\"10Minutos\",\"name\":\"10 minutos\",\"type\":\"duration\"}],\"rating\":7.76,\"name\":\"Deadpool: No Good Deed\",\"images\":{\"backdrop\":\"\\/61\\/7d\\/617de595cce15d429226f266faed0725.jpg\",\"poster\":\"\\/61\\/7d\\/617de595cce15d429226f266faed0725.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/61\\/7d\\/617de595cce15d429226f266faed0725.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/61\\/7d\\/617de595cce15d429226f266faed0725.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/61\\/7d\\/617de595cce15d429226f266faed0725.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/61\\/7d\\/617de595cce15d429226f266faed0725.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/61\\/7d\\/617de595cce15d429226f266faed0725.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/61\\/7d\\/617de595cce15d429226f266faed0725.jpg\"}},\"year\":2017,\"runtime\":4,\"ageRating\":18,\"mainGenre\":\"Short\",\"originalName\":\"Deadpool: No Good Deed\",\"shortPlot\":\"Deadpool tiene la oportunidad de salvar cierta situaci\\u00f3n... pero las cosas...\",\"plot\":\"Deadpool tiene la oportunidad de salvar cierta situaci\\u00f3n... pero las cosas no salen como \\u00e9l hab\\u00eda planeado en principio. Cortometraje promocional lanzado en 2017,\\nun a\\u00f1o antes el estreno de la pel\\u00edcula \\\"Deadpool 2\\\", y que acompa\\u00f1\\u00f3 al estreno de \\\"Logan\\\" en cines.\",\"cast\":[{\"name\":\"Ryan Reynolds\",\"role\":\"Wade Wilson\",\"images\":{\"face\":\"\\/47\\/47\\/4747ccc54d7cafc4030bee6a007d728e.jpg\"},\"id\":16993}],\"composer\":null,\"genres\":[\"Short\",\"Comedy\",\"Sci-fi\"],\"distributor\":null,\"numInteractions\":1972,\"numRatings\":422,\"ratingHistogram\":{\"1\":9,\"2\":9,\"3\":57,\"4\":215,\"5\":132},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Marvel Entertainment\",\"images\":null,\"id\":185419},{\"name\":\"Twentieth Century Fox Film Corporation\",\"images\":null,\"id\":78503}],\"writers\":[{\"name\":\"Rhett Reese\",\"images\":null,\"id\":66299}],\"countries\":null,\"directors\":[{\"name\":\"David Leitch\",\"images\":{\"face\":\"\\/2c\\/6f\\/2c6fc87097b4e89da814e10ae0eb8fce.jpg\"},\"id\":645}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:54:55 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"723e899c35c5a6f00fa5dbd6135d3e9e\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws2"
+    }
+  },
+  "uuid" : "7ad6af99-7bd1-43ea-b2f2-2b9bf5d6337a",
+  "persistent" : true,
+  "insertionIndex" : 1830
+}
