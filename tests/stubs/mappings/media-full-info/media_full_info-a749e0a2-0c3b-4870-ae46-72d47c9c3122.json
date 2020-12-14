@@ -1,0 +1,24 @@
+{
+  "id" : "a749e0a2-0c3b-4870-ae46-72d47c9c3122",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1782824&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1782824,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt5433138\",\"tags\":[{\"id\":\"person-3187\",\"name\":\"Vin Diesel\",\"type\":\"person\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"}],\"rating\":7,\"name\":\"Fast & Furious 9\",\"images\":{\"backdrop\":\"\\/a2\\/29\\/a229cf18ae5c9143e4ec6a6867c2c876.jpg\",\"poster\":\"\\/a2\\/29\\/a229cf18ae5c9143e4ec6a6867c2c876.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/a2\\/29\\/a229cf18ae5c9143e4ec6a6867c2c876.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/a2\\/29\\/a229cf18ae5c9143e4ec6a6867c2c876.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/a2\\/29\\/a229cf18ae5c9143e4ec6a6867c2c876.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/a2\\/29\\/a229cf18ae5c9143e4ec6a6867c2c876.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/a2\\/29\\/a229cf18ae5c9143e4ec6a6867c2c876.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/a2\\/29\\/a229cf18ae5c9143e4ec6a6867c2c876.jpg\"}},\"year\":2020,\"runtime\":null,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Fast & Furious 9\",\"shortPlot\":\"Novena secuela de Fast &amp; Furious\",\"plot\":\"Novena secuela de Fast &amp; Furious\",\"cast\":[{\"name\":\"Vin Diesel\",\"role\":\"Dominic Toretto\",\"images\":{\"face\":\"\\/0a\\/4a\\/0a4a7a9a0e63e8acd67f979e301a8158.jpg\"},\"id\":3187},{\"name\":\"John Cena\",\"role\":\"-\",\"images\":{\"face\":\"\\/a7\\/c0\\/a7c0068ff8046728a51a3fa7a22b9eea.jpg\"},\"id\":6643},{\"name\":\"Michelle Rodriguez\",\"role\":\"Letty Ortiz\",\"images\":{\"face\":\"\\/1f\\/50\\/1f50159c2263d7b08b0bded761bcabef.jpg\"},\"id\":3955},{\"name\":\"Lucas Black\",\"role\":\"Sean Boswell\",\"images\":{\"face\":\"\\/48\\/96\\/489614114ba4049316b87b584ff3381f.jpg\"},\"id\":1072},{\"name\":\"Jordana Brewster\",\"role\":\"Mia Toretto\",\"images\":{\"face\":\"\\/fb\\/cc\\/fbccfdda39a23c259e58cb63834127c1.jpg\"},\"id\":8020},{\"name\":\"Tyrese Gibson\",\"role\":\"Roman Pearce\",\"images\":{\"face\":\"\\/99\\/1f\\/991f5c609e48fd540d39ede786034898.jpg\"},\"id\":8017},{\"name\":\"Lex Elle\",\"role\":\"Sergeant Reyes\",\"images\":null},{\"name\":\"Krzysztof 'Kris' Mardula\",\"role\":\"Thug\",\"images\":null}],\"composer\":null,\"genres\":[\"Action\",\"Adventure\",\"Crime\",\"Thriller\"],\"distributor\":null,\"numInteractions\":766,\"numRatings\":32,\"ratingHistogram\":{\"1\":0,\"2\":1,\"3\":9,\"4\":19,\"5\":3},\"seasonsBlocked\":[],\"producers\":[],\"writers\":[{\"name\":\"Daniel Casey\",\"images\":null},{\"name\":\"Chris Morgan\",\"images\":null,\"id\":98162},{\"name\":\"Gary Scott Thompson\",\"images\":null,\"id\":61247}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Justin Lin\",\"images\":null,\"id\":129331}],\"releaseDates\":[{\"country\":\"DE\",\"date\":\"2019-04-18T19:00:00+00:00\"},{\"country\":\"US\",\"date\":\"2019-04-19T19:00:00+00:00\"},{\"country\":\"XX\",\"date\":\"2021-04-02T19:00:00+00:00\"}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:54:08 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"4b304f76b09f557b824082b12bf27101\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws2"
+    }
+  },
+  "uuid" : "a749e0a2-0c3b-4870-ae46-72d47c9c3122",
+  "persistent" : true,
+  "insertionIndex" : 1415
+}

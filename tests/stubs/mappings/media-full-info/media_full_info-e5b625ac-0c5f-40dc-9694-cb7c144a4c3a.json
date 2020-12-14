@@ -1,0 +1,24 @@
+{
+  "id" : "e5b625ac-0c5f-40dc-9694-cb7c144a4c3a",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=14&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":14,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0078721\",\"tags\":[{\"id\":\"Romance\",\"name\":\"Romance\",\"type\":\"genre\"},{\"id\":\"CrisisDeLos40\",\"name\":\"Crisis de los 40\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Comedy\",\"name\":\"Comedia\",\"type\":\"genre\"},{\"id\":\"MasDeDosHoras\",\"name\":\"M\\u00e1s de dos horas\",\"type\":\"duration\"}],\"rating\":6.06,\"name\":\"10, la mujer perfecta\",\"images\":{\"backdrop\":\"\\/ed\\/47\\/ed47dccea75875e9d8c1150a84d3a59a.jpg\",\"poster\":\"\\/ed\\/47\\/ed47dccea75875e9d8c1150a84d3a59a.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/ed\\/47\\/ed47dccea75875e9d8c1150a84d3a59a.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/ed\\/47\\/ed47dccea75875e9d8c1150a84d3a59a.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/ed\\/47\\/ed47dccea75875e9d8c1150a84d3a59a.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/ed\\/47\\/ed47dccea75875e9d8c1150a84d3a59a.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/ed\\/47\\/ed47dccea75875e9d8c1150a84d3a59a.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/ed\\/47\\/ed47dccea75875e9d8c1150a84d3a59a.jpg\"}},\"year\":1979,\"runtime\":122,\"ageRating\":18,\"mainGenre\":\"Comedy\",\"originalName\":\"10\",\"shortPlot\":\"George Webber, famoso compositor de canciones rom\\u00e1nticas, est\\u00e1 empezando a...\",\"plot\":\"George Webber, famoso compositor de canciones rom\\u00e1nticas, est\\u00e1 empezando a cansarse de la relaci\\u00f3n con su novia. Pero una circunstancia inesperada le ayudar\\u00e1 a resolver el problema de modo fulminante: se cruza en la calle con una joven vestida de novia que lo deja absolutamente fascinado; tanto es as\\u00ed que, aun sabiendo que est\\u00e1 casada, no parar\\u00e1 hasta averiguar d\\u00f3nde pasar\\u00e1 la luna de miel.\",\"cast\":[{\"name\":\"Dudley Moore\",\"role\":\"George Webber\",\"images\":null,\"id\":45601},{\"name\":\"Julie Andrews\",\"role\":\"Samantha Taylor\",\"images\":{\"face\":\"\\/89\\/7b\\/897b2e188d77a823f2e410debf5ab7b0.jpg\"},\"id\":25667},{\"name\":\"Bo Derek\",\"role\":\"Jenny Hanley\",\"images\":null,\"id\":45603},{\"name\":\"Robert Webber\",\"role\":\"Hugh\",\"images\":{\"face\":\"\\/f9\\/49\\/f949c2c3c8ea695b10908e708b18ccf2.jpg\"},\"id\":33230},{\"name\":\"Dee Wallace\",\"role\":\"Mary Lewis\",\"images\":{\"face\":\"\\/f9\\/1c\\/f91c3d40ea0105192005144e6366eb1e.jpg\"},\"id\":7285},{\"name\":\"Sam J. Jones\",\"role\":\"David Hanley\",\"images\":null,\"id\":45605},{\"name\":\"Brian Dennehy\",\"role\":\"Donald\",\"images\":null,\"id\":38502},{\"name\":\"Max Showalter\",\"role\":\"Reverend\",\"images\":null,\"id\":45607},{\"name\":\"Rad Daly\",\"role\":\"Josh Taylor\",\"images\":null,\"id\":137818},{\"name\":\"Nedra Volz\",\"role\":\"Mrs. Kissell\",\"images\":null,\"id\":92735}],\"genres\":[\"Comedy\",\"Romance\"],\"distributor\":null,\"numInteractions\":2255,\"numRatings\":254,\"ratingHistogram\":{\"1\":39,\"2\":25,\"3\":91,\"4\":35,\"5\":64},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Geoffrey Productions\",\"images\":null},{\"name\":\"Orion Pictures\",\"images\":null,\"id\":111331}],\"writers\":[{\"name\":\"Blake Edwards\",\"images\":null,\"id\":59941}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Blake Edwards\",\"images\":null,\"id\":59941}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:55:33 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"03581aac688ab15fcd944abf70330c68\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws2"
+    }
+  },
+  "uuid" : "e5b625ac-0c5f-40dc-9694-cb7c144a4c3a",
+  "persistent" : true,
+  "insertionIndex" : 2123
+}

@@ -1,0 +1,24 @@
+{
+  "id" : "c850aba6-a2c3-4d03-9bcc-dabbc4a7cf84",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1609009&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1609009,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":null,\"tags\":[{\"id\":\"Monstruos\",\"name\":\"Monstruos\",\"type\":\"category\"},{\"id\":\"FuturoPostapocaliptico\",\"name\":\"Futuro postapocal\\u00edptico\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Action\",\"name\":\"Acci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"wuaki\",\"name\":\"Rakuten\",\"type\":\"provider\"},{\"id\":\"HoraYMedia\",\"name\":\"Hora y media\",\"type\":\"duration\"}],\"rating\":5.12,\"name\":\"Ataque a los Titanes 2: El fin del mundo\",\"images\":{\"backdrop\":\"\\/cd\\/be\\/cdbe1f837d8766b0340197d1abfd7418.jpg\",\"poster\":\"\\/cd\\/be\\/cdbe1f837d8766b0340197d1abfd7418.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/cd\\/be\\/cdbe1f837d8766b0340197d1abfd7418.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/cd\\/be\\/cdbe1f837d8766b0340197d1abfd7418.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/cd\\/be\\/cdbe1f837d8766b0340197d1abfd7418.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/cd\\/be\\/cdbe1f837d8766b0340197d1abfd7418.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/cd\\/be\\/cdbe1f837d8766b0340197d1abfd7418.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/cd\\/be\\/cdbe1f837d8766b0340197d1abfd7418.jpg\"}},\"year\":2015,\"runtime\":88,\"ageRating\":18,\"mainGenre\":\"Action\",\"originalName\":\"Shingeki no kyojin: Kouhen (Attack on Titan 2: End of the World)\",\"shortPlot\":\"Ataque a los Titanes 2, el fin del mundo es la Secuela de Attack on Titan:...\",\"plot\":\"Ataque a los Titanes 2, el fin del mundo es la Secuela de Attack on Titan: The Movie\",\"cast\":[{\"name\":\"Animation\",\"role\":\"Animation\",\"images\":null}],\"distributor\":null,\"numInteractions\":613,\"numRatings\":157,\"ratingHistogram\":{\"1\":19,\"2\":35,\"3\":75,\"4\":19,\"5\":8},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Toho Company\",\"images\":null},{\"name\":\"Licri \\/ Nikkatsu\",\"images\":null}],\"writers\":[{\"name\":\"Y\\u00fbsuke Watanabe\",\"images\":null},{\"name\":\"Tomohiro Machiyama\",\"images\":null}],\"countries\":[\"JP\"],\"directors\":[{\"name\":\"Shinji Higuchi\",\"images\":null}],\"composer\":null,\"genres\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":[\"wuaki\"],\"scheduleSummary\":null,\"vod\":[{\"providerId\":\"wuaki\",\"languages\":[\"es\"],\"quality\":[\"sd\"],\"url\":{\"embed\":null,\"native\":null,\"web\":\"https:\\/\\/es.rakuten.tv\\/pages\\/linux_users?redirect_url=%2Fmovies%2Fataque-a-los-titanes-2-el-fin-del-mundo%3Fwktv_code%3D2479%26tduid%3D3a659f62e1f0aafea864d76c20ca35ce\"},\"pricing\":{\"free\":false,\"freeForRegistered\":false,\"subscription\":true,\"payPerView\":true,\"prices\":null,\"currency\":null}}],\"schedule\":[],\"vodBestOffer\":{\"providerId\":\"wuaki\",\"url\":{\"embed\":null,\"native\":null,\"web\":\"https:\\/\\/es.rakuten.tv\\/pages\\/linux_users?redirect_url=%2Fmovies%2Fataque-a-los-titanes-2-el-fin-del-mundo%3Fwktv_code%3D2479%26tduid%3D3a659f62e1f0aafea864d76c20ca35ce\"},\"subscriptionRequiredForUser\":true,\"registerRequiredForUser\":false,\"ppvRequiredForUser\":true,\"currency\":\"EUR\"},\"vodUserOffers\":[{\"providerId\":\"wuaki\",\"url\":{\"embed\":null,\"native\":null,\"web\":\"https:\\/\\/es.rakuten.tv\\/pages\\/linux_users?redirect_url=%2Fmovies%2Fataque-a-los-titanes-2-el-fin-del-mundo%3Fwktv_code%3D2479%26tduid%3D3a659f62e1f0aafea864d76c20ca35ce\"},\"subscriptionRequiredForUser\":true,\"registerRequiredForUser\":false,\"ppvRequiredForUser\":true,\"currency\":\"EUR\"}]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:53:51 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"d95ccf0dc4a098cc73d7bdd44872af31\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws2"
+    }
+  },
+  "uuid" : "c850aba6-a2c3-4d03-9bcc-dabbc4a7cf84",
+  "persistent" : true,
+  "insertionIndex" : 1268
+}

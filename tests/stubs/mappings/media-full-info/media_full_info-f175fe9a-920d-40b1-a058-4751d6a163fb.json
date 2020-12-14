@@ -1,0 +1,24 @@
+{
+  "id" : "f175fe9a-920d-40b1-a058-4751d6a163fb",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=2025817&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":2025817,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt7326248\",\"tags\":[{\"id\":\"Cortometrajes\",\"name\":\"Cortometrajes\",\"type\":\"category\"},{\"id\":\"Distopia\",\"name\":\"Distopia\",\"type\":\"category\"},{\"id\":\"Robots\",\"name\":\"Robots\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Short\",\"name\":\"Cortometraje\",\"type\":\"genre\"},{\"id\":\"10Minutos\",\"name\":\"10 minutos\",\"type\":\"duration\"}],\"rating\":6.83,\"name\":\"2036: Nexus Dawn\",\"images\":{\"backdrop\":\"\\/53\\/d0\\/53d0bdaed7c5cf12967955ee1c532727.jpg\",\"poster\":\"\\/53\\/d0\\/53d0bdaed7c5cf12967955ee1c532727.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/53\\/d0\\/53d0bdaed7c5cf12967955ee1c532727.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/53\\/d0\\/53d0bdaed7c5cf12967955ee1c532727.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/53\\/d0\\/53d0bdaed7c5cf12967955ee1c532727.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/53\\/d0\\/53d0bdaed7c5cf12967955ee1c532727.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/53\\/d0\\/53d0bdaed7c5cf12967955ee1c532727.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/53\\/d0\\/53d0bdaed7c5cf12967955ee1c532727.jpg\"}},\"year\":2017,\"runtime\":6,\"ageRating\":18,\"mainGenre\":\"Short\",\"originalName\":\"2036: Nexus Dawn\",\"shortPlot\":\"Este cortometraje tiene lugar en el a\\u00f1o 2036 y gira en torno al personaje d...\",\"plot\":\"Este cortometraje tiene lugar en el a\\u00f1o 2036 y gira en torno al personaje de Jared Leto, Niander Wallace. En este corto, dirigido por Luke Scott, Wallace introduce una nueva l\\u00ednea de replicantes \\\"perfeccionados\\\" llamados Nexus 9, que buscan eliminar la prohibici\\u00f3n de replicantes. Esto sin duda tiene serias ramificaciones que ser\\u00e1n cruciales para la trama de Blade Runner 2049.\",\"cast\":[{\"name\":\"Ned Dennehy\",\"role\":\"Magistrate #2\",\"images\":null,\"id\":65282},{\"name\":\"Jared Leto\",\"role\":\"Niander Wallace\",\"images\":{\"face\":\"\\/5e\\/57\\/5e57197fb4187def161e93fba5ffe36c.jpg\"},\"id\":3480},{\"name\":\"Ania Marson\",\"role\":\"Magistrate #4\",\"images\":null,\"id\":223327},{\"name\":\"Ade Sapara\",\"role\":\"Magistrate #3\",\"images\":null},{\"name\":\"Set Sj\\u00f6strand\",\"role\":\"Replicant\",\"images\":null},{\"name\":\"Benedict Wong\",\"role\":\"Lawmaker\",\"images\":{\"face\":\"\\/df\\/7c\\/df7c40f3657c71714b8fa06b097026fa.jpg\"},\"id\":14048}],\"composer\":{\"name\":\"Blitz\\/\\/Berlin\",\"images\":null},\"genres\":[\"Short\",\"Sci-fi\"],\"distributor\":null,\"numInteractions\":82,\"numRatings\":24,\"ratingHistogram\":{\"1\":0,\"2\":0,\"3\":9,\"4\":14,\"5\":1},\"seasonsBlocked\":[],\"producers\":[],\"writers\":[{\"name\":\"Hampton Fancher\",\"images\":null,\"id\":38164},{\"name\":\"Michael Green\",\"images\":null,\"id\":17219}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Luke Scott\",\"images\":null,\"id\":113655}],\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:53:53 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"1a0a76a176c4eaf74f55ce76b2ec850f\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws2"
+    }
+  },
+  "uuid" : "f175fe9a-920d-40b1-a058-4751d6a163fb",
+  "persistent" : true,
+  "insertionIndex" : 1287
+}

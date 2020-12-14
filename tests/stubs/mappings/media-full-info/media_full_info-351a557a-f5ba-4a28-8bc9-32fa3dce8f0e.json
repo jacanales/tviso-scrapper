@@ -1,0 +1,24 @@
+{
+  "id" : "351a557a-f5ba-4a28-8bc9-32fa3dce8f0e",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1179518&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1179518,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0217705\",\"tags\":[{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Mystery\",\"name\":\"Misterio\",\"type\":\"genre\"},{\"id\":\"HoraYMedia\",\"name\":\"Hora y media\",\"type\":\"duration\"}],\"rating\":7.5,\"name\":\"La ola\",\"artwork\":{\"backdrops\":{\"original\":null,\"large\":null,\"small\":null},\"posters\":{\"original\":null,\"large\":null,\"small\":null}},\"year\":1995,\"runtime\":70,\"ageRating\":18,\"images\":{\"poster\":\"EXTERNAL#pelis\\/EESW757ZZ7EZVT9\",\"backdrop\":null,\"country\":null},\"mainGenre\":\"Mystery\",\"originalName\":\"La ola\",\"shortPlot\":\"n\\/A\",\"plot\":\"n\\/A\",\"cast\":[{\"name\":\"Kendra Casals\",\"role\":\"-\",\"images\":null}],\"distributor\":null,\"numInteractions\":49,\"numRatings\":10,\"ratingHistogram\":{\"1\":0,\"2\":0,\"3\":1,\"4\":7,\"5\":2},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Instituto Cubano del Arte e Industrias Cinematogr\\u00e1ficos (ICAIC)\",\"images\":null}],\"writers\":[],\"countries\":[\"CU\"],\"directors\":[{\"name\":\"Enrique \\u00c1lvarez\",\"images\":null}],\"composer\":null,\"genres\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:55:03 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"4c5b0856799ba38dffda03a518d6b7d8\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws2"
+    }
+  },
+  "uuid" : "351a557a-f5ba-4a28-8bc9-32fa3dce8f0e",
+  "persistent" : true,
+  "insertionIndex" : 1898
+}

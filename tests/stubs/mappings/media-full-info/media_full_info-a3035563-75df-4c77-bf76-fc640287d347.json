@@ -1,0 +1,24 @@
+{
+  "id" : "a3035563-75df-4c77-bf76-fc640287d347",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=15130&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":15130,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt1139111\",\"tags\":[{\"id\":\"Dinosaurios\",\"name\":\"Dinosaurios\",\"type\":\"category\"},{\"id\":\"DibujosAnimados\",\"name\":\"Dibujos animados\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Animation\",\"name\":\"Animaci\\u00f3n\",\"type\":\"genre\"},{\"id\":\"HoraYMedia\",\"name\":\"Hora y media\",\"type\":\"duration\"}],\"rating\":6.91,\"name\":\"En busca del Valle Encantado XIII: La sabidur\\u00eda de los amigos\",\"images\":{\"backdrop\":\"\\/b6\\/56\\/b656cbef77544f63c1a7f983a98cf57b.jpg\",\"poster\":\"\\/b6\\/56\\/b656cbef77544f63c1a7f983a98cf57b.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/b6\\/56\\/b656cbef77544f63c1a7f983a98cf57b.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/b6\\/56\\/b656cbef77544f63c1a7f983a98cf57b.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/b6\\/56\\/b656cbef77544f63c1a7f983a98cf57b.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/b6\\/56\\/b656cbef77544f63c1a7f983a98cf57b.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/b6\\/56\\/b656cbef77544f63c1a7f983a98cf57b.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/b6\\/56\\/b656cbef77544f63c1a7f983a98cf57b.jpg\"}},\"year\":2007,\"runtime\":76,\"ageRating\":18,\"mainGenre\":\"Animation\",\"originalName\":\"The Land Before Time XIII: The Wisdom of Friends\",\"shortPlot\":\"Una nueva aventura de Piecito, Cera, Spike, Petrie y Patito, que est\\u00e1n \\nemo...\",\"plot\":\"Una nueva aventura de Piecito, Cera, Spike, Petrie y Patito, que est\\u00e1n \\nemocionados tras conocer a dos adorables Beipiaosaurios clari panzas, \\nLoofah y Doofah...\",\"cast\":[{\"name\":\"Cody Arens\",\"role\":\"Littlefoot \",\"images\":null},{\"name\":\"Logan Arens\",\"role\":\"Littlefoot \",\"images\":null},{\"name\":\"Anndi McAfee\",\"role\":\"Cera \",\"images\":null,\"id\":89019},{\"name\":\"Aria Noelle Curzon\",\"role\":\"Ducky \",\"photo\":\"http:\\/\\/ia.media-imdb.com\\/images\\/M\\/MV5BNDMxNDIwNzI0MF5BMl5BanBnXkFtZTcwNDU4MDY1Ng@@._V1.jpg\",\"images\":null,\"id\":89025},{\"name\":\"Jeff Bennett\",\"role\":\"Petrie \",\"images\":{\"face\":\"\\/77\\/3f\\/773fa387c5262bd0ad0b160baab5c2d8.jpg\"},\"id\":17032},{\"name\":\"Rob Paulsen\",\"role\":\"Spike \\/ Yellow Belly \",\"images\":null,\"id\":36018},{\"name\":\"Cuba Gooding Jr.\",\"role\":\"Loofah \",\"photo\":\"http:\\/\\/ia.media-imdb.com\\/images\\/M\\/MV5BMTIzMzk4NjQ2Ml5BMl5BanBnXkFtZTYwNzc3ODI4._V1.jpg\",\"images\":{\"face\":\"\\/50\\/7e\\/507e77f91f2eb5398ca32826ea1ec195.jpg\"},\"id\":12258},{\"name\":\"Sandra Oh\",\"role\":\"Doofah \",\"photo\":\"http:\\/\\/ia.media-imdb.com\\/images\\/M\\/MV5BMTMyNzYyNDE4MV5BMl5BanBnXkFtZTcwOTkxMDQ2NA@@._V1.jpg\",\"images\":{\"face\":\"\\/3c\\/68\\/3c68dca3776c67b78d1a986529c65410.jpg\"},\"id\":916},{\"name\":\"Miriam Flynn\",\"role\":\"Grandma Longneck \",\"photo\":\"http:\\/\\/ia.media-imdb.com\\/images\\/M\\/MV5BMTM0MDU5NDgxM15BMl5BanBnXkFtZTcwOTEyMzI3MQ@@._V1.jpg\",\"images\":null,\"id\":84886},{\"name\":\"Jessica Gee\",\"role\":\"Tria \",\"images\":null}],\"genres\":[\"Animation\",\"Adventure\",\"Family\"],\"distributor\":null,\"numInteractions\":2858,\"numRatings\":543,\"ratingHistogram\":{\"1\":33,\"2\":27,\"3\":179,\"4\":161,\"5\":143},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Daniel J. Wiley\",\"role\":\"producer  \",\"images\":null}],\"writers\":[{\"name\":\"John Loy\",\"role\":\" screenplay\",\"images\":null,\"id\":196225}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Jamie Mitchell\",\"role\":null,\"images\":null},{\"name\":\"Charles Grosvenor\",\"role\":\"(supervising)\",\"images\":null,\"id\":196221}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:55:43 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"058175a2cb04bd497d7cb89627b6c11c\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws1"
+    }
+  },
+  "uuid" : "a3035563-75df-4c77-bf76-fc640287d347",
+  "persistent" : true,
+  "insertionIndex" : 2175
+}

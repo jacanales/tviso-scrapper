@@ -1,0 +1,24 @@
+{
+  "id" : "db99ba22-9c83-4803-8339-8134d7a85642",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=1600074&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":1600074,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt3646946\",\"tags\":[{\"id\":\"Anime\",\"name\":\"Anime\",\"type\":\"category\"},{\"id\":\"Monstruos\",\"name\":\"Monstruos\",\"type\":\"category\"},{\"id\":\"FuturoPostapocaliptico\",\"name\":\"Futuro postapocal\\u00edptico\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Animation\",\"name\":\"Animaci\\u00f3n\",\"type\":\"genre\"}],\"rating\":8.21,\"name\":\"Ataque a Los Titanes Las Alas de la Libertad\",\"images\":{\"backdrop\":\"\\/87\\/2b\\/872b2ef99c8204e08ac718ec1d71235c.jpg\",\"poster\":\"\\/87\\/2b\\/872b2ef99c8204e08ac718ec1d71235c.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/87\\/2b\\/872b2ef99c8204e08ac718ec1d71235c.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/87\\/2b\\/872b2ef99c8204e08ac718ec1d71235c.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/87\\/2b\\/872b2ef99c8204e08ac718ec1d71235c.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/87\\/2b\\/872b2ef99c8204e08ac718ec1d71235c.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/87\\/2b\\/872b2ef99c8204e08ac718ec1d71235c.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/87\\/2b\\/872b2ef99c8204e08ac718ec1d71235c.jpg\"}},\"year\":2015,\"runtime\":null,\"ageRating\":18,\"mainGenre\":\"Animation\",\"originalName\":\"Attack on Titan: The Wings of Freedom\",\"shortPlot\":\"Segunda OVA resumen de la primera temporada del anime \\\"Attack on Titan\\\". Re...\",\"plot\":\"Segunda OVA resumen de la primera temporada del anime \\\"Attack on Titan\\\". Recopilaci\\u00f3n de los episodios comprendidos entre el 14-25\",\"cast\":[{\"name\":\"Yuki Kaji\",\"role\":\"Eren Jaeger\",\"images\":{\"face\":\"\\/ea\\/e3\\/eae3ea65fc2ca94a2603397534cfaa53.jpg\"},\"id\":4784},{\"name\":\"Yui Ishikawa\",\"role\":\"Mikasa Ackermann\",\"images\":null},{\"name\":\"Marina Inoue\",\"role\":\"Armin Arlert\",\"images\":null,\"id\":66038}],\"genres\":[\"Animation\",\"Action\",\"Fantasy\"],\"distributor\":null,\"numInteractions\":430,\"numRatings\":99,\"ratingHistogram\":{\"1\":0,\"2\":0,\"3\":9,\"4\":54,\"5\":36},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Wit Studio\",\"images\":null},{\"name\":\"Production I.G.\",\"images\":null},{\"name\":\"K\\u00f4dansha\",\"images\":null}],\"writers\":[],\"countries\":[\"JP\"],\"directors\":[{\"name\":\"Tetsuro Araki\",\"images\":null}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:53:51 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"e4a2d1c7312cbb091dc94a65ecb1cc6f\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws2"
+    }
+  },
+  "uuid" : "db99ba22-9c83-4803-8339-8134d7a85642",
+  "persistent" : true,
+  "insertionIndex" : 1267
+}

@@ -75,7 +75,7 @@ func (t TvisoAPI) GetUserCollection() ([]tviso.Media, error) {
 }
 
 func (t TvisoAPI) GetMediaInfo(m *tviso.Media) error {
-	url := fmt.Sprintf("%v%v&idm=%v&mediaType=%v", t.Config.APIAddr, FullInfoEndpoint, m.ID, m.MediaType)
+	url := fmt.Sprintf("%v%v&idm=%v&mediaType=%v", t.Config.APIAddr, FullInfoEndpoint, m.ID, m.MediaType.Val())
 
 	content, err := t.readURL(url, t.Config.Cookie)
 	if err != nil {

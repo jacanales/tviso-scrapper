@@ -26,6 +26,10 @@ func (s MediaType) String() string {
 	return [...]string{"unknown", "series", "movie", "unknown", "tv-show", "episode"}[s]
 }
 
+func (s MediaType) Val() int32 {
+	return int32(s)
+}
+
 func (s MediaStatus) String() string {
 	return [...]string{"watched", "pending", "following"}[s]
 }

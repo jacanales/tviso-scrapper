@@ -1,0 +1,24 @@
+{
+  "id" : "6ce9227b-301d-4e8b-bae7-968d5c88f756",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=19982&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":19982,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":null,\"tags\":[{\"id\":\"Ajedrez\",\"name\":\"Ajedrez\",\"type\":\"category\"},{\"id\":\"Ciberpunk\",\"name\":\"Ciberpunk\",\"type\":\"category\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Mystery\",\"name\":\"Misterio\",\"type\":\"genre\"}],\"rating\":7.89,\"name\":\"Tres14: Inteligencia artificial\",\"artwork\":{\"backdrops\":{\"original\":null,\"large\":null,\"small\":null},\"posters\":{\"original\":null,\"large\":null,\"small\":null}},\"year\":0,\"runtime\":null,\"ageRating\":18,\"images\":{\"poster\":\"EXTERNAL#pelis\\/Y2PNZY5CX9\",\"backdrop\":null,\"country\":null},\"mainGenre\":\"Mystery\",\"originalName\":\"Tres14: Inteligencia artificial\",\"shortPlot\":\"Nombre Original: Tres14: Inteligencia artificialDirector: Ana Montserrat Ro...\",\"plot\":\"Nombre Original: Tres14: Inteligencia artificialDirector: Ana Montserrat RosellActores: Lucia Layunta, Pau LopezTres14 analiza la inteligencia artificial, m\\u00e1quinas que ganan a grandes maestros del ajedrez o que superan concursos de preguntas y respuestas. Desde que el superordenador de IBM Deep Blue gan\\u00f3 a Kasparov los mejores jugadores de ajedrez del mundo no son de carne y hueso, son programas de ordenador que cuestan menos de 50 euros y que ganan a los grandes maestros. El ajedrez dej\\u00f3 de ser el paradigma de la inteligencia cuando las m\\u00e1quinas nos superaron. En 2011, Watson, el nuevo superordenador de IBM, gan\\u00f3 el concurso televisivo de preguntas y respuestas \\\"Jeopardy\\\". Ya no se trataba de un juego de pura l\\u00f3gica y c\\u00e1lculo matem\\u00e1tico como el ajedrez. Hab\\u00eda que entender las preguntas, sortear la iron\\u00eda y descifrar los dobles sentidos. Sin duda se trata de un juego que requiere inteligencia. Y la inteligencia artificial de Watson le bast\\u00f3 para derrotar a sus contrincantes.\\r\\n\\r\\n   La investigaci\\u00f3n para crear m\\u00e1quinas inteligentes contin\\u00faa. En eso trabajan los ingenieros Miguel \\u00c1ngel Salichs y Ram\\u00f3n L\\u00f3pez de M\\u00e1ntaras. Alberto Sanfeliu piensa que los robots deben aprender a resolver problemas e Iroshi Ishiguro cree que el trabajo art\\u00edstico es fundamental para crear un androide. En el Descubrimiento conoceremos c\\u00f3mo se cre\\u00f3 el lenguaje de las m\\u00e1quinas. En los a\\u00f1os 50, John McCarthy acu\\u00f1\\u00f3 el t\\u00e9rmino inteligencia artificial y cre\\u00f3 el lenguaje de programaci\\u00f3n LISP, fundamental para construir m\\u00e1quinas que piensen y la base de muchas aplicaciones inform\\u00e1ticas actuales.\",\"cast\":null,\"distributor\":null,\"numInteractions\":382,\"numRatings\":38,\"ratingHistogram\":{\"1\":1,\"2\":0,\"3\":5,\"4\":18,\"5\":14},\"seasonsBlocked\":[],\"producers\":[],\"writers\":[],\"countries\":null,\"directors\":[],\"composer\":null,\"genres\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":1,\"statusMedia\":\"watched\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:55:37 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"c7f08438a48debb6395f33d5414c5ca4\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws1"
+    }
+  },
+  "uuid" : "6ce9227b-301d-4e8b-bae7-968d5c88f756",
+  "persistent" : true,
+  "insertionIndex" : 2149
+}

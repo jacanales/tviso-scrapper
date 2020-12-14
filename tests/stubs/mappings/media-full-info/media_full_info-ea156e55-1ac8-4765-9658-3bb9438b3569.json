@@ -1,0 +1,24 @@
+{
+  "id" : "ea156e55-1ac8-4765-9658-3bb9438b3569",
+  "name" : "media_full_info",
+  "request" : {
+    "url" : "/media/full_info?liveAvailability=true&idm=2830&mediaType=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"idm\":2830,\"mediaType\":2,\"mediaStyle\":null,\"imdb\":\"tt0421206\",\"tags\":[{\"id\":\"BasadoEnHechosReales\",\"name\":\"Basado en hechos reales\",\"type\":\"category\"},{\"id\":\"FutbolAmericano\",\"name\":\"F\\u00fatbol Americano\",\"type\":\"category\"},{\"id\":\"person-2683\",\"name\":\"Dwayne Johnson\",\"type\":\"person\"},{\"id\":\"Mediatype2\",\"name\":\"Pel\\u00edcula\",\"type\":\"mediaType\"},{\"id\":\"Crime\",\"name\":\"Crimen\",\"type\":\"genre\"},{\"id\":\"MasDeDosHoras\",\"name\":\"M\\u00e1s de dos horas\",\"type\":\"duration\"}],\"rating\":8.44,\"name\":\"La vida en juego\",\"images\":{\"poster\":\"\\/b7\\/1a\\/b71a51c886a6ec0569f01406d767a2b2.jpg\",\"backdrop\":\"\\/b7\\/1a\\/b71a51c886a6ec0569f01406d767a2b2.jpg\",\"country\":\"ES\"},\"artwork\":{\"backdrops\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/original\\/b7\\/1a\\/b71a51c886a6ec0569f01406d767a2b2.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w600\\/b7\\/1a\\/b71a51c886a6ec0569f01406d767a2b2.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/backdrop\\/w300\\/b7\\/1a\\/b71a51c886a6ec0569f01406d767a2b2.jpg\"},\"posters\":{\"original\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/original\\/b7\\/1a\\/b71a51c886a6ec0569f01406d767a2b2.jpg\",\"large\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w430\\/b7\\/1a\\/b71a51c886a6ec0569f01406d767a2b2.jpg\",\"small\":\"https:\\/\\/img.tviso.com\\/ES\\/poster\\/w200\\/b7\\/1a\\/b71a51c886a6ec0569f01406d767a2b2.jpg\"}},\"year\":2006,\"runtime\":125,\"ageRating\":18,\"mainGenre\":\"Crime\",\"originalName\":\"Gridiron Gang\",\"shortPlot\":\"En el centro de detenci\\u00f3n para menores Kilpatrick, el supervisor y ex jugad...\",\"plot\":\"En el centro de detenci\\u00f3n para menores Kilpatrick, el supervisor y ex jugador de f\\u00fatbol americano Sean Porter (Dwayne Johnson) considera que hay una falta de disciplina y autoestima en los adolescentes internos, y propone crear un equipo de f\\u00fatbol. Porter les ense\\u00f1a algunas lecciones dif\\u00edciles, mientras los chicos adquieren el sentido del respeto y la responsabilidad por si mismos. Adem\\u00e1s, cuenta con el apoyo de sus superiores y su exitosa experiencia cambia la vida de muchos j\\u00f3venes.\",\"cast\":[{\"name\":\"Dwayne Johnson\",\"role\":\"Sean Porter\",\"images\":{\"face\":\"\\/57\\/7e\\/577eadb7e8a7a3e6ce825b3e4f27f292.jpg\"},\"id\":2683},{\"name\":\"Xzibit\",\"role\":\"Malcolm Moore\",\"images\":null,\"id\":36590},{\"name\":\"L. Scott Caldwell\",\"role\":\"Bobbi Porter\",\"images\":{\"face\":\"\\/86\\/6d\\/866d6f5135e70d3ba8f77baad132b5ee.jpg\"},\"id\":1400},{\"name\":\"Leon Rippy\",\"role\":\"Paul Higa\",\"images\":null,\"id\":60173},{\"name\":\"Kevin Dunn\",\"role\":\"Ted Dexter\",\"images\":{\"face\":\"\\/f6\\/8a\\/f68a1e4eaf6cb701ef3b3383a2207a97.jpg\"},\"id\":2706},{\"name\":\"Jade Yorker\",\"role\":\"Willie Weathers\",\"images\":null},{\"name\":\"David V. Thomas\",\"role\":\"Kelvin Owens\",\"images\":null},{\"name\":\"Setu Taase\",\"role\":\"Junior Palaita\",\"images\":null},{\"name\":\"Mo McRae\",\"role\":\"Leon Hayes\",\"images\":null,\"id\":10318},{\"name\":\"James Earl\",\"role\":\"Donald Madlock\",\"images\":null,\"id\":74955}],\"genres\":[\"Crime\",\"Drama\",\"Sport\"],\"distributor\":null,\"numInteractions\":27551,\"numRatings\":4863,\"ratingHistogram\":{\"1\":36,\"2\":40,\"3\":473,\"4\":1709,\"5\":2605},\"seasonsBlocked\":[],\"producers\":[{\"name\":\"Columbia Pictures Industries\",\"images\":null},{\"name\":\"Original Film\",\"images\":null,\"id\":191042},{\"name\":\"Visual Arts Entertainment\",\"images\":null}],\"writers\":[{\"name\":\"Jeff Maguire\",\"images\":null,\"id\":126529},{\"name\":\"Jac Flanders\",\"images\":null,\"id\":98368}],\"countries\":[\"US\"],\"directors\":[{\"name\":\"Phil Joanou\",\"images\":null,\"id\":132961}],\"composer\":null,\"availability\":{\"inTheaters\":false,\"vodSummary\":null,\"scheduleSummary\":null,\"vod\":[],\"schedule\":[],\"vodBestOffer\":null,\"vodUserOffers\":[]},\"status\":3,\"statusMedia\":\"pending\"}",
+    "headers" : {
+      "server" : "nginx",
+      "date" : "Sun, 13 Dec 2020 16:54:34 GMT",
+      "content-type" : "application/json",
+      "vary" : "Accept-Encoding",
+      "etag" : "\"01feae59055af91bada34aad405e7be9\"",
+      "cache-control" : "public",
+      "x-whom" : "operadors-ws1"
+    }
+  },
+  "uuid" : "ea156e55-1ac8-4765-9658-3bb9438b3569",
+  "persistent" : true,
+  "insertionIndex" : 1663
+}

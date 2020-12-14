@@ -9,8 +9,8 @@ import (
 
 func InitCollectionListCmd() *cobra.Command {
 	collectionListCmd := &cobra.Command{
-		Use:   "list",
-		Short: "List user collection",
+		Use:   "sync",
+		Short: "Synchronize user collection",
 		RunE:  getCollectionListFn(),
 	}
 
