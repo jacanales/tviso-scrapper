@@ -1,4 +1,4 @@
-name: Test and coverage
+name: Validate master
 
 on:
   push:
@@ -10,9 +10,15 @@ jobs:
     strategy:
       matrix:
         go-version: [1.15.x]
+        mongodb-version: [ 4.2 ]
         platform: [ubuntu-latest, macos-latest, windows-latest]
     runs-on: ${{ matrix.platform }}
     steps:
+      - name: Start MongoDB
+        uses: supercharge/mongodb-github-action@1.3.0
+        with:
+          mongodb-version: ${{ matrix.mongodb-version }}
+          mongodb-replica-set: tvisodb
       - name: Install Go
         if: success()
         uses: actions/setup-go@v2.1.3
@@ -24,13 +30,22 @@ jobs:
         run: go test -v -covermode=count ./...
   coverage:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        go-version: [ 1.15.x ]
+        mongodb-version: [ 4.2 ]
     needs: [test]
     steps:
+      - name: Start MongoDB
+        uses: supercharge/mongodb-github-action@1.3.0
+        with:
+          mongodb-version: ${{ matrix.mongodb-version }}
+          mongodb-replica-set: tvisodb
       - name: Install Go
         if: success()
         uses: actions/setup-go@v2.1.3
         with:
-          go-version: 1.15.x
+          go-version: ${{ matrix.go-version }}
       - name: Checkout code
         uses: actions/checkout@v2.3.4
       - name: Calc coverage
@@ -48,20 +63,23 @@ jobs:
           fail_ci_if_error: true
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        go-version: [ 1.15.x ]
     needs: [test]
     steps:
       - name: Install Go
         uses: actions/setup-go@v2.1.3
         with:
-          go-version: 1.15.x
+          go-version: ${{ matrix.mongodb-version }}
       - name: Checkout code
         uses: actions/checkout@v2.3.4
       - name: build
         run: |
           export GO111MODULE=on
           GOOS=windows GOARCH=amd64 go build -o bin/ci-test-windows-amd64.exe ./cmd/cli/
-          GOOS=linux   GOARCH=amd64 go build -o bin/ci-test-linux-amd64 ./cmd/cli/
-          GOOS=darwin   GOARCH=amd64 go build -o bin/ci-test-osx-amd64 ./cmd/cli/
+          GOOS=linux GOARCH=amd64 go build -o bin/ci-test-linux-amd64 ./cmd/cli/
+          GOOS=darwin GOARCH=amd64 go build -o bin/ci-test-osx-amd64 ./cmd/cli/
       - name: upload artifacts
         uses: actions/upload-artifact@master
         with:
