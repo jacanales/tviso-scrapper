@@ -23,7 +23,7 @@ jobs:
           make go-install-mockgen
           go generate ./...
       - name: golangci-lint
-        uses: golangci/golangci-lint-action@v2.3.0
+        uses: golangci/golangci-lint-action@v2.5.0
         with:
           version: v1.32
   test:
