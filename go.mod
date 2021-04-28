@@ -5,7 +5,7 @@ go 1.14
 require (
 	github.com/golang/mock v1.5.0
 	github.com/joho/godotenv v1.3.0
-	github.com/json-iterator/go v1.1.10
+	github.com/json-iterator/go v1.1.11
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/klauspost/compress v1.11.0 // indirect
 	github.com/kr/text v0.2.0 // indirect
