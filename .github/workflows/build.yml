@@ -15,7 +15,7 @@ jobs:
     runs-on: ${{ matrix.platform }}
     steps:
       - name: Start MongoDB
-        uses: supercharge/mongodb-github-action@1.3.0
+        uses: supercharge/mongodb-github-action@1.4.0
         with:
           mongodb-version: ${{ matrix.mongodb-version }}
           mongodb-replica-set: tvisodb
@@ -37,7 +37,7 @@ jobs:
     needs: [test]
     steps:
       - name: Start MongoDB
-        uses: supercharge/mongodb-github-action@1.3.0
+        uses: supercharge/mongodb-github-action@1.4.0
         with:
           mongodb-version: ${{ matrix.mongodb-version }}
           mongodb-replica-set: tvisodb
