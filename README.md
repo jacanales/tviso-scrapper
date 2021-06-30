@@ -2,6 +2,7 @@ Tviso Scrapper
 ============== 
 [![codecov](https://codecov.io/gh/jacanales/tviso-scrapper/branch/master/graph/badge.svg?token=2B6KvmwDn9)](https://codecov.io/gh/jacanales/tviso-scrapper)
 [![Github Actions](https://github.com/jacanales/tviso-scrapper/workflows/Test%20and%20coverage/badge.svg)](https://github.com/jacanales/tviso-scrapper/actions)
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=jacanales_tviso-scrapper)](https://sonarcloud.io/dashboard?id=jacanales_tviso-scrapper)
 
 ## Update stubs
 * Run Docker images by using `make up`
